@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Single-loop — AI Schools of Thought</title>
+<link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="brand"><span class="accent">AI</span> Schools of Thought</div>
+  <nav><a href="../index.html">Home</a></nav>
+</header>
+
+<div class="container">
+  <div class="crumb"><a href="../index.html">Home</a> &rsaquo; <a href="../topics/agent-architecture.html">Agent Architecture</a> &rsaquo; Single-loop</div>
+  <h1>Single-loop</h1>
+  <p class="lead">One model. One context window. One long main loop that reads, calls tools, and writes until the work is done. No orchestration layer, no graph, no crew — the architecture <em>is</em> the while-loop.</p>
+
+  <div class="note"><strong>The load-bearing claim.</strong> If the model is good enough and the context is managed well, additional structure outside the loop adds more failure modes than it prevents. You don't need a graph; you need a better model and a cleaner prompt.</div>
+
+  <div class="synth">
+    <h2>The argument</h2>
+    <p>Claude Code is the archetype of this school, and the case for it has been made most cleanly by observers rather than its makers. Simon Willison, <a href="https://simonwillison.net/2026/Jan/22/chris-lloyd/#atom-everything" target="_blank" rel="noopener">citing Chris Lloyd</a>, points out that Claude Code is "just a TUI" — the magic isn't in hidden orchestration, it's in how thin the harness around the model actually is. Amp, shipping a directly competing tool, arrived at the same conclusion and titled the essay <a href="https://ampcode.com/news/the-coding-agent-is-dead" target="_blank" rel="noopener">"The Coding Agent Is Dead"</a>: the standalone agent-as-product is collapsing into the single-loop shape because raw model capability plus a clean loop beats the orchestration games.</p>
+
+    <p>A practitioner's view of why this school won is in Manish Bhusal's <a href="https://www.bhusalmanish.com.np/blog/posts/why-claude-wins-coding.html" target="_blank" rel="noopener">"Why Developers Keep Choosing Claude Over Every Other AI"</a>: taste in tool use, restraint, and willingness to re-read its own work — traits that benefit from a single coherent context rather than a multi-agent relay race. The <a href="https://developers.openai.com/cookbook/examples/codex/long_horizon_tasks" target="_blank" rel="noopener">GPT-5 Codex 25-hour sprint</a> is the existence proof that a single-loop agent can hold together over very long horizons if the context is curated well.</p>
+
+    <p>Adjacent tools — OpenClaw (<a href="https://greenido.wordpress.com/2026/02/21/leveraging-openclaw-as-a-web-developer/" target="_blank" rel="noopener">leveraging OpenClaw as a web developer</a>), Aider, Amp — all inherit the shape. What separates them is the TUI and the tool permission model, not the control-flow architecture.</p>
+
+    <h2>Further reading</h2>
+    <ul class="reading-list">
+      <li><a href="https://simonwillison.net/2026/Jan/22/chris-lloyd/#atom-everything" target="_blank" rel="noopener">Claude Code is "just a TUI"</a> <span class="by">— Simon Willison · 2026-01-22</span><span class="desc">The thin-harness observation, with credit to Chris Lloyd.</span></li>
+      <li><a href="https://ampcode.com/news/the-coding-agent-is-dead" target="_blank" rel="noopener">The Coding Agent Is Dead</a> <span class="by">— Amp (Sourcegraph)</span><span class="desc">The team shipping an agent argues the category is dissolving into a well-tuned single loop.</span></li>
+      <li><a href="https://www.bhusalmanish.com.np/blog/posts/why-claude-wins-coding.html" target="_blank" rel="noopener">Why Developers Keep Choosing Claude Over Every Other AI</a> <span class="by">— Manish Bhusal</span><span class="desc">Practitioner's take on why the single-loop default became dominant.</span></li>
+      <li><a href="https://developers.openai.com/cookbook/examples/codex/long_horizon_tasks" target="_blank" rel="noopener">GPT-5 Codex Ran a 25-Hour Coding Sprint</a> <span class="by">— OpenAI</span><span class="desc">Existence proof that single-loop holds over long horizons.</span></li>
+      <li><a href="https://greenido.wordpress.com/2026/02/21/leveraging-openclaw-as-a-web-developer/" target="_blank" rel="noopener">Leveraging OpenClaw as a Web Developer</a> <span class="by">— Greenido</span><span class="desc">Hands-on account with another single-loop CLI agent.</span></li>
+    </ul>
+  </div>
+</div>
+
+<footer class="site">AI Schools of Thought — a living research map.</footer>
+</body>
+</html>

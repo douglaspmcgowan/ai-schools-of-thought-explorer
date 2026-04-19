@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Autonomous agent — AI Schools of Thought</title>
+<link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="brand"><span class="accent">AI</span> Schools of Thought</div>
+  <nav><a href="../index.html">Home</a></nav>
+</header>
+
+<div class="container">
+  <div class="crumb"><a href="../index.html">Home</a> &rsaquo; <a href="../topics/coding-paradigms.html">Coding Paradigms</a> &rsaquo; Autonomous agent</div>
+  <h1>Autonomous agent</h1>
+  <p class="lead">Hand the AI a repo, a shell, and a goal. It reads, plans, writes, runs tests, commits. You review the diff when it comes back. The human is still in the loop — but at review-time rather than keystroke-time.</p>
+
+  <div class="note"><strong>The shift.</strong> "AI coding" used to mean autocomplete. The autonomous-agent school reframes it: the human writes the goal, not the code. The skill that matters is code review plus scope setting.</div>
+
+  <div class="synth">
+    <h2>The argument</h2>
+    <p>Claude Code, Devin, Jules, Codex, and Amp are the production examples. The practitioner case for the category is made most cleanly in <a href="https://www.bhusalmanish.com.np/blog/posts/why-claude-wins-coding.html" target="_blank" rel="noopener">"Why Developers Keep Choosing Claude Over Every Other AI"</a> — the argument being that autonomous agents finally stopped feeling like supervised interns and started feeling like engineers you trust to come back with a finished diff.</p>
+
+    <p>The proof of concept for the upper bound is <a href="https://developers.openai.com/cookbook/examples/codex/long_horizon_tasks" target="_blank" rel="noopener">OpenAI's documented 25-hour GPT-5 Codex sprint</a>: a single agent holding coherent state over a full day of coding. The <a href="https://newsletter.eng-leadership.com/p/how-openais-codex-team-works-and" target="_blank" rel="noopener">Eng Leadership piece on the Codex team's workflow</a> is the counterweight to the Anthropic-centric narrative — useful for seeing how a second leading lab thinks about the same problem.</p>
+
+    <p>The school's most serious internal critic is Addy Osmani's <a href="https://addyo.substack.com/p/the-80-problem-in-agentic-coding" target="_blank" rel="noopener">"80% Problem"</a>: autonomous agents stall predictably at ~80% completion on non-trivial tasks. Osmani's recommended fix leads into the <a href="spec-driven.html">spec-driven school</a>. A harsher critique comes from Christopher Zerafa, <a href="https://zerafachris.github.io/bio/ai-obsolete-ide/" target="_blank" rel="noopener">"Agentic Coding Is a Dead End"</a> — worth reading as the strongest public counter-position.</p>
+
+    <h2>Further reading</h2>
+    <ul class="reading-list">
+      <li><a href="https://www.bhusalmanish.com.np/blog/posts/why-claude-wins-coding.html" target="_blank" rel="noopener">Why Developers Keep Choosing Claude Over Every Other AI</a> <span class="by">— Manish Bhusal</span><span class="desc">Practitioner case for the autonomous-agent default.</span></li>
+      <li><a href="https://developers.openai.com/cookbook/examples/codex/long_horizon_tasks" target="_blank" rel="noopener">GPT-5 Codex Ran a 25-Hour Coding Sprint</a> <span class="by">— OpenAI</span><span class="desc">Upper-bound proof of long-horizon autonomous work.</span></li>
+      <li><a href="https://newsletter.eng-leadership.com/p/how-openais-codex-team-works-and" target="_blank" rel="noopener">How OpenAI's Codex Team Works</a> <span class="by">— Eng Leadership Newsletter</span><span class="desc">Inside view of a non-Anthropic leading autonomous-coding team.</span></li>
+      <li><a href="https://addyo.substack.com/p/the-80-problem-in-agentic-coding" target="_blank" rel="noopener">The 80% Problem in Agentic Coding</a> <span class="by">— Addy Osmani</span><span class="desc">Internal critic: agents stall at 80%, and specs are the fix.</span></li>
+      <li><a href="https://zerafachris.github.io/bio/ai-obsolete-ide/" target="_blank" rel="noopener">Agentic Coding Is a Dead End</a> <span class="by">— Christopher Zerafa</span><span class="desc">Strongest external counter-position.</span></li>
+      <li><a href="https://links.tldrnewsletter.com/AbIVsE" target="_blank" rel="noopener">Your LLM Doesn't Write Correct Code. It Writes Plausible Code.</a> <span class="by">— via TLDR</span><span class="desc">Reminder of the review problem autonomous agents hand to humans.</span></li>
+    </ul>
+  </div>
+</div>
+
+<footer class="site">AI Schools of Thought — a living research map.</footer>
+</body>
+</html>

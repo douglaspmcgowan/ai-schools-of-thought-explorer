@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gatekeeping vs. open — AI Schools of Thought</title>
+<link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="brand"><span class="accent">AI</span> Schools of Thought</div>
+  <nav><a href="../index.html">Home</a></nav>
+</header>
+
+<div class="container">
+  <div class="crumb"><a href="../index.html">Home</a> &rsaquo; <a href="../topics/alignment-governance.html">Alignment &amp; Governance</a> &rsaquo; Gatekeeping vs. open</div>
+  <h1>Gatekeeping vs. open</h1>
+  <p class="lead">Should dangerous capabilities be held back? The labs say yes — their safety argument requires controlled release. But when public models replicate the feats in a weekend, the gatekeeping argument starts to look less like safety and more like moat maintenance.</p>
+
+  <div class="note"><strong>The load-bearing evidence.</strong> Vidoc Security Lab reproduced Anthropic's Mythos vulnerability-finding claims using public models for under $30 per target. If the "dangerous" capability is replicable with open-source, the moat is operations, not model access.</div>
+
+  <div class="synth">
+    <h2>The argument</h2>
+    <p>The centerpiece is Vidoc Security Lab's <a href="https://blog.vidocsecurity.com/blog/we-reproduced-anthropics-mythos-findings-with-public-models" target="_blank" rel="noopener">"We Reproduced Anthropic's Mythos Findings With Public Models"</a>. Using GPT-5.4, Claude Opus 4.6, and the opencode agent, Vidoc ran five targets (FreeBSD, OpenBSD, Botan, FFmpeg, wolfSSL). Both models hit exact reproductions on FreeBSD and Botan (3/3). Claude 4.6 solo nailed OpenBSD (3/3, where GPT failed). Partial wins on FFmpeg and wolfSSL. Total cost under $30 per file. The conclusion: the moat isn't model access, it's validation, prioritization, and operationalization.</p>
+
+    <p>The policy implication is that "we can't release this, it's too dangerous" deserves far more scrutiny as a claim. The constitutional-governance framing (see <a href="constitutional.html">Constitutional</a>) and the critiques of it (see <a href="constitutionalism-critiques.html">Constitutionalism critiques</a>) intersect here — both apply pressure on how labs get to define "dangerous."</p>
+
+    <h2>Further reading</h2>
+    <ul class="reading-list">
+      <li><a href="https://blog.vidocsecurity.com/blog/we-reproduced-anthropics-mythos-findings-with-public-models" target="_blank" rel="noopener">We Reproduced Anthropic's Mythos Findings With Public Models</a> <span class="by">— Vidoc Security Lab</span><span class="desc">The reproduction. Primary evidence.</span></li>
+      <li><a href="https://spectrum.ieee.org/ai-math-benchmarks" target="_blank" rel="noopener">How Far Can AI Go in Solving Math Mysteries</a> <span class="by">— IEEE Spectrum</span><span class="desc">Capability-benchmark journalism — context for what's actually gatekept.</span></li>
+    </ul>
+  </div>
+</div>
+
+<footer class="site">AI Schools of Thought — a living research map.</footer>
+</body>
+</html>

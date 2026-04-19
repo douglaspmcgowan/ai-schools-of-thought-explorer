@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Context engineering — AI Schools of Thought</title>
+<link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="brand"><span class="accent">AI</span> Schools of Thought</div>
+  <nav><a href="../index.html">Home</a></nav>
+</header>
+
+<div class="container">
+  <div class="crumb"><a href="../index.html">Home</a> &rsaquo; <a href="../topics/agent-architecture.html">Agent Architecture</a> &rsaquo; Context engineering</div>
+  <h1>Context engineering</h1>
+  <p class="lead">The architecture <em>is</em> the prompt. The real leverage is in what you put in the context window: which files, which memories, which examples, which tool outputs. Framework choice matters less than curation quality.</p>
+
+  <div class="note"><strong>Sits next to "single-loop".</strong> Single-loop says: keep the control flow simple. Context engineering says: and spend the saved effort on what goes <em>into</em> that loop.</div>
+
+  <div class="synth">
+    <h2>The argument</h2>
+    <p>The canonical move of this school is treating the filesystem as the agent's working memory. <a href="https://links.tldrnewsletter.com/JYwELH" target="_blank" rel="noopener">"The File System Is the New Database"</a> names the pattern: a folder of markdown becomes the long-term store because the agent can read it on demand. Tools like <a href="https://github.com/TonyStef/Grov" target="_blank" rel="noopener">Grov</a> generalize this into shared reason memory across Claude Code sessions — a concrete expression of the thesis that the substrate around the model is where the engineering belongs.</p>
+
+    <p>The reason this matters empirically is that in-context learning is fragile. <a href="https://hy.tencent.com/research/100025" target="_blank" rel="noopener">Tencent's research on "Learning from context is harder than we thought"</a> documents how small changes in ordering, phrasing, and example selection produce large behavior swings. That fragility is why curation is the craft. The <a href="https://blog.exe.dev/expensively-quadratic" target="_blank" rel="noopener">"Expensively Quadratic" essay</a> makes the cost argument: context grows, token spend grows faster, so the quality-per-token of what you include is the actual optimization target.</p>
+
+    <p>Adjacent work extends the frame: the <a href="https://developers.openai.com/cookbook/examples/gpt-5/codex_prompting_guide" target="_blank" rel="noopener">Codex Prompting Guide</a> and Addy Osmani's <a href="https://addyosmani.com/blog/agentic-engineering/" target="_blank" rel="noopener">"Agentic Engineering"</a> both lean heavily on context curation as the practitioner's main lever.</p>
+
+    <h2>Further reading</h2>
+    <ul class="reading-list">
+      <li><a href="https://links.tldrnewsletter.com/JYwELH" target="_blank" rel="noopener">The File System Is the New Database</a> <span class="by">— via TLDR</span><span class="desc">Names the pattern behind folder-based agent memory.</span></li>
+      <li><a href="https://hy.tencent.com/research/100025" target="_blank" rel="noopener">Learning from context is harder than we thought</a> <span class="by">— Tencent Research</span><span class="desc">Empirical case for why context curation is the craft.</span></li>
+      <li><a href="https://blog.exe.dev/expensively-quadratic" target="_blank" rel="noopener">Expensively Quadratic</a> <span class="by">— exe.dev</span><span class="desc">Cost curve argument for context discipline.</span></li>
+      <li><a href="https://github.com/TonyStef/Grov" target="_blank" rel="noopener">Grov</a> <span class="by">— TonyStef on GitHub</span><span class="desc">Shared reason-memory layer for Claude Code.</span></li>
+      <li><a href="https://mlechner.substack.com/p/the-economics-of-llm-inference-batch" target="_blank" rel="noopener">The Economics of LLM Inference</a> <span class="by">— mlechner</span><span class="desc">Infrastructure-side reason token economy matters.</span></li>
+    </ul>
+  </div>
+</div>
+
+<footer class="site">AI Schools of Thought — a living research map.</footer>
+</body>
+</html>

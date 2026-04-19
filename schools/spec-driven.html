@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Spec-driven — AI Schools of Thought</title>
+<link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="brand"><span class="accent">AI</span> Schools of Thought</div>
+  <nav><a href="../index.html">Home</a></nav>
+</header>
+
+<div class="container">
+  <div class="crumb"><a href="../index.html">Home</a> &rsaquo; <a href="../topics/coding-paradigms.html">Coding Paradigms</a> &rsaquo; Spec-driven</div>
+  <h1>Spec-driven</h1>
+  <p class="lead">Write the spec; the agent writes the code. The artifact the human actually produces and reviews is the specification — tests, acceptance criteria, edge-case lists — not the implementation. The agent's job is to satisfy the spec.</p>
+
+  <div class="note"><strong>What it's reacting to.</strong> Autonomous agents regularly get to 80% on a task and can't finish. Spec-driven folks say: that's because you under-specified. Pay the planning tax up front, reap the determinism later.</div>
+
+  <div class="synth">
+    <h2>The argument</h2>
+    <p>Addy Osmani is this school's most prolific voice. His <a href="https://addyo.substack.com/p/the-80-problem-in-agentic-coding" target="_blank" rel="noopener">"80% Problem in Agentic Coding"</a> diagnoses the failure mode: agents predictably stall on non-trivial tasks, not because the model is weak but because the task definition is. His companion essay <a href="https://addyosmani.com/blog/agentic-engineering/" target="_blank" rel="noopener">"Agentic Engineering"</a> names the discipline — spec-first, acceptance-criteria-driven, with the agent as executor.</p>
+
+    <p>The tactical half lives in official prompting guides that, read closely, are themselves endorsements of this school: the <a href="https://developers.openai.com/cookbook/examples/gpt-5/codex_prompting_guide" target="_blank" rel="noopener">Codex Prompting Guide</a> is basically a style manual for specs. And <a href="https://links.tldrnewsletter.com/AbIVsE" target="_blank" rel="noopener">"Your LLM Doesn't Write Correct Code. It Writes Plausible Code"</a> is the short version of why you need explicit correctness criteria rather than trusting the output looks right.</p>
+
+    <p>Operationally, the spec-driven school overlaps heavily with <a href="compound-engineering.html">compound engineering</a> (where specs become a stage in the pipeline) and with the <a href="folder-as-agent.html">folder-as-agent</a> pattern (where each agent's folder is partly its spec). What distinguishes spec-driven as its own school is the commitment to specs as the human's primary deliverable.</p>
+
+    <h2>Further reading</h2>
+    <ul class="reading-list">
+      <li><a href="https://addyo.substack.com/p/the-80-problem-in-agentic-coding" target="_blank" rel="noopener">The 80% Problem in Agentic Coding</a> <span class="by">— Addy Osmani</span><span class="desc">The diagnosis this school is built around.</span></li>
+      <li><a href="https://addyosmani.com/blog/agentic-engineering/" target="_blank" rel="noopener">Agentic Engineering</a> <span class="by">— Addy Osmani</span><span class="desc">The discipline named.</span></li>
+      <li><a href="https://developers.openai.com/cookbook/examples/gpt-5/codex_prompting_guide" target="_blank" rel="noopener">Codex Prompting Guide</a> <span class="by">— OpenAI</span><span class="desc">Tactical style manual for specs, disguised as a prompting guide.</span></li>
+      <li><a href="https://links.tldrnewsletter.com/AbIVsE" target="_blank" rel="noopener">Your LLM Writes Plausible Code, Not Correct Code</a> <span class="by">— via TLDR</span><span class="desc">Why explicit acceptance criteria beat "looks right."</span></li>
+    </ul>
+  </div>
+</div>
+
+<footer class="site">AI Schools of Thought — a living research map.</footer>
+</body>
+</html>
