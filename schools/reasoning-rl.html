@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reasoning + RL mechanics — AI Schools of Thought</title>
+<link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="brand"><span class="accent">AI</span> Schools of Thought</div>
+  <nav><a href="../index.html">Home</a></nav>
+</header>
+
+<div class="container">
+  <div class="crumb"><a href="../index.html">Home</a> &rsaquo; <a href="../topics/how-ai-works.html">How AI Works</a> &rsaquo; Reasoning + RL mechanics</div>
+  <h1>Reasoning + RL mechanics</h1>
+  <p class="lead">Why chain-of-thought plus reinforcement learning is the current engine of progress. And the pushback: word models aren't world models, and RL on text may hit a wall text alone can't push through.</p>
+
+  <div class="note"><strong>Why this matters for other debates.</strong> The <a href="../topics/agi-timelines.html">AGI timelines</a> and <a href="../topics/ai-economy.html">bubble-or-not</a> arguments both load-bear on claims about reasoning RL. If the mechanism really is self-improving (AlphaZero-style), extrapolators win; if word models plateau, doubters win.</div>
+
+  <div class="synth">
+    <h2>The argument</h2>
+    <p><a href="https://mesuvash.github.io/blog/2026/rl_for_llm/" target="_blank" rel="noopener">Reinforcement Learning for LLMs</a> (mesuvash) is the accessible mechanical explainer — how RL signals actually shape what a reasoning model does at training time, and why this is different from the pre-2024 pretraining-only paradigm. It's the best single piece to read before any of the timeline essays.</p>
+
+    <p>The research-paper version is <a href="https://arxiv.org/abs/2602.05842" target="_blank" rel="noopener">Reinforcement World Model Learning for LLM Agents</a> (arXiv, 2026) — an attempt to give agents an explicit world model via RL rather than hoping it emerges from text. Directly relevant to the <a href="llm-doubters.html">LLM-paradigm-doubter</a> critique that word models can't substitute for world models.</p>
+
+    <p>On the "why this isn't a bubble" side, Matt Honnibal's <a href="https://honnibal.dev/blog/ai-bubble" target="_blank" rel="noopener">Why I don't think AI is a bubble</a> is the sharpest argument from mechanics (not hype) — reasoning RL plus longer chains of thought means no human-data bottleneck, and recognizing good paths is easier than generating them, so self-improvement loops work. See the <a href="not-a-bubble.html">not-a-bubble</a> school for full treatment.</p>
+
+    <h2>Further reading</h2>
+    <ul class="reading-list">
+      <li><a href="https://mesuvash.github.io/blog/2026/rl_for_llm/" target="_blank" rel="noopener">Reinforcement Learning for LLMs</a> <span class="by">— mesuvash</span><span class="desc">The accessible mechanical explainer.</span></li>
+      <li><a href="https://arxiv.org/abs/2602.05842" target="_blank" rel="noopener">Reinforcement World Model Learning for LLM Agents</a> <span class="by">— arXiv, 2026</span><span class="desc">Research paper giving agents an explicit world model via RL.</span></li>
+      <li><a href="https://www.latent.space/p/adversarial-reasoning" target="_blank" rel="noopener">Experts Have World Models. LLMs Have Word Models.</a> <span class="by">— Latent Space</span><span class="desc">The canonical word-vs-world-model critique.</span></li>
+      <li><a href="https://honnibal.dev/blog/ai-bubble" target="_blank" rel="noopener">Why I don't think AI is a bubble</a> <span class="by">— Matt Honnibal</span><span class="desc">Mechanics-grounded pro-progress argument.</span></li>
+    </ul>
+  </div>
+</div>
+
+<footer class="site">AI Schools of Thought — a living research map.</footer>
+</body>
+</html>

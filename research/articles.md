@@ -18,6 +18,7 @@ Persistence file so URLs + notes survive context compaction.
 ## User-provided article list (the ~50 links)
 
 ### Agent architecture, coding workflow, LLM internals
+
 - [Render-of-Thought: Visualizing Reasoning Chains](https://arxiv.org/abs/2601.14750) — arxiv
 - [Simon Willison on Claude Code being "just a TUI"](https://simonwillison.net/2026/Jan/22/chris-lloyd/#atom-everything)
 - [Deep Dive: How Claude Code's /insights Command Works](https://www.zolkos.com/2026/02/04/deep-dive-how-claude-codes-insights-command-works.html) — zolkos
@@ -41,6 +42,7 @@ Persistence file so URLs + notes survive context compaction.
 - [The Economics of LLM Inference](https://mlechner.substack.com/p/the-economics-of-llm-inference-batch) — mlechner
 
 ### AGI timelines, capability debate, bubble or not
+
 - [Empiricists vs. Extrapolators](https://www.secondbest.ca/p/empiricists-vs-extrapolators) — Samuel Hammond
 - [Why I don't think AGI is imminent](https://dlants.me/agi-not-imminent.html) — dlants
 - [Why I don't think AI is a bubble](https://honnibal.dev/blog/ai-bubble) — Matt Honnibal (spaCy)
@@ -52,6 +54,7 @@ Persistence file so URLs + notes survive context compaction.
 - [You see tech and AI everywhere, but in the productivity statistics](https://links.tldrnewsletter.com/sKu7GT)
 
 ### AI economy, business strategy, pricing
+
 - [How will OpenAI compete?](https://www.ben-evans.com/benedictevans/2026/2/19/how-will-openai-compete-nkg2x) — Ben Evans
 - [There Is No Product](https://sidu.in/essays/after-ai-there-is-no-product.html) — Sidu Ponnappa
 - [Building with AI Agents](https://tomtunguz.com/9-observations-using-ai-agents/) — Tom Tunguz
@@ -62,17 +65,21 @@ Persistence file so URLs + notes survive context compaction.
 - [The Opening, Midgame, and Endgame in Startups](https://sequoiacap.com/article/the-opening-midgame-and-endgame-in-startups/) — Sequoia
 
 ### Org design, culture, careers
+
 - [Why IQ and EQ Aren't Enough Anymore. The Age of AI Demands AQ.](https://ceodinner.substack.com/p/why-iq-and-eq-arent-enough-anymore) — CEO Dinner
 - [Building An Elite AI Engineering Culture In 2026](https://www.cjroth.com/blog/2026-02-18-building-an-elite-engineering-culture) — CJ Roth
 - [Design careers in the Age of AI: specialize or generalize?](https://links.tldrnewsletter.com/imo2EI)
 
 ### Alignment, safety, governance
+
 - [Thoughts on Claude's Constitution](https://windowsontheory.org/2026/01/27/thoughts-on-claudes-constitution/) — Windows on Theory
 
 ### Security / Mythos reproduction
+
 - [We Reproduced Anthropic's Mythos Findings With Public Models](https://blog.vidocsecurity.com/blog/we-reproduced-anthropics-mythos-findings-with-public-models) — Vidoc Security Lab (user-flagged)
 
 ### Design / UX for AI
+
 - [UI Design with Nano Banana Pro](https://raw.studio/blog/ui-design-with-nano-banana-pro-practical-use-cases-workflow-and-sample-prompts/) — raw.studio
 - [Design Systems Team Structure in 2026](https://learn.thedesignsystem.guide/p/design-systems-team-structure-in)
 - [AI Runs on Text. So Should You](https://www.unknownarts.co/p/ai-runs-on-text-so-should-you) — unknownarts
@@ -84,13 +91,16 @@ Persistence file so URLs + notes survive context compaction.
 - [Designers Who Partner with AI Will Win](https://www.printmag.com/ai/designers-who-partner-with-ai-will-win/) — PrintMag
 
 ### Creative / vibe coding
+
 - [Sketching with code](https://www.proofofconcept.pub/p/sketching-with-code) — Proof of Concept
 
 ### Product news / context (not primary source)
+
 - [Anthropic releases Opus 4.6 with agent teams](https://techcrunch.com/2026/02/05/anthropic-releases-opus-4-6-with-new-agent-teams/) — TechCrunch
 - [MiniMax M2.7](https://www.minimax.io/) — sponsored content (context, not source)
 
 ### Misc
+
 - [Levie on X](https://x.com/levie/status/2037928306977509601)
 - [Grok 420 — how to use Grok for better search](https://ruben.substack.com/p/grok-420) — ruben
 - [Gemini 3 Deep Think Sketches→3D](https://links.tldrnewsletter.com/A5NJWi)
@@ -103,7 +113,9 @@ Persistence file so URLs + notes survive context compaction.
 ## Already-pulled sources (found during research)
 
 ### Every.to issues (from user's Gmail)
+
 All sender `hello@every.to`. Titles only — open in Gmail to read:
+
 - The Model Got Stranger (2026-04-19)
 - Vibe Check: Opus 4.7 Stopped Reading Between the Lines (2026-04-17)
 - Living Software (2026-04-17) — AI software can be less disorienting
@@ -127,6 +139,7 @@ All sender `hello@every.to`. Titles only — open in Gmail to read:
 - Instagram's Cofounder on Why Great Products Are Still Hard to Build (2026-03-25)
 
 ### Supplementary research already fetched
+
 - [Claude's Constitution (original)](https://www.anthropic.com/constitution) — Anthropic
 - [Nintil on Claude Constitution](https://nintil.com/claude-constitution)
 - [TIME: Claude's New Constitution](https://time.com/7354738/claude-constitution-ai-alignment/)
@@ -142,15 +155,19 @@ All sender `hello@every.to`. Titles only — open in Gmail to read:
 ## Read notes (condensed)
 
 ### Vidoc Mythos reproduction (user-flagged)
+
 Vidoc Security Lab reproduced Anthropic's Mythos vulnerability-finding claims using **public** models (GPT-5.4, Claude Opus 4.6) + open-source tools (opencode agent). Results across 5 targets — FreeBSD, OpenBSD, Botan, FFmpeg, wolfSSL: both models hit exact reproductions on FreeBSD and Botan (3/3); Claude 4.6 solo nailed OpenBSD (3/3, GPT failed); both got partial on FFmpeg / wolfSSL. Cost <$30/file. Thesis: Anthropic's "too powerful to release" framing overstates the moat; the real differentiator is **validation + prioritization + operationalization**, not model access. Relevant to schools-of-thought debate on AI-capability gatekeeping vs open models.
 
 ### Sidu — "There Is No Product"
+
 Author: Sidu Ponnappa. Thesis: the AI capability line rises continuously; whatever sits below it stops being a defensible product because customers can rebuild cheaply. Pricing pivots ("outcome-based," "add AI") treat symptoms, not cause. Real products only persist where building remains genuinely hard (compilers, SOTA models, specialized engines). Hostile to most current SaaS economics.
 
 ### Honnibal — "Why I don't think AI is a bubble"
+
 Author: Matt Honnibal, computational linguist, co-founder of spaCy / Explosion AI. Thesis: plateau predictions assume pure scaling, but **reasoning-model RL** changes the game — longer chains of thought + more RL, no human-text data bottleneck. AlphaZero analogy: recognizing good paths is easier than generating them, so self-improvement loops work. No public reason to believe progress halts. Pro-progress but grounded in mechanics, not hype.
 
 ### dlants — "Why I don't think AGI is imminent"
+
 Author: dlants (MS in ML ~10 years ago, well-read, not active in industry). Thesis: LLMs lack **innate cognitive primitives** (object permanence, number sense, causal reasoning, spatial navigation) evolved over hundreds of millions of years. Text + video passive observation ≠ embodied learning. ARC-AGI evidence: pure LLMs score 0%, frontier models single digits; high scores require **scaffolding** not base capability. Cites 2025 AAAI survey: 76% of researchers say scaling current approaches is "unlikely" to get AGI. Direct challenge to OpenAI/Anthropic CEO claims.
 
 ---

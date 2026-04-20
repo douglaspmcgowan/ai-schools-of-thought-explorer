@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agent internals &amp; cost curves — AI Schools of Thought</title>
+<link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="brand"><span class="accent">AI</span> Schools of Thought</div>
+  <nav><a href="../index.html">Home</a></nav>
+</header>
+
+<div class="container">
+  <div class="crumb"><a href="../index.html">Home</a> &rsaquo; <a href="../topics/how-ai-works.html">How AI Works</a> &rsaquo; Agent internals &amp; cost curves</div>
+  <h1>Agent internals &amp; cost curves</h1>
+  <p class="lead">What agents actually do at runtime. Visualizing the reasoning chain, dissecting specific commands, and pricing out the quadratic cost of long contexts. Useful before you take any architectural claim on faith.</p>
+
+  <div class="note"><strong>Anchor the debates.</strong> Many agent-architecture claims rest on unexamined assumptions about what a reasoning step costs, how long it takes, and what the model is doing during it. These pieces make those assumptions visible.</div>
+
+  <div class="synth">
+    <h2>The argument</h2>
+    <p><a href="https://arxiv.org/abs/2601.14750" target="_blank" rel="noopener">Render-of-Thought: Visualizing Reasoning Chains</a> (arXiv, 2026) is the interpretability-adjacent paper on actually <em>seeing</em> what a reasoning model does step-by-step. Beyond research value, it's practically useful for debugging long agent runs — the kind of thing you reach for when an agent's output looks fine but was clearly reached by a weird path.</p>
+
+    <p>For a specific agent's innards, Zolkos' <a href="https://www.zolkos.com/2026/02/04/deep-dive-how-claude-codes-insights-command-works.html" target="_blank" rel="noopener">Deep Dive: How Claude Code's /insights Command Works</a> reverse-engineers a single Claude Code feature to show how a serious production agent structures its own diagnostics. It complements <a href="https://ctolunchnyc.substack.com/p/cracking-the-claw" target="_blank" rel="noopener">Cracking The Claw</a> from CTO Lunch NYC, which does the same kind of dissection at a higher level.</p>
+
+    <p>On the cost side, <a href="https://blog.exe.dev/expensively-quadratic" target="_blank" rel="noopener">Expensively Quadratic: the LLM Agent Cost Curve</a> is the piece to send anyone excited about long-context agents — the quadratic term is real, and it reshapes which architectures are actually affordable. <a href="https://mlechner.substack.com/p/the-economics-of-llm-inference-batch" target="_blank" rel="noopener">The Economics of LLM Inference</a> (mlechner) is the batched-serving analogue — why inference costs what it does at the provider level.</p>
+
+    <h2>Further reading</h2>
+    <ul class="reading-list">
+      <li><a href="https://arxiv.org/abs/2601.14750" target="_blank" rel="noopener">Render-of-Thought: Visualizing Reasoning Chains</a> <span class="by">— arXiv, 2026</span><span class="desc">Seeing the reasoning path, not just the output.</span></li>
+      <li><a href="https://www.zolkos.com/2026/02/04/deep-dive-how-claude-codes-insights-command-works.html" target="_blank" rel="noopener">Deep Dive: How Claude Code's /insights Command Works</a> <span class="by">— Zolkos</span><span class="desc">Reverse-engineering a specific agent feature.</span></li>
+      <li><a href="https://ctolunchnyc.substack.com/p/cracking-the-claw" target="_blank" rel="noopener">Cracking The Claw</a> <span class="by">— CTO Lunch NYC</span><span class="desc">Higher-level dissection.</span></li>
+      <li><a href="https://blog.exe.dev/expensively-quadratic" target="_blank" rel="noopener">Expensively Quadratic: the LLM Agent Cost Curve</a> <span class="by">— exe.dev</span><span class="desc">Why long context isn't free.</span></li>
+      <li><a href="https://mlechner.substack.com/p/the-economics-of-llm-inference-batch" target="_blank" rel="noopener">The Economics of LLM Inference</a> <span class="by">— mlechner</span><span class="desc">Provider-side cost mechanics.</span></li>
+    </ul>
+  </div>
+</div>
+
+<footer class="site">AI Schools of Thought — a living research map.</footer>
+</body>
+</html>

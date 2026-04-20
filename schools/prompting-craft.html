@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prompting craft — AI Schools of Thought</title>
+<link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="brand"><span class="accent">AI</span> Schools of Thought</div>
+  <nav><a href="../index.html">Home</a></nav>
+</header>
+
+<div class="container">
+  <div class="crumb"><a href="../index.html">Home</a> &rsaquo; <a href="../topics/how-to-use-ai.html">How to Use AI</a> &rsaquo; Prompting craft</div>
+  <h1>Prompting craft</h1>
+  <p class="lead">Specific techniques for specific models. Less "prompt engineering" as a category, more "here's the two-line trick that makes this particular model do the job." The taste-level stuff that isn't in the release notes.</p>
+
+  <div class="note"><strong>Why this isn't generic.</strong> Models differ. What makes Codex behave isn't what makes Grok useful for search. This school values model-specific craft over universal prompting frameworks.</div>
+
+  <div class="synth">
+    <h2>The argument</h2>
+    <p>The canonical reference is OpenAI's <a href="https://developers.openai.com/cookbook/examples/gpt-5/codex_prompting_guide" target="_blank" rel="noopener">Codex Prompting Guide</a> — the model-makers' own documentation of what actually works on their coding-specialized frontier model. Required reading before doing anything serious with Codex 5.3; the advice does not transfer cleanly to other models.</p>
+
+    <p>On the other end of the spectrum, Ruben's <a href="https://ruben.substack.com/p/grok-420" target="_blank" rel="noopener">Grok 420</a> is a specific technique for using Grok as a better search engine — the kind of practitioner trick that only works because the author has spent time with that model. <a href="https://www.bhusalmanish.com.np/blog/posts/why-claude-wins-coding.html" target="_blank" rel="noopener">Why Developers Keep Choosing Claude Over Every Other AI</a> (Bhusal) makes the complementary case — what Claude specifically does well, from a developer who has compared.</p>
+
+    <p>The research-side reality check is Tencent's <a href="https://hy.tencent.com/research/100025" target="_blank" rel="noopener">Learning from context is harder than we thought</a> — a reminder that some prompting tricks rest on shakier ground than practitioners assume. Read it alongside the cookbooks, not instead of them.</p>
+
+    <h2>Further reading</h2>
+    <ul class="reading-list">
+      <li><a href="https://developers.openai.com/cookbook/examples/gpt-5/codex_prompting_guide" target="_blank" rel="noopener">Codex Prompting Guide</a> <span class="by">— OpenAI Cookbook</span><span class="desc">The model-maker's own prompting guide.</span></li>
+      <li><a href="https://ruben.substack.com/p/grok-420" target="_blank" rel="noopener">Grok 420</a> <span class="by">— Ruben</span><span class="desc">Practitioner technique for using Grok for search.</span></li>
+      <li><a href="https://www.bhusalmanish.com.np/blog/posts/why-claude-wins-coding.html" target="_blank" rel="noopener">Why Developers Keep Choosing Claude Over Every Other AI</a> <span class="by">— Bhusal</span><span class="desc">What Claude specifically does well.</span></li>
+      <li><a href="https://hy.tencent.com/research/100025" target="_blank" rel="noopener">Learning from context is harder than we thought</a> <span class="by">— Tencent</span><span class="desc">Research-side reality check.</span></li>
+    </ul>
+  </div>
+</div>
+
+<footer class="site">AI Schools of Thought — a living research map.</footer>
+</body>
+</html>
