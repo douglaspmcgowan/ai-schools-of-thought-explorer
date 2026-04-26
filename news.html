@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>News Queue — AI Schools of Thought</title>
+<link rel="stylesheet" href="css/styles.css">
+<style>
+.news-page-header {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+.news-page-header h1 { margin: 0; font-size: 26px; }
+.news-meta { color: var(--muted); font-size: 13px; }
+.news-empty {
+  color: var(--muted); padding: 40px; text-align: center;
+  border: 1px dashed var(--border); border-radius: 12px;
+}
+.news-list { display: flex; flex-direction: column; gap: 12px; margin-bottom: 24px; }
+.news-card {
+  background: var(--panel); border: 1px solid var(--border);
+  border-radius: 12px; padding: 16px; transition: border-color 0.15s;
+}
+.news-card--keep { border-color: var(--good); }
+.news-card--skip { opacity: 0.55; }
+.news-card-meta {
+  display: flex; align-items: center; gap: 10px;
+  margin-bottom: 8px; font-size: 12px; color: var(--muted);
+}
+.news-source { font-weight: 600; color: var(--accent); }
+.news-relevance { letter-spacing: 1px; font-size: 11px; }
+.news-title {
+  display: block; font-size: 16px; font-weight: 600;
+  color: var(--text); margin-bottom: 6px; line-height: 1.3;
+}
+.news-title:hover { color: var(--accent); text-decoration: none; }
+.news-summary { font-size: 13px; color: var(--muted); margin: 0 0 10px; line-height: 1.5; }
+.news-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
+.news-tag {
+  font-size: 11px; padding: 2px 8px; border-radius: 20px;
+  border: 1px solid var(--border); color: var(--muted);
+}
+.news-tag--node {
+  border-color: rgba(124, 156, 255, 0.4); color: var(--accent);
+  background: rgba(124, 156, 255, 0.08);
+}
+.news-tag--school {
+  border-color: rgba(159, 123, 255, 0.4); color: var(--accent-2);
+  background: rgba(159, 123, 255, 0.08);
+}
+.news-actions { display: flex; gap: 8px; }
+.news-btn {
+  padding: 5px 14px; border-radius: 6px; border: 1px solid var(--border);
+  background: transparent; color: var(--muted); font-size: 13px;
+  cursor: pointer; transition: all 0.15s;
+}
+.news-btn:hover { color: var(--text); border-color: var(--text); }
+.news-btn--keep.active { background: rgba(81,207,130,0.15); border-color: var(--good); color: var(--good); }
+.news-btn--skip.active { background: rgba(154,163,178,0.1); border-color: var(--muted); color: var(--muted); }
+.news-decided { margin-bottom: 24px; }
+.news-decided summary {
+  color: var(--muted); font-size: 13px; cursor: pointer; padding: 8px 0; list-style: none;
+}
+.news-decided summary::-webkit-details-marker { display: none; }
+.news-decided summary::before { content: '▶  '; }
+details[open] .news-decided summary::before { content: '▼  '; }
+.news-decision-badge {
+  font-size: 11px; padding: 2px 8px; border-radius: 20px;
+  text-transform: uppercase; letter-spacing: 0.5px;
+}
+.news-decision-badge--keep { background: rgba(81,207,130,0.15); color: var(--good); }
+.news-decision-badge--skip { background: rgba(154,163,178,0.1); color: var(--muted); }
+.news-submit-bar {
+  position: sticky; bottom: 0; padding: 14px 0;
+  background: linear-gradient(180deg, transparent, var(--bg) 30%);
+  display: none; align-items: center; gap: 12px;
+}
+.news-submit-btn {
+  padding: 8px 20px; border-radius: 8px; border: 1px solid var(--accent);
+  background: rgba(124,156,255,0.1); color: var(--accent);
+  font-size: 14px; font-weight: 600; cursor: pointer; transition: all 0.15s;
+}
+.news-submit-btn:hover { background: rgba(124,156,255,0.2); }
+.news-submit-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+.news-submit-ok { color: var(--good); font-size: 14px; }
+.news-submit-error { color: var(--warn); font-size: 13px; }
+.news-loading { color: var(--muted); padding: 40px; text-align: center; }
+.news-error { color: var(--warn); padding: 40px; text-align: center; }
+</style>
+</head>
+<body>
+
+<header class="site">
+  <div class="brand"><span class="accent">AI</span> Schools of Thought</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="news.html" style="color:var(--accent)">News Queue</a>
+  </nav>
+</header>
+
+<div class="container">
+  <div class="news-page-header">
+    <h1>News Queue</h1>
+    <span class="news-meta" id="meta">Loading…</span>
+  </div>
+
+  <div id="root">
+    <div class="news-loading">Loading…</div>
+  </div>
+
+  <div class="news-submit-bar" id="submit-bar">
+    <button class="news-submit-btn" id="submit-btn">Submit decisions</button>
+    <span id="submit-status"></span>
+  </div>
+</div>
+
+<script>
+const QUEUE_URL = 'data/news-queue.json';
+const SUBMIT_URL = '/api/submit';
+let queue = null;
+const decisions = {};
+
+function esc(s) {
+  return String(s)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+function renderCard(item) {
+  const dec = decisions[item.id] || 'pending';
+  const cls = dec !== 'pending' ? ` news-card--${dec}` : '';
+  const rel = '●'.repeat(item.relevance) + '○'.repeat(5 - item.relevance);
+  const nodes = (item.industry_nodes || []).map(n =>
+    `<span class="news-tag news-tag--node">${esc(n)}</span>`).join('');
+  const schools = (item.schools || []).map(s =>
+    `<span class="news-tag news-tag--school">${esc(s)}</span>`).join('');
+  return `
+    <div class="news-card${cls}" data-id="${esc(item.id)}">
+      <div class="news-card-meta">
+        <span class="news-source">${esc(item.source)}</span>
+        <span class="news-date">${esc(item.date)}</span>
+        <span class="news-relevance" title="Relevance: ${item.relevance}/5">${rel}</span>
+      </div>
+      <a class="news-title" href="${esc(item.url)}" target="_blank" rel="noreferrer">${esc(item.title)}</a>
+      <p class="news-summary">${esc(item.summary)}</p>
+      <div class="news-tags">${nodes}${schools}</div>
+      <div class="news-actions">
+        <button class="news-btn news-btn--keep${dec === 'keep' ? ' active' : ''}"
+                data-id="${esc(item.id)}" data-action="keep">Keep</button>
+        <button class="news-btn news-btn--skip${dec === 'skip' ? ' active' : ''}"
+                data-id="${esc(item.id)}" data-action="skip">Skip</button>
+      </div>
+    </div>`;
+}
+
+function renderDecidedCard(item) {
+  return `
+    <div class="news-card news-card--${item.status}">
+      <div class="news-card-meta">
+        <span class="news-source">${esc(item.source)}</span>
+        <span class="news-date">${esc(item.date)}</span>
+        <span class="news-decision-badge news-decision-badge--${item.status}">${item.status}</span>
+      </div>
+      <a class="news-title" href="${esc(item.url)}" target="_blank" rel="noreferrer">${esc(item.title)}</a>
+    </div>`;
+}
+
+function render() {
+  const pending = queue.items.filter(i => i.status === 'pending');
+  const decided = queue.items.filter(i => i.status !== 'pending');
+
+  document.getElementById('meta').textContent =
+    `${pending.length} pending · generated ${new Date(queue.generated).toLocaleDateString()}`;
+
+  let html = '';
+  if (pending.length === 0) {
+    html += '<div class="news-empty">No pending articles — check back after the next collection run.</div>';
+    document.getElementById('submit-bar').style.display = 'none';
+  } else {
+    html += `<div class="news-list">${pending.map(renderCard).join('')}</div>`;
+    document.getElementById('submit-bar').style.display = 'flex';
+  }
+  if (decided.length > 0) {
+    html += `<details class="news-decided">
+      <summary>${decided.length} already decided</summary>
+      <div class="news-list" style="margin-top:10px">
+        ${decided.map(renderDecidedCard).join('')}
+      </div>
+    </details>`;
+  }
+  document.getElementById('root').innerHTML = html;
+
+  document.querySelectorAll('.news-btn[data-action]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const id = btn.dataset.id;
+      const action = btn.dataset.action;
+      decisions[id] = decisions[id] === action ? 'pending' : action;
+      const card = document.querySelector(`.news-card[data-id="${id}"]`);
+      card.className = `news-card${decisions[id] !== 'pending' ? ` news-card--${decisions[id]}` : ''}`;
+      card.querySelector('.news-btn--keep').className =
+        `news-btn news-btn--keep${decisions[id] === 'keep' ? ' active' : ''}`;
+      card.querySelector('.news-btn--skip').className =
+        `news-btn news-btn--skip${decisions[id] === 'skip' ? ' active' : ''}`;
+    });
+  });
+}
+
+document.getElementById('submit-btn').addEventListener('click', async function () {
+  const btn = this;
+  const status = document.getElementById('submit-status');
+  btn.disabled = true;
+  btn.textContent = 'Saving…';
+  status.textContent = '';
+  status.className = '';
+  try {
+    const updates = Object.entries(decisions)
+      .filter(([, s]) => s !== 'pending')
+      .map(([id, s]) => ({ id, status: s }));
+    const res = await fetch(SUBMIT_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ items: updates }),
+    });
+    if (!res.ok) throw new Error(await res.text());
+    status.textContent = 'Saved — queue updated on GitHub.';
+    status.className = 'news-submit-ok';
+  } catch (e) {
+    status.textContent = String(e);
+    status.className = 'news-submit-error';
+  } finally {
+    btn.disabled = false;
+    btn.textContent = 'Submit decisions';
+  }
+});
+
+fetch(QUEUE_URL)
+  .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
+  .then(q => {
+    queue = q;
+    for (const item of q.items) decisions[item.id] = item.status;
+    render();
+  })
+  .catch(err => {
+    document.getElementById('meta').textContent = 'Error';
+    document.getElementById('root').innerHTML =
+      `<div class="news-error">Failed to load queue: ${esc(String(err))}</div>`;
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "name": "ai-schools-of-thought-explorer",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "dependencies": {
+    "@octokit/rest": "^22.0.1"
+  }
+}
