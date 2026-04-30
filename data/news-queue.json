@@ -1,4 +1,368 @@
 {
-  "generated": "2026-04-24T00:00:00Z",
-  "items": []
+  "generated": "2026-04-30T04:25:54.810Z",
+  "items": [
+    {
+      "url": "https://refactoring.fm/p/the-compounding-software-factory",
+      "title": "The Compounding Software Factory",
+      "source": "Refactoring.fm",
+      "date": "2026-04-29",
+      "summary": "Luca and CircleCI CTO Rob Zuber argue AI-native teams can invert the typical engineering-degradation curve by pairing automated hygiene gates, ADR-captured decisions, and agent-generated maintenance automations into a self-improving feedback loop. Matters because it operationalises compound engineering with concrete tooling patterns rather than staying theoretical.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering",
+        "compound-engineering-org",
+        "spec-driven"
+      ],
+      "relevance": 5,
+      "status": "pending",
+      "id": "ff49a9c2"
+    },
+    {
+      "url": "https://addyosmani.com/blog/long-running-agents/",
+      "title": "Long-Running Agents",
+      "source": "Addy Osmani",
+      "date": "2026-04-29",
+      "summary": "Addy Osmani's 26-minute guide explains how agents maintain progress across context windows and sandboxes, recover from failure, and leave resumable structural artifacts, covering what engineers can build today without writing orchestrators from scratch. Matters because it bridges theory and practice for persistent agent architecture.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "autonomous-agent"
+      ],
+      "relevance": 5,
+      "status": "pending",
+      "id": "a3995229"
+    },
+    {
+      "url": "https://www.warman.life/blog/2026-04-27-the-moat-or-the-commons/",
+      "title": "The Moat or the Commons",
+      "source": "Warman Notes",
+      "date": "2026-04-27",
+      "summary": "Argues that the trillion-dollar capex bet on frontier-model monopoly dynamics is breaking as open-weight models from Chinese labs commoditise capability at pace, forcing a policy question about whether governments subsidise the private moat or the open commons. Matters because it frames the structural crisis in frontier AI funding with economic precision.",
+      "industry_nodes": [],
+      "schools": [
+        "gatekeeping-vs-open",
+        "scaling-laws-revisionism",
+        "bubble-skeptics"
+      ],
+      "relevance": 5,
+      "status": "pending",
+      "id": "113fda57"
+    },
+    {
+      "url": "https://www.anthropic.com/research/automated-alignment-researchers",
+      "title": "Automated Alignment Researchers: Using LLMs to Scale Scalable Oversight",
+      "source": "Anthropic",
+      "date": "2026-04-25",
+      "summary": "Anthropic's Claude-powered Automated Alignment Researchers ran in parallel sandboxes and closed nearly the entire remaining performance gap on a week-long weak-to-strong supervision problem, outperforming human researchers at roughly 2 per agent-hour. Matters because it is the clearest demonstration yet that AI can meaningfully accelerate its own alignment research.",
+      "industry_nodes": [],
+      "schools": [
+        "alignment-governance",
+        "mechanistic-interpretability"
+      ],
+      "relevance": 5,
+      "status": "pending",
+      "id": "933d13d2"
+    },
+    {
+      "url": "https://openai.com/index/open-source-codex-orchestration-symphony/",
+      "title": "Symphony: An Open-Source Spec for Codex Orchestration",
+      "source": "OpenAI",
+      "date": "2026-04-28",
+      "summary": "OpenAI's Symphony turns Linear issue boards into autonomous Codex agent control planes, delivering a reported 5x increase in landed PRs by eliminating human supervision from the implementation loop. Matters because it operationalises manager-of-agents at the project level and shows how work-tracker infrastructure becomes the agentic coordination layer.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering",
+        "agent-internals",
+        "manager-of-agents"
+      ],
+      "relevance": 5,
+      "status": "pending",
+      "id": "47cbacf5"
+    },
+    {
+      "url": "https://every.to/context-window/compute-is-the-new-cash",
+      "title": "Compute Is the New Cash",
+      "source": "Every.to",
+      "date": "2026-04-29",
+      "summary": "Dan Shipper interviews Stripe's head of data and AI to show that top AI companies reach \u0000M ARR in 18 months (3× faster than SaaS), that fraud has evolved to target compute credits rather than payments, and that agents are beginning to act as economic participants. Matters because Stripe's payment data gives credible empirical weight to the services-as-software transition thesis.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-economy",
+        "services-as-software"
+      ],
+      "relevance": 4,
+      "status": "pending",
+      "id": "b3f0a669"
+    },
+    {
+      "url": "https://every.to/context-window/one-app-to-rule-all-knowledge-work",
+      "title": "One App to Rule All Knowledge Work",
+      "source": "Every.to",
+      "date": "2026-04-28",
+      "summary": "Every's head of growth describes routing 80% of daily knowledge work through Codex — email triage, KPI tracking, recruiting — using agent-designed automations and a compound knowledge plugin. Matters as a practitioner account of living-software inside a small company, with specific workflow details that go beyond theory.",
+      "industry_nodes": [],
+      "schools": [
+        "living-software",
+        "manager-of-agents",
+        "agent-native-growth"
+      ],
+      "relevance": 4,
+      "status": "pending",
+      "id": "c8755607"
+    },
+    {
+      "url": "https://timkellogg.me/blog/2026/04/27/memory-patterns",
+      "title": "Agent Memory Patterns",
+      "source": "Tim Kellogg",
+      "date": "2026-04-27",
+      "summary": "Classifies the three mutable memory types agents use — Files, Memory Blocks, and Skills — and explains how editable memory transforms agent power, covering practical patterns for adding persistent state without custom orchestrators. Matters as a clean taxonomy engineers can apply immediately when building agents with longer horizons.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "context-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending",
+      "id": "858ff57e"
+    },
+    {
+      "url": "https://softwaredoug.com/blog/2026/04/28/search-apis-replaced-by-agents.html",
+      "title": "Can Agents Replace the Search Stack?",
+      "source": "SoftwareDoug",
+      "date": "2026-04-28",
+      "summary": "Empirically shows that iterative agentic search yields significantly better answers than single-shot retrieval, but that training-data boundaries and what-the-model-doesn't-know remain hard ceilings no amount of tool use overcomes. Matters because it gives grounded empirical limits to the agent-native-browsing thesis.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-native-browsing",
+        "autonomous-agent"
+      ],
+      "relevance": 4,
+      "status": "pending",
+      "id": "9faaa8a0"
+    },
+    {
+      "url": "https://thezvi.wordpress.com/2026/04/27/gpt-5-5-the-system-card/",
+      "title": "GPT-5.5: The System Card",
+      "source": "Zvi Mowshowitz",
+      "date": "2026-04-27",
+      "summary": "Zvi's analysis finds GPT-5.5 competitive with Claude Opus on factual queries and web search but weaker on open-ended reasoning, with alignment similar to prior models and no new major risks flagged. Matters as a comparative capability and safety benchmark from the field's most systematic system-card analyst.",
+      "industry_nodes": [],
+      "schools": [
+        "new-models",
+        "alignment-governance"
+      ],
+      "relevance": 4,
+      "status": "pending",
+      "id": "e003c9bb"
+    },
+    {
+      "url": "https://www.tanayj.com/p/to-train-or-not-to-train",
+      "title": "To Train or Not To Train",
+      "source": "Tanay Jaipuria",
+      "date": "2026-04-28",
+      "summary": "Argues that product companies integrating into the model layer should do post-training where frontier models underserve them — citing Intercom Fin Apex running at 1/5 frontier cost with higher resolution rates — not pre-training from scratch. Matters because it gives an actionable decision framework for the build-vs-buy question in a post-commoditisation era.",
+      "industry_nodes": [],
+      "schools": [
+        "scaling-laws-revisionism",
+        "compound-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending",
+      "id": "5dd48b45"
+    },
+    {
+      "url": "https://www.siliconcontinent.com/p/why-desk-jobs-survive-and-amodei",
+      "title": "The Task Is Not the Job",
+      "source": "Silicon Continent",
+      "date": "2026-04-28",
+      "summary": "Rebuts Amodei's job-displacement thesis by arguing that roles are bundles of shifting tasks in organisational contexts, so automating discrete tasks does not eliminate entry-level positions when firms reorganise around agent output. Matters because it grounds the jobs debate in labour economics rather than capability speculation.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-as-intensifier",
+        "post-agi-skeptics"
+      ],
+      "relevance": 4,
+      "status": "pending",
+      "id": "587757e8"
+    },
+    {
+      "url": "https://dri.es/ai-rewards-strict-apis",
+      "title": "AI Rewards Strict APIs",
+      "source": "Dries Buytaert (Dri.es)",
+      "date": "2026-04-29",
+      "summary": "Argues that AI agents struggle with ambiguous APIs, making strict, well-specified API design a competitive moat for services that want to be reliably orchestrated by LLMs. Matters because it gives engineers a concrete design principle — specificity over flexibility — for building AI-interoperable software.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "spec-driven"
+      ],
+      "relevance": 4,
+      "status": "pending",
+      "id": "91099de9"
+    },
+    {
+      "url": "https://poolside.ai/blog/laguna-a-deeper-dive",
+      "title": "Laguna XS.2 and M.1: A Deeper Dive",
+      "source": "Poolside",
+      "date": "2026-04-29",
+      "summary": "Poolside introduces Laguna M.1 (foundation) and XS.2 (small open-weight, Apache 2.0) as agentic coding models explicitly designed for long-horizon work, available free on OpenRouter. Matters as a credible open-weight challenger to proprietary coding agents that brings long-horizon design intent, not just benchmark scores.",
+      "industry_nodes": [],
+      "schools": [
+        "new-models",
+        "coding-paradigms"
+      ],
+      "relevance": 4,
+      "status": "pending",
+      "id": "d65965ef"
+    },
+    {
+      "url": "https://www.latent.space/p/adversarial-reasoning",
+      "title": "Experts Have World Models. LLMs Have Word Models.",
+      "source": "Latent Space",
+      "date": "2026-04-20",
+      "summary": "Draws a sharp line between LLM statistical token prediction and true causal world models, showing LLMs are systematically vulnerable in adversarial multiagent scenarios requiring theory of mind or hidden-information reasoning. Matters because it identifies a precise capability gap between current agents and what robust agentic behavior actually requires.",
+      "industry_nodes": [],
+      "schools": [
+        "world-models",
+        "reasoning-rl"
+      ],
+      "relevance": 4,
+      "status": "pending",
+      "id": "d530e6e3"
+    },
+    {
+      "url": "https://simonwillison.net/2026/Apr/19/headless-everything/",
+      "title": "Headless Everything for Personal AI",
+      "source": "Simon Willison",
+      "date": "2026-04-19",
+      "summary": "Simon Willison argues AI agents perform reliably against headless APIs but degrade on GUI-based tools, citing Salesforce exposing its entire Agentforce and Slack platforms as APIs/MCP/CLI as the right architectural pattern. Matters as a practitioner call for headless design as an infrastructure prerequisite for agentic operation.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-native-browsing",
+        "new-tools",
+        "context-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending",
+      "id": "ffc556c6"
+    },
+    {
+      "url": "https://davefriedman.substack.com/p/openais-q4-2026-ipo-might-not-happen",
+      "title": "OpenAI's Q4 2026 IPO Might Not Happen",
+      "source": "Dave Friedman",
+      "date": "2026-04-29",
+      "summary": "Documents OpenAI's CFO being excluded from key infrastructure financial discussions while the company misses revenue and user targets, making the compressed Q4 IPO timeline implausible. Matters because it surfaces the structural tension between OpenAI's capex obligations and its revenue trajectory at a pivotal moment.",
+      "industry_nodes": [],
+      "schools": [
+        "bubble-skeptics"
+      ],
+      "relevance": 4,
+      "status": "pending",
+      "id": "e217d7e2"
+    },
+    {
+      "url": "https://research.google/blog/towards-a-science-of-scaling-agent-systems-when-and-why-agent-systems-work/",
+      "title": "Towards a Science of Scaling Agent Systems",
+      "source": "Google Research",
+      "date": "2026-04-15",
+      "summary": "Google researchers derive the first quantitative scaling principles for agent systems across 180 configurations, showing that adding more agents hits a ceiling and can degrade performance if not matched to task structure. Matters because it brings rigorous empirical grounding to multi-agent system design.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "scaling-laws-revisionism"
+      ],
+      "relevance": 4,
+      "status": "pending",
+      "id": "39b3bf52"
+    },
+    {
+      "url": "https://www.latent.space/p/2026",
+      "title": "Scaling without Slop",
+      "source": "Latent Space",
+      "date": "2026-04-01",
+      "summary": "swyx argues the next scaling frontier is output quality rather than parameter count, with inference-time compute and RL-tuned reasoning becoming the dominant levers as pretraining yields diminish. Matters as a clear articulation of the post-pretraining scaling thesis from the AI Engineer community.",
+      "industry_nodes": [],
+      "schools": [
+        "scaling-laws-revisionism",
+        "reasoning-rl"
+      ],
+      "relevance": 4,
+      "status": "pending",
+      "id": "6acae7cd"
+    },
+    {
+      "url": "https://www.buchodi.com/how-chatgpt-serves-ads-heres-the-full-attribution-loop/",
+      "title": "How ChatGPT Serves Ads",
+      "source": "Buchodi",
+      "date": "2026-04-29",
+      "summary": "Reverse-engineers ChatGPT's ad attribution loop, from Fernet-encrypted click tokens injected into conversation to a browser-side SDK reporting product views back to OpenAI's backend. Matters because it shows AI assistants are building a parallel ad infrastructure at the model layer that could reshape digital commerce.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-economy",
+        "new-tools"
+      ],
+      "relevance": 3,
+      "status": "pending",
+      "id": "db9dd2a6"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/04/27/deepmind-ineffable-intelligence-record-seed-funding-nvidia-google.html",
+      "title": "Former Google DeepMind Researcher Raises Record .1B Seed Funding to Pursue Superintelligence",
+      "source": "CNBC",
+      "date": "2026-04-27",
+      "summary": "David Silver (DeepMind RL lead) raises a record .1B seed round for Ineffable Intelligence with NVIDIA and Google backing, pursuing superintelligence research. Matters as a signal of continued conviction capital flowing into AGI timelines despite broader AI financial strain.",
+      "industry_nodes": [],
+      "schools": [
+        "agi-timelines"
+      ],
+      "relevance": 3,
+      "status": "pending",
+      "id": "80da244c"
+    },
+    {
+      "url": "https://thenextweb.com/news/deepseek-v4-pro-price-cut-75-percent",
+      "title": "DeepSeek Cuts V4-Pro Prices by 75%",
+      "source": "The Next Web",
+      "date": "2026-04-28",
+      "summary": "DeepSeek slashes V4-Pro model pricing by 75% and reduces cache hit costs by 90%, continuing deflationary pressure on AI model pricing from Chinese labs. Matters as a concrete data point in the scaling-cost debate and the moat-erosion thesis.",
+      "industry_nodes": [],
+      "schools": [
+        "scaling-laws-revisionism",
+        "bubble-skeptics"
+      ],
+      "relevance": 3,
+      "status": "pending",
+      "id": "a6b20339"
+    },
+    {
+      "url": "https://x.com/karpathy/status/2015883857489522876",
+      "title": "Karpathy: Notes on 80% Agent-Driven Coding Workflow",
+      "source": "Andrej Karpathy (X/Twitter)",
+      "date": "2026-02-01",
+      "summary": "Karpathy documents going from 20% to 80% agent-driven coding in weeks, sharing detailed notes on workflow changes, model trust, and remaining rough edges of agent-native development. Matters because his practitioner credibility makes this a definitive benchmark for vibe-coding adoption among top researchers.",
+      "industry_nodes": [],
+      "schools": [
+        "vibe-coding",
+        "compound-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending",
+      "id": "051ceae7"
+    },
+    {
+      "url": "https://eran.sandler.co.il/post/2026-04-27-batch-api-is-terrible-for-one-agent/",
+      "title": "Batch API Is Terrible for One Agent. It Might Be Great for a Fleet.",
+      "source": "Eran Sandler",
+      "date": "2026-04-27",
+      "summary": "Shows the Batch API 50% discount is economically unviable for single-agent tasks due to latency, but highly attractive when agents can be pooled and routed through intelligent proxies. Matters as practical economics for engineers designing multi-agent fleet architectures.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "compound-engineering"
+      ],
+      "relevance": 3,
+      "status": "pending",
+      "id": "2a7b8476"
+    }
+  ]
 }
