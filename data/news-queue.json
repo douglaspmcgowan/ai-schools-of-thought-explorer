@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-30T04:25:54.810Z",
+  "generated": "2026-04-30T10:28:36.871Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -363,6 +363,146 @@
       "relevance": 3,
       "status": "pending",
       "id": "2a7b8476"
+    },
+    {
+      "id": "37e09e62",
+      "title": "An Interview with OpenAI CEO Sam Altman and AWS CEO Matt Garman about Bedrock Managed Agents",
+      "url": "https://stratechery.com/2026/an-interview-with-openai-ceo-sam-altman-and-aws-ceo-matt-garman-about-bedrock-managed-agents/",
+      "source": "Stratechery",
+      "date": "2026-04-29",
+      "summary": "Ben Thompson's 50-minute deep dive into how AWS and OpenAI are structuring Bedrock Managed Agents, what the Microsoft exclusivity amendment means for AI distribution, and how removing the AGI clause reshapes the OpenAI-Microsoft power dynamic. Matters because it lays out the emerging two-cloud world where agent orchestration infrastructure—not raw model access—becomes the competitive moat.",
+      "industry_nodes": [],
+      "schools": [
+        "manager-of-agents",
+        "services-as-software",
+        "agent-native-growth"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "cfa9371d",
+      "title": "DeepSeek V4—almost on the frontier, a fraction of the price",
+      "url": "https://simonwillison.net/2026/Apr/24/deepseek-v4/",
+      "source": "Simon Willison",
+      "date": "2026-04-24",
+      "summary": "Willison analyzes DeepSeek V4 as near-frontier capability at dramatically lower cost, continuing the pattern where open-weight models compress the return on closed-model frontier investment. The piece matters as a practitioner-calibrated read on what the closing open/closed capability gap means for developers and the gatekeeping-vs-open debate.",
+      "industry_nodes": [],
+      "schools": [
+        "scaling-laws-revisionism",
+        "gatekeeping-vs-open"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "7926448e",
+      "title": "The people do not yearn for automation",
+      "url": "https://simonwillison.net/2026/Apr/24/the-people-do-not-yearn-for-automation/",
+      "source": "Simon Willison",
+      "date": "2026-04-24",
+      "summary": "Willison argues that AI automation proponents underestimate a core demand-side constraint: most people do not want to hand off their tasks to AI, and the gap between what AI can automate and what people actually want automated is a serious, underappreciated brake on adoption. A strong practitioner counterweight to the services-as-software and autonomous-agent optimism.",
+      "industry_nodes": [],
+      "schools": [
+        "llm-doubters",
+        "post-agi-skeptics",
+        "productive-friction"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "554e54d9",
+      "title": "The Zig project's rationale for their firm anti-AI contribution policy",
+      "url": "https://simonwillison.net/2026/Apr/30/zig-anti-ai/",
+      "source": "Simon Willison",
+      "date": "2026-04-30",
+      "summary": "Willison documents Zig's principled ban on LLM-generated code contributions, one of the most stringent anti-LLM policies in open source. Relevant as a concrete counterpoint to blanket vibe-coding adoption and to the gatekeeping-vs-open debate in software communities.",
+      "industry_nodes": [],
+      "schools": [
+        "llm-doubters",
+        "gatekeeping-vs-open"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "371bc6d2",
+      "title": "Shopify's AI Phase Transition: 2026 Usage Explosion, Unlimited Opus-4.6 Token Budget, Tangle, Tangent, SimGym",
+      "url": "https://www.latent.space/p/shopify",
+      "source": "Latent Space",
+      "date": "2026-04-22",
+      "summary": "Shopify CTO Mikhail Parakhin reveals that 100% of the company's workforce uses AI daily after a late-2025 token-consumption inflection; the episode covers Shopify's proprietary agent platforms (Tangle, Tangent, SimGym) and the shift to critique-driven PR review at scale. Essential case study of a 00B company achieving AI-native org design in practice.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering-org",
+        "ai-as-intensifier",
+        "manager-of-agents"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "79c09e07",
+      "title": "Notion's Token Town: 5 Rebuilds, 100+ Tools, MCP vs CLIs and the Software Factory Future",
+      "url": "https://www.latent.space/p/notion",
+      "source": "Latent Space",
+      "date": "2026-04-20",
+      "summary": "Simon Last and Sarah Sachs of Notion describe five architectural rebuilds of their Custom Agents system, practical tradeoffs between MCP and CLIs for agent integration, and Notion's vision of software factories made of agents that spec, code, test, and maintain codebases. Strong practitioner case study of a productivity platform going agent-native.",
+      "industry_nodes": [],
+      "schools": [
+        "living-software",
+        "compound-engineering",
+        "spec-driven"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "1dbaaf87",
+      "title": "The Last Software Engineer",
+      "url": "https://www.epicproduct.engineer/the-last-software-engineer",
+      "source": "Epic Product Engineer",
+      "date": "2026-04-27",
+      "summary": "Kent C. Dodds asks what remains valuable for software engineers as AI agents take over implementation: his answer is judgment about what to build and product taste, not coding skill. Reframes the \"engineers are obsolete\" narrative toward what remains durable when vibe-coding handles execution.",
+      "industry_nodes": [],
+      "schools": [
+        "vibe-coding",
+        "post-agi-skeptics",
+        "compound-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "593fae23",
+      "title": "Opus 4.7's New Tokenizer: What It Actually Costs",
+      "url": "https://openrouter.ai/announcements/opus-47-tokenizer-analysis",
+      "source": "OpenRouter",
+      "date": "2026-04-29",
+      "summary": "OpenRouter's analysis shows Claude Opus 4.7's improved tokenizer raises actual costs 12–27% despite unchanged sticker prices, with the exception of short prompts that become cheaper. Important for practitioners running agent fleets who need to recalibrate cost models when switching to the new tokenizer.",
+      "industry_nodes": [],
+      "schools": [
+        "new-models",
+        "compound-engineering-org"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "9c092685",
+      "title": "The Recurrent Transformer: Greater Effective Depth and Efficient Decoding",
+      "url": "https://www.alphaxiv.org/abs/2604.21215",
+      "source": "AlphaXiv / TLDR AI",
+      "date": "2026-04-29",
+      "summary": "Introduces a novel architecture that adds layerwise recurrence to Transformers, enabling complex iterative reasoning without massive layer stacks via persistent key-value pairs. Relevant to the world-models and scaling-laws-revisionism debate about whether inference-time architectural innovation can substitute for brute-force parameter scaling.",
+      "industry_nodes": [],
+      "schools": [
+        "world-models",
+        "how-ai-works"
+      ],
+      "relevance": 3,
+      "status": "pending"
     }
   ]
 }
