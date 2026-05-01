@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-30T10:28:36.871Z",
+  "generated": "2026-05-01T10:37:04.052Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -500,6 +500,311 @@
       "schools": [
         "world-models",
         "how-ai-works"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "33ea9610",
+      "title": "AI Evals Are Becoming the New Compute Bottleneck",
+      "url": "https://huggingface.co/blog/evaleval/eval-costs-bottleneck",
+      "source": "Hugging Face Blog",
+      "date": "2026-04-30",
+      "summary": "Documents how AI evaluation costs have escalated to rival training costs, with some benchmark runs reaching tens of thousands of dollars and creating unequal access to external validation. Matters because eval bottlenecks will increasingly determine which labs and teams can iterate fastest on capability improvements.",
+      "industry_nodes": [],
+      "schools": [
+        "scaling-laws-revisionism",
+        "empiricists"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "fb9c8037",
+      "title": "Lessons on Building MCP Servers",
+      "url": "https://taoofmac.com/space/blog/2026/04/29/2341",
+      "source": "Tao of Mac",
+      "date": "2026-04-29",
+      "summary": "Practitioner guide arguing that effective MCP toolchains require making the next tool call blindingly obvious at each step, since models scan context and grab whatever looks most probable rather than planning sequences. Essential grounding for teams building agent pipelines on top of MCP.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "context-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "e4fb7f65",
+      "title": "Mistral Medium 3.5 Powers Remote Vibe Agents for Long Async Coding Tasks",
+      "url": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5",
+      "source": "Mistral AI",
+      "date": "2026-04-30",
+      "summary": "Mistral releases Medium 3.5 (128B dense) paired with Vibe remote agents that run long asynchronous coding tasks in the cloud via CLI or Le Chat, scoring high on SWE-Bench Verified. Represents another major lab shipping a frontier agentic coding workflow on a dense rather than MoE architecture.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "new-models"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "1cc495a8",
+      "title": "LaDiR: Latent Diffusion Enhances LLMs for Text Reasoning",
+      "url": "https://machinelearning.apple.com/research/ladir",
+      "source": "Apple ML Research",
+      "date": "2026-04-30",
+      "summary": "Introduces the Latent Diffusion Reasoner, combining continuous latent representation with iterative diffusion so LLMs can plan and revise reasoning holistically in parallel. Outperforms autoregressive and diffusion baselines on accuracy, diversity, and interpretability.",
+      "industry_nodes": [],
+      "schools": [
+        "reasoning-rl",
+        "world-models"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "0a33baf4",
+      "title": "Darwinian Specialization in AI: Why the Inference Market Is Fragmenting",
+      "url": "https://tomtunguz.com/inference-market-segmentation/",
+      "source": "Tom Tunguz",
+      "date": "2026-04-30",
+      "summary": "Argues the inference market is diverging into latency-tier, multimodal, and edge segments with distinct serving requirements, creating room for multiple infrastructure winners rather than a winner-takes-all GPU cloud. Applies Darwinian framing to explain why specialized models and infra beat general-purpose deployments.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-rebundling",
+        "scaling-laws-revisionism"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "42ae7f82",
+      "title": "Build Programmatic Agents with the Cursor SDK",
+      "url": "https://cursor.com/blog/typescript-sdk",
+      "source": "Cursor",
+      "date": "2026-04-30",
+      "summary": "Cursor releases a public TypeScript SDK giving developers access to the same runtime, harness, and frontier models that power the Cursor IDE, usable locally or on Cursor cloud. Marks a shift from IDE-only agent tooling toward an extensible programmatic agent substrate.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "agent-internals",
+        "new-tools"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "f322f21a",
+      "title": "The $112 Billion Quarter: Hyperscalers Bet the Farm on AI",
+      "url": "https://tomtunguz.com/2026-04-29-the-112-billion-quarter-hyperscalers-bet-the-farm-on-ai/",
+      "source": "Tom Tunguz",
+      "date": "2026-04-29",
+      "summary": "Google, Amazon, and Microsoft collectively spent $112B in Q1 2026 capex with Google now outspending Microsoft, and BofA forecasts $175B in hyperscaler debt issuance for the year. Central thesis: whichever hyperscaler owns the model layer will compound fastest.",
+      "industry_nodes": [],
+      "schools": [
+        "not-a-bubble",
+        "extrapolators"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "7be81092",
+      "title": "Agents Can Now Create Cloudflare Accounts, Buy Domains, and Deploy",
+      "url": "https://blog.cloudflare.com/agents-stripe-projects/",
+      "source": "Cloudflare Blog",
+      "date": "2026-04-30",
+      "summary": "Cloudflare announces end-to-end agentic deployment: agents can create accounts, purchase domains, and ship to production without human intervention except optional approval gates at ToS steps. A concrete production milestone for autonomous agents as economic actors.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "living-software"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "adb7e627",
+      "title": "2026: The Year of Churn",
+      "url": "https://www.onlycfo.io/p/2026-the-year-of-churn",
+      "source": "OnlyCFO",
+      "date": "2026-04-29",
+      "summary": "Argues AI filling 60% of niche SaaS functionality is now sufficient for buyers to cancel $80K contracts, and annual deal structures have been masking how much churn is already occurring. Signals-based view of SaaS revenue erosion in real time.",
+      "industry_nodes": [],
+      "schools": [
+        "services-as-software",
+        "saas-survives",
+        "ai-rebundling"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "d93e159d",
+      "title": "Locked, Stocked, and Losing Budget: AI Vendor Lock-in Bites Back",
+      "url": "https://www.theregister.com/2026/04/28/locked_stocked_and_losing_budget/",
+      "source": "The Register",
+      "date": "2026-04-28",
+      "summary": "Documents how enterprises discover token-based AI billing creates unpredictable costs while switching costs keep them trapped, forecasting that fixed-price SaaS tiers will give way to consumption pricing across the stack. Exposes the gap between vendor promises and actual procurement reality.",
+      "industry_nodes": [],
+      "schools": [
+        "saas-survives",
+        "ai-economy"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "661ee240",
+      "title": "Direction Over Speed",
+      "url": "https://www.leahtharin.com/p/direction-over-speed",
+      "source": "Leah Tharin",
+      "date": "2026-04-29",
+      "summary": "Argues AI broke the old cover of shipping-as-productivity because prototypes are cheap and specs write themselves, making knowing why to build something the true bottleneck. Calls for smaller PM-closer-to-the-work teams where the model handles execution but humans own direction.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering-org",
+        "taste-is-the-bottleneck"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "88baba2d",
+      "title": "Who Isn't Using GPT 5.5",
+      "url": "https://every.to/context-window/who-isnt-using-gpt-55",
+      "source": "Every.to",
+      "date": "2026-04-30",
+      "summary": "Every.to examines why practitioners with mature Claude and Codex agent workflows are not switching to GPT-5.5 despite speed advantages, finding workflow lock-in and skill integration are larger barriers than capability gaps. Ground-level adoption data on model switching costs in 2026.",
+      "industry_nodes": [],
+      "schools": [
+        "empiricists",
+        "new-models"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "323089c8",
+      "title": "Sequoia AI Ascent 2026: Karpathy on Software 3.0 and Agentic Engineering",
+      "url": "https://karpathy.bearblog.dev/sequoia-ascent-2026/",
+      "source": "Andrej Karpathy",
+      "date": "2026-04-30",
+      "summary": "Karpathy argues Software 3.0 (prompting as programming) is the dominant new paradigm, with vibe coding raising the floor and agentic engineering raising the ceiling, and human understanding remaining the ultimate bottleneck. One of the clearest frameworks from a leading AI researcher on the transition to professional agentic work.",
+      "industry_nodes": [],
+      "schools": [
+        "extrapolators",
+        "vibe-coding",
+        "autonomous-agent"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "b340a4aa",
+      "title": "The Folder Is the Agent",
+      "url": "https://every.to/source-code/the-folder-is-the-agent",
+      "source": "Every.to",
+      "date": "2026-04-13",
+      "summary": "Kieran Klaassen describes running 44 specialized AI agents by pointing Opus at domain-specific folders, turning a generalist model into a Rails engineer, ops specialist, or product analyst through context alone. The thesis: folder structure has become the primary interface for agent specialization.",
+      "industry_nodes": [],
+      "schools": [
+        "folder-as-agent",
+        "autonomous-agent",
+        "context-engineering"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "b6a07cd0",
+      "title": "The 50th Percentile Rule for Token Use",
+      "url": "https://douglevin.substack.com/p/the-50th-percentile-rule-for-token",
+      "source": "Doug Levin",
+      "date": "2026-04-29",
+      "summary": "Documents Chainguard's policy that engineering managers must sit at the 50th percentile of token usage among their reports: too few means lacking operational context, too many means not delegating to the team. A concrete org-design mechanism for embedding AI fluency into engineering leadership.",
+      "industry_nodes": [],
+      "schools": [
+        "manager-of-agents",
+        "compound-engineering-org"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "466b625a",
+      "title": "AIE Europe Debrief + Agent Labs Thesis (Latent Space x Unsupervised Learning)",
+      "url": "https://www.latent.space/p/unsupervised-learning-2026",
+      "source": "Latent Space",
+      "date": "2026-04-30",
+      "summary": "Latent Space debrief of AI Engineer Europe alongside a thesis for Agent Labs as an emerging organizational category: dedicated teams within companies that build, evaluate, and deploy autonomous agent systems. Maps the technical and org patterns at the frontier of enterprise agent deployment.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "autonomous-agent",
+        "compound-engineering-org"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "65886518",
+      "title": "Firefox Maker Torches Google for Building Prompt API into Browser",
+      "url": "https://www.theregister.com/2026/04/30/mozilla_pushes_back_against_googles/",
+      "source": "The Register",
+      "date": "2026-04-30",
+      "summary": "Mozilla argues that Google's Prompt API lets web pages query a browser-embedded LLM, creating severe interoperability and neutrality problems for the open web. Raises the governance question of whether AI inference belongs in the browser platform layer.",
+      "industry_nodes": [],
+      "schools": [
+        "gatekeeping-vs-open",
+        "productive-friction"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "0588fcae",
+      "title": "Elon Musk Testifies That xAI Trained Grok on OpenAI Models",
+      "url": "https://techcrunch.com/2026/04/30/elon-musk-testifies-that-xai-trained-grok-on-openai-models/",
+      "source": "TechCrunch",
+      "date": "2026-04-30",
+      "summary": "Musk's court testimony confirms xAI used distillation from OpenAI models to train Grok, validating the widely-held assumption that major labs routinely distill each other's outputs to avoid falling behind. A rare primary-source confirmation of a practice central to understanding how closed frontier models propagate.",
+      "industry_nodes": [],
+      "schools": [
+        "gatekeeping-vs-open",
+        "empiricists"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "59ef3aa9",
+      "title": "Granite 4.1 LLMs: How They're Built",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-4-1",
+      "source": "IBM / Hugging Face",
+      "date": "2026-04-30",
+      "summary": "IBM details a five-phase pre-training approach for Granite 4.1 (3B-30B) on 15T tokens where multi-stage RL lets the 8B model match the previous 32B MoE on enterprise benchmarks. Demonstrates how targeted RL pipelines are closing the gap between dense and mixture-of-experts architectures.",
+      "industry_nodes": [],
+      "schools": [
+        "new-models",
+        "scaling-laws-revisionism"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "186be603",
+      "title": "DataPRM: Reliable Data Analysis Agents via Environment-Aware Process Reward Models",
+      "url": "https://arxiv.org/abs/2604.24198",
+      "source": "arXiv",
+      "date": "2026-04-30",
+      "summary": "Introduces DataPRM, a process reward model that detects silent errors in data analysis agent execution and improves downstream performance across benchmarks. Addresses a key reliability gap for deploying autonomous data agents in production.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "empiricists"
       ],
       "relevance": 3,
       "status": "pending"
