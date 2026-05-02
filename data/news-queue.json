@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-01T10:37:04.052Z",
+  "generated": "2026-05-02T10:16:25.237Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -807,6 +807,242 @@
         "empiricists"
       ],
       "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "d7603d33",
+      "title": "xAI Has Launched Grok 4.3",
+      "url": "https://threadreaderapp.com/thread/2049987001655714250.html",
+      "source": "TLDR AI",
+      "date": "2026-05-01",
+      "summary": "xAI launches Grok 4.3, improving cost-per-intelligence over its predecessor — higher scores on the Intelligence Index at lower per-run cost. Marks a step in commodity frontier model competition where price/capability ratio becomes the key differentiator.",
+      "industry_nodes": [],
+      "schools": [
+        "new-models",
+        "scaling-laws-revisionism"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "f66e847b",
+      "title": "Claude Security is Now in Public Beta",
+      "url": "https://claude.com/blog/claude-security-public-beta",
+      "source": "Anthropic Blog",
+      "date": "2026-05-01",
+      "summary": "Anthropic opens Claude Security to public beta for Enterprise customers, using Opus 4.7 to identify and patch software vulnerabilities integrated with Microsoft Security and Palo Alto Networks. Demonstrates agents moving from code generation into active security operations.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "new-tools"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "c2161cd7",
+      "title": "xAI's Move to Buy Cursor Shows the Promise & the Risks for AI Applications Startups",
+      "url": "https://www.newcomer.co/p/xais-move-to-buy-cursor-shows-the",
+      "source": "Newcomer",
+      "date": "2026-05-01",
+      "summary": "Deep analysis of the Cursor/xAI 0B deal: Cursor has explosive revenue but unsustainable compute costs relying on Anthropic and OpenAI models; xAI has Colossus supercomputer but no distribution. Argues the deal exposes the core tension for AI application companies — proprietary models vs. product — and sets a template for vertical integration plays.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-rebundling",
+        "compound-engineering",
+        "services-as-software"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "d661903b",
+      "title": "KV Cache Locality: The Hidden Variable in Your LLM Serving Cost",
+      "url": "https://ranvier.systems/2026/04/30/kv-cache-locality-the-hidden-variable-in-your-llm-serving-cost.html",
+      "source": "Ranvier Systems",
+      "date": "2026-04-30",
+      "summary": "Explains how KV cache locality acts as a hidden throughput multiplier: the same hardware serving the same traffic produces measurably different performance depending on whether load balancers understand token locality. Matters for anyone optimizing inference infrastructure at scale.",
+      "industry_nodes": [],
+      "schools": [
+        "context-engineering",
+        "how-ai-works"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "d47dd911",
+      "title": "Where the Goblins Came From",
+      "url": "https://openai.com/index/where-the-goblins-came-from/",
+      "source": "OpenAI",
+      "date": "2026-04-30",
+      "summary": "OpenAI traces how a retired 'Nerdy' personality reward signal caused goblin metaphors to proliferate 175% across GPT-5.1 — a vivid case study in how RL reward signals leak across training contexts. Illustrates the difficulty of keeping learned behaviors scoped to intended conditions.",
+      "industry_nodes": [],
+      "schools": [
+        "mechanistic-interpretability",
+        "constitutional",
+        "alignment-governance"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "cbf122db",
+      "title": "Continually Improving Our Agent Harness",
+      "url": "https://cursor.com/blog/continually-improving-agent-harness",
+      "source": "Cursor",
+      "date": "2026-05-01",
+      "summary": "Cursor explains how they continuously tune their agent harness using vision-driven development, A/B testing, and dynamic context adaptation — treating the harness itself as the product layer above the model. Key insight: harness engineering, not model selection, is now the main differentiator.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "compound-engineering",
+        "context-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "b90fbc06",
+      "title": "What You're Actually Writing When You Write a skill.md",
+      "url": "https://internals.laxmena.com/p/what-youre-actually-writing-when",
+      "source": "Internals by Laxmena",
+      "date": "2026-05-01",
+      "summary": "Explains that a skill.md is not documentation but a runtime artifact — a structured prompt that shapes agent behavior by controlling what the agent sees at inference time. Understanding the runtime changes everything about how you write at the surface.",
+      "industry_nodes": [],
+      "schools": [
+        "context-engineering",
+        "prompting-craft",
+        "spec-driven"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "20d82901",
+      "title": "Speculative Decoding for RL Training",
+      "url": "https://arxiv.org/abs/2604.26779",
+      "source": "arXiv",
+      "date": "2026-05-01",
+      "summary": "Applies speculative decoding to RL rollouts without changing output distributions, delivering up to 1.8x throughput gains and projected 2.5x end-to-end speedups at scale. Accelerates reasoning-RL training, reducing the compute cost of iterative self-improvement.",
+      "industry_nodes": [],
+      "schools": [
+        "reasoning-rl",
+        "how-ai-works"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "d9782bc8",
+      "title": "Qwen-Scope: Decoding Intelligence, Unleashing Potential",
+      "url": "https://qwen.ai/blog?id=qwen-scope",
+      "source": "Qwen / Alibaba",
+      "date": "2026-05-01",
+      "summary": "Qwen-Scope is an interpretability toolkit for the Qwen3/3.5 model series that exposes internal mechanisms for controllable inference, model optimization, and evaluation distribution analysis. Open interpretability tooling moving from research labs into production model ecosystems.",
+      "industry_nodes": [],
+      "schools": [
+        "mechanistic-interpretability",
+        "how-ai-works"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "87e3aa30",
+      "title": "GitHub Is Sinking",
+      "url": "https://dbushell.com/2026/04/29/github-is-sinking/",
+      "source": "dbushell.com",
+      "date": "2026-04-29",
+      "summary": "Developer essay arguing that Copilot is effectively DDoS-ing GitHub with low-quality AI-generated PRs and issues — flooding the platform with 'slop' that degrades the signal-to-noise ratio for maintainers. Practitioner skepticism about AI code quality at scale.",
+      "industry_nodes": [],
+      "schools": [
+        "llm-doubters",
+        "productive-friction",
+        "bubble-skeptics"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "25889def",
+      "title": "Silicon Valley Is Bracing for a Permanent Underclass",
+      "url": "https://www.nytimes.com/2026/04/30/opinion/ai-labor-work-force-silicon-valley.html",
+      "source": "New York Times",
+      "date": "2026-04-30",
+      "summary": "NYT Opinion essay based on three months of interviews with researchers, economists, and frontier lab employees: the consensus inside AI is that ordinary workers will lose economic leverage, but an AI underclass is a societal choice not an inevitability. Argues for policy intervention before the window closes.",
+      "industry_nodes": [],
+      "schools": [
+        "alignment-governance",
+        "agi-timelines",
+        "bubble-skeptics"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "99894ee4",
+      "title": "The Inference Economy: Token Use",
+      "url": "https://frontierai.substack.com/p/the-inference-economy-token-use",
+      "source": "The AI Frontier / Substack",
+      "date": "2026-05-01",
+      "summary": "Argues token demand is structurally rising while per-token cost improvements are slowing — meaning businesses that blindly throw more LLM compute at problems will face sharply rising costs. Frames token management (right-sized model, reasoning only when needed, provider flexibility) as a core competency for AI-native companies.",
+      "industry_nodes": [],
+      "schools": [
+        "saas-survives",
+        "scaling-laws-revisionism",
+        "ai-economy"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "a1bd1054",
+      "title": "7 Attributes of AI-Native Startups",
+      "url": "https://foundingjourney.com/p/7-attributes-of-ai-native-startups",
+      "source": "Founding Journey / Substack",
+      "date": "2026-05-01",
+      "summary": "Identifies seven structural characteristics of AI-native startups, centering data flywheels as the primary competitive advantage. Useful taxonomy for understanding how AI-first companies differ from traditional software companies in org design and growth mechanics.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-native-flat",
+        "compound-engineering-org",
+        "ai-economy"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "d16967f6",
+      "title": "Claude Code for Product Managers",
+      "url": "https://every.to/p/claude-code-for-product-managers",
+      "source": "Every",
+      "date": "2026-05-01",
+      "summary": "Practitioner essay by Marcus Moretti on running an entire product with Claude Code as a solo general manager — from planning and roadmaps to tickets and research, all in a single chat thread. Argues the bottleneck shifts from execution to judgment: the only document he wrote was the roadmap vision.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering",
+        "ai-native-flat",
+        "manager-of-agents"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "19fa2de8",
+      "title": "One Developer, Two Dozen Agents, Zero Alignment",
+      "url": "https://maggieappleton.com/zero-alignment",
+      "source": "Maggie Appleton / GitHub Next",
+      "date": "2026-04-30",
+      "summary": "Maggie Appleton (GitHub Next) argues all coding agents are single-player experiences but software development is not — alignment (shared context, intent, decisions) has always been the bottleneck, and agents make the cost of misalignment exponentially higher. Introduces a research prototype for collaborative AI engineering.",
+      "industry_nodes": [],
+      "schools": [
+        "manager-of-agents",
+        "compound-engineering-org",
+        "alignment-governance",
+        "autonomous-agent"
+      ],
+      "relevance": 5,
       "status": "pending"
     }
   ]
