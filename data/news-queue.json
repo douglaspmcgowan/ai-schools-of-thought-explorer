@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-02T10:16:25.237Z",
+  "generated": "2026-05-03T10:31:23.321Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -1043,6 +1043,116 @@
         "autonomous-agent"
       ],
       "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "url": "https://visualizevalue.com/unpack/every-bubble-looks-different",
+      "title": "Every Bubble Looks Different",
+      "source": "Visualize Value",
+      "date": "2026-05-01",
+      "summary": "Argues that every market cycle invents a new name for the same fantasy — software that generates returns passively — and that AI is repeating this pattern. A concise bubble-skeptic counter-narrative to the \"this time is different\" AI exceptionalism thesis.",
+      "schools": [
+        "bubble-skeptics"
+      ],
+      "relevance": 3,
+      "id": "4af1828d",
+      "industry_nodes": [],
+      "status": "pending"
+    },
+    {
+      "url": "https://www.realclearmarkets.com/2026/05/01/silicon_valley_is_bracing_for_a_permanent_underclass_1180097.html",
+      "title": "Silicon Valley Is Bracing for a Permanent Underclass",
+      "source": "RealClearMarkets",
+      "date": "2026-05-01",
+      "summary": "Long-form investigation into Silicon Valley insiders who believe AI will displace millions of jobs and concentrate power in the hands of AI companies and capital owners, creating a permanent underclass of economically irrelevant workers. A foundational piece for the bubble-skeptics and post-AGI-skeptics schools: the concern is not that AI fails but that it succeeds in ways that are catastrophically inequitable.",
+      "schools": [
+        "bubble-skeptics",
+        "post-agi-skeptics",
+        "services-as-software"
+      ],
+      "relevance": 5,
+      "id": "3a2692bc",
+      "industry_nodes": [],
+      "status": "pending"
+    },
+    {
+      "url": "https://daniel.haxx.se/blog/2026/04/30/approaching-zero-bugs/",
+      "title": "Approaching Zero Bugs?",
+      "source": "daniel.haxx.se",
+      "date": "2026-04-30",
+      "summary": "Proposes a measurable signal for whether AI coding tools are truly improving: track the age distribution of reported and fixed bugs — once AI reaches escape velocity, only recently-introduced bugs should survive. A practitioner's lens on compound-engineering progress from the maintainer of curl.",
+      "schools": [
+        "compound-engineering",
+        "coding-paradigms"
+      ],
+      "relevance": 3,
+      "id": "096a4389",
+      "industry_nodes": [],
+      "status": "pending"
+    },
+    {
+      "url": "https://www.smashingmagazine.com/2026/04/bug-free-workforce-ai-disrupting-teams/",
+      "title": "How AI Efficiency Is Subtly Disrupting the Interactions That Build Strong Teams",
+      "source": "Smashing Magazine",
+      "date": "2026-04-30",
+      "summary": "Research from MIT, Google, and Harvard shows that AI tools are eliminating informal colleague interactions (\"bugging\") that build the trust, psychological safety, and innovation critical to high-performing teams — trading visible efficiency for invisible resilience. Argues leaders must actively design for serendipitous human interaction as a counter-force to AI-driven isolation.",
+      "schools": [
+        "compound-engineering-org",
+        "productive-friction",
+        "ai-as-intensifier"
+      ],
+      "relevance": 4,
+      "id": "6e381505",
+      "industry_nodes": [],
+      "status": "pending"
+    },
+    {
+      "url": "https://uxdesign.cc/the-forgotten-conversation-problem-in-ai-chat-4d3d0c3ea525",
+      "title": "The Forgotten Conversation Problem in AI Chat",
+      "source": "UX Collective",
+      "date": "2026-04-30",
+      "summary": "AI chat platforms inherited a messaging-app architecture for what is actually knowledge work, leaving past insights unrecoverable because they lack keyword search, atomic linking, and user-controlled knowledge architecture. Decades of research (from Vannevar Bush to modern PKM) show the solution already exists — the AI industry is just applying it too slowly.",
+      "schools": [
+        "context-engineering",
+        "how-to-use-ai",
+        "living-software"
+      ],
+      "relevance": 4,
+      "id": "ef6a52e2",
+      "industry_nodes": [],
+      "status": "pending"
+    },
+    {
+      "url": "https://every.to/source-code/claude-code-for-product-managers",
+      "title": "Claude Code for Product Managers",
+      "source": "Every",
+      "date": "2026-05-01",
+      "summary": "Practitioner essay on how one general manager runs a full product solo using AI for planning, monitoring, and research — detailing the specific workflows, Claude Code invocations, and judgment calls required. A concrete implementation guide for the manager-of-agents thesis in a PM context.",
+      "schools": [
+        "manager-of-agents",
+        "compound-engineering-org",
+        "workflow-recipes"
+      ],
+      "relevance": 4,
+      "id": "431b263b",
+      "industry_nodes": [],
+      "status": "pending"
+    },
+    {
+      "url": "https://www.oneusefulthing.org/p/sign-of-the-future-gpt-55",
+      "title": "Sign of the Future: GPT-5.5",
+      "source": "One Useful Thing (Ethan Mollick)",
+      "date": "2026-05-01",
+      "summary": "Mollick argues GPT-5.5 with GPT-Image-2 in Codex signals a shift where the bottleneck in AI-assisted development is no longer \"can you make the first version\" but \"can you tell what's off\" — taste and evaluation judgment become the scarce resource. A practitioner essay from a key voice in the extrapolators school on what frontier capability gains actually change in daily work.",
+      "schools": [
+        "taste-is-the-bottleneck",
+        "vibe-coding",
+        "empiricists",
+        "extrapolators"
+      ],
+      "relevance": 4,
+      "id": "b5a9efd7",
+      "industry_nodes": [],
       "status": "pending"
     }
   ]
