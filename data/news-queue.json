@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-03T10:31:23.321Z",
+  "generated": "2026-05-04T10:29:18.533Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -1153,6 +1153,166 @@
       "relevance": 4,
       "id": "b5a9efd7",
       "industry_nodes": [],
+      "status": "pending"
+    },
+    {
+      "id": "eb0324c1",
+      "title": "Personal leverage is now unlimited",
+      "url": "https://refactoring.fm/p/personal-leverage-junior-engineers",
+      "source": "Refactoring",
+      "date": "2026-05-04",
+      "summary": "Luca Rossi argues that solo engineers now have unlimited personal leverage if they combine tech skills, taste, and drive—illustrated by the trajectory from Copilot to Cursor to Claude Code, the latter built by just two engineers. The piece makes the case that AI has removed the ceiling on what one person can ship, not the floor, and that taste and domain judgment are the remaining scarce resources.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering",
+        "ai-as-intensifier",
+        "vibe-coding"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "1e96ec57",
+      "title": "Every Engineer Is a Manager Now — with Chris Lattner",
+      "url": "https://refactoring.fm/p/every-engineer-is-a-manager-now-with",
+      "source": "Refactoring",
+      "date": "2026-04-15",
+      "summary": "Chris Lattner (creator of LLVM, Swift, founder of Modular) argues that AI is forcing engineers to act like managers—directing agents, reviewing output, and setting direction instead of writing code—and explains why Modular is actively hiring new-grad engineers who bring AI-native intuition. The interview surfaces a counter-narrative to the all-senior-team orthodoxy: good teams need multiple experience levels learning from each other.",
+      "industry_nodes": [],
+      "schools": [
+        "manager-of-agents",
+        "compound-engineering-org",
+        "ai-native-flat"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "5c39464e",
+      "title": "A Guide to Agent-native Product Management",
+      "url": "https://every.to/guides/ai-product-management-guide",
+      "source": "Every.to",
+      "date": "2026-05-03",
+      "summary": "Marcus Moretti walks through compound engineering slash-commands for PMs—/ce:strategy and /ce:product-pulse—where agents replace analytics dashboards with briefings that accumulate in a folder as the product's persistent memory. The core argument is that 'the conversation is the work' and that PM value shifts entirely to strategic framing and judgment as implementation and analysis become agent tasks.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-native-growth",
+        "manager-of-agents",
+        "compound-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "20b1d6e5",
+      "title": "We need RSS for sharing abundant vibe-coded apps",
+      "url": "https://simonwillison.net/2026/Apr/30/rss-vibe-coded-apps/",
+      "source": "Simon Willison",
+      "date": "2026-04-30",
+      "summary": "Simon Willison argues that AI-accelerated app development makes shipping a micro-app feel more like posting on a blog than launching a product, and proposes RSS as the distribution layer for the coming flood of personal tools. The piece surfaces a concrete infrastructure gap: there is no discovery mechanism for the abundant, ephemeral, personal software that vibe-coding is producing.",
+      "industry_nodes": [],
+      "schools": [
+        "vibe-coding",
+        "living-software",
+        "agent-native-growth"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "1bc6943c",
+      "title": "Our evaluation of OpenAI's GPT-5.5 cyber capabilities",
+      "url": "https://www.aisi.gov.uk/blog/our-evaluation-of-openais-gpt-5-5-cyber-capabilities",
+      "source": "UK AI Security Institute",
+      "date": "2026-04-30",
+      "summary": "The UK AI Safety Institute finds GPT-5.5 achieves a 71% pass rate on expert-level cyber tasks—comparable to Anthropic's Claude Mythos but generally available—and solved a complex reverse-engineering challenge autonomously in under 11 minutes for .73 in API costs. This is a landmark evaluation demonstrating that frontier models can independently conduct serious vulnerability research at scale, with significant implications for AI governance and safety.",
+      "industry_nodes": [],
+      "schools": [
+        "alignment-governance",
+        "new-models"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "472a8fd4",
+      "title": "Vulnerability Research Is Cooked",
+      "url": "https://sockpuppet.org/blog/2026/03/30/vulnerability-research-is-cooked/",
+      "source": "Quarrelsome (Thomas Ptacek)",
+      "date": "2026-03-30",
+      "summary": "Thomas Ptacek argues that frontier models will fundamentally disrupt vulnerability research within months—agents can find zero-days by pointing at a source tree because LLMs excel at exactly the implicit pattern-matching and constraint-solving that exploit development requires. The piece is alarming for its specificity: it cites early empirical results and warns that AI-driven security research will inevitably draw new and potentially harmful regulatory attention.",
+      "industry_nodes": [],
+      "schools": [
+        "alignment-governance",
+        "constitutionalism-critiques",
+        "reasoning-rl"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "6f70cd9b",
+      "title": "Dreamer: the Personal Agent OS — David Singleton",
+      "url": "https://www.latent.space/p/dreamer",
+      "source": "Latent Space",
+      "date": "2026-03-20",
+      "summary": "David Singleton (ex-Stripe) and Hugo Barra present Dreamer, a consumer platform where a \"Sidekick\" agent builds and customizes other agents via natural language—positioning it as the personal agent OS complete with its own SDK, logging, database, and prompt management. The episode was recorded just before the team announced they were joining Meta Superintelligence Labs, making it a sharp snapshot of what ambitious consumer-agent architecture looked like at the threshold.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "folder-as-agent",
+        "agent-internals"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "cf08e88d",
+      "title": "An AI state of the union: We've passed the inflection point, dark factories are coming, and automation timelines",
+      "url": "https://www.lennysnewsletter.com/p/an-ai-state-of-the-union",
+      "source": "Lenny's Newsletter",
+      "date": "2026-04-02",
+      "summary": "Simon Willison marks November 2025 as the inflection point when AI coding agents crossed from \"mostly works\" to \"actually works,\" and predicts 50% of engineers will be writing 95% AI code by end of 2026. The episode covers the dark-factory pattern, vibe coding vs. agentic engineering, and where workflow bottlenecks have now shifted—making it the most comprehensive practitioner state-of-the-union on AI engineering available.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering",
+        "vibe-coding",
+        "services-as-software",
+        "extrapolators"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "74b9eb38",
+      "title": "How I Use AI to Code",
+      "url": "https://www.chrismdp.com/coding-with-ai/",
+      "source": "chrismdp.com (Chris Sherwood)",
+      "date": "2026-04-22",
+      "summary": "A thorough, opinionated guide to AI-assisted coding updated for April 2026 that argues anyone still tied to their IDE is working a year behind—and cites MIT research showing teams shipping 20% slower despite feeling faster. The guide covers mindset shifts, tool selection, and practical loop-frequency discipline, making it a grounded counterweight to pure vibe-coding enthusiasm.",
+      "industry_nodes": [],
+      "schools": [
+        "prompting-craft",
+        "workflow-recipes",
+        "productive-friction"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "6c29bd3c",
+      "title": "ICLR 2026: 12 papers on making AI systems reliable, efficient, and secure",
+      "url": "https://lambda.ai/blog/iclr-2026-12-papers",
+      "source": "Lambda AI",
+      "date": "2026-05-01",
+      "summary": "Lambda rounds up twelve standout ICLR 2026 papers covering long-horizon agentic planning under sparse rewards, alignment with safety constraints, structured world modeling, and inference-time efficiency. Useful as a research signal for which technical directions the academic community is betting on for reliable, safe agent systems.",
+      "industry_nodes": [],
+      "schools": [
+        "reasoning-rl",
+        "world-models",
+        "alignment-governance"
+      ],
+      "relevance": 3,
       "status": "pending"
     }
   ]
