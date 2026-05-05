@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-04T10:29:18.533Z",
+  "generated": "2026-05-05T10:15:11.102Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -1311,6 +1311,205 @@
         "reasoning-rl",
         "world-models",
         "alignment-governance"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "e07a78a5",
+      "title": "Anthropic Tests Jupiter-v1-p Ahead of Its Developer Conference",
+      "url": "https://www.testingcatalog.com/anthropic-tests-jupiter-v1-p-before-potential-launch-on-may-6/",
+      "source": "Testing Catalog / TLDR AI",
+      "date": "2026-05-04",
+      "summary": "Anthropic is red-teaming a new internal build codenamed Jupiter-v1-p before the Code with Claude developer conference on May 6, consistent with its responsible scaling policy requiring jailbreak probes and constitutional classifier stress tests. The timing strongly suggests a frontier-class model announcement is imminent, with safety hardening the gating step.",
+      "industry_nodes": [],
+      "schools": [
+        "new-models",
+        "constitutional"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "5d81929d",
+      "title": "Designing, Refining, and Maintaining Agent Skills at Perplexity",
+      "url": "https://research.perplexity.ai/articles/designing-refining-and-maintaining-agent-skills-at-perplexity",
+      "source": "Perplexity Research",
+      "date": "2026-05-04",
+      "summary": "Perplexity details how it builds modular Agent Skills for its frontier products: hierarchical design, real-query-driven necessity tests, multi-model evaluation, and constant iteration. Each Skill carries an inherent cost, so simplicity and efficiency are primary constraints—this is the most detailed practitioner breakdown of agentic skill architecture published to date.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "context-engineering"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "961ce6c7",
+      "title": "Synthetic Computer Environments for Agent Training",
+      "url": "https://arxiv.org/abs/2604.28181",
+      "source": "arXiv",
+      "date": "2026-05-04",
+      "summary": "A scalable method generates realistic virtual computer environments and long-horizon simulations, producing rich training signals that improve agent performance on productivity tasks without manual annotation. This approach addresses the key bottleneck in agentic RL: obtaining diverse, grounded supervision at scale.",
+      "industry_nodes": [],
+      "schools": [
+        "reasoning-rl",
+        "world-models"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "995c485e",
+      "title": "You Are Not Immune to Mode Collapse",
+      "url": "https://www.lesswrong.com/posts/vKtuRbo4e3ffixmee/you-are-not-immune-to-mode-collapse",
+      "source": "LessWrong / TLDR AI",
+      "date": "2026-05-04",
+      "summary": "Mode collapse—AI systems repeatedly generating the most statistically common outputs—is examined as a structural failure mode affecting models, grant-making, and creative domains alike. The post argues that without deliberate variability injection, optimization toward past successes produces homogeneous and brittle outputs.",
+      "industry_nodes": [],
+      "schools": [
+        "alignment-governance",
+        "scaling-laws-revisionism"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "bb386264",
+      "title": "Clouded Judgement 5.1.26 — The Death of Per-Seat Pricing?",
+      "url": "https://cloudedjudgement.substack.com/p/clouded-judgement-5126-the-death",
+      "source": "Clouded Judgement",
+      "date": "2026-05-01",
+      "summary": "Microsoft is replacing seat-based SaaS licensing with a hybrid model where seats become packaging for prepaid token consumption, with overage charged per agent action or per outcome. The analysis argues this is a structural shift that will force every SaaS company to redesign its revenue model around usage rather than headcount.",
+      "industry_nodes": [],
+      "schools": [
+        "saas-survives",
+        "services-as-software",
+        "ai-rebundling"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "13447d0f",
+      "title": "After AI-First Comes AI-Only",
+      "url": "https://dschreiber.substack.com/p/after-ai-first-comes-ai-only",
+      "source": "David Schreiber / TLDR Founders",
+      "date": "2026-05-04",
+      "summary": "Schreiber distinguishes AI-first (AI as pilot assistance) from AI-only (end-to-end machine execution where humans only set goals, constraints, and escalation conditions). This framing repositions humans from workflow participants to system stewards—a clear articulation of the services-as-software endgame.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "services-as-software",
+        "manager-of-agents"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "08e9f898",
+      "title": "Agent Skills",
+      "url": "https://addyosmani.com/blog/agent-skills/",
+      "source": "Addy Osmani / TLDR",
+      "date": "2026-05-04",
+      "summary": "AI coding agents skip senior-engineering discipline unless it is encoded as a Skill—a structured capability the agent cannot talk itself out of. Osmani argues that encoding review, testing, and documentation as inescapable agent routines is now the primary job of the senior engineer.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "vibe-coding",
+        "workflow-recipes"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "5bc6920c",
+      "title": "Sometimes Smart Planners Lose to Simple Markets",
+      "url": "https://www.strangeloopcanon.com/p/why-smart-planners-lose-to-simple",
+      "source": "Strange Loop Canon / TLDR",
+      "date": "2026-05-04",
+      "summary": "Multi-agent orchestration is not analogous to human organizations: if any subtask is wrong, individually competent agents still produce wrong answers, while markets succeed by surfacing local information that cannot be centrally shared. The post challenges hub-and-spoke agent architecture and the analogy between AI hubs and human managers.",
+      "industry_nodes": [],
+      "schools": [
+        "manager-of-agents",
+        "autonomous-agent"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "3f70eeb7",
+      "title": "How Might a Browser Be Developed?",
+      "url": "https://aifoc.us/how-might-a-browser-be-developed/",
+      "source": "aifoc.us / TLDR",
+      "date": "2026-05-04",
+      "summary": "Explores how browser architecture and web development conventions will need to change as LLMs become capable agents navigating and interacting with the web. Argues that the browser itself is due for an LLM-native redesign rather than bolted-on AI extensions.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-native-browsing",
+        "ai-browsers"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "237875b7",
+      "title": "Prompt Engineering Is Permanent",
+      "url": "https://yiblet.com/posts/prompt-engineering-is-permanent/",
+      "source": "yiblet.com / TLDR",
+      "date": "2026-05-04",
+      "summary": "Prompt engineering in 2026 is not about clever phrasing but about making AI systems reliable when they have context, tools, memory, permissions, and real consequences—it has become a permanent engineering discipline for production agentic systems. The post rebuts the idea that better models will eliminate the need for careful prompt design.",
+      "industry_nodes": [],
+      "schools": [
+        "prompting-craft",
+        "context-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "6dce6586",
+      "title": "Specsmaxxing",
+      "url": "https://acai.sh/blog/specsmaxxing",
+      "source": "acai.sh / TLDR / Hacker News",
+      "date": "2026-05-04",
+      "summary": "Spec-writing—not code-writing—is argued to be where software engineering actually happens in the AI-assisted era, with detailed YAML-based feature specifications as the primary artifact engineers produce for agents. The post examines the upside of spec-driven development and the psychosis risk of over-speccing.",
+      "industry_nodes": [],
+      "schools": [
+        "spec-driven",
+        "vibe-coding"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "c1eb8450",
+      "title": "Codex Goes to Work",
+      "url": "https://every.to/context-window/codex-goes-to-work",
+      "source": "Every.to",
+      "date": "2026-05-03",
+      "summary": "Every covers how one-person teams are running full product cycles with agents as teammates: compound engineering Skills for strategy and product pulse, AI cost discipline frameworks, and medicine advancing at software speed. Agent-native product management is treated as a present-day practice, not a future aspiration.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "agent-native-growth",
+        "compound-engineering"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "07253ab4",
+      "title": "How Did Large Language Models Get That Way? The Role of Transformers and Pretraining in GPT",
+      "url": "https://www.greaterwrong.com/posts/gcKhnqysxj9bBvbWD/how-did-large-language-models-get-that-way-the-role-of",
+      "source": "GreaterWrong / TLDR AI",
+      "date": "2026-05-04",
+      "summary": "The first in a series on LLM architecture and its implications for reasoning, explaining why the transformer architecture was so impactful and how pretraining shaped the capabilities of modern GPT-style models. Situates LLMs as the largest computing infrastructure project in history.",
+      "industry_nodes": [],
+      "schools": [
+        "how-ai-works",
+        "empiricists"
       ],
       "relevance": 3,
       "status": "pending"
