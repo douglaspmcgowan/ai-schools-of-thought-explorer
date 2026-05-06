@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-05T10:15:11.102Z",
+  "generated": "2026-05-06T10:12:41.702Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -1510,6 +1510,220 @@
       "schools": [
         "how-ai-works",
         "empiricists"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "026e27fc",
+      "title": "How I Run the Tolaria Project",
+      "url": "https://refactoring.fm/p/how-i-run-the-tolaria-project",
+      "source": "Refactoring",
+      "date": "2026-05-06",
+      "summary": "Luca Rossi documents the agentic and human workflows he built to manage 200+ issues, 150 PRs, and 150+ feature requests for the Tolaria open-source project while working only part-time. Demonstrates how compound engineering with AI-assisted triage, backlog management, and release pipelines lets a solo developer sustain a fast-growing project at near-team velocity.",
+      "industry_nodes": [],
+      "schools": [
+        "workflow-recipes",
+        "compound-engineering",
+        "agent-internals"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "b3f891e5",
+      "title": "The Dawn of Codex-native Apps",
+      "url": "https://every.to/context-window/the-dawn-of-codex-native-apps",
+      "source": "Every",
+      "date": "2026-05-05",
+      "summary": "The AI workflow landscape is bifurcating: one track delegates to fully-autonomous agents (Codex-style), the other pairs a human with a collaborative agent sitting beside them during live work. The piece argues Codex-native app development is a distinct programming paradigm with its own design constraints, not just a feature of existing tools.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "agent-internals",
+        "compound-engineering"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "7a705950",
+      "title": "I Let ChatGPT Manage My Workweek",
+      "url": "https://every.to/working-overtime/i-let-chatgpt-manage-my-workweek",
+      "source": "Every",
+      "date": "2026-05-04",
+      "summary": "The author configures ChatGPT as a personal AI project manager with real access to OKRs, calendar, Notion, and Slack, and evaluates whether it can drive week-to-week execution. A practitioner test of the manager-of-agents thesis applied to individual knowledge work, including honest accounting of where AI oversight breaks down.",
+      "industry_nodes": [],
+      "schools": [
+        "manager-of-agents",
+        "workflow-recipes"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "09c40943",
+      "title": "Replit's Amjad Masad on the Cursor Deal, Fighting Apple, and Why He'd Rather Not Sell",
+      "url": "https://techcrunch.com/2026/05/01/replits-amjad-masad-on-the-cursor-deal-fighting-apple-and-why-hed-rather-not-sell/",
+      "source": "TechCrunch",
+      "date": "2026-05-01",
+      "summary": "Replit is nearing a B run rate with 300% net revenue retention and positive gross margins, contrasting with Cursor's negative-margin model; Masad argues Replit's end-to-end agentic platform for non-technical users is the more durable position. A key data point in the vibe-coding and AI rebundling debate: which layer of the stack captures lasting margin.",
+      "industry_nodes": [],
+      "schools": [
+        "vibe-coding",
+        "compound-engineering",
+        "ai-rebundling"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "bd3886cd",
+      "title": "How LLM Inference Works",
+      "url": "https://avkcode.github.io/blog/how-vllm-works.html",
+      "source": "avkcode blog",
+      "date": "2026-05-04",
+      "summary": "A clear walkthrough of the full inference pipeline—tokenization, embeddings, stacked self-attention—splitting generation into compute-bound prefill and memory-bound autoregressive decode on the same GPU. Essential background for engineers designing agent harnesses or optimizing inference cost.",
+      "industry_nodes": [],
+      "schools": [
+        "how-ai-works"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "facc2f76",
+      "title": "Everyone Wants to Be AI-Pilled. Most Companies Are Still Level 1.",
+      "url": "https://www.linkedin.com/pulse/everyone-wants-ai-pilled-most-companies-still-level-1-ann-miura-ko-i8tyc",
+      "source": "LinkedIn / Floodgate",
+      "date": "2026-05-04",
+      "summary": "Ann Miura-Ko adapts the AV autonomy framework to AI adoption, mapping most self-described AI-forward organizations to L1–L2 (personal productivity or functional silos), with L3+ requiring cross-tool agents acting through MCP and non-engineers shipping production internal tools. Sets a concrete benchmark for founders and operators measuring their actual vs. claimed AI maturity.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering-org",
+        "manager-of-agents"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "c9917714",
+      "title": "Anthropic is Working on Orbit, Its Upcoming Proactive Assistant",
+      "url": "https://www.testingcatalog.com/anthropic-is-working-on-orbit-its-upcoming-proactive-assistant/",
+      "source": "Testing Catalog",
+      "date": "2026-05-05",
+      "summary": "Orbit is a briefing-and-insights system inside Claude and Claude Code that surfaces personalized, actionable insights drawn from connected work tools—proactively pushing information rather than waiting for user queries. Signals Anthropic's move toward always-on agentic assistants that monitor context in the background, a meaningful step toward autonomous agent architecture.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "manager-of-agents"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "c38e45e7",
+      "title": "Import AI #455: Automating AI Research",
+      "url": "https://jack-clark.net/2026/05/04/import-ai-455-automating-ai-research/",
+      "source": "Import AI",
+      "date": "2026-05-04",
+      "summary": "Jack Clark surveys the state of end-to-end AI-automated R&D—coding, experiment execution, long-horizon task autonomy—and puts a ~60% probability on self-improving AI systems by 2028, projecting a capital-heavy, human-light machine economy. Makes the case that AI research automation is already practical, compressing timelines for alignment and capability work alike.",
+      "industry_nodes": [],
+      "schools": [
+        "agi-timelines",
+        "extrapolators",
+        "reasoning-rl"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "401587ac",
+      "title": "Model-Harness-Fit",
+      "url": "https://cafeai.home.blog/2026/05/05/model-harness-fit/",
+      "source": "Rick's Cafe AI",
+      "date": "2026-05-05",
+      "summary": "Bustamante uses Terminal-Bench 2.0 data to show that frontier labs post-train models against their own harnesses—baking tool names, memory rituals, and system-prompt structures into the weights—such that a harness mismatch costs measurable reasoning tokens and real benchmark points. The thesis: harness selection is now a first-class engineering decision, not a configuration detail, and model-harness-fit rivals raw capability as a performance driver.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "compound-engineering"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "575711bc",
+      "title": "GPT-5.5 Price Increase: What It Actually Costs",
+      "url": "https://openrouter.ai/announcements/gpt55-cost-analysis",
+      "source": "OpenRouter",
+      "date": "2026-05-05",
+      "summary": "GPT-5.5 launched with a nominal 2x sticker price increase, but after accounting for the model generating fewer completion tokens on longer prompts, the real cost increase is 49–92% depending on workload. Practical benchmark for teams weighing whether to upgrade or route to cheaper frontier alternatives.",
+      "industry_nodes": [],
+      "schools": [
+        "new-models",
+        "services-as-software"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "04f987f0",
+      "title": "White House Considers Vetting AI Models Before They Are Released",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-04/white-house-eyes-vetting-ai-models-before-release-ny-times-says",
+      "source": "Bloomberg",
+      "date": "2026-05-04",
+      "summary": "The Trump administration is discussing an executive order creating an AI working group with NSA and ODNI oversight of model releases, triggered in part by Anthropic's Mythos model disclosures—a reversal from the January 2025 revocation of Biden's safety order. Marks a potential governance inflection point: if enacted, pre-release vetting would directly constrain frontier model deployment timelines.",
+      "industry_nodes": [],
+      "schools": [
+        "alignment-governance",
+        "constitutionalism-critiques"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "2df0f916",
+      "title": "Anthropic and OpenAI Are Both Launching Joint Ventures for Enterprise AI Services",
+      "url": "https://techcrunch.com/2026/05/04/anthropic-and-openai-are-both-launching-joint-ventures-for-enterprise-ai-services/",
+      "source": "TechCrunch",
+      "date": "2026-05-04",
+      "summary": "Anthropic (.5B) and OpenAI (targeting 0B) both announced enterprise AI joint ventures backed by major financial firms, moving from model API providers toward full-stack AI service operators. Emblematic of the services-as-software transition: the most valuable labs are now selling outcomes and operations, not tokens.",
+      "industry_nodes": [],
+      "schools": [
+        "services-as-software",
+        "ai-rebundling"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "094099e8",
+      "title": "Automated Weak-to-Strong Researcher",
+      "url": "https://alignment.anthropic.com/2026/automated-w2s-researcher/",
+      "source": "Anthropic Alignment Science",
+      "date": "2026-05-01",
+      "summary": "Anthropic demonstrates AI agents that autonomously propose ideas, run experiments, and iterate on alignment research problems, with agents outperforming human researchers on key sub-tasks. The first published evidence that AI-accelerated alignment research is already practical, carrying significant implications for recursive self-improvement timelines.",
+      "industry_nodes": [],
+      "schools": [
+        "mechanistic-interpretability",
+        "constitutional",
+        "agi-timelines"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "830aa640",
+      "title": "What's Working Right Now in AI Search",
+      "url": "https://www.growthunhinged.com/p/what-s-working-right-now-in-ai-search",
+      "source": "Growth Unhinged",
+      "date": "2026-05-04",
+      "summary": "Buyers now arrive at product pages with AI-generated vendor comparisons already complete; one company doubled lead quality by editing pages LLMs already cited rather than chasing new citations, while another found AI answers describing their product incorrectly due to content drift. A practitioner guide to the emerging LLM-SEO landscape and its implication that AI systems now shape purchasing decisions before human intent is even expressed.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-as-intensifier",
+        "new-tools"
       ],
       "relevance": 3,
       "status": "pending"
