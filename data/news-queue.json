@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-06T10:12:41.702Z",
+  "generated": "2026-05-07T10:12:27.732Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -1724,6 +1724,276 @@
       "schools": [
         "ai-as-intensifier",
         "new-tools"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "b2e0d657",
+      "title": "Computer Use Is 45x More Expensive Than Structured APIs",
+      "url": "https://reflex.dev/blog/computer-use-is-45x-more-expensive-than-structured-apis/",
+      "source": "Reflex",
+      "date": "2026-05-06",
+      "summary": "Vision agents that screenshot web apps to extract data cost 45x more per task than structured API alternatives, because better models reduce error rates but not the number of screenshots required. This creates a strong economic case for investing in proper API surfaces (MCP, REST) rather than defaulting to LLM-driven computer use.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "agent-native-browsing"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "9f5d00e5",
+      "title": "The Long Becoming: AI-Native vs AI-Enabled Companies",
+      "url": "https://links.tldrnewsletter.com/ikUcgQ",
+      "source": "TLDR Founders",
+      "date": "2026-05-06",
+      "summary": "The gap between AI-enabled and AI-native companies will mirror the cloud-enabled vs cloud-native divergence, where paths look identical initially then separate dramatically as compounding sets in. The sequence of bottlenecks is adoption → engineering velocity → product taste, with one CTO reporting 5x productivity in the top decile and taste emerging as the final rate limiter.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-native-flat",
+        "compound-engineering-org",
+        "taste-is-the-bottleneck"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "8a3407b4",
+      "title": "Services: The New Software",
+      "url": "https://sequoiacap.com/article/services-the-new-software/",
+      "source": "Sequoia Capital",
+      "date": "2026-05-06",
+      "summary": "The next trillion-dollar company will sell the work rather than the tool, attacking the $6-of-services-per-$1-of-software ratio that AI makes newly capturable by startups. The winning playbook: do the work by hand until the work tells you what to automate, building companies that look like services firms but earn like software.",
+      "industry_nodes": [],
+      "schools": [
+        "services-as-software",
+        "ai-rebundling"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "40afdc59",
+      "title": "The Context Window Has Been Shattered: Subquadratic Debuts a 12-Million-Token Window",
+      "url": "https://thenewstack.io/subquadratic-12-million-context-window/",
+      "source": "The New Stack",
+      "date": "2026-05-06",
+      "summary": "Subquadratic launched a model with a 12-million-token context window that outperforms GPT-5.5 on retrieval benchmarks by solving the quadratic attention scaling problem, with a 50-million-token window planned next. If the approach holds, it decouples long-context capability from the compute cost explosion that has made extended-context models prohibitively expensive.",
+      "industry_nodes": [],
+      "schools": [
+        "scaling-laws-revisionism",
+        "world-models"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "bc7941fa",
+      "title": "In Search of Wasted Bits: How Much Information Do LLM Weights Carry?",
+      "url": "https://fergusfinn.com/blog/weight-entropy/",
+      "source": "Fergus Finn",
+      "date": "2026-05-06",
+      "summary": "Analyzes the information-theoretic density of LLM weights to expose the real inference bottleneck: data movement, not computation, with compute units sitting idle while the memory bus can't feed them fast enough. Quantization helps bandwidth but doesn't trade memory for compute—the deeper fix is architectural transformation of memory into compute.",
+      "industry_nodes": [],
+      "schools": [
+        "how-ai-works",
+        "scaling-laws-revisionism"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "72592811",
+      "title": "How to Scale Your Model (JAX ML Scaling Book)",
+      "url": "https://jax-ml.github.io/scaling-book/",
+      "source": "JAX ML / Google",
+      "date": "2026-05-06",
+      "summary": "A comprehensive open book covering the science of scaling language models: how TPUs and GPUs work, how LLMs parallelize across hardware during training and inference, and how to answer questions about training cost and memory requirements at massive scale. Treats scaling as an engineering discipline with verifiable parameters rather than an empirical guessing game.",
+      "industry_nodes": [],
+      "schools": [
+        "scaling-laws-revisionism",
+        "how-ai-works"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "732dd8be",
+      "title": "Google Rethinks Hallucinations Through Uncertainty",
+      "url": "https://arxiv.org/abs/2605.01428",
+      "source": "Google Research / arXiv",
+      "date": "2026-05-06",
+      "summary": "Reframes LLM hallucinations as failures to express uncertainty rather than gaps in knowledge, proposing 'faithful uncertainty' as the alignment mechanism that would make model confidence track actual reliability. This shifts the problem from fact-retrieval engineering to calibration engineering—a meaningful change in how safety and interpretability teams approach hallucination mitigation.",
+      "industry_nodes": [],
+      "schools": [
+        "empiricists",
+        "how-ai-works"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "737d8529",
+      "title": "The Case for Strategic Illegibility",
+      "url": "https://links.tldrnewsletter.com/A9XN56",
+      "source": "TLDR Founders",
+      "date": "2026-05-06",
+      "summary": "Making your company fully legible to AI systems risks commoditizing your own moat—founders should build a human-facing company and a parallel digital twin for AI agents, while deliberately keeping the weird, specific, hard-to-copy elements opaque. The highest-value things to protect from AI legibility are the tacit knowledge and contextual judgment that make a company genuinely differentiated. candidate-school: moat-illegibility — Strategic opacity to AI systems as a competitive defense; treating AI-unreadability of core workflows as an intentional moat.",
+      "industry_nodes": [],
+      "schools": [
+        "candidate-new-school"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "78f4ac20",
+      "title": "The Agent Integration Tax Is Now the Biggest Market in Enterprise AI",
+      "url": "https://brnz.ai/blog/the-agent-integration-tax-just-became-the-biggest-market-in-enterprise-ai.html",
+      "source": "BRNZ.ai",
+      "date": "2026-05-06",
+      "summary": "Coordination across enterprise systems—not model intelligence—is the dominant bottleneck to AI productivity, with Salesforce estimating that copying context across Slack, Salesforce, Workspace, and ServiceNow costs the average employee two hours per day. The emerging opportunity is governed agent registries with audit trails, not smarter models.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering",
+        "agent-internals"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "26614c95",
+      "title": "Don't Become a Wrapper",
+      "url": "https://links.tldrnewsletter.com/Lcxfv7",
+      "source": "TLDR Founders",
+      "date": "2026-05-06",
+      "summary": "Engineers who use agents to generate work without doing any reasoning themselves become as replaceable as the wrappers they ship—the risk is that if anyone with the same agent can produce identical outputs, individual skill becomes invisible and defensibility collapses. The antidote is maintaining genuine decision-making: understanding what to build, not just using tools that build it.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering",
+        "vibe-coding"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "b558ba2c",
+      "title": "OpenAI Flips the Script",
+      "url": "https://every.to/context-window/openai-flips-the-script",
+      "source": "Every",
+      "date": "2026-05-06",
+      "summary": "OpenAI's Codex went from trailing Claude Code to pulling ahead in coding agent functionality within months, with GPT-5.5 paired with a faster desktop app enabling full migration of complex projects; explores what it means when tool leadership flips this quickly. The piece also frames 'permission to skip model-migration anxiety'—a practitioner response to the exhausting pace of new releases.",
+      "industry_nodes": [],
+      "schools": [
+        "new-tools",
+        "coding-paradigms"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "c75bbebd",
+      "title": "Silicon Valley Gets Serious About Services",
+      "url": "https://www.latent.space/p/ainews-silicon-valley-gets-serious",
+      "source": "Latent Space",
+      "date": "2026-05-05",
+      "summary": "AI news digest documenting the accelerating shift of Silicon Valley toward services-as-software, with labs and AI-native startups pivoting to sell outcomes rather than tools and the first wave of AI-native service businesses showing SaaS-like margins. Covers the Agent Labs thesis and evidence that enterprise AI value is concentrating in outcome-delivery rather than model access.",
+      "industry_nodes": [],
+      "schools": [
+        "services-as-software",
+        "ai-rebundling"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "47c5f723",
+      "title": "The Impact of AI on Software Engineers in 2026: Key Trends",
+      "url": "https://newsletter.pragmaticengineer.com/p/the-impact-of-ai-on-software-engineers-2026",
+      "source": "The Pragmatic Engineer",
+      "date": "2026-04-14",
+      "summary": "Survey of 900+ software engineers finds that AI amplifies pre-existing patterns—strong engineers become dramatically more productive while weaker ones are exposed, and costs are rising faster than budgets with 30% already hitting token limits. The engineer and manager roles are converging as engineers orchestrate more and managers become more hands-on with code.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering",
+        "ai-as-intensifier",
+        "manager-of-agents"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "fa99471a",
+      "title": "GPT-5.5 Instant: Smarter, Clearer, and More Personalized",
+      "url": "https://openai.com/index/gpt-5-5-instant/",
+      "source": "OpenAI",
+      "date": "2026-05-05",
+      "summary": "OpenAI updated ChatGPT's default model with 52.5% fewer hallucinated claims on high-stakes prompts, 30% more concise responses, and enhanced personalization from past chats, files, and connected Gmail for Plus and Pro users. The update positions GPT-5.5 Instant as a direct capability response to competition from Claude and Gemini in the default-model market.",
+      "industry_nodes": [],
+      "schools": [
+        "new-models"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "d9d36c1e",
+      "title": "Apple Plans Multi-Model AI in iOS 27",
+      "url": "https://techcrunch.com/2026/05/05/apple-plans-to-make-ios-27-a-choose-your-own-adventure-of-ai-models/",
+      "source": "TechCrunch",
+      "date": "2026-05-05",
+      "summary": "Apple is making iOS 27 model-agnostic, allowing users to select from multiple third-party AI providers to power Siri and writing features rather than being locked to OpenAI. This represents a strategic pivot from exclusive partnership to AI marketplace, with major implications for how frontier models reach mainstream users.",
+      "industry_nodes": [],
+      "schools": [
+        "gatekeeping-vs-open",
+        "new-tools"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "0f7ab688",
+      "title": "Meta Plans Advanced Agentic AI Assistant Powered by Muse Spark",
+      "url": "https://links.tldrnewsletter.com/Yby3pL",
+      "source": "TLDR AI",
+      "date": "2026-05-06",
+      "summary": "Meta is building a highly personalized agentic AI assistant powered by the Muse Spark model that connects hardware and software tools and learns from data with less human intervention than a chatbot, targeting a launch before Q4 2026. Positions Meta as a serious competitor in the personal-agent market alongside Apple Intelligence and Google Gemini.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "new-models"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "f83b762c",
+      "title": "AI2 Released MolmoAct 2: Action Reasoning for Real-World Robots",
+      "url": "https://allenai.org/blog/molmoact2",
+      "source": "Allen Institute for AI",
+      "date": "2026-05-06",
+      "summary": "MolmoAct 2 is an upgraded open action-reasoning model that improves real-world robot task performance and is paired with a large open bimanual manipulation dataset, advancing physical AI toward general-purpose robotic agents. The open release strategy challenges proprietary physical AI labs by making state-of-the-art robot reasoning freely available.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "world-models"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "8c94bd56",
+      "title": "Agents for Financial Services: Anthropic's 10 Ready-to-Run Templates",
+      "url": "https://www.anthropic.com/news/finance-agents",
+      "source": "Anthropic",
+      "date": "2026-05-06",
+      "summary": "Anthropic released 10 production-ready agent templates for the most time-consuming financial services work—pitchbooks, KYC screening, month-end close—as a direct play to convert services budgets into software spending. Signals Anthropic's move from model provider to services-as-software enabler in regulated industries.",
+      "industry_nodes": [],
+      "schools": [
+        "services-as-software",
+        "new-applications"
       ],
       "relevance": 3,
       "status": "pending"
