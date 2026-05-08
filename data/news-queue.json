@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-07T10:12:27.732Z",
+  "generated": "2026-05-08T10:12:48.323Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -1994,6 +1994,324 @@
       "schools": [
         "services-as-software",
         "new-applications"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "966e7823",
+      "title": "New in Claude Managed Agents: Dreaming, Outcomes, and Multiagent Orchestration",
+      "url": "https://claude.com/blog/new-in-claude-managed-agents",
+      "source": "Anthropic",
+      "date": "2026-05-07",
+      "summary": "Anthropic's Managed Agents platform adds three self-improvement features: \"dreaming\" (reviewing past sessions to extract patterns), \"outcomes\" (agents self-correct toward a success rubric), and multiagent orchestration (lead agents delegate to specialized sub-agents). Completion rates rose sixfold in Harvey testing — these features push agents toward continuous self-improvement loops without human re-prompting.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "agent-internals",
+        "manager-of-agents"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "c284ac5a",
+      "title": "Anthropic Partners with Blackstone, Hellman & Friedman, and Goldman Sachs to Launch Enterprise AI Services Firm",
+      "url": "https://www.blackstone.com/news/press/anthropic-partners-with-blackstone-hellman-friedman-and-goldman-sachs-to-launch-enterprise-ai-services-firm/",
+      "source": "Blackstone",
+      "date": "2026-05-07",
+      "summary": "Anthropic has joined Blackstone, Hellman & Friedman, and Goldman Sachs to create a new AI-native services firm that deploys Claude across enterprise operations — directly embodying the services-as-software thesis. This move blurs the line between model API provider and consulting firm, positioning Anthropic as a direct participant in the $6T global services market.",
+      "industry_nodes": [],
+      "schools": [
+        "services-as-software",
+        "ai-rebundling"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "de708d5e",
+      "title": "How AI Agent Memory Works",
+      "url": "https://memory.cobanov.dev/",
+      "source": "cobanov.dev",
+      "date": "2026-05-07",
+      "summary": "A 28-minute deep dive into how memory systems in AI agents function, covering different architectures for carrying information forward across loops and why memory design is the key determinant of agent coherence across sessions. Foundational reading for anyone building or evaluating production agents.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "context-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "568ae343",
+      "title": "World Models Can Change Everything",
+      "url": "https://weightythoughts.com/p/world-models-can-change-everything",
+      "source": "Weighty Thoughts",
+      "date": "2026-05-07",
+      "summary": "The piece argues world models could advance AI from pattern recognition to genuine physical-world understanding, but the hard problem is obtaining diverse, high-quality real-world data at scale. Billions from LeCun and others are positioning world models as the next capability frontier beyond LLM-scale text training.",
+      "industry_nodes": [],
+      "schools": [
+        "world-models"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "43c8c14f",
+      "title": "Open Weights Are Quietly Closing Up — And That's a Problem",
+      "url": "https://martinalderson.com/posts/open-weights-are-quietly-closing-up/",
+      "source": "Martin Alderson",
+      "date": "2026-05-07",
+      "summary": "Escalating frontier training costs are driving model labs to release open-weight models under increasingly restrictive license conditions, threatening the competitive open-weights ecosystem that enabled privacy, flexibility, and cost efficiency. The author argues this has enormous economic implications as the gap between frontier proprietary and open models widens under tighter access terms.",
+      "industry_nodes": [],
+      "schools": [
+        "gatekeeping-vs-open"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "50cedc85",
+      "title": "Introducing Harvey's Legal Agent Benchmark (LAB)",
+      "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
+      "source": "Harvey",
+      "date": "2026-05-07",
+      "summary": "Harvey released an open-source benchmark for evaluating AI agent performance specifically on legal tasks, enabling systematic, reproducible measurement of agent reliability in high-stakes professional workflows. Represents the vertical-specific benchmarking trend that will shape how AI agents earn trust in regulated domains.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "autonomous-agent"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "46845f51",
+      "title": "Google Is Not Building a Consultancy. It Is Writing a Licensing Agreement.",
+      "url": "https://thenextweb.com/news/google-blackstone-kkr-omnibus-ai-licensing-private-equity",
+      "source": "The Next Web",
+      "date": "2026-05-07",
+      "summary": "Google is negotiating omnibus Gemini licensing deals with Blackstone, KKR, and EQT to give their entire PE portfolios AI access, betting that enterprise AI is a platform problem rather than a services delivery problem. The strategy trades consulting revenue for distribution speed — a contrast to Anthropic's simultaneous move to create a services firm.",
+      "industry_nodes": [],
+      "schools": [
+        "saas-survives",
+        "ai-rebundling"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "eb6d891d",
+      "title": "All the Demons Hiding in Your AIs… Ranked",
+      "url": "https://drtompollak.substack.com/p/all-the-demons-hiding-in-your-ais",
+      "source": "Dr Tom Pollak",
+      "date": "2026-05-07",
+      "summary": "A 40-minute taxonomy of LLM behavioral failure modes, including self-reinforcing stable states that resist suppression and spread into unrelated contexts — what the author calls demons. Essential alignment-adjacent reading for anyone deploying models in production where behavioral drift is a safety or reliability risk.",
+      "industry_nodes": [],
+      "schools": [
+        "alignment-governance",
+        "mechanistic-interpretability"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "67b5f430",
+      "title": "Everything We Announced at Stripe Sessions 2026",
+      "url": "https://stripe.com/blog/everything-we-announced-at-sessions-2026",
+      "source": "Stripe",
+      "date": "2026-05-07",
+      "summary": "Stripe announced 280+ new features at Sessions 2026 centered on agentic commerce: agent wallets, real-time billing infrastructure, and AI-powered checkout optimization that let AI agents transact and manage funds autonomously across fiat and stablecoin rails. Positions Stripe as financial infrastructure for the services-as-software economy where AI agents, not humans, initiate and settle financial flows.",
+      "industry_nodes": [],
+      "schools": [
+        "services-as-software",
+        "living-software"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "3cfb96bc",
+      "title": "Big Tech's Personal AI Agents Are Coming for the To-Do List",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/big-tech-personal-ai-agents-are-coming-to-do-list/",
+      "source": "PYMNTS",
+      "date": "2026-05-07",
+      "summary": "Google's \"Remy\" inside Gemini and Meta's \"Hatch\" for Instagram are racing to build always-on AI assistants that anticipate needs and operate in the background — a platform-level shift from chatbots to deeply integrated personal agents. The push follows OpenClaw's viral rise exposing massive consumer demand for agentic AI while also revealing the limitations of standalone tools.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "agent-native-browsing"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "7b583026",
+      "title": "OpenAI Launches GPT-5.5 Instant as New ChatGPT Default",
+      "url": "https://www.testingcatalog.com/openai-launches-gpt-5-5-instant-as-new-chatgpt-default/",
+      "source": "Testing Catalog",
+      "date": "2026-05-06",
+      "summary": "OpenAI released GPT-5.5 Instant as the default ChatGPT model, with improved factual accuracy, reduced hallucinations, stronger personalization based on user context, and the ability to use saved memories and connected Gmail in responses. Updates the model serving the largest consumer AI audience, making reliability and personalization the competitive differentiators at the frontier.",
+      "industry_nodes": [],
+      "schools": [
+        "new-models",
+        "empiricists"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "8280fa42",
+      "title": "Claude Code Is Not Making Your Product Better",
+      "url": "https://ethanding.substack.com/p/claude-code-is-not-making-your-product",
+      "source": "Ethan Ding",
+      "date": "2026-05-06",
+      "summary": "At the frontier, AI token spend doesn't reliably produce economic value — the bottleneck is tastemakers who know what to delete, compress, and refuse. The essay argues AI lowers the floor on generic product creation but doesn't help the highest-level artisans create better products, making taste and judgment more valuable, not less.",
+      "industry_nodes": [],
+      "schools": [
+        "taste-is-the-bottleneck",
+        "productive-friction"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "e96d3a6c",
+      "title": "How to Work and Compound with AI",
+      "url": "https://eugeneyan.com/writing/working-with-ai/",
+      "source": "Eugene Yan",
+      "date": "2026-05-06",
+      "summary": "Practical principles for compounding gains with AI as a collaborator: provide rich context, encode taste as reusable config, delegate bigger tasks end-to-end, and close the loop so every artifact becomes context for the next session. Each correction reduces future errors — treating AI workflow as a compounding system rather than a one-shot tool.",
+      "industry_nodes": [],
+      "schools": [
+        "workflow-recipes",
+        "compound-engineering",
+        "prompting-craft"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "5f529120",
+      "title": "Cognitive Surrender",
+      "url": "https://addyosmani.com/blog/cognitive-surrender/",
+      "source": "Addy Osmani",
+      "date": "2026-05-06",
+      "summary": "Addy Osmani distinguishes \"cognitive offloading\" (delegating to AI while owning the answer) from \"cognitive surrender\" (borrowing AI confidence as your own without checking). Engineers drift between the two without noticing — this is the central capability-atrophy risk of heavy AI tool use in production.",
+      "industry_nodes": [],
+      "schools": [
+        "productive-friction",
+        "prompting-craft"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "d0a7d8e5",
+      "title": "Designing the AI-Native Engineering Organization",
+      "url": "https://newsletter.getdx.com/p/designing-the-ai-native-engineering",
+      "source": "DX Newsletter",
+      "date": "2026-05-06",
+      "summary": "A panel from Microsoft, 1Password, and Atlassian on how engineering organizations are restructuring for AI — covering how team size, review processes, and manager roles change when AI handles execution. Addresses whether the right response to AI productivity gains is fewer engineers, different engineers, or a fundamentally different org topology.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-native-flat",
+        "compound-engineering-org",
+        "manager-of-agents"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "d3df9cec",
+      "title": "Programming in 2026: Excitement, Dread, and the Coming Wave",
+      "url": "https://amontalenti.com/2026/04/23/excitement-and-dread",
+      "source": "amontalenti.com",
+      "date": "2026-04-23",
+      "summary": "A long practitioner essay about what it feels like to be a software engineer in 2026, when a major part of the job is \"communicating with an alien technology we don't and can't fully understand.\" Captures the emotional and epistemological shift in programming as AI moves from tool to primary actor.",
+      "industry_nodes": [],
+      "schools": [
+        "vibe-coding",
+        "coding-paradigms",
+        "productive-friction"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "590ef2d9",
+      "title": "Vibe Coding and Agentic Engineering Are Getting Closer Than I'd Like",
+      "url": "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/",
+      "source": "Simon Willison",
+      "date": "2026-05-06",
+      "summary": "Simon Willison reflects on realizing he can no longer clearly distinguish between vibe coding and agentic engineering in his own daily work — the two modes have converged. A practitioner observation from a key voice that the distinction between intentional and exploratory AI-assisted coding has collapsed in practice.",
+      "industry_nodes": [],
+      "schools": [
+        "vibe-coding",
+        "coding-paradigms",
+        "productive-friction"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "78104d23",
+      "title": "Live Blog: Code w/ Claude 2026",
+      "url": "https://simonwillison.net/2026/May/6/code-w-claude-2026/",
+      "source": "Simon Willison",
+      "date": "2026-05-06",
+      "summary": "Simon Willison's live blog of Anthropic's Code w/ Claude 2026 developer conference, covering keynote sessions, the Managed Agents announcements, and practitioner reactions in real time. Primary source coverage of the most significant developer AI event of May 2026.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "agent-internals"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "9e86eda7",
+      "title": "ProgramBench",
+      "url": "https://programbench.com/",
+      "source": "ProgramBench",
+      "date": "2026-05-07",
+      "summary": "ProgramBench challenges agents to recreate software executables from scratch using only documentation and experimentation — no source code, no decompilation — with 248,000 behavioral tests across 200 tasks ranging from terminal utilities to compilers. Sets a new bar for evaluating genuine software architecture capability in autonomous coding agents.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "autonomous-agent"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "11e756df",
+      "title": "vLLM V0 to V1: Correctness Before Corrections in RL",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
+      "source": "HuggingFace / ServiceNow AI",
+      "date": "2026-05-07",
+      "summary": "The vLLM V1 migration revealed subtle inference discrepancies — in logprob computation, prefix caching defaults, and fp32 precision — that were silently corrupting RL training signals and creating false objective improvements. Demonstrates that getting RL training right requires engineering correctness at the inference layer, not just the model or reward objective.",
+      "industry_nodes": [],
+      "schools": [
+        "reasoning-rl"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "1feb5ee8",
+      "title": "The Wrapper and the Code",
+      "url": "https://adaptivesoftware.substack.com/p/the-wrapper-and-the-code",
+      "source": "Adaptive Software",
+      "date": "2026-05-07",
+      "summary": "Apple rejected Replit's iOS app updates because its client previewed AI-generated apps inline — making the reviewed binary a container for unlimited unreviewed apps, an App Store policy violation. Highlights how platform gatekeeping creates structural friction for AI-native coding tools that generate runnable code as their core output.",
+      "industry_nodes": [],
+      "schools": [
+        "vibe-coding",
+        "agent-native-browsing",
+        "gatekeeping-vs-open"
       ],
       "relevance": 3,
       "status": "pending"
