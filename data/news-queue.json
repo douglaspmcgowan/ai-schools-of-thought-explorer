@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-08T10:12:48.323Z",
+  "generated": "2026-05-09T10:17:01.037Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -2314,6 +2314,372 @@
         "gatekeeping-vs-open"
       ],
       "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "bc697f83",
+      "title": "The Culture of AI Engineering",
+      "url": "https://every.to/context-window/the-culture-of-ai-engineering",
+      "source": "Every",
+      "date": "2026-05-08",
+      "summary": "A framework for aligning humans, AI agents, and hybrid teams around a shared engineering vision, arguing that culture — not tooling — is the bottleneck for AI-native orgs. Essential read on what it means to manage engineering when agents do the implementation.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering-org",
+        "manager-of-agents",
+        "ai-native-flat"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "6a74233f",
+      "title": "Inside Anthropic's 2026 Developer Conference",
+      "url": "https://every.to/context-window/inside-anthropics-2026-developer-conference",
+      "source": "Every",
+      "date": "2026-05-07",
+      "summary": "First-hand account from Anthropic's developer conference covering what the new Managed Agents features (dreaming, outcomes, multiagent orchestration) look like in production. Documents Claude's shift toward genuinely self-improving agentic systems.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "manager-of-agents",
+        "agent-internals"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "e670197a",
+      "title": "Codex Now Works Directly in Chrome on macOS and Windows",
+      "url": "https://developers.openai.com/codex/app/chrome-extension",
+      "source": "OpenAI",
+      "date": "2026-05-07",
+      "summary": "OpenAI's Codex can now work in parallel across Chrome tabs in the background, handling structured browser workflows like data entry, Salesforce, and internal tools without taking over the session. A key step toward ambient agentic browsing where coding agents operate inside the browser itself.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-native-browsing",
+        "autonomous-agent"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "1d6ce7f7",
+      "title": "OpenAI Releases Three Realtime Audio Models: GPT-Realtime-2, -Translate, -Whisper",
+      "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/",
+      "source": "OpenAI",
+      "date": "2026-05-07",
+      "summary": "OpenAI releases GPT-Realtime-2 (GPT-5-class voice reasoning with 128K context), GPT-Realtime-Translate (70+ input languages, 13 output), and GPT-Realtime-Whisper (streaming transcription) as the Realtime API exits beta. Marks voice as a first-class modality for agentic applications.",
+      "industry_nodes": [],
+      "schools": [
+        "new-models",
+        "agent-internals"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "95cf84b0",
+      "title": "Improving Token Efficiency in GitHub Agentic Workflows",
+      "url": "https://github.blog/ai-and-ml/github-copilot/improving-token-efficiency-in-github-agentic-workflows/",
+      "source": "GitHub Blog",
+      "date": "2026-05-08",
+      "summary": "GitHub details how costs accumulate invisibly in automated agentic jobs and shares the instrumentation and optimizations its team applied to systematically reduce token usage. A practical engineering guide on the hidden economics of running agents at scale.",
+      "industry_nodes": [],
+      "schools": [
+        "context-engineering",
+        "agent-internals",
+        "compound-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "d8cd8e04",
+      "title": "The Six-Hour Codex Run That Survived a Five-Hour Pause",
+      "url": "https://tectontide.com/en/blog/codex-goal-six-hour-run/",
+      "source": "TectonTide",
+      "date": "2026-05-08",
+      "summary": "Deep dive into Codex's /goal feature — persistent goal states that survive terminal restarts, sleeps, and multi-hour interruptions by injecting a developer message on resume. Shows how long-horizon autonomous coding sessions are becoming a practical reality.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "context-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "8494b78e",
+      "title": "Good QC for RL Data",
+      "url": "https://www.seancai.com/philosophy/good_qc_rl_data",
+      "source": "Sean Cai",
+      "date": "2026-05-08",
+      "summary": "Argues that RL data quality control needs a much higher bar, with most vendors failing multiple QC gates simultaneously against the performance-cost-latency Pareto curve. A practitioner view on why bad RL data quality will create serious problems for labs this year.",
+      "industry_nodes": [],
+      "schools": [
+        "reasoning-rl"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "c122dcde",
+      "title": "AlphaEvolve: How Our Gemini-Powered Coding Agent Is Scaling Impact Across Fields",
+      "url": "https://deepmind.google/blog/alphaevolve-impact/",
+      "source": "Google DeepMind",
+      "date": "2026-05-08",
+      "summary": "Google DeepMind shares how AlphaEvolve has been extended from mathematics and CS to explaining physics and accelerating scientific discovery across fields. Demonstrates the expanding scope of autonomous research agents from competitive benchmarks to real-world science.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "reasoning-rl"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "722f2940",
+      "title": "Natural Language Autoencoders",
+      "url": "https://www.anthropic.com/research/natural-language-autoencoders",
+      "source": "Anthropic",
+      "date": "2026-05-08",
+      "summary": "Anthropic introduces Natural Language Autoencoders to translate model activations into human-readable text for alignment auditing, including detecting hidden motivations and safety concerns in AI behavior. Despite hallucination and cost limitations, NLAs advance mechanistic interpretability toward production-ready auditing tools.",
+      "industry_nodes": [],
+      "schools": [
+        "mechanistic-interpretability",
+        "constitutional"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "1676b241",
+      "title": "Notes from Inside China's AI Labs",
+      "url": "https://www.interconnects.ai/p/notes-from-inside-chinas-ai-labs",
+      "source": "Interconnects.ai",
+      "date": "2026-05-08",
+      "summary": "Dispatch from inside Chinese AI research culture: scientists do non-glamorous improvement work willingly, the ecosystem feels collaborative rather than tribal, and labs are less distracted by the business side. A substantive challenge to US assumptions about the China-US AI race.",
+      "industry_nodes": [],
+      "schools": [
+        "scaling-laws-revisionism",
+        "extrapolators",
+        "where-ai-is-heading"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "a1b15ffa",
+      "title": "Long AI Short AGI",
+      "url": "https://1984.substack.com/p/long-ai-short-agi",
+      "source": "1984",
+      "date": "2026-05-08",
+      "summary": "Silicon Valley's AGI-as-scarce-resource narrative is undermined by rapid model commoditization: intelligence is following the same curve as compute, bandwidth, and storage. The real winners won't own the best models but will own customer relationships and proprietary data — much like past tech giants.",
+      "industry_nodes": [],
+      "schools": [
+        "bubble-skeptics",
+        "post-agi-skeptics",
+        "not-a-bubble"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "c158587d",
+      "title": "Perplexity's Personal Computer Is Now Available to All Mac Users",
+      "url": "https://techcrunch.com/2026/05/07/perplexitys-personal-computer-is-now-available-everyone-on-mac/",
+      "source": "TechCrunch",
+      "date": "2026-05-07",
+      "summary": "Perplexity opens its on-device AI agent to all Mac Pro and Enterprise users, giving AI access to local files, native apps, 400+ connectors, and the web through a persistent always-on process. Signals the shift from AI as chat interface to AI as operating-system layer.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-native-browsing",
+        "autonomous-agent"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "a7c0d5b6",
+      "title": "Is My Company AI Pilled?",
+      "url": "https://www.onlycfo.io/p/is-my-team-ai-pilled",
+      "source": "OnlyCFO",
+      "date": "2026-05-08",
+      "summary": "OnlyCFO maps organizational AI maturity from basic prompt usage to full process automation, arguing that AI adoption success hinges on culture, hackathons, and sustained tooling investment rather than individual usage. A practitioner framework for AI-native org design.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-as-intensifier",
+        "compound-engineering-org"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "05685a93",
+      "title": "The AI Job Apocalypse Is a Complete Fantasy",
+      "url": "https://www.a16z.news/p/the-ai-job-apocalypse-is-a-complete",
+      "source": "a16z",
+      "date": "2026-05-08",
+      "summary": "Draws on Excel-era data (1M bookkeeping jobs lost, 1.5M analysts created), Atlanta Fed surveys (90%+ of firms saw zero AI headcount impact over three years), and earnings call analysis (8:1 augmentation over substitution) to dismantle the AI-kills-jobs narrative. Essential empirical counter-evidence.",
+      "industry_nodes": [],
+      "schools": [
+        "bubble-skeptics",
+        "not-a-bubble"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "776aea7f",
+      "title": "AI Applications Have Two Growth Curves",
+      "url": "https://frontierai.substack.com/p/ai-applications-have-two-growth-curves",
+      "source": "Frontier AI",
+      "date": "2026-05-08",
+      "summary": "The fast-growth trajectory of companies like Cursor is not the only or most valuable curve for AI applications — the most durable businesses will grow slowly by solving problems competitors cannot copy in a quarter. Challenges treating Cursor-style growth as the universal template for AI investment.",
+      "industry_nodes": [],
+      "schools": [
+        "not-a-bubble",
+        "ai-economy"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "26208da8",
+      "title": "The Best AI-Native GTM Plays You're Not Running",
+      "url": "https://www.growthunhinged.com/p/the-best-ai-native-gtm-plays-you-re-not-running",
+      "source": "Growth Unhinged",
+      "date": "2026-05-08",
+      "summary": "Maps the evolution of AI-native go-to-market strategies toward continuous monitoring and dynamic responses, with AI agents autonomously managing multi-step sales workflows and signal-based engagement replacing calendar-based outreach. A practical guide to AI-agent-driven growth.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-native-growth",
+        "new-applications"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "8c08977b",
+      "title": "Behind the Scenes: Hardening Firefox with Claude Mythos Preview",
+      "url": "https://hacks.mozilla.org/2026/05/behind-the-scenes-hardening-firefox/",
+      "source": "Mozilla Hacks",
+      "date": "2026-05-08",
+      "summary": "Mozilla used Claude Mythos Preview to identify and fix an unprecedented number of latent security bugs in Firefox, documenting the approach and advice for other projects. A detailed practitioner account of using AI agents for large-scale security hardening of a major open-source codebase.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "new-applications"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "a0ebd83c",
+      "title": "Cloudflare Says AI Made 1,100 Jobs Obsolete, Even as Revenue Hit a Record High",
+      "url": "https://techcrunch.com/2026/05/08/cloudflare-says-ai-made-1100-jobs-obsolete-even-as-revenue-hit-a-record-high/",
+      "source": "TechCrunch",
+      "date": "2026-05-08",
+      "summary": "Cloudflare cut 20% of its workforce (1,100 people) amid record revenue and a 600% increase in AI agent usage in three months, explicitly restructuring around an agentic-AI-first operating model. The most prominent example to date of a tech company reorganizing headcount explicitly because agents replaced functions.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering-org",
+        "ai-native-flat",
+        "services-as-software"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "f1040457",
+      "title": "The Agent Principal-Agent Problem",
+      "url": "https://crawshaw.io/blog/agent-principal-agent",
+      "source": "crawshaw.io",
+      "date": "2026-05-08",
+      "summary": "Contributors submitting agent-generated slop PRs create an unmanageable reviewing burden — reviewers would be more productive prompting agents themselves rather than reviewing agent-authored submissions. A sharp thesis on the economic misalignment when agents work for contributors rather than for reviewers.",
+      "industry_nodes": [],
+      "schools": [
+        "manager-of-agents",
+        "compound-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "5c5b82a0",
+      "title": "The Problem with Mathematically Proven Claims About LLMs",
+      "url": "https://webdirections.org/blog/the-problem-with-mathematically-proven-claims-about-llms/",
+      "source": "Web Directions",
+      "date": "2026-05-07",
+      "summary": "Systems keep improving while theorems keep arriving to explain why they cannot, because proofs and benchmarks are typically about different things. A useful corrective on the misuse of mathematical formalism to make confident claims about the limits of LLMs.",
+      "industry_nodes": [],
+      "schools": [
+        "llm-doubters",
+        "scaling-laws-revisionism"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "088436ee",
+      "title": "The April Every AI Plan Broke",
+      "url": "https://thefinancialengineer.substack.com/p/the-april-every-ai-plan-broke",
+      "source": "The Financial Engineer",
+      "date": "2026-05-07",
+      "summary": "Documents how flat-rate AI subscription pricing breaks down when product capabilities and usage patterns evolve faster than pricing structures can adapt. Shows the SaaS model fracturing under variable compute costs per AI session.",
+      "industry_nodes": [],
+      "schools": [
+        "saas-survives",
+        "ai-rebundling"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "315a3e29",
+      "title": "Anthropic Releases Agents for Financial Services",
+      "url": "https://www.anthropic.com/news/agents-for-financial-services",
+      "source": "Anthropic",
+      "date": "2026-05-07",
+      "summary": "Anthropic launched ten finance-focused AI agent templates for pitchbook generation, KYC review, month-end close, valuation review, and financial modeling — plus Microsoft 365 add-ins and MCP integrations. Marks Claude's serious push into institutional finance workflows as services-as-software.",
+      "industry_nodes": [],
+      "schools": [
+        "services-as-software",
+        "autonomous-agent"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "1b2adca0",
+      "title": "Anthropic Hit a $30 Billion Revenue Run Rate After an 80x Growth Quarter",
+      "url": "https://fortune.com/2026/05/08/anthropic-80fold-growth-quarter-renting-elon-musk-data-center/",
+      "source": "Fortune",
+      "date": "2026-05-08",
+      "summary": "Anthropic's revenue grew 80-fold in Q1 on an annualized basis — far exceeding its own 10x plan — pushing it to a $30 billion run rate and requiring a deal to rent SpaceX's Colossus 1 data center. The growth rate suggests AI adoption is moving faster than any prior technology S-curve.",
+      "industry_nodes": [],
+      "schools": [
+        "not-a-bubble",
+        "where-ai-is-heading"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "f90c83b6",
+      "title": "DeepSeek Eyes $50 Billion Valuation as China's AI Race Intensifies",
+      "url": "https://www.scmp.com/tech/tech-trends/article/3352945/deepseek-soon-close-first-external-fundraising-us50b-valuation-sources",
+      "source": "South China Morning Post",
+      "date": "2026-05-07",
+      "summary": "DeepSeek is in talks to close its first external fundraising at a $50 billion valuation, backed by China's National AI Industry Investment Fund — the strongest state signal yet of DeepSeek's role in China's AI strategy as a hedge against US export controls.",
+      "industry_nodes": [],
+      "schools": [
+        "extrapolators",
+        "scaling-laws-revisionism",
+        "where-ai-is-heading"
+      ],
+      "relevance": 4,
       "status": "pending"
     }
   ]
