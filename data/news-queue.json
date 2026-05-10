@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-09T10:17:01.037Z",
+  "generated": "2026-05-10T10:15:24.203Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -2680,6 +2680,52 @@
         "where-ai-is-heading"
       ],
       "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "d72f0988",
+      "title": "The Culture of AI Engineering",
+      "url": "https://every.to/thesis/the-culture-of-ai-engineering",
+      "source": "Every",
+      "date": "2026-05-08",
+      "summary": "Noah Brier presents a framework using Stewart Brand's pace layers for coordinating humans and AI agents to build the same shared vision, pushing back on the software factory metaphor. It matters because it is the first rigorous cultural framework for managing the coordination problems created by mixed human-agent teams.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering-org",
+        "manager-of-agents",
+        "ai-native-flat"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "74911698",
+      "title": "Notes on the xAI/Anthropic Data Center Deal",
+      "url": "https://simonwillison.net/2026/May/7/xai-anthropic/",
+      "source": "Simon Willison",
+      "date": "2026-05-07",
+      "summary": "Simon Willison analyzes the unusual arrangement of Anthropic using SpaceX/xAI's Colossus data center at full capacity, despite xAI/Grok being a direct competitor. It signals how compute access has become so critical that even competing labs may share infrastructure, with implications for how AI capability scales.",
+      "industry_nodes": [],
+      "schools": [
+        "where-ai-is-heading",
+        "scaling-laws-revisionism"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "3c3cf678",
+      "title": "Sticks, Stones, and Light Speed",
+      "url": "https://alexoppenheimer.substack.com/p/sticks-stones-and-light-speed",
+      "source": "Alex Oppenheimer",
+      "date": "2026-05-08",
+      "summary": "AI is reshaping the workforce by eliminating middle-layer coordination roles and elevating the importance of judgment and human connection at the edges. Argues that the durable human roles in an AI-transformed economy are those requiring genuine taste, accountability, and relational trust.",
+      "industry_nodes": [],
+      "schools": [
+        "services-as-software",
+        "ai-as-intensifier"
+      ],
+      "relevance": 3,
       "status": "pending"
     }
   ]
