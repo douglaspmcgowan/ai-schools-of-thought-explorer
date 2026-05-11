@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-10T10:15:24.203Z",
+  "generated": "2026-05-11T10:14:44.965Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -2726,6 +2726,84 @@
         "ai-as-intensifier"
       ],
       "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "f2d238bd",
+      "title": "AI Work Is Splitting in Two",
+      "url": "https://every.to/context-window/ai-work-is-splitting-in-two",
+      "source": "Every",
+      "date": "2026-05-10",
+      "summary": "AI work is bifurcating into two modes — real-time desktop collaboration and long-running delegated agents — and the emerging meta-skill is correctly routing tasks between them. Covers Anthropic Managed Agents, ChatGPT as project manager, and argues the allocation economy thesis only captured half the picture.",
+      "industry_nodes": [],
+      "schools": [
+        "manager-of-agents",
+        "autonomous-agent",
+        "services-as-software"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "31cf86d8",
+      "title": "Contributor Poker and AI",
+      "url": "https://kristoff.it/blog/contributor-poker-and-ai/",
+      "source": "Loris Cro (kristoff.it)",
+      "date": "2026-04-29",
+      "summary": "Open-source maintainers bet on contributors, not individual PRs — a trust model LLM-generated code breaks because it consumes code-review budget without building trusted human contributors. Articulates the clearest principled case for AI contribution bans, using Zig and Bun as live examples.",
+      "industry_nodes": [],
+      "schools": [
+        "gatekeeping-vs-open",
+        "productive-friction"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "b29695cb",
+      "title": "Anthropic-SpaceX compute deal shows how tokens are taking over the economy",
+      "url": "https://www.semafor.com/article/05/08/2026/anthropic-spacex-compute-deal-shows-how-tokens-are-taking-over-the-economy",
+      "source": "Semafor",
+      "date": "2026-05-08",
+      "summary": "Argues that the Anthropic/SpaceX Colossus deal reveals how token consumption has become the new economic unit: harness engineering triggered an agentic explosion that outpaced Anthropic's compute supply, forcing a deal with Musk. Goldman Sachs estimates .6T in compute/data center/power infrastructure deployment through 2031.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-economy",
+        "not-a-bubble",
+        "services-as-software"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "682e3fba",
+      "title": "Aaron Levie on X: unsentimental agent architecture",
+      "url": "https://x.com/levie/status/2039931799414194621",
+      "source": "X / Aaron Levie",
+      "date": "2026-05-10",
+      "summary": "Box CEO Aaron Levie argues that building production AI agents requires being ruthlessly unsentimental about architecture: as models improve they absorb scaffolding you built, and clinging to it actively hurts performance. A practitioner-level thesis on why agentic systems require continuous architectural rethinking rather than incremental additions.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "compound-engineering"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "61eab5f9",
+      "title": "Karpathy Declares Vibe Coding Obsolete, Introduces Agentic Engineering at Sequoia AI Ascent 2026",
+      "url": "https://analyticsdrift.com/andrej-karpathy-agentic-engineering-software-3/",
+      "source": "Analytics Drift",
+      "date": "2026-05-02",
+      "summary": "Coverage of Karpathy's AI Ascent 2026 talk where he coined \"agentic engineering\" as the successor to vibe coding: vibe coding accepts what comes back, agentic engineering designs the system and uses AI to accelerate a plan you have already reasoned through. He also described his personal coding workflow shifting from 80% manual in November 2025 to 80% agent-directed by December — framing it as a threshold crossed, not a gradient.",
+      "industry_nodes": [],
+      "schools": [
+        "vibe-coding",
+        "compound-engineering",
+        "coding-paradigms"
+      ],
+      "relevance": 4,
       "status": "pending"
     }
   ]
