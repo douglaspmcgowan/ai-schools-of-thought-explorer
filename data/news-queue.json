@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-12T10:16:42.926214Z",
+  "generated": "2026-05-13T10:12:47.253Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -84,7 +84,7 @@
       "title": "Compute Is the New Cash",
       "source": "Every.to",
       "date": "2026-04-29",
-      "summary": "Dan Shipper interviews Stripe's head of data and AI to show that top AI companies reach \u0000M ARR in 18 months (3\u00d7 faster than SaaS), that fraud has evolved to target compute credits rather than payments, and that agents are beginning to act as economic participants. Matters because Stripe's payment data gives credible empirical weight to the services-as-software transition thesis.",
+      "summary": "Dan Shipper interviews Stripe's head of data and AI to show that top AI companies reach \u0000M ARR in 18 months (3× faster than SaaS), that fraud has evolved to target compute credits rather than payments, and that agents are beginning to act as economic participants. Matters because Stripe's payment data gives credible empirical weight to the services-as-software transition thesis.",
       "industry_nodes": [],
       "schools": [
         "ai-economy",
@@ -99,7 +99,7 @@
       "title": "One App to Rule All Knowledge Work",
       "source": "Every.to",
       "date": "2026-04-28",
-      "summary": "Every's head of growth describes routing 80% of daily knowledge work through Codex \u2014 email triage, KPI tracking, recruiting \u2014 using agent-designed automations and a compound knowledge plugin. Matters as a practitioner account of living-software inside a small company, with specific workflow details that go beyond theory.",
+      "summary": "Every's head of growth describes routing 80% of daily knowledge work through Codex — email triage, KPI tracking, recruiting — using agent-designed automations and a compound knowledge plugin. Matters as a practitioner account of living-software inside a small company, with specific workflow details that go beyond theory.",
       "industry_nodes": [],
       "schools": [
         "living-software",
@@ -115,7 +115,7 @@
       "title": "Agent Memory Patterns",
       "source": "Tim Kellogg",
       "date": "2026-04-27",
-      "summary": "Classifies the three mutable memory types agents use \u2014 Files, Memory Blocks, and Skills \u2014 and explains how editable memory transforms agent power, covering practical patterns for adding persistent state without custom orchestrators. Matters as a clean taxonomy engineers can apply immediately when building agents with longer horizons.",
+      "summary": "Classifies the three mutable memory types agents use — Files, Memory Blocks, and Skills — and explains how editable memory transforms agent power, covering practical patterns for adding persistent state without custom orchestrators. Matters as a clean taxonomy engineers can apply immediately when building agents with longer horizons.",
       "industry_nodes": [],
       "schools": [
         "agent-internals",
@@ -160,7 +160,7 @@
       "title": "To Train or Not To Train",
       "source": "Tanay Jaipuria",
       "date": "2026-04-28",
-      "summary": "Argues that product companies integrating into the model layer should do post-training where frontier models underserve them \u2014 citing Intercom Fin Apex running at 1/5 frontier cost with higher resolution rates \u2014 not pre-training from scratch. Matters because it gives an actionable decision framework for the build-vs-buy question in a post-commoditisation era.",
+      "summary": "Argues that product companies integrating into the model layer should do post-training where frontier models underserve them — citing Intercom Fin Apex running at 1/5 frontier cost with higher resolution rates — not pre-training from scratch. Matters because it gives an actionable decision framework for the build-vs-buy question in a post-commoditisation era.",
       "industry_nodes": [],
       "schools": [
         "scaling-laws-revisionism",
@@ -190,7 +190,7 @@
       "title": "AI Rewards Strict APIs",
       "source": "Dries Buytaert (Dri.es)",
       "date": "2026-04-29",
-      "summary": "Argues that AI agents struggle with ambiguous APIs, making strict, well-specified API design a competitive moat for services that want to be reliably orchestrated by LLMs. Matters because it gives engineers a concrete design principle \u2014 specificity over flexibility \u2014 for building AI-interoperable software.",
+      "summary": "Argues that AI agents struggle with ambiguous APIs, making strict, well-specified API design a competitive moat for services that want to be reliably orchestrated by LLMs. Matters because it gives engineers a concrete design principle — specificity over flexibility — for building AI-interoperable software.",
       "industry_nodes": [],
       "schools": [
         "agent-internals",
@@ -370,7 +370,7 @@
       "url": "https://stratechery.com/2026/an-interview-with-openai-ceo-sam-altman-and-aws-ceo-matt-garman-about-bedrock-managed-agents/",
       "source": "Stratechery",
       "date": "2026-04-29",
-      "summary": "Ben Thompson's 50-minute deep dive into how AWS and OpenAI are structuring Bedrock Managed Agents, what the Microsoft exclusivity amendment means for AI distribution, and how removing the AGI clause reshapes the OpenAI-Microsoft power dynamic. Matters because it lays out the emerging two-cloud world where agent orchestration infrastructure\u2014not raw model access\u2014becomes the competitive moat.",
+      "summary": "Ben Thompson's 50-minute deep dive into how AWS and OpenAI are structuring Bedrock Managed Agents, what the Microsoft exclusivity amendment means for AI distribution, and how removing the AGI clause reshapes the OpenAI-Microsoft power dynamic. Matters because it lays out the emerging two-cloud world where agent orchestration infrastructure—not raw model access—becomes the competitive moat.",
       "industry_nodes": [],
       "schools": [
         "manager-of-agents",
@@ -382,7 +382,7 @@
     },
     {
       "id": "cfa9371d",
-      "title": "DeepSeek V4\u2014almost on the frontier, a fraction of the price",
+      "title": "DeepSeek V4—almost on the frontier, a fraction of the price",
       "url": "https://simonwillison.net/2026/Apr/24/deepseek-v4/",
       "source": "Simon Willison",
       "date": "2026-04-24",
@@ -480,7 +480,7 @@
       "url": "https://openrouter.ai/announcements/opus-47-tokenizer-analysis",
       "source": "OpenRouter",
       "date": "2026-04-29",
-      "summary": "OpenRouter's analysis shows Claude Opus 4.7's improved tokenizer raises actual costs 12\u201327% despite unchanged sticker prices, with the exception of short prompts that become cheaper. Important for practitioners running agent fleets who need to recalibrate cost models when switching to the new tokenizer.",
+      "summary": "OpenRouter's analysis shows Claude Opus 4.7's improved tokenizer raises actual costs 12–27% despite unchanged sticker prices, with the exception of short prompts that become cheaper. Important for practitioners running agent fleets who need to recalibrate cost models when switching to the new tokenizer.",
       "industry_nodes": [],
       "schools": [
         "new-models",
@@ -815,7 +815,7 @@
       "url": "https://threadreaderapp.com/thread/2049987001655714250.html",
       "source": "TLDR AI",
       "date": "2026-05-01",
-      "summary": "xAI launches Grok 4.3, improving cost-per-intelligence over its predecessor \u2014 higher scores on the Intelligence Index at lower per-run cost. Marks a step in commodity frontier model competition where price/capability ratio becomes the key differentiator.",
+      "summary": "xAI launches Grok 4.3, improving cost-per-intelligence over its predecessor — higher scores on the Intelligence Index at lower per-run cost. Marks a step in commodity frontier model competition where price/capability ratio becomes the key differentiator.",
       "industry_nodes": [],
       "schools": [
         "new-models",
@@ -845,7 +845,7 @@
       "url": "https://www.newcomer.co/p/xais-move-to-buy-cursor-shows-the",
       "source": "Newcomer",
       "date": "2026-05-01",
-      "summary": "Deep analysis of the Cursor/xAI 0B deal: Cursor has explosive revenue but unsustainable compute costs relying on Anthropic and OpenAI models; xAI has Colossus supercomputer but no distribution. Argues the deal exposes the core tension for AI application companies \u2014 proprietary models vs. product \u2014 and sets a template for vertical integration plays.",
+      "summary": "Deep analysis of the Cursor/xAI 0B deal: Cursor has explosive revenue but unsustainable compute costs relying on Anthropic and OpenAI models; xAI has Colossus supercomputer but no distribution. Argues the deal exposes the core tension for AI application companies — proprietary models vs. product — and sets a template for vertical integration plays.",
       "industry_nodes": [],
       "schools": [
         "ai-rebundling",
@@ -876,7 +876,7 @@
       "url": "https://openai.com/index/where-the-goblins-came-from/",
       "source": "OpenAI",
       "date": "2026-04-30",
-      "summary": "OpenAI traces how a retired 'Nerdy' personality reward signal caused goblin metaphors to proliferate 175% across GPT-5.1 \u2014 a vivid case study in how RL reward signals leak across training contexts. Illustrates the difficulty of keeping learned behaviors scoped to intended conditions.",
+      "summary": "OpenAI traces how a retired 'Nerdy' personality reward signal caused goblin metaphors to proliferate 175% across GPT-5.1 — a vivid case study in how RL reward signals leak across training contexts. Illustrates the difficulty of keeping learned behaviors scoped to intended conditions.",
       "industry_nodes": [],
       "schools": [
         "mechanistic-interpretability",
@@ -892,7 +892,7 @@
       "url": "https://cursor.com/blog/continually-improving-agent-harness",
       "source": "Cursor",
       "date": "2026-05-01",
-      "summary": "Cursor explains how they continuously tune their agent harness using vision-driven development, A/B testing, and dynamic context adaptation \u2014 treating the harness itself as the product layer above the model. Key insight: harness engineering, not model selection, is now the main differentiator.",
+      "summary": "Cursor explains how they continuously tune their agent harness using vision-driven development, A/B testing, and dynamic context adaptation — treating the harness itself as the product layer above the model. Key insight: harness engineering, not model selection, is now the main differentiator.",
       "industry_nodes": [],
       "schools": [
         "agent-internals",
@@ -908,7 +908,7 @@
       "url": "https://internals.laxmena.com/p/what-youre-actually-writing-when",
       "source": "Internals by Laxmena",
       "date": "2026-05-01",
-      "summary": "Explains that a skill.md is not documentation but a runtime artifact \u2014 a structured prompt that shapes agent behavior by controlling what the agent sees at inference time. Understanding the runtime changes everything about how you write at the surface.",
+      "summary": "Explains that a skill.md is not documentation but a runtime artifact — a structured prompt that shapes agent behavior by controlling what the agent sees at inference time. Understanding the runtime changes everything about how you write at the surface.",
       "industry_nodes": [],
       "schools": [
         "context-engineering",
@@ -954,7 +954,7 @@
       "url": "https://dbushell.com/2026/04/29/github-is-sinking/",
       "source": "dbushell.com",
       "date": "2026-04-29",
-      "summary": "Developer essay arguing that Copilot is effectively DDoS-ing GitHub with low-quality AI-generated PRs and issues \u2014 flooding the platform with 'slop' that degrades the signal-to-noise ratio for maintainers. Practitioner skepticism about AI code quality at scale.",
+      "summary": "Developer essay arguing that Copilot is effectively DDoS-ing GitHub with low-quality AI-generated PRs and issues — flooding the platform with 'slop' that degrades the signal-to-noise ratio for maintainers. Practitioner skepticism about AI code quality at scale.",
       "industry_nodes": [],
       "schools": [
         "llm-doubters",
@@ -986,7 +986,7 @@
       "url": "https://frontierai.substack.com/p/the-inference-economy-token-use",
       "source": "The AI Frontier / Substack",
       "date": "2026-05-01",
-      "summary": "Argues token demand is structurally rising while per-token cost improvements are slowing \u2014 meaning businesses that blindly throw more LLM compute at problems will face sharply rising costs. Frames token management (right-sized model, reasoning only when needed, provider flexibility) as a core competency for AI-native companies.",
+      "summary": "Argues token demand is structurally rising while per-token cost improvements are slowing — meaning businesses that blindly throw more LLM compute at problems will face sharply rising costs. Frames token management (right-sized model, reasoning only when needed, provider flexibility) as a core competency for AI-native companies.",
       "industry_nodes": [],
       "schools": [
         "saas-survives",
@@ -1018,7 +1018,7 @@
       "url": "https://every.to/p/claude-code-for-product-managers",
       "source": "Every",
       "date": "2026-05-01",
-      "summary": "Practitioner essay by Marcus Moretti on running an entire product with Claude Code as a solo general manager \u2014 from planning and roadmaps to tickets and research, all in a single chat thread. Argues the bottleneck shifts from execution to judgment: the only document he wrote was the roadmap vision.",
+      "summary": "Practitioner essay by Marcus Moretti on running an entire product with Claude Code as a solo general manager — from planning and roadmaps to tickets and research, all in a single chat thread. Argues the bottleneck shifts from execution to judgment: the only document he wrote was the roadmap vision.",
       "industry_nodes": [],
       "schools": [
         "compound-engineering",
@@ -1034,7 +1034,7 @@
       "url": "https://maggieappleton.com/zero-alignment",
       "source": "Maggie Appleton / GitHub Next",
       "date": "2026-04-30",
-      "summary": "Maggie Appleton (GitHub Next) argues all coding agents are single-player experiences but software development is not \u2014 alignment (shared context, intent, decisions) has always been the bottleneck, and agents make the cost of misalignment exponentially higher. Introduces a research prototype for collaborative AI engineering.",
+      "summary": "Maggie Appleton (GitHub Next) argues all coding agents are single-player experiences but software development is not — alignment (shared context, intent, decisions) has always been the bottleneck, and agents make the cost of misalignment exponentially higher. Introduces a research prototype for collaborative AI engineering.",
       "industry_nodes": [],
       "schools": [
         "manager-of-agents",
@@ -1050,7 +1050,7 @@
       "title": "Every Bubble Looks Different",
       "source": "Visualize Value",
       "date": "2026-05-01",
-      "summary": "Argues that every market cycle invents a new name for the same fantasy \u2014 software that generates returns passively \u2014 and that AI is repeating this pattern. A concise bubble-skeptic counter-narrative to the \"this time is different\" AI exceptionalism thesis.",
+      "summary": "Argues that every market cycle invents a new name for the same fantasy — software that generates returns passively — and that AI is repeating this pattern. A concise bubble-skeptic counter-narrative to the \"this time is different\" AI exceptionalism thesis.",
       "schools": [
         "bubble-skeptics"
       ],
@@ -1080,7 +1080,7 @@
       "title": "Approaching Zero Bugs?",
       "source": "daniel.haxx.se",
       "date": "2026-04-30",
-      "summary": "Proposes a measurable signal for whether AI coding tools are truly improving: track the age distribution of reported and fixed bugs \u2014 once AI reaches escape velocity, only recently-introduced bugs should survive. A practitioner's lens on compound-engineering progress from the maintainer of curl.",
+      "summary": "Proposes a measurable signal for whether AI coding tools are truly improving: track the age distribution of reported and fixed bugs — once AI reaches escape velocity, only recently-introduced bugs should survive. A practitioner's lens on compound-engineering progress from the maintainer of curl.",
       "schools": [
         "compound-engineering",
         "coding-paradigms"
@@ -1095,7 +1095,7 @@
       "title": "How AI Efficiency Is Subtly Disrupting the Interactions That Build Strong Teams",
       "source": "Smashing Magazine",
       "date": "2026-04-30",
-      "summary": "Research from MIT, Google, and Harvard shows that AI tools are eliminating informal colleague interactions (\"bugging\") that build the trust, psychological safety, and innovation critical to high-performing teams \u2014 trading visible efficiency for invisible resilience. Argues leaders must actively design for serendipitous human interaction as a counter-force to AI-driven isolation.",
+      "summary": "Research from MIT, Google, and Harvard shows that AI tools are eliminating informal colleague interactions (\"bugging\") that build the trust, psychological safety, and innovation critical to high-performing teams — trading visible efficiency for invisible resilience. Argues leaders must actively design for serendipitous human interaction as a counter-force to AI-driven isolation.",
       "schools": [
         "compound-engineering-org",
         "productive-friction",
@@ -1111,7 +1111,7 @@
       "title": "The Forgotten Conversation Problem in AI Chat",
       "source": "UX Collective",
       "date": "2026-04-30",
-      "summary": "AI chat platforms inherited a messaging-app architecture for what is actually knowledge work, leaving past insights unrecoverable because they lack keyword search, atomic linking, and user-controlled knowledge architecture. Decades of research (from Vannevar Bush to modern PKM) show the solution already exists \u2014 the AI industry is just applying it too slowly.",
+      "summary": "AI chat platforms inherited a messaging-app architecture for what is actually knowledge work, leaving past insights unrecoverable because they lack keyword search, atomic linking, and user-controlled knowledge architecture. Decades of research (from Vannevar Bush to modern PKM) show the solution already exists — the AI industry is just applying it too slowly.",
       "schools": [
         "context-engineering",
         "how-to-use-ai",
@@ -1127,7 +1127,7 @@
       "title": "Claude Code for Product Managers",
       "source": "Every",
       "date": "2026-05-01",
-      "summary": "Practitioner essay on how one general manager runs a full product solo using AI for planning, monitoring, and research \u2014 detailing the specific workflows, Claude Code invocations, and judgment calls required. A concrete implementation guide for the manager-of-agents thesis in a PM context.",
+      "summary": "Practitioner essay on how one general manager runs a full product solo using AI for planning, monitoring, and research — detailing the specific workflows, Claude Code invocations, and judgment calls required. A concrete implementation guide for the manager-of-agents thesis in a PM context.",
       "schools": [
         "manager-of-agents",
         "compound-engineering-org",
@@ -1143,7 +1143,7 @@
       "title": "Sign of the Future: GPT-5.5",
       "source": "One Useful Thing (Ethan Mollick)",
       "date": "2026-05-01",
-      "summary": "Mollick argues GPT-5.5 with GPT-Image-2 in Codex signals a shift where the bottleneck in AI-assisted development is no longer \"can you make the first version\" but \"can you tell what's off\" \u2014 taste and evaluation judgment become the scarce resource. A practitioner essay from a key voice in the extrapolators school on what frontier capability gains actually change in daily work.",
+      "summary": "Mollick argues GPT-5.5 with GPT-Image-2 in Codex signals a shift where the bottleneck in AI-assisted development is no longer \"can you make the first version\" but \"can you tell what's off\" — taste and evaluation judgment become the scarce resource. A practitioner essay from a key voice in the extrapolators school on what frontier capability gains actually change in daily work.",
       "schools": [
         "taste-is-the-bottleneck",
         "vibe-coding",
@@ -1161,7 +1161,7 @@
       "url": "https://refactoring.fm/p/personal-leverage-junior-engineers",
       "source": "Refactoring",
       "date": "2026-05-04",
-      "summary": "Luca Rossi argues that solo engineers now have unlimited personal leverage if they combine tech skills, taste, and drive\u2014illustrated by the trajectory from Copilot to Cursor to Claude Code, the latter built by just two engineers. The piece makes the case that AI has removed the ceiling on what one person can ship, not the floor, and that taste and domain judgment are the remaining scarce resources.",
+      "summary": "Luca Rossi argues that solo engineers now have unlimited personal leverage if they combine tech skills, taste, and drive—illustrated by the trajectory from Copilot to Cursor to Claude Code, the latter built by just two engineers. The piece makes the case that AI has removed the ceiling on what one person can ship, not the floor, and that taste and domain judgment are the remaining scarce resources.",
       "industry_nodes": [],
       "schools": [
         "compound-engineering",
@@ -1173,11 +1173,11 @@
     },
     {
       "id": "1e96ec57",
-      "title": "Every Engineer Is a Manager Now \u2014 with Chris Lattner",
+      "title": "Every Engineer Is a Manager Now — with Chris Lattner",
       "url": "https://refactoring.fm/p/every-engineer-is-a-manager-now-with",
       "source": "Refactoring",
       "date": "2026-04-15",
-      "summary": "Chris Lattner (creator of LLVM, Swift, founder of Modular) argues that AI is forcing engineers to act like managers\u2014directing agents, reviewing output, and setting direction instead of writing code\u2014and explains why Modular is actively hiring new-grad engineers who bring AI-native intuition. The interview surfaces a counter-narrative to the all-senior-team orthodoxy: good teams need multiple experience levels learning from each other.",
+      "summary": "Chris Lattner (creator of LLVM, Swift, founder of Modular) argues that AI is forcing engineers to act like managers—directing agents, reviewing output, and setting direction instead of writing code—and explains why Modular is actively hiring new-grad engineers who bring AI-native intuition. The interview surfaces a counter-narrative to the all-senior-team orthodoxy: good teams need multiple experience levels learning from each other.",
       "industry_nodes": [],
       "schools": [
         "manager-of-agents",
@@ -1193,7 +1193,7 @@
       "url": "https://every.to/guides/ai-product-management-guide",
       "source": "Every.to",
       "date": "2026-05-03",
-      "summary": "Marcus Moretti walks through compound engineering slash-commands for PMs\u2014/ce:strategy and /ce:product-pulse\u2014where agents replace analytics dashboards with briefings that accumulate in a folder as the product's persistent memory. The core argument is that 'the conversation is the work' and that PM value shifts entirely to strategic framing and judgment as implementation and analysis become agent tasks.",
+      "summary": "Marcus Moretti walks through compound engineering slash-commands for PMs—/ce:strategy and /ce:product-pulse—where agents replace analytics dashboards with briefings that accumulate in a folder as the product's persistent memory. The core argument is that 'the conversation is the work' and that PM value shifts entirely to strategic framing and judgment as implementation and analysis become agent tasks.",
       "industry_nodes": [],
       "schools": [
         "agent-native-growth",
@@ -1225,7 +1225,7 @@
       "url": "https://www.aisi.gov.uk/blog/our-evaluation-of-openais-gpt-5-5-cyber-capabilities",
       "source": "UK AI Security Institute",
       "date": "2026-04-30",
-      "summary": "The UK AI Safety Institute finds GPT-5.5 achieves a 71% pass rate on expert-level cyber tasks\u2014comparable to Anthropic's Claude Mythos but generally available\u2014and solved a complex reverse-engineering challenge autonomously in under 11 minutes for .73 in API costs. This is a landmark evaluation demonstrating that frontier models can independently conduct serious vulnerability research at scale, with significant implications for AI governance and safety.",
+      "summary": "The UK AI Safety Institute finds GPT-5.5 achieves a 71% pass rate on expert-level cyber tasks—comparable to Anthropic's Claude Mythos but generally available—and solved a complex reverse-engineering challenge autonomously in under 11 minutes for .73 in API costs. This is a landmark evaluation demonstrating that frontier models can independently conduct serious vulnerability research at scale, with significant implications for AI governance and safety.",
       "industry_nodes": [],
       "schools": [
         "alignment-governance",
@@ -1240,7 +1240,7 @@
       "url": "https://sockpuppet.org/blog/2026/03/30/vulnerability-research-is-cooked/",
       "source": "Quarrelsome (Thomas Ptacek)",
       "date": "2026-03-30",
-      "summary": "Thomas Ptacek argues that frontier models will fundamentally disrupt vulnerability research within months\u2014agents can find zero-days by pointing at a source tree because LLMs excel at exactly the implicit pattern-matching and constraint-solving that exploit development requires. The piece is alarming for its specificity: it cites early empirical results and warns that AI-driven security research will inevitably draw new and potentially harmful regulatory attention.",
+      "summary": "Thomas Ptacek argues that frontier models will fundamentally disrupt vulnerability research within months—agents can find zero-days by pointing at a source tree because LLMs excel at exactly the implicit pattern-matching and constraint-solving that exploit development requires. The piece is alarming for its specificity: it cites early empirical results and warns that AI-driven security research will inevitably draw new and potentially harmful regulatory attention.",
       "industry_nodes": [],
       "schools": [
         "alignment-governance",
@@ -1252,11 +1252,11 @@
     },
     {
       "id": "6f70cd9b",
-      "title": "Dreamer: the Personal Agent OS \u2014 David Singleton",
+      "title": "Dreamer: the Personal Agent OS — David Singleton",
       "url": "https://www.latent.space/p/dreamer",
       "source": "Latent Space",
       "date": "2026-03-20",
-      "summary": "David Singleton (ex-Stripe) and Hugo Barra present Dreamer, a consumer platform where a \"Sidekick\" agent builds and customizes other agents via natural language\u2014positioning it as the personal agent OS complete with its own SDK, logging, database, and prompt management. The episode was recorded just before the team announced they were joining Meta Superintelligence Labs, making it a sharp snapshot of what ambitious consumer-agent architecture looked like at the threshold.",
+      "summary": "David Singleton (ex-Stripe) and Hugo Barra present Dreamer, a consumer platform where a \"Sidekick\" agent builds and customizes other agents via natural language—positioning it as the personal agent OS complete with its own SDK, logging, database, and prompt management. The episode was recorded just before the team announced they were joining Meta Superintelligence Labs, making it a sharp snapshot of what ambitious consumer-agent architecture looked like at the threshold.",
       "industry_nodes": [],
       "schools": [
         "autonomous-agent",
@@ -1272,7 +1272,7 @@
       "url": "https://www.lennysnewsletter.com/p/an-ai-state-of-the-union",
       "source": "Lenny's Newsletter",
       "date": "2026-04-02",
-      "summary": "Simon Willison marks November 2025 as the inflection point when AI coding agents crossed from \"mostly works\" to \"actually works,\" and predicts 50% of engineers will be writing 95% AI code by end of 2026. The episode covers the dark-factory pattern, vibe coding vs. agentic engineering, and where workflow bottlenecks have now shifted\u2014making it the most comprehensive practitioner state-of-the-union on AI engineering available.",
+      "summary": "Simon Willison marks November 2025 as the inflection point when AI coding agents crossed from \"mostly works\" to \"actually works,\" and predicts 50% of engineers will be writing 95% AI code by end of 2026. The episode covers the dark-factory pattern, vibe coding vs. agentic engineering, and where workflow bottlenecks have now shifted—making it the most comprehensive practitioner state-of-the-union on AI engineering available.",
       "industry_nodes": [],
       "schools": [
         "compound-engineering",
@@ -1289,7 +1289,7 @@
       "url": "https://www.chrismdp.com/coding-with-ai/",
       "source": "chrismdp.com (Chris Sherwood)",
       "date": "2026-04-22",
-      "summary": "A thorough, opinionated guide to AI-assisted coding updated for April 2026 that argues anyone still tied to their IDE is working a year behind\u2014and cites MIT research showing teams shipping 20% slower despite feeling faster. The guide covers mindset shifts, tool selection, and practical loop-frequency discipline, making it a grounded counterweight to pure vibe-coding enthusiasm.",
+      "summary": "A thorough, opinionated guide to AI-assisted coding updated for April 2026 that argues anyone still tied to their IDE is working a year behind—and cites MIT research showing teams shipping 20% slower despite feeling faster. The guide covers mindset shifts, tool selection, and practical loop-frequency discipline, making it a grounded counterweight to pure vibe-coding enthusiasm.",
       "industry_nodes": [],
       "schools": [
         "prompting-craft",
@@ -1336,7 +1336,7 @@
       "url": "https://research.perplexity.ai/articles/designing-refining-and-maintaining-agent-skills-at-perplexity",
       "source": "Perplexity Research",
       "date": "2026-05-04",
-      "summary": "Perplexity details how it builds modular Agent Skills for its frontier products: hierarchical design, real-query-driven necessity tests, multi-model evaluation, and constant iteration. Each Skill carries an inherent cost, so simplicity and efficiency are primary constraints\u2014this is the most detailed practitioner breakdown of agentic skill architecture published to date.",
+      "summary": "Perplexity details how it builds modular Agent Skills for its frontier products: hierarchical design, real-query-driven necessity tests, multi-model evaluation, and constant iteration. Each Skill carries an inherent cost, so simplicity and efficiency are primary constraints—this is the most detailed practitioner breakdown of agentic skill architecture published to date.",
       "industry_nodes": [],
       "schools": [
         "agent-internals",
@@ -1366,7 +1366,7 @@
       "url": "https://www.lesswrong.com/posts/vKtuRbo4e3ffixmee/you-are-not-immune-to-mode-collapse",
       "source": "LessWrong / TLDR AI",
       "date": "2026-05-04",
-      "summary": "Mode collapse\u2014AI systems repeatedly generating the most statistically common outputs\u2014is examined as a structural failure mode affecting models, grant-making, and creative domains alike. The post argues that without deliberate variability injection, optimization toward past successes produces homogeneous and brittle outputs.",
+      "summary": "Mode collapse—AI systems repeatedly generating the most statistically common outputs—is examined as a structural failure mode affecting models, grant-making, and creative domains alike. The post argues that without deliberate variability injection, optimization toward past successes produces homogeneous and brittle outputs.",
       "industry_nodes": [],
       "schools": [
         "alignment-governance",
@@ -1377,7 +1377,7 @@
     },
     {
       "id": "bb386264",
-      "title": "Clouded Judgement 5.1.26 \u2014 The Death of Per-Seat Pricing?",
+      "title": "Clouded Judgement 5.1.26 — The Death of Per-Seat Pricing?",
       "url": "https://cloudedjudgement.substack.com/p/clouded-judgement-5126-the-death",
       "source": "Clouded Judgement",
       "date": "2026-05-01",
@@ -1397,7 +1397,7 @@
       "url": "https://dschreiber.substack.com/p/after-ai-first-comes-ai-only",
       "source": "David Schreiber / TLDR Founders",
       "date": "2026-05-04",
-      "summary": "Schreiber distinguishes AI-first (AI as pilot assistance) from AI-only (end-to-end machine execution where humans only set goals, constraints, and escalation conditions). This framing repositions humans from workflow participants to system stewards\u2014a clear articulation of the services-as-software endgame.",
+      "summary": "Schreiber distinguishes AI-first (AI as pilot assistance) from AI-only (end-to-end machine execution where humans only set goals, constraints, and escalation conditions). This framing repositions humans from workflow participants to system stewards—a clear articulation of the services-as-software endgame.",
       "industry_nodes": [],
       "schools": [
         "autonomous-agent",
@@ -1413,7 +1413,7 @@
       "url": "https://addyosmani.com/blog/agent-skills/",
       "source": "Addy Osmani / TLDR",
       "date": "2026-05-04",
-      "summary": "AI coding agents skip senior-engineering discipline unless it is encoded as a Skill\u2014a structured capability the agent cannot talk itself out of. Osmani argues that encoding review, testing, and documentation as inescapable agent routines is now the primary job of the senior engineer.",
+      "summary": "AI coding agents skip senior-engineering discipline unless it is encoded as a Skill—a structured capability the agent cannot talk itself out of. Osmani argues that encoding review, testing, and documentation as inescapable agent routines is now the primary job of the senior engineer.",
       "industry_nodes": [],
       "schools": [
         "agent-internals",
@@ -1459,7 +1459,7 @@
       "url": "https://yiblet.com/posts/prompt-engineering-is-permanent/",
       "source": "yiblet.com / TLDR",
       "date": "2026-05-04",
-      "summary": "Prompt engineering in 2026 is not about clever phrasing but about making AI systems reliable when they have context, tools, memory, permissions, and real consequences\u2014it has become a permanent engineering discipline for production agentic systems. The post rebuts the idea that better models will eliminate the need for careful prompt design.",
+      "summary": "Prompt engineering in 2026 is not about clever phrasing but about making AI systems reliable when they have context, tools, memory, permissions, and real consequences—it has become a permanent engineering discipline for production agentic systems. The post rebuts the idea that better models will eliminate the need for careful prompt design.",
       "industry_nodes": [],
       "schools": [
         "prompting-craft",
@@ -1474,7 +1474,7 @@
       "url": "https://acai.sh/blog/specsmaxxing",
       "source": "acai.sh / TLDR / Hacker News",
       "date": "2026-05-04",
-      "summary": "Spec-writing\u2014not code-writing\u2014is argued to be where software engineering actually happens in the AI-assisted era, with detailed YAML-based feature specifications as the primary artifact engineers produce for agents. The post examines the upside of spec-driven development and the psychosis risk of over-speccing.",
+      "summary": "Spec-writing—not code-writing—is argued to be where software engineering actually happens in the AI-assisted era, with detailed YAML-based feature specifications as the primary artifact engineers produce for agents. The post examines the upside of spec-driven development and the psychosis risk of over-speccing.",
       "industry_nodes": [],
       "schools": [
         "spec-driven",
@@ -1583,7 +1583,7 @@
       "url": "https://avkcode.github.io/blog/how-vllm-works.html",
       "source": "avkcode blog",
       "date": "2026-05-04",
-      "summary": "A clear walkthrough of the full inference pipeline\u2014tokenization, embeddings, stacked self-attention\u2014splitting generation into compute-bound prefill and memory-bound autoregressive decode on the same GPU. Essential background for engineers designing agent harnesses or optimizing inference cost.",
+      "summary": "A clear walkthrough of the full inference pipeline—tokenization, embeddings, stacked self-attention—splitting generation into compute-bound prefill and memory-bound autoregressive decode on the same GPU. Essential background for engineers designing agent harnesses or optimizing inference cost.",
       "industry_nodes": [],
       "schools": [
         "how-ai-works"
@@ -1597,7 +1597,7 @@
       "url": "https://www.linkedin.com/pulse/everyone-wants-ai-pilled-most-companies-still-level-1-ann-miura-ko-i8tyc",
       "source": "LinkedIn / Floodgate",
       "date": "2026-05-04",
-      "summary": "Ann Miura-Ko adapts the AV autonomy framework to AI adoption, mapping most self-described AI-forward organizations to L1\u2013L2 (personal productivity or functional silos), with L3+ requiring cross-tool agents acting through MCP and non-engineers shipping production internal tools. Sets a concrete benchmark for founders and operators measuring their actual vs. claimed AI maturity.",
+      "summary": "Ann Miura-Ko adapts the AV autonomy framework to AI adoption, mapping most self-described AI-forward organizations to L1–L2 (personal productivity or functional silos), with L3+ requiring cross-tool agents acting through MCP and non-engineers shipping production internal tools. Sets a concrete benchmark for founders and operators measuring their actual vs. claimed AI maturity.",
       "industry_nodes": [],
       "schools": [
         "compound-engineering-org",
@@ -1612,7 +1612,7 @@
       "url": "https://www.testingcatalog.com/anthropic-is-working-on-orbit-its-upcoming-proactive-assistant/",
       "source": "Testing Catalog",
       "date": "2026-05-05",
-      "summary": "Orbit is a briefing-and-insights system inside Claude and Claude Code that surfaces personalized, actionable insights drawn from connected work tools\u2014proactively pushing information rather than waiting for user queries. Signals Anthropic's move toward always-on agentic assistants that monitor context in the background, a meaningful step toward autonomous agent architecture.",
+      "summary": "Orbit is a briefing-and-insights system inside Claude and Claude Code that surfaces personalized, actionable insights drawn from connected work tools—proactively pushing information rather than waiting for user queries. Signals Anthropic's move toward always-on agentic assistants that monitor context in the background, a meaningful step toward autonomous agent architecture.",
       "industry_nodes": [],
       "schools": [
         "autonomous-agent",
@@ -1627,7 +1627,7 @@
       "url": "https://jack-clark.net/2026/05/04/import-ai-455-automating-ai-research/",
       "source": "Import AI",
       "date": "2026-05-04",
-      "summary": "Jack Clark surveys the state of end-to-end AI-automated R&D\u2014coding, experiment execution, long-horizon task autonomy\u2014and puts a ~60% probability on self-improving AI systems by 2028, projecting a capital-heavy, human-light machine economy. Makes the case that AI research automation is already practical, compressing timelines for alignment and capability work alike.",
+      "summary": "Jack Clark surveys the state of end-to-end AI-automated R&D—coding, experiment execution, long-horizon task autonomy—and puts a ~60% probability on self-improving AI systems by 2028, projecting a capital-heavy, human-light machine economy. Makes the case that AI research automation is already practical, compressing timelines for alignment and capability work alike.",
       "industry_nodes": [],
       "schools": [
         "agi-timelines",
@@ -1643,7 +1643,7 @@
       "url": "https://cafeai.home.blog/2026/05/05/model-harness-fit/",
       "source": "Rick's Cafe AI",
       "date": "2026-05-05",
-      "summary": "Bustamante uses Terminal-Bench 2.0 data to show that frontier labs post-train models against their own harnesses\u2014baking tool names, memory rituals, and system-prompt structures into the weights\u2014such that a harness mismatch costs measurable reasoning tokens and real benchmark points. The thesis: harness selection is now a first-class engineering decision, not a configuration detail, and model-harness-fit rivals raw capability as a performance driver.",
+      "summary": "Bustamante uses Terminal-Bench 2.0 data to show that frontier labs post-train models against their own harnesses—baking tool names, memory rituals, and system-prompt structures into the weights—such that a harness mismatch costs measurable reasoning tokens and real benchmark points. The thesis: harness selection is now a first-class engineering decision, not a configuration detail, and model-harness-fit rivals raw capability as a performance driver.",
       "industry_nodes": [],
       "schools": [
         "agent-internals",
@@ -1658,7 +1658,7 @@
       "url": "https://openrouter.ai/announcements/gpt55-cost-analysis",
       "source": "OpenRouter",
       "date": "2026-05-05",
-      "summary": "GPT-5.5 launched with a nominal 2x sticker price increase, but after accounting for the model generating fewer completion tokens on longer prompts, the real cost increase is 49\u201392% depending on workload. Practical benchmark for teams weighing whether to upgrade or route to cheaper frontier alternatives.",
+      "summary": "GPT-5.5 launched with a nominal 2x sticker price increase, but after accounting for the model generating fewer completion tokens on longer prompts, the real cost increase is 49–92% depending on workload. Practical benchmark for teams weighing whether to upgrade or route to cheaper frontier alternatives.",
       "industry_nodes": [],
       "schools": [
         "new-models",
@@ -1673,7 +1673,7 @@
       "url": "https://www.bloomberg.com/news/articles/2026-05-04/white-house-eyes-vetting-ai-models-before-release-ny-times-says",
       "source": "Bloomberg",
       "date": "2026-05-04",
-      "summary": "The Trump administration is discussing an executive order creating an AI working group with NSA and ODNI oversight of model releases, triggered in part by Anthropic's Mythos model disclosures\u2014a reversal from the January 2025 revocation of Biden's safety order. Marks a potential governance inflection point: if enacted, pre-release vetting would directly constrain frontier model deployment timelines.",
+      "summary": "The Trump administration is discussing an executive order creating an AI working group with NSA and ODNI oversight of model releases, triggered in part by Anthropic's Mythos model disclosures—a reversal from the January 2025 revocation of Biden's safety order. Marks a potential governance inflection point: if enacted, pre-release vetting would directly constrain frontier model deployment timelines.",
       "industry_nodes": [],
       "schools": [
         "alignment-governance",
@@ -1749,7 +1749,7 @@
       "url": "https://links.tldrnewsletter.com/ikUcgQ",
       "source": "TLDR Founders",
       "date": "2026-05-06",
-      "summary": "The gap between AI-enabled and AI-native companies will mirror the cloud-enabled vs cloud-native divergence, where paths look identical initially then separate dramatically as compounding sets in. The sequence of bottlenecks is adoption \u2192 engineering velocity \u2192 product taste, with one CTO reporting 5x productivity in the top decile and taste emerging as the final rate limiter.",
+      "summary": "The gap between AI-enabled and AI-native companies will mirror the cloud-enabled vs cloud-native divergence, where paths look identical initially then separate dramatically as compounding sets in. The sequence of bottlenecks is adoption → engineering velocity → product taste, with one CTO reporting 5x productivity in the top decile and taste emerging as the final rate limiter.",
       "industry_nodes": [],
       "schools": [
         "ai-native-flat",
@@ -1795,7 +1795,7 @@
       "url": "https://fergusfinn.com/blog/weight-entropy/",
       "source": "Fergus Finn",
       "date": "2026-05-06",
-      "summary": "Analyzes the information-theoretic density of LLM weights to expose the real inference bottleneck: data movement, not computation, with compute units sitting idle while the memory bus can't feed them fast enough. Quantization helps bandwidth but doesn't trade memory for compute\u2014the deeper fix is architectural transformation of memory into compute.",
+      "summary": "Analyzes the information-theoretic density of LLM weights to expose the real inference bottleneck: data movement, not computation, with compute units sitting idle while the memory bus can't feed them fast enough. Quantization helps bandwidth but doesn't trade memory for compute—the deeper fix is architectural transformation of memory into compute.",
       "industry_nodes": [],
       "schools": [
         "how-ai-works",
@@ -1825,7 +1825,7 @@
       "url": "https://arxiv.org/abs/2605.01428",
       "source": "Google Research / arXiv",
       "date": "2026-05-06",
-      "summary": "Reframes LLM hallucinations as failures to express uncertainty rather than gaps in knowledge, proposing 'faithful uncertainty' as the alignment mechanism that would make model confidence track actual reliability. This shifts the problem from fact-retrieval engineering to calibration engineering\u2014a meaningful change in how safety and interpretability teams approach hallucination mitigation.",
+      "summary": "Reframes LLM hallucinations as failures to express uncertainty rather than gaps in knowledge, proposing 'faithful uncertainty' as the alignment mechanism that would make model confidence track actual reliability. This shifts the problem from fact-retrieval engineering to calibration engineering—a meaningful change in how safety and interpretability teams approach hallucination mitigation.",
       "industry_nodes": [],
       "schools": [
         "empiricists",
@@ -1840,7 +1840,7 @@
       "url": "https://links.tldrnewsletter.com/A9XN56",
       "source": "TLDR Founders",
       "date": "2026-05-06",
-      "summary": "Making your company fully legible to AI systems risks commoditizing your own moat\u2014founders should build a human-facing company and a parallel digital twin for AI agents, while deliberately keeping the weird, specific, hard-to-copy elements opaque. The highest-value things to protect from AI legibility are the tacit knowledge and contextual judgment that make a company genuinely differentiated. candidate-school: moat-illegibility \u2014 Strategic opacity to AI systems as a competitive defense; treating AI-unreadability of core workflows as an intentional moat.",
+      "summary": "Making your company fully legible to AI systems risks commoditizing your own moat—founders should build a human-facing company and a parallel digital twin for AI agents, while deliberately keeping the weird, specific, hard-to-copy elements opaque. The highest-value things to protect from AI legibility are the tacit knowledge and contextual judgment that make a company genuinely differentiated. candidate-school: moat-illegibility — Strategic opacity to AI systems as a competitive defense; treating AI-unreadability of core workflows as an intentional moat.",
       "industry_nodes": [],
       "schools": [
         "candidate-new-school"
@@ -1854,7 +1854,7 @@
       "url": "https://brnz.ai/blog/the-agent-integration-tax-just-became-the-biggest-market-in-enterprise-ai.html",
       "source": "BRNZ.ai",
       "date": "2026-05-06",
-      "summary": "Coordination across enterprise systems\u2014not model intelligence\u2014is the dominant bottleneck to AI productivity, with Salesforce estimating that copying context across Slack, Salesforce, Workspace, and ServiceNow costs the average employee two hours per day. The emerging opportunity is governed agent registries with audit trails, not smarter models.",
+      "summary": "Coordination across enterprise systems—not model intelligence—is the dominant bottleneck to AI productivity, with Salesforce estimating that copying context across Slack, Salesforce, Workspace, and ServiceNow costs the average employee two hours per day. The emerging opportunity is governed agent registries with audit trails, not smarter models.",
       "industry_nodes": [],
       "schools": [
         "compound-engineering",
@@ -1869,7 +1869,7 @@
       "url": "https://links.tldrnewsletter.com/Lcxfv7",
       "source": "TLDR Founders",
       "date": "2026-05-06",
-      "summary": "Engineers who use agents to generate work without doing any reasoning themselves become as replaceable as the wrappers they ship\u2014the risk is that if anyone with the same agent can produce identical outputs, individual skill becomes invisible and defensibility collapses. The antidote is maintaining genuine decision-making: understanding what to build, not just using tools that build it.",
+      "summary": "Engineers who use agents to generate work without doing any reasoning themselves become as replaceable as the wrappers they ship—the risk is that if anyone with the same agent can produce identical outputs, individual skill becomes invisible and defensibility collapses. The antidote is maintaining genuine decision-making: understanding what to build, not just using tools that build it.",
       "industry_nodes": [],
       "schools": [
         "compound-engineering",
@@ -1884,7 +1884,7 @@
       "url": "https://every.to/context-window/openai-flips-the-script",
       "source": "Every",
       "date": "2026-05-06",
-      "summary": "OpenAI's Codex went from trailing Claude Code to pulling ahead in coding agent functionality within months, with GPT-5.5 paired with a faster desktop app enabling full migration of complex projects; explores what it means when tool leadership flips this quickly. The piece also frames 'permission to skip model-migration anxiety'\u2014a practitioner response to the exhausting pace of new releases.",
+      "summary": "OpenAI's Codex went from trailing Claude Code to pulling ahead in coding agent functionality within months, with GPT-5.5 paired with a faster desktop app enabling full migration of complex projects; explores what it means when tool leadership flips this quickly. The piece also frames 'permission to skip model-migration anxiety'—a practitioner response to the exhausting pace of new releases.",
       "industry_nodes": [],
       "schools": [
         "new-tools",
@@ -1914,7 +1914,7 @@
       "url": "https://newsletter.pragmaticengineer.com/p/the-impact-of-ai-on-software-engineers-2026",
       "source": "The Pragmatic Engineer",
       "date": "2026-04-14",
-      "summary": "Survey of 900+ software engineers finds that AI amplifies pre-existing patterns\u2014strong engineers become dramatically more productive while weaker ones are exposed, and costs are rising faster than budgets with 30% already hitting token limits. The engineer and manager roles are converging as engineers orchestrate more and managers become more hands-on with code.",
+      "summary": "Survey of 900+ software engineers finds that AI amplifies pre-existing patterns—strong engineers become dramatically more productive while weaker ones are exposed, and costs are rising faster than budgets with 30% already hitting token limits. The engineer and manager roles are converging as engineers orchestrate more and managers become more hands-on with code.",
       "industry_nodes": [],
       "schools": [
         "compound-engineering",
@@ -1989,7 +1989,7 @@
       "url": "https://www.anthropic.com/news/finance-agents",
       "source": "Anthropic",
       "date": "2026-05-06",
-      "summary": "Anthropic released 10 production-ready agent templates for the most time-consuming financial services work\u2014pitchbooks, KYC screening, month-end close\u2014as a direct play to convert services budgets into software spending. Signals Anthropic's move from model provider to services-as-software enabler in regulated industries.",
+      "summary": "Anthropic released 10 production-ready agent templates for the most time-consuming financial services work—pitchbooks, KYC screening, month-end close—as a direct play to convert services budgets into software spending. Signals Anthropic's move from model provider to services-as-software enabler in regulated industries.",
       "industry_nodes": [],
       "schools": [
         "services-as-software",
@@ -2004,7 +2004,7 @@
       "url": "https://claude.com/blog/new-in-claude-managed-agents",
       "source": "Anthropic",
       "date": "2026-05-07",
-      "summary": "Anthropic's Managed Agents platform adds three self-improvement features: \"dreaming\" (reviewing past sessions to extract patterns), \"outcomes\" (agents self-correct toward a success rubric), and multiagent orchestration (lead agents delegate to specialized sub-agents). Completion rates rose sixfold in Harvey testing \u2014 these features push agents toward continuous self-improvement loops without human re-prompting.",
+      "summary": "Anthropic's Managed Agents platform adds three self-improvement features: \"dreaming\" (reviewing past sessions to extract patterns), \"outcomes\" (agents self-correct toward a success rubric), and multiagent orchestration (lead agents delegate to specialized sub-agents). Completion rates rose sixfold in Harvey testing — these features push agents toward continuous self-improvement loops without human re-prompting.",
       "industry_nodes": [],
       "schools": [
         "autonomous-agent",
@@ -2020,7 +2020,7 @@
       "url": "https://www.blackstone.com/news/press/anthropic-partners-with-blackstone-hellman-friedman-and-goldman-sachs-to-launch-enterprise-ai-services-firm/",
       "source": "Blackstone",
       "date": "2026-05-07",
-      "summary": "Anthropic has joined Blackstone, Hellman & Friedman, and Goldman Sachs to create a new AI-native services firm that deploys Claude across enterprise operations \u2014 directly embodying the services-as-software thesis. This move blurs the line between model API provider and consulting firm, positioning Anthropic as a direct participant in the $6T global services market.",
+      "summary": "Anthropic has joined Blackstone, Hellman & Friedman, and Goldman Sachs to create a new AI-native services firm that deploys Claude across enterprise operations — directly embodying the services-as-software thesis. This move blurs the line between model API provider and consulting firm, positioning Anthropic as a direct participant in the $6T global services market.",
       "industry_nodes": [],
       "schools": [
         "services-as-software",
@@ -2060,7 +2060,7 @@
     },
     {
       "id": "43c8c14f",
-      "title": "Open Weights Are Quietly Closing Up \u2014 And That's a Problem",
+      "title": "Open Weights Are Quietly Closing Up — And That's a Problem",
       "url": "https://martinalderson.com/posts/open-weights-are-quietly-closing-up/",
       "source": "Martin Alderson",
       "date": "2026-05-07",
@@ -2093,7 +2093,7 @@
       "url": "https://thenextweb.com/news/google-blackstone-kkr-omnibus-ai-licensing-private-equity",
       "source": "The Next Web",
       "date": "2026-05-07",
-      "summary": "Google is negotiating omnibus Gemini licensing deals with Blackstone, KKR, and EQT to give their entire PE portfolios AI access, betting that enterprise AI is a platform problem rather than a services delivery problem. The strategy trades consulting revenue for distribution speed \u2014 a contrast to Anthropic's simultaneous move to create a services firm.",
+      "summary": "Google is negotiating omnibus Gemini licensing deals with Blackstone, KKR, and EQT to give their entire PE portfolios AI access, betting that enterprise AI is a platform problem rather than a services delivery problem. The strategy trades consulting revenue for distribution speed — a contrast to Anthropic's simultaneous move to create a services firm.",
       "industry_nodes": [],
       "schools": [
         "saas-survives",
@@ -2104,11 +2104,11 @@
     },
     {
       "id": "eb6d891d",
-      "title": "All the Demons Hiding in Your AIs\u2026 Ranked",
+      "title": "All the Demons Hiding in Your AIs… Ranked",
       "url": "https://drtompollak.substack.com/p/all-the-demons-hiding-in-your-ais",
       "source": "Dr Tom Pollak",
       "date": "2026-05-07",
-      "summary": "A 40-minute taxonomy of LLM behavioral failure modes, including self-reinforcing stable states that resist suppression and spread into unrelated contexts \u2014 what the author calls demons. Essential alignment-adjacent reading for anyone deploying models in production where behavioral drift is a safety or reliability risk.",
+      "summary": "A 40-minute taxonomy of LLM behavioral failure modes, including self-reinforcing stable states that resist suppression and spread into unrelated contexts — what the author calls demons. Essential alignment-adjacent reading for anyone deploying models in production where behavioral drift is a safety or reliability risk.",
       "industry_nodes": [],
       "schools": [
         "alignment-governance",
@@ -2138,7 +2138,7 @@
       "url": "https://www.pymnts.com/news/artificial-intelligence/2026/big-tech-personal-ai-agents-are-coming-to-do-list/",
       "source": "PYMNTS",
       "date": "2026-05-07",
-      "summary": "Google's \"Remy\" inside Gemini and Meta's \"Hatch\" for Instagram are racing to build always-on AI assistants that anticipate needs and operate in the background \u2014 a platform-level shift from chatbots to deeply integrated personal agents. The push follows OpenClaw's viral rise exposing massive consumer demand for agentic AI while also revealing the limitations of standalone tools.",
+      "summary": "Google's \"Remy\" inside Gemini and Meta's \"Hatch\" for Instagram are racing to build always-on AI assistants that anticipate needs and operate in the background — a platform-level shift from chatbots to deeply integrated personal agents. The push follows OpenClaw's viral rise exposing massive consumer demand for agentic AI while also revealing the limitations of standalone tools.",
       "industry_nodes": [],
       "schools": [
         "autonomous-agent",
@@ -2168,7 +2168,7 @@
       "url": "https://ethanding.substack.com/p/claude-code-is-not-making-your-product",
       "source": "Ethan Ding",
       "date": "2026-05-06",
-      "summary": "At the frontier, AI token spend doesn't reliably produce economic value \u2014 the bottleneck is tastemakers who know what to delete, compress, and refuse. The essay argues AI lowers the floor on generic product creation but doesn't help the highest-level artisans create better products, making taste and judgment more valuable, not less.",
+      "summary": "At the frontier, AI token spend doesn't reliably produce economic value — the bottleneck is tastemakers who know what to delete, compress, and refuse. The essay argues AI lowers the floor on generic product creation but doesn't help the highest-level artisans create better products, making taste and judgment more valuable, not less.",
       "industry_nodes": [],
       "schools": [
         "taste-is-the-bottleneck",
@@ -2183,7 +2183,7 @@
       "url": "https://eugeneyan.com/writing/working-with-ai/",
       "source": "Eugene Yan",
       "date": "2026-05-06",
-      "summary": "Practical principles for compounding gains with AI as a collaborator: provide rich context, encode taste as reusable config, delegate bigger tasks end-to-end, and close the loop so every artifact becomes context for the next session. Each correction reduces future errors \u2014 treating AI workflow as a compounding system rather than a one-shot tool.",
+      "summary": "Practical principles for compounding gains with AI as a collaborator: provide rich context, encode taste as reusable config, delegate bigger tasks end-to-end, and close the loop so every artifact becomes context for the next session. Each correction reduces future errors — treating AI workflow as a compounding system rather than a one-shot tool.",
       "industry_nodes": [],
       "schools": [
         "workflow-recipes",
@@ -2199,7 +2199,7 @@
       "url": "https://addyosmani.com/blog/cognitive-surrender/",
       "source": "Addy Osmani",
       "date": "2026-05-06",
-      "summary": "Addy Osmani distinguishes \"cognitive offloading\" (delegating to AI while owning the answer) from \"cognitive surrender\" (borrowing AI confidence as your own without checking). Engineers drift between the two without noticing \u2014 this is the central capability-atrophy risk of heavy AI tool use in production.",
+      "summary": "Addy Osmani distinguishes \"cognitive offloading\" (delegating to AI while owning the answer) from \"cognitive surrender\" (borrowing AI confidence as your own without checking). Engineers drift between the two without noticing — this is the central capability-atrophy risk of heavy AI tool use in production.",
       "industry_nodes": [],
       "schools": [
         "productive-friction",
@@ -2214,7 +2214,7 @@
       "url": "https://newsletter.getdx.com/p/designing-the-ai-native-engineering",
       "source": "DX Newsletter",
       "date": "2026-05-06",
-      "summary": "A panel from Microsoft, 1Password, and Atlassian on how engineering organizations are restructuring for AI \u2014 covering how team size, review processes, and manager roles change when AI handles execution. Addresses whether the right response to AI productivity gains is fewer engineers, different engineers, or a fundamentally different org topology.",
+      "summary": "A panel from Microsoft, 1Password, and Atlassian on how engineering organizations are restructuring for AI — covering how team size, review processes, and manager roles change when AI handles execution. Addresses whether the right response to AI productivity gains is fewer engineers, different engineers, or a fundamentally different org topology.",
       "industry_nodes": [],
       "schools": [
         "ai-native-flat",
@@ -2246,7 +2246,7 @@
       "url": "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/",
       "source": "Simon Willison",
       "date": "2026-05-06",
-      "summary": "Simon Willison reflects on realizing he can no longer clearly distinguish between vibe coding and agentic engineering in his own daily work \u2014 the two modes have converged. A practitioner observation from a key voice that the distinction between intentional and exploratory AI-assisted coding has collapsed in practice.",
+      "summary": "Simon Willison reflects on realizing he can no longer clearly distinguish between vibe coding and agentic engineering in his own daily work — the two modes have converged. A practitioner observation from a key voice that the distinction between intentional and exploratory AI-assisted coding has collapsed in practice.",
       "industry_nodes": [],
       "schools": [
         "vibe-coding",
@@ -2277,7 +2277,7 @@
       "url": "https://programbench.com/",
       "source": "ProgramBench",
       "date": "2026-05-07",
-      "summary": "ProgramBench challenges agents to recreate software executables from scratch using only documentation and experimentation \u2014 no source code, no decompilation \u2014 with 248,000 behavioral tests across 200 tasks ranging from terminal utilities to compilers. Sets a new bar for evaluating genuine software architecture capability in autonomous coding agents.",
+      "summary": "ProgramBench challenges agents to recreate software executables from scratch using only documentation and experimentation — no source code, no decompilation — with 248,000 behavioral tests across 200 tasks ranging from terminal utilities to compilers. Sets a new bar for evaluating genuine software architecture capability in autonomous coding agents.",
       "industry_nodes": [],
       "schools": [
         "agent-internals",
@@ -2292,7 +2292,7 @@
       "url": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
       "source": "HuggingFace / ServiceNow AI",
       "date": "2026-05-07",
-      "summary": "The vLLM V1 migration revealed subtle inference discrepancies \u2014 in logprob computation, prefix caching defaults, and fp32 precision \u2014 that were silently corrupting RL training signals and creating false objective improvements. Demonstrates that getting RL training right requires engineering correctness at the inference layer, not just the model or reward objective.",
+      "summary": "The vLLM V1 migration revealed subtle inference discrepancies — in logprob computation, prefix caching defaults, and fp32 precision — that were silently corrupting RL training signals and creating false objective improvements. Demonstrates that getting RL training right requires engineering correctness at the inference layer, not just the model or reward objective.",
       "industry_nodes": [],
       "schools": [
         "reasoning-rl"
@@ -2306,7 +2306,7 @@
       "url": "https://adaptivesoftware.substack.com/p/the-wrapper-and-the-code",
       "source": "Adaptive Software",
       "date": "2026-05-07",
-      "summary": "Apple rejected Replit's iOS app updates because its client previewed AI-generated apps inline \u2014 making the reviewed binary a container for unlimited unreviewed apps, an App Store policy violation. Highlights how platform gatekeeping creates structural friction for AI-native coding tools that generate runnable code as their core output.",
+      "summary": "Apple rejected Replit's iOS app updates because its client previewed AI-generated apps inline — making the reviewed binary a container for unlimited unreviewed apps, an App Store policy violation. Highlights how platform gatekeeping creates structural friction for AI-native coding tools that generate runnable code as their core output.",
       "industry_nodes": [],
       "schools": [
         "vibe-coding",
@@ -2322,7 +2322,7 @@
       "url": "https://every.to/context-window/the-culture-of-ai-engineering",
       "source": "Every",
       "date": "2026-05-08",
-      "summary": "A framework for aligning humans, AI agents, and hybrid teams around a shared engineering vision, arguing that culture \u2014 not tooling \u2014 is the bottleneck for AI-native orgs. Essential read on what it means to manage engineering when agents do the implementation.",
+      "summary": "A framework for aligning humans, AI agents, and hybrid teams around a shared engineering vision, arguing that culture — not tooling — is the bottleneck for AI-native orgs. Essential read on what it means to manage engineering when agents do the implementation.",
       "industry_nodes": [],
       "schools": [
         "compound-engineering-org",
@@ -2400,7 +2400,7 @@
       "url": "https://tectontide.com/en/blog/codex-goal-six-hour-run/",
       "source": "TectonTide",
       "date": "2026-05-08",
-      "summary": "Deep dive into Codex's /goal feature \u2014 persistent goal states that survive terminal restarts, sleeps, and multi-hour interruptions by injecting a developer message on resume. Shows how long-horizon autonomous coding sessions are becoming a practical reality.",
+      "summary": "Deep dive into Codex's /goal feature — persistent goal states that survive terminal restarts, sleeps, and multi-hour interruptions by injecting a developer message on resume. Shows how long-horizon autonomous coding sessions are becoming a practical reality.",
       "industry_nodes": [],
       "schools": [
         "autonomous-agent",
@@ -2475,7 +2475,7 @@
       "url": "https://1984.substack.com/p/long-ai-short-agi",
       "source": "1984",
       "date": "2026-05-08",
-      "summary": "Silicon Valley's AGI-as-scarce-resource narrative is undermined by rapid model commoditization: intelligence is following the same curve as compute, bandwidth, and storage. The real winners won't own the best models but will own customer relationships and proprietary data \u2014 much like past tech giants.",
+      "summary": "Silicon Valley's AGI-as-scarce-resource narrative is undermined by rapid model commoditization: intelligence is following the same curve as compute, bandwidth, and storage. The real winners won't own the best models but will own customer relationships and proprietary data — much like past tech giants.",
       "industry_nodes": [],
       "schools": [
         "bubble-skeptics",
@@ -2536,7 +2536,7 @@
       "url": "https://frontierai.substack.com/p/ai-applications-have-two-growth-curves",
       "source": "Frontier AI",
       "date": "2026-05-08",
-      "summary": "The fast-growth trajectory of companies like Cursor is not the only or most valuable curve for AI applications \u2014 the most durable businesses will grow slowly by solving problems competitors cannot copy in a quarter. Challenges treating Cursor-style growth as the universal template for AI investment.",
+      "summary": "The fast-growth trajectory of companies like Cursor is not the only or most valuable curve for AI applications — the most durable businesses will grow slowly by solving problems competitors cannot copy in a quarter. Challenges treating Cursor-style growth as the universal template for AI investment.",
       "industry_nodes": [],
       "schools": [
         "not-a-bubble",
@@ -2597,7 +2597,7 @@
       "url": "https://crawshaw.io/blog/agent-principal-agent",
       "source": "crawshaw.io",
       "date": "2026-05-08",
-      "summary": "Contributors submitting agent-generated slop PRs create an unmanageable reviewing burden \u2014 reviewers would be more productive prompting agents themselves rather than reviewing agent-authored submissions. A sharp thesis on the economic misalignment when agents work for contributors rather than for reviewers.",
+      "summary": "Contributors submitting agent-generated slop PRs create an unmanageable reviewing burden — reviewers would be more productive prompting agents themselves rather than reviewing agent-authored submissions. A sharp thesis on the economic misalignment when agents work for contributors rather than for reviewers.",
       "industry_nodes": [],
       "schools": [
         "manager-of-agents",
@@ -2642,7 +2642,7 @@
       "url": "https://www.anthropic.com/news/agents-for-financial-services",
       "source": "Anthropic",
       "date": "2026-05-07",
-      "summary": "Anthropic launched ten finance-focused AI agent templates for pitchbook generation, KYC review, month-end close, valuation review, and financial modeling \u2014 plus Microsoft 365 add-ins and MCP integrations. Marks Claude's serious push into institutional finance workflows as services-as-software.",
+      "summary": "Anthropic launched ten finance-focused AI agent templates for pitchbook generation, KYC review, month-end close, valuation review, and financial modeling — plus Microsoft 365 add-ins and MCP integrations. Marks Claude's serious push into institutional finance workflows as services-as-software.",
       "industry_nodes": [],
       "schools": [
         "services-as-software",
@@ -2657,7 +2657,7 @@
       "url": "https://fortune.com/2026/05/08/anthropic-80fold-growth-quarter-renting-elon-musk-data-center/",
       "source": "Fortune",
       "date": "2026-05-08",
-      "summary": "Anthropic's revenue grew 80-fold in Q1 on an annualized basis \u2014 far exceeding its own 10x plan \u2014 pushing it to a $30 billion run rate and requiring a deal to rent SpaceX's Colossus 1 data center. The growth rate suggests AI adoption is moving faster than any prior technology S-curve.",
+      "summary": "Anthropic's revenue grew 80-fold in Q1 on an annualized basis — far exceeding its own 10x plan — pushing it to a $30 billion run rate and requiring a deal to rent SpaceX's Colossus 1 data center. The growth rate suggests AI adoption is moving faster than any prior technology S-curve.",
       "industry_nodes": [],
       "schools": [
         "not-a-bubble",
@@ -2672,7 +2672,7 @@
       "url": "https://www.scmp.com/tech/tech-trends/article/3352945/deepseek-soon-close-first-external-fundraising-us50b-valuation-sources",
       "source": "South China Morning Post",
       "date": "2026-05-07",
-      "summary": "DeepSeek is in talks to close its first external fundraising at a $50 billion valuation, backed by China's National AI Industry Investment Fund \u2014 the strongest state signal yet of DeepSeek's role in China's AI strategy as a hedge against US export controls.",
+      "summary": "DeepSeek is in talks to close its first external fundraising at a $50 billion valuation, backed by China's National AI Industry Investment Fund — the strongest state signal yet of DeepSeek's role in China's AI strategy as a hedge against US export controls.",
       "industry_nodes": [],
       "schools": [
         "extrapolators",
@@ -2734,7 +2734,7 @@
       "url": "https://every.to/context-window/ai-work-is-splitting-in-two",
       "source": "Every",
       "date": "2026-05-10",
-      "summary": "AI work is bifurcating into two modes \u2014 real-time desktop collaboration and long-running delegated agents \u2014 and the emerging meta-skill is correctly routing tasks between them. Covers Anthropic Managed Agents, ChatGPT as project manager, and argues the allocation economy thesis only captured half the picture.",
+      "summary": "AI work is bifurcating into two modes — real-time desktop collaboration and long-running delegated agents — and the emerging meta-skill is correctly routing tasks between them. Covers Anthropic Managed Agents, ChatGPT as project manager, and argues the allocation economy thesis only captured half the picture.",
       "industry_nodes": [],
       "schools": [
         "manager-of-agents",
@@ -2750,7 +2750,7 @@
       "url": "https://kristoff.it/blog/contributor-poker-and-ai/",
       "source": "Loris Cro (kristoff.it)",
       "date": "2026-04-29",
-      "summary": "Open-source maintainers bet on contributors, not individual PRs \u2014 a trust model LLM-generated code breaks because it consumes code-review budget without building trusted human contributors. Articulates the clearest principled case for AI contribution bans, using Zig and Bun as live examples.",
+      "summary": "Open-source maintainers bet on contributors, not individual PRs — a trust model LLM-generated code breaks because it consumes code-review budget without building trusted human contributors. Articulates the clearest principled case for AI contribution bans, using Zig and Bun as live examples.",
       "industry_nodes": [],
       "schools": [
         "gatekeeping-vs-open",
@@ -2796,7 +2796,7 @@
       "url": "https://analyticsdrift.com/andrej-karpathy-agentic-engineering-software-3/",
       "source": "Analytics Drift",
       "date": "2026-05-02",
-      "summary": "Coverage of Karpathy's AI Ascent 2026 talk where he coined \"agentic engineering\" as the successor to vibe coding: vibe coding accepts what comes back, agentic engineering designs the system and uses AI to accelerate a plan you have already reasoned through. He also described his personal coding workflow shifting from 80% manual in November 2025 to 80% agent-directed by December \u2014 framing it as a threshold crossed, not a gradient.",
+      "summary": "Coverage of Karpathy's AI Ascent 2026 talk where he coined \"agentic engineering\" as the successor to vibe coding: vibe coding accepts what comes back, agentic engineering designs the system and uses AI to accelerate a plan you have already reasoned through. He also described his personal coding workflow shifting from 80% manual in November 2025 to 80% agent-directed by December — framing it as a threshold crossed, not a gradient.",
       "industry_nodes": [],
       "schools": [
         "vibe-coding",
@@ -2811,7 +2811,7 @@
       "url": "https://productify.substack.com/p/why-mistralai-grows-faster-than-openaianthropic",
       "source": "Productify",
       "date": "2026-05-11",
-      "summary": "Mistral achieved 20x ARR growth in a year by positioning itself as a sovereign, efficient enterprise AI layer for customers avoiding full dependency on US labs; its European identity and openness narrative are resonating with regulated, multinational customers. Matters because it shows positioning\u2014not raw capability\u2014as the winning strategy, and validates the sovereign-AI appetite driving open-weight model adoption.",
+      "summary": "Mistral achieved 20x ARR growth in a year by positioning itself as a sovereign, efficient enterprise AI layer for customers avoiding full dependency on US labs; its European identity and openness narrative are resonating with regulated, multinational customers. Matters because it shows positioning—not raw capability—as the winning strategy, and validates the sovereign-AI appetite driving open-weight model adoption.",
       "industry_nodes": [],
       "schools": [
         "gatekeeping-vs-open",
@@ -2840,7 +2840,7 @@
       "url": "https://dylanzsz.github.io/faulty-memory/",
       "source": "Dylan's Research Blog",
       "date": "2026-05-11",
-      "summary": "Continuous LLM memory updates can make agents perform worse than agents with no memory at all because the rewrite step corrupts useful episodic information; the failure is in knowing when and how to consolidate. Matters because it identifies a core unsolved problem in long-running agent architectures\u2014memory management cannot yet safely run on autopilot.",
+      "summary": "Continuous LLM memory updates can make agents perform worse than agents with no memory at all because the rewrite step corrupts useful episodic information; the failure is in knowing when and how to consolidate. Matters because it identifies a core unsolved problem in long-running agent architectures—memory management cannot yet safely run on autopilot.",
       "industry_nodes": [],
       "schools": [
         "agent-internals",
@@ -2855,7 +2855,7 @@
       "url": "https://www.lesswrong.com/posts/k3XHZ4DjykLSfsnks/the-anti-singularity",
       "source": "LessWrong",
       "date": "2026-05-11",
-      "summary": "The 'anti-singularity' is a future where most systems resist global optimization and can only be understood via trial-and-error; AI would still be enormously powerful\u2014trying millions of possibilities per human attempt\u2014but the world stays irreducibly complex. Matters as a counterweight to both singularity optimism and doomers, reframing AI dominance around diversity and adaptation rather than convergence.",
+      "summary": "The 'anti-singularity' is a future where most systems resist global optimization and can only be understood via trial-and-error; AI would still be enormously powerful—trying millions of possibilities per human attempt—but the world stays irreducibly complex. Matters as a counterweight to both singularity optimism and doomers, reframing AI dominance around diversity and adaptation rather than convergence.",
       "industry_nodes": [],
       "schools": [
         "post-agi-skeptics",
@@ -2900,7 +2900,7 @@
       "url": "https://allenai.org/blog/emo",
       "source": "Allen AI",
       "date": "2026-05-11",
-      "summary": "Allen AI's EMO model learns expert specialization organically from pretraining data rather than predefined domains, and tasks run on just 12.5% of experts while preserving near-full-model performance. Matters as evidence that MoE specialization can emerge without explicit domain supervision\u2014a data point for efficiency-first scaling arguments.",
+      "summary": "Allen AI's EMO model learns expert specialization organically from pretraining data rather than predefined domains, and tasks run on just 12.5% of experts while preserving near-full-model performance. Matters as evidence that MoE specialization can emerge without explicit domain supervision—a data point for efficiency-first scaling arguments.",
       "industry_nodes": [],
       "schools": [
         "scaling-laws-revisionism",
@@ -2915,7 +2915,7 @@
       "url": "https://gowers.wordpress.com/2026/05/08/a-recent-experience-with-chatgpt-5-5-pro/",
       "source": "Timothy Gowers' Weblog",
       "date": "2026-05-08",
-      "summary": "Mathematician Timothy Gowers finds that ChatGPT 5.5 Pro can spot 'easy arguments human mathematicians have missed' in novel research problems\u2014not just recall known results\u2014a shift he did not expect to see so soon. Matters as a domain-expert practitioner benchmark, more credible than lab release announcements for calibrating AGI-adjacent capability claims.",
+      "summary": "Mathematician Timothy Gowers finds that ChatGPT 5.5 Pro can spot 'easy arguments human mathematicians have missed' in novel research problems—not just recall known results—a shift he did not expect to see so soon. Matters as a domain-expert practitioner benchmark, more credible than lab release announcements for calibrating AGI-adjacent capability claims.",
       "industry_nodes": [],
       "schools": [
         "extrapolators"
@@ -2929,7 +2929,7 @@
       "url": "https://www.dbreunig.com/2026/05/10/overfitting-the-harness.html",
       "source": "dbreunig.com",
       "date": "2026-05-10",
-      "summary": "Frontier labs are training first-party harness behaviors into model weights, making third-party workflows structurally disadvantaged; OpenAI winding down fine-tuning removes the escape hatch developers used to counteract this. Matters because it names a structural competitive dynamic\u2014labs baking market power into model weights\u2014that's distinct from capability competition.",
+      "summary": "Frontier labs are training first-party harness behaviors into model weights, making third-party workflows structurally disadvantaged; OpenAI winding down fine-tuning removes the escape hatch developers used to counteract this. Matters because it names a structural competitive dynamic—labs baking market power into model weights—that's distinct from capability competition.",
       "industry_nodes": [],
       "schools": [
         "scaling-laws-revisionism",
@@ -2940,7 +2940,7 @@
       "id": "ef828cb0"
     },
     {
-      "title": "It's a Buyer's Market \u2014 And a Seller's Nightmare",
+      "title": "It's a Buyer's Market — And a Seller's Nightmare",
       "url": "https://www.onlycfo.io/p/the-2026-procurement-playbook-a-sellers",
       "source": "OnlyCFO",
       "date": "2026-05-11",
@@ -2960,7 +2960,7 @@
       "url": "https://liberalandlovingit.substack.com/p/the-next-biggest-moat-in-ai",
       "source": "David Thielen",
       "date": "2026-05-11",
-      "summary": "The strongest AI company moat is the organizational structure itself\u2014companies that invent new institutional forms around new kinds of work unlock talent that previously had nowhere to go, as OpenAI did with frontier model training at the center. Matters because it reframes AI competition from capability races to org-design races, with implications for what 'AI-native flat org' actually means.",
+      "summary": "The strongest AI company moat is the organizational structure itself—companies that invent new institutional forms around new kinds of work unlock talent that previously had nowhere to go, as OpenAI did with frontier model training at the center. Matters because it reframes AI competition from capability races to org-design races, with implications for what 'AI-native flat org' actually means.",
       "industry_nodes": [],
       "schools": [
         "ai-native-flat",
@@ -2975,7 +2975,7 @@
       "url": "https://blog.sshh.io/p/how-ai-productivity-fails",
       "source": "Shrivu Shankar",
       "date": "2026-05-11",
-      "summary": "Most AI users only achieve 10\u201320% productivity gains despite claims of transformation; real 10x+ requires simultaneously changing personal practice AND org structure so bottlenecks don't just migrate downstream into review and deployment. Matters as a practitioner framework for why AI transformation stalls\u2014generation outpaces review when orgs are organized by function, not loop ownership.",
+      "summary": "Most AI users only achieve 10–20% productivity gains despite claims of transformation; real 10x+ requires simultaneously changing personal practice AND org structure so bottlenecks don't just migrate downstream into review and deployment. Matters as a practitioner framework for why AI transformation stalls—generation outpaces review when orgs are organized by function, not loop ownership.",
       "industry_nodes": [],
       "schools": [
         "compound-engineering-org",
@@ -2990,7 +2990,7 @@
       "url": "https://hackernoon.com/figmas-collapse-should-terrify-saas-leaders",
       "source": "HackerNoon",
       "date": "2026-05-11",
-      "summary": "Figma's 85% market cap collapse since IPO illustrates what happens when your product IS the workflow\u2014agents excel at executing workflows\u2014and the article proposes a three-layer repositioning framework (data, taste, orchestration) for SaaS leaders facing the same pressure. Matters as a concrete case study in services-as-software displacement and a replicable repositioning framework.",
+      "summary": "Figma's 85% market cap collapse since IPO illustrates what happens when your product IS the workflow—agents excel at executing workflows—and the article proposes a three-layer repositioning framework (data, taste, orchestration) for SaaS leaders facing the same pressure. Matters as a concrete case study in services-as-software displacement and a replicable repositioning framework.",
       "industry_nodes": [],
       "schools": [
         "saas-survives",
@@ -3020,7 +3020,7 @@
       "url": "https://99d.substack.com/p/slop-em-up",
       "source": "99d",
       "date": "2026-05-11",
-      "summary": "The 'slop cannon' is reframed as a workflow mode\u2014using AI output as raw material to think with, then editing hard\u2014with production mode being fast and selection mode being slow; the bottleneck is always taste, not generation. Matters as a practitioner-level operationalization of the taste-is-the-bottleneck school with a specific two-mode workflow design.",
+      "summary": "The 'slop cannon' is reframed as a workflow mode—using AI output as raw material to think with, then editing hard—with production mode being fast and selection mode being slow; the bottleneck is always taste, not generation. Matters as a practitioner-level operationalization of the taste-is-the-bottleneck school with a specific two-mode workflow design.",
       "industry_nodes": [],
       "schools": [
         "taste-is-the-bottleneck",
@@ -3050,7 +3050,7 @@
       "url": "https://www.proofofconcept.pub/p/escape-from-agentic-loop",
       "source": "Proof of Concept",
       "date": "2026-05-11",
-      "summary": "David Hoang distinguishes human-on-the-loop (supervising autonomous agents) from human-in-the-loop (deeply involved in execution); taste and original work require being in the loop, while commodity tasks can safely be delegated. Matters as a practitioner taxonomy for which work should remain human\u2014with the argument that over-delegation atrophies the judgment that made you worth delegating to.",
+      "summary": "David Hoang distinguishes human-on-the-loop (supervising autonomous agents) from human-in-the-loop (deeply involved in execution); taste and original work require being in the loop, while commodity tasks can safely be delegated. Matters as a practitioner taxonomy for which work should remain human—with the argument that over-delegation atrophies the judgment that made you worth delegating to.",
       "industry_nodes": [],
       "schools": [
         "productive-friction",
@@ -3066,7 +3066,7 @@
       "url": "https://www.404media.co/your-ai-use-is-breaking-my-brain/",
       "source": "404media",
       "date": "2026-05-11",
-      "summary": "AI-generated content is increasingly impossible to filter and may be causing human writers to mimic AI style, homogenizing online discourse and creating a 'zombie internet' of semi-automated interactions. Matters as documented evidence of AI deployment externalities at scale\u2014distinct from fake content, it's a homogenization effect on the collective epistemic environment.",
+      "summary": "AI-generated content is increasingly impossible to filter and may be causing human writers to mimic AI style, homogenizing online discourse and creating a 'zombie internet' of semi-automated interactions. Matters as documented evidence of AI deployment externalities at scale—distinct from fake content, it's a homogenization effect on the collective epistemic environment.",
       "industry_nodes": [],
       "schools": [
         "llm-doubters",
@@ -3105,6 +3105,188 @@
       "relevance": 4,
       "status": "pending",
       "id": "816e6609"
+    },
+    {
+      "id": "ad716d88",
+      "title": "How to Orchestrate AI Workflows",
+      "url": "https://refactoring.fm/p/how-to-orchestrate-ai-workflows",
+      "source": "Refactoring",
+      "date": "2026-05-13",
+      "summary": "Luca Rossi navigates the tradeoffs between pure AI agents and deterministic orchestration, proposing a maturity model where teams start AI-first and gradually replace AI with code as workflows mature. Challenges the 'all-agents-all-the-time' narrative with a practical scaffolding-first framework.",
+      "industry_nodes": [],
+      "schools": [
+        "workflow-recipes",
+        "agent-internals",
+        "compound-engineering"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "c4c9d14e",
+      "title": "The Fallacy of the 16-hour Agent",
+      "url": "https://every.to/context-window/the-fallacy-of-the-16-hour-agent",
+      "source": "Every",
+      "date": "2026-05-12",
+      "summary": "Argues that the widely-cited 16-hour agent benchmark conflates duration with difficulty and is based on a 50% success rate — at 80% reliability the same model handles only ~3-hour tasks. Grounds the agent capability debate in success rates rather than headline duration numbers.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "bubble-skeptics"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "679c7631",
+      "title": "Socrates as a Service",
+      "url": "https://every.to/p/socrates-as-a-service",
+      "source": "Every",
+      "date": "2026-05-11",
+      "summary": "Argues that deep conversational questioning to extract tacit knowledge is still a distinctly human skill AI cannot replicate. The gap between AI output and a skilled human interviewer is where the best ideas still live.",
+      "industry_nodes": [],
+      "schools": [
+        "productive-friction",
+        "ai-as-intensifier"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "7508a477",
+      "title": "Interaction Models: A Scalable Approach to Human-AI Collaboration",
+      "url": "https://thinkingmachines.ai/blog/interaction-models/",
+      "source": "Thinking Machines Lab",
+      "date": "2026-05-12",
+      "summary": "Research preview of multi-stream interaction models trained from scratch for real-time audio/video/text collaboration, eliminating turn-based limits. Represents a new architectural approach that could reshape how agentic systems handle real-time human interaction.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-architecture",
+        "new-models"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "3bee7290",
+      "title": "Foundation Model Scaling: Building Blocks",
+      "url": "https://huggingface.co/blog/amazon/foundation-model-building-blocks",
+      "source": "AWS / HuggingFace",
+      "date": "2026-05-12",
+      "summary": "AWS details how foundation model scaling has shifted from pre-training toward post-training and test-time compute, with coverage of distributed infrastructure required at each stage. Important for understanding where frontier labs are investing compute in 2026.",
+      "industry_nodes": [],
+      "schools": [
+        "scaling-laws-revisionism",
+        "reasoning-rl"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "ee86870e",
+      "title": "The Inference Shift",
+      "url": "https://stratechery.com/2026/the-inference-shift/",
+      "source": "Stratechery",
+      "date": "2026-05-12",
+      "summary": "Argues inference is splitting into two regimes — low-latency answer inference (where Cerebras WSE-3 dominates with 44GB on-chip SRAM) versus agentic inference (where HBM GPUs dominate for large KV caches). Cerebras' surging IPO signals this bifurcation and its infrastructure implications for agent deployment.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-architecture",
+        "scaling-laws-revisionism"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "fa71a414",
+      "title": "Using Claude Code: The Unreasonable Effectiveness of HTML",
+      "url": "https://simonwillison.net/2026/May/8/unreasonable-effectiveness-of-html/",
+      "source": "Simon Willison",
+      "date": "2026-05-08",
+      "summary": "Thariq Shihipar of Anthropic makes the case that HTML has overtaken Markdown as the superior format for AI agent outputs — richer, interactive, shareable, and already the Anthropic internal default. Has triggered significant industry debate about the appropriate interface contract between agents and humans.",
+      "industry_nodes": [],
+      "schools": [
+        "prompting-craft",
+        "workflow-recipes"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "8118a093",
+      "title": "Thoughts on GitLab's Workforce Reduction and Agentic Era Restructuring",
+      "url": "https://simonwillison.net/2026/May/11/gitlab-act-2/",
+      "source": "Simon Willison",
+      "date": "2026-05-11",
+      "summary": "Simon Willison analyzes GitLab restructuring around the agentic era — flattening management, creating 60 smaller teams with end-to-end ownership, pulling back from small-country offices — and notes the incentive structure that makes GitLab uniquely motivated to believe agents will grow the software market. A sharp read of a major organizational signal.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-native-flat",
+        "compound-engineering-org",
+        "manager-of-agents"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "45f425d4",
+      "title": "AI Is Breaking Two Vulnerability Cultures",
+      "url": "https://www.jefftk.com/p/ai-is-breaking-two-vulnerability-cultures",
+      "source": "jefftk.com",
+      "date": "2026-05-11",
+      "summary": "AI's ability to simultaneously find and fix bugs is breaking coordinated-disclosure culture and bug-bounty economics by making manual vulnerability hunting less economically viable. Signals how AI is reshaping security profession incentive structures.",
+      "industry_nodes": [],
+      "schools": [
+        "alignment-governance",
+        "general-ai-news"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "e2ab6b44",
+      "title": "AutoTTS: Agentic Test-Time Scaling",
+      "url": "https://github.com/zhengkid/AutoTTS",
+      "source": "GitHub / Research",
+      "date": "2026-05-12",
+      "summary": "Explores automated strategy discovery for test-time scaling using coding agents that iteratively refine controller logic in a replay environment — no gradient updates needed. Advances the frontier of agents improving their own reasoning strategies without expensive retraining.",
+      "industry_nodes": [],
+      "schools": [
+        "reasoning-rl",
+        "agent-internals"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "3e1c8f85",
+      "title": "The Main Path to Truly Creative AI",
+      "url": "https://danielmiessler.com/blog/the-main-path-to-truly-creative-ai",
+      "source": "Daniel Miessler",
+      "date": "2026-05-12",
+      "summary": "Argues AI cannot be truly creative without intrinsic drives and subjective experience, and that emulating feelings may be the necessary path — but raises ethical concerns akin to parental responsibility. Frames the creativity gap as an architectural and values question rather than a pure scaling question.",
+      "industry_nodes": [],
+      "schools": [
+        "world-models",
+        "post-agi-skeptics"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "e3f59a4d",
+      "title": "LocalMaxxing",
+      "url": "https://tomtunguz.com/localmaxxing/",
+      "source": "Tom Tunguz",
+      "date": "2026-05-12",
+      "summary": "Argues local models can now match cloud models for many tasks at dramatically lower cost, signaling a shift in where AI workloads run and who controls inference economics. Relevant to the debate about whether cloud AI infrastructure moats are defensible against local competition.",
+      "industry_nodes": [],
+      "schools": [
+        "saas-survives",
+        "ai-economy"
+      ],
+      "relevance": 3,
+      "status": "pending"
     }
   ]
 }
