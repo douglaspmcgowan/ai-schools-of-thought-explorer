@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-13T10:12:47.253Z",
+  "generated": "2026-05-14T10:18:42.657Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -3286,6 +3286,312 @@
         "ai-economy"
       ],
       "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "url": "https://every.to/context-window/mining-your-life-for-context",
+      "title": "Mining Your Life for Context",
+      "source": "Every",
+      "date": "2026-05-13",
+      "summary": "Dan Shipper profiles how AI entrepreneur Noah Brier uses Claude Code as a second brain, with Every head of growth Austin Tedesco on using Codex to spot interruptions and mine scattered past insights into drafts. Matters because it offers a concrete workflow for context-engineering practice: treating past outputs and conversations as retrievable structured memory.",
+      "schools": [
+        "context-engineering",
+        "workflow-recipes"
+      ],
+      "industry_nodes": [],
+      "relevance": 4,
+      "id": "e370f71b",
+      "status": "pending"
+    },
+    {
+      "url": "https://gptomics.com/blog/how_ai_changes_software_pnl.html",
+      "title": "How AI Changes Software P&L",
+      "source": "GPTomics",
+      "date": "2026-05-13",
+      "summary": "SaaS used to mean 70-80% gross margins; AI-native software may cap at 17% because every call is personalized, reasoning models burn 10-100x more tokens, and inference costs scale linearly with users. Four escape routes are sketched: ultra-low-cost clones, niche lifestyle businesses, luxury software, and vertical integration—with the clear message that decks still assuming 80% margins need rewriting.",
+      "schools": [
+        "saas-survives",
+        "services-as-software",
+        "ai-rebundling"
+      ],
+      "industry_nodes": [],
+      "relevance": 5,
+      "id": "fcd8dc04",
+      "status": "pending"
+    },
+    {
+      "url": "https://www.saastr.com/whos-winning-enterprise-ai-now-claude-up-128-gemini-up-48-openai-down-8-grok-still-a-rounding-error/",
+      "title": "Who's Winning Enterprise AI Now: Claude Up 128%, Gemini Up 48%, OpenAI Down 8%, Grok Still a Rounding Error",
+      "source": "SaaStr",
+      "date": "2026-05-13",
+      "summary": "Enterprise AI adoption data over the past 12 months: OpenAI still leads at 56% share but dropped 8%; Claude more than doubled; Gemini grew from 27% to 40%; coding-assistant market is driving the shift. Matters as empirical evidence of which providers are actually winning enterprise seats and why.",
+      "schools": [
+        "not-a-bubble",
+        "ai-rebundling"
+      ],
+      "industry_nodes": [],
+      "relevance": 4,
+      "id": "c4a92ea3",
+      "status": "pending"
+    },
+    {
+      "url": "https://links.tldrnewsletter.com/gICgmC",
+      "title": "How to Become AI-Native",
+      "source": "TLDR Founders",
+      "date": "2026-05-13",
+      "summary": "AI-native is an organizational label, not a technology one: only ~1,000 companies above M ARR have rebuilt so agents operate inside core workflows rather than at the edges. The shift requires making implicit knowledge explicit—documented decision rules, agent-readable SOPs, clean customer objects, permissions, and evaluation loops.",
+      "schools": [
+        "ai-native-flat",
+        "compound-engineering-org",
+        "manager-of-agents"
+      ],
+      "industry_nodes": [],
+      "relevance": 4,
+      "id": "72e5ad44",
+      "status": "pending"
+    },
+    {
+      "url": "https://about.gitlab.com/blog/gitlab-act-2/",
+      "title": "GitLab Act 2",
+      "source": "GitLab Blog",
+      "date": "2026-05-11",
+      "summary": "CEO Bill Staples announces a sweeping restructuring: 30% operational footprint reduction, three layers of management removed, ~60 smaller autonomous R&D teams, and five architectural bets including a new git system for machine-scale agents. The thesis is explicit: 'Software will be built by machines, directed by people,' making this a landmark case study in a public company pivoting to an agentic platform.",
+      "schools": [
+        "compound-engineering-org",
+        "services-as-software",
+        "agent-native-growth"
+      ],
+      "industry_nodes": [],
+      "relevance": 5,
+      "id": "05195c2b",
+      "status": "pending"
+    },
+    {
+      "url": "https://www.seangoedecke.com/software-engineering-may-no-longer-be-a-lifetime-career/",
+      "title": "Software Engineering May No Longer Be a Lifetime Career",
+      "source": "Sean Goedecke",
+      "date": "2026-05-11",
+      "summary": "Using AI to code means slower skill accumulation, but refusing to use it is professionally uncompetitive—analogous to construction workers required to do body-damaging lifts. The essay argues software engineering is converging on a professional-sports model: a finite career window rather than a lifetime of compounding expertise.",
+      "schools": [
+        "vibe-coding",
+        "post-agi-skeptics"
+      ],
+      "industry_nodes": [],
+      "relevance": 4,
+      "id": "2c65b665",
+      "status": "pending"
+    },
+    {
+      "url": "https://x.com/garrytan/status/2043566215927328955",
+      "title": "Thin Harness, Fat Skills",
+      "source": "Garry Tan (X / YCombinator)",
+      "date": "2026-05-14",
+      "summary": "YC CEO Garry Tan's thesis: agent productivity lives in purpose-built skill files (fat markdown documents the agent reads and executes), not in the runtime harness. Push fuzzy judgment operations into skills; push must-be-perfect deterministic operations into code; keep the harness thin—this is the new DRY principle for agentic engineering.",
+      "schools": [
+        "agent-internals",
+        "prompting-craft",
+        "spec-driven"
+      ],
+      "industry_nodes": [],
+      "relevance": 4,
+      "id": "7d28ad69",
+      "status": "pending"
+    },
+    {
+      "url": "https://developers.openai.com/cookbook/examples/codex/build_iterative_repair_loops_with_codex",
+      "title": "Building Self-Repairing Agent Loops",
+      "source": "OpenAI (Codex Cookbook)",
+      "date": "2026-05-13",
+      "summary": "OpenAI's Codex workflow for agents that iteratively review, repair, and validate outputs using structured feedback loops to improve reliability without human intervention. Matters because it codifies a production pattern—iterative-repair-loop—that is emerging as a key primitive for reliable autonomous agents.",
+      "schools": [
+        "agent-internals",
+        "autonomous-agent",
+        "single-loop"
+      ],
+      "industry_nodes": [],
+      "relevance": 4,
+      "id": "cdd833f7",
+      "status": "pending"
+    },
+    {
+      "url": "https://www.alphaxiv.org/blog/reinforcement-learning-for-rlms",
+      "title": "Reinforcing Recursive Language Models",
+      "source": "AlphaXiv Blog",
+      "date": "2026-05-13",
+      "summary": "Using RL to fine-tune 4B-parameter models as Recursive Language Models (RLMs) achieves Claude Sonnet 4.6-level performance at significantly lower cost by training a shared policy for parent and child RLMs. Matters because it challenges the assumption that frontier-level task performance requires frontier-scale models—a direct scaling-law provocation.",
+      "schools": [
+        "reasoning-rl",
+        "scaling-laws-revisionism"
+      ],
+      "industry_nodes": [],
+      "relevance": 4,
+      "id": "f0cd7046",
+      "status": "pending"
+    },
+    {
+      "url": "https://arxiviq.substack.com/p/compute-optimal-tokenization",
+      "title": "Compute Optimal Tokenization",
+      "source": "ArXivIQ",
+      "date": "2026-05-13",
+      "summary": "Training ~1,300 models reveals that the standard 20-tokens-per-parameter scaling heuristic is an artifact of specific tokenizers, not a universal law; compute-optimal scaling should use bytes rather than tokens. Matters because it suggests current scaling guidance systematically underestimates compute allocation for multilingual and byte-heavy domains.",
+      "schools": [
+        "scaling-laws-revisionism"
+      ],
+      "industry_nodes": [],
+      "relevance": 4,
+      "id": "8af0528e",
+      "status": "pending"
+    },
+    {
+      "url": "https://anneliesgamble.substack.com/p/ai-for-the-real-world-a-conversation",
+      "title": "AI for the Real World: A Conversation with Yann LeCun",
+      "source": "Substack (via TLDR AI)",
+      "date": "2026-05-13",
+      "summary": "LeCun argues today's LLMs are commercially valuable but won't reach human-level intelligence because language is a small fraction of how humans understand the world; future AI must use world models (JEPA architecture) to learn abstract representations of physics, causality, and consequences. LeCun recently founded AMI Labs with a B+ seed to build exactly this, making this an essential statement of the anti-LLM scaling school.",
+      "schools": [
+        "world-models",
+        "llm-doubters",
+        "post-agi-skeptics"
+      ],
+      "industry_nodes": [],
+      "relevance": 5,
+      "id": "36dd661e",
+      "status": "pending"
+    },
+    {
+      "url": "https://softwaredoug.com/blog/2026/05/11/the-new-agentic-search-models.html",
+      "title": "The New Agentic Search Models",
+      "source": "Software Doug",
+      "date": "2026-05-11",
+      "summary": "Agentic search models are specialized LLMs trained specifically on search tasks, representing a divergence from general-purpose models for retrieval-heavy agentic workflows. Matters because it signals the beginning of capability specialization within the agent stack—a shift from one-model-does-all toward purpose-built components.",
+      "schools": [
+        "agent-internals",
+        "agent-native-browsing"
+      ],
+      "industry_nodes": [],
+      "relevance": 4,
+      "id": "31631b22",
+      "status": "pending"
+    },
+    {
+      "url": "https://code.claude.com/docs/en/fast-mode",
+      "title": "Fast Mode for Claude Opus 4.7",
+      "source": "Anthropic (Claude Code Docs)",
+      "date": "2026-05-14",
+      "summary": "Fast mode for Opus 4.7—2.5x faster at 6x standard pricing (0/50 per M tokens)—is now in research preview across Claude Code, Cursor, Emergent, Factory, v0, Warp, and Windsurf; currently opt-in but will become default. Matters because it formalizes a speed/cost/quality tradeoff dial for production coding-agent workflows.",
+      "schools": [
+        "extrapolators"
+      ],
+      "industry_nodes": [],
+      "relevance": 3,
+      "id": "d843cbb2",
+      "status": "pending"
+    },
+    {
+      "url": "https://colossus.com/article/scott-wu-tapes-cognition/",
+      "title": "The Wu Tapes",
+      "source": "Colossus",
+      "date": "2026-05-12",
+      "summary": "Long-form interview with Scott Wu, CEO of Cognition (Devin), covering his path from childhood math olympiad to building one of the fastest-growing companies in history around autonomous AI coding agents. Matters as a first-person account of the agent-native coding thesis from the person who arguably proved it in production.",
+      "schools": [
+        "autonomous-agent",
+        "compound-engineering"
+      ],
+      "industry_nodes": [],
+      "relevance": 4,
+      "id": "2a7d8762",
+      "status": "pending"
+    },
+    {
+      "url": "https://links.tldrnewsletter.com/as2rKg",
+      "title": "Auto-Improving Software",
+      "source": "TLDR AI",
+      "date": "2026-05-12",
+      "summary": "Bedi runs an entire agent development lifecycle through five Claude Code prompts: scaffold, harden against spec, add capabilities, fix eval failures, and reconcile drift. The 'Improve loop' derives 8-12 probes from an agent's instructions, runs them against the live container, judges PASS/FAIL, and iterates up to five rounds—a concrete pattern for self-healing production agents.",
+      "schools": [
+        "single-loop",
+        "agent-internals",
+        "folder-as-agent"
+      ],
+      "industry_nodes": [],
+      "relevance": 4,
+      "id": "6255d43f",
+      "status": "pending"
+    },
+    {
+      "url": "https://links.tldrnewsletter.com/yHRAGU",
+      "title": "Codex Is for Prosumers — Here's Why (and How) to Switch",
+      "source": "a16z (Olivia Moore)",
+      "date": "2026-05-12",
+      "summary": "a16z's Olivia Moore recommends non-technical knowledge workers migrate to OpenAI's Codex from Claude's interfaces, arguing Codex's one-click Skills and lower setup friction (vs. Claude's ~10% non-programmer setup rate) will anchor the first real prosumer agent marketplace. Matters as a concrete claim about which agentic product is winning the non-technical user.",
+      "schools": [
+        "vibe-coding",
+        "agent-native-growth",
+        "workflow-recipes"
+      ],
+      "industry_nodes": [],
+      "relevance": 4,
+      "id": "8e92593d",
+      "status": "pending"
+    },
+    {
+      "url": "https://www.michaelnygard.com/blog/2026/05/ai-versus-microservices/",
+      "title": "AI versus Microservices",
+      "source": "Michael Nygard",
+      "date": "2026-05-12",
+      "summary": "Every technology shift changes the dominant architecture and languages—the essay argues AI is doing the same to microservices, suggesting LLM-friendly architectures (monolithic context windows, agent-readable service boundaries) will displace decomposed microservice graphs. Matters as a practitioner-level challenge to the prevailing microservices orthodoxy in the age of coding agents.",
+      "schools": [
+        "compound-engineering",
+        "single-loop"
+      ],
+      "industry_nodes": [],
+      "relevance": 4,
+      "id": "27cca266",
+      "status": "pending"
+    },
+    {
+      "url": "https://catboosted.bearblog.dev/thelastcompany/",
+      "title": "The Last Company",
+      "source": "CatBoosted",
+      "date": "2026-05-12",
+      "summary": "The thesis: future businesses will compete with AI-lab-owned firms where every knowledge-intensive function has been replaced by AI, creating an inherent structural advantage that independent companies cannot match on cost. Matters because it frames the services-as-software trend not as opportunity but as existential competitive threat for traditional firms.",
+      "schools": [
+        "services-as-software",
+        "post-agi-skeptics"
+      ],
+      "industry_nodes": [],
+      "relevance": 4,
+      "id": "fa9875c2",
+      "status": "pending"
+    },
+    {
+      "url": "https://techcrunch.com/2026/05/12/google-brings-agentic-ai-and-vibe-coded-widgets-to-android/",
+      "title": "Google Brings Agentic AI and Vibe-Coded Widgets to Android",
+      "source": "TechCrunch",
+      "date": "2026-05-12",
+      "summary": "Google's new Gemini-powered Android features can complete actions across apps, browse the web, fill out forms, and generate custom widgets through natural language prompts. Matters because it marks vibe-coding and agent-native browsing reaching the consumer OS layer—no longer confined to developer tools.",
+      "schools": [
+        "vibe-coding",
+        "agent-native-browsing"
+      ],
+      "industry_nodes": [],
+      "relevance": 3,
+      "id": "a7d4706b",
+      "status": "pending"
+    },
+    {
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-platform-on-aws-anthropics-native-platform-through-your-aws-account/",
+      "title": "Introducing Claude Platform on AWS",
+      "source": "AWS Machine Learning Blog",
+      "date": "2026-05-12",
+      "summary": "Claude Platform is now GA on AWS: customers access Anthropic's native Claude APIs, features, and console through an AWS account but the service is operated by Anthropic outside AWS's security boundary. Matters as a milestone in AI distribution—enterprise AI procurement increasingly flows through cloud hyperscaler billing, reshaping the buy-vs-build calculus.",
+      "schools": [
+        "not-a-bubble",
+        "ai-rebundling"
+      ],
+      "industry_nodes": [],
+      "relevance": 3,
+      "id": "59c60445",
       "status": "pending"
     }
   ]
