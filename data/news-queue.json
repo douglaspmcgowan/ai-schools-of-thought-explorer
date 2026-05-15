@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-14T10:18:42.657Z",
+  "generated": "2026-05-15T10:15:37.706Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -3592,6 +3592,253 @@
       "industry_nodes": [],
       "relevance": 3,
       "id": "59c60445",
+      "status": "pending"
+    },
+    {
+      "id": "f3ea44e1",
+      "title": "Recursive Superintelligence Raises $650M to Build Self-Improving AI",
+      "url": "https://siliconangle.com/2026/05/13/recursive-superintelligence-raises-650m-build-self-improving-ai-models/",
+      "source": "SiliconAngle",
+      "date": "2026-05-13",
+      "summary": "Recursive Superintelligence emerged from stealth with $650M at a $4.65B valuation, with a founding team drawn from OpenAI, DeepMind, Meta AI, and Salesforce, to build AI that autonomously identifies its weaknesses, designs fixes, and implements them without human intervention. The startup's bet on recursive self-improvement as a near-term engineering target marks a new category of explicitly AGI-directed labs.",
+      "industry_nodes": [],
+      "schools": [
+        "world-models",
+        "agi-timelines",
+        "autonomous-agent"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "ba26aaaf",
+      "title": "The Economics of Superstar AI Researchers",
+      "url": "https://epochai.substack.com/p/the-economics-of-superstar-ai-researchers",
+      "source": "Epoch AI",
+      "date": "2026-05-14",
+      "summary": "Top frontier-lab researchers now earn over 100x more than the average AI postdoc because their contributions scale instantly to billions of users, making researcher quality far more economically valuable than quantity. This superstar economics pattern explains the intensity of talent wars at frontier labs and suggests researcher compensation will continue to diverge.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-economy"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "ef45556f",
+      "title": "Building a Safe, Effective Sandbox to Enable Codex on Windows",
+      "url": "https://openai.com/index/building-codex-windows-sandbox/",
+      "source": "OpenAI",
+      "date": "2026-05-14",
+      "summary": "OpenAI details the engineering choices behind Codex's Windows sandbox, which uses separate OS accounts and explicit network allowlists because Windows has no native primitive for a 'safe autonomous coding agent.' The writeup surfaces the real infrastructure cost of deploying coding agents in enterprise environments where security and developer-workflow compatibility both matter.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "compound-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "fbc4b426",
+      "title": "AI Gateway Production Index",
+      "url": "https://vercel.com/blog/ai-gateway-production-index",
+      "source": "Vercel",
+      "date": "2026-05-14",
+      "summary": "Seven months of AI gateway traffic across 200,000+ teams shows agentic workloads now carry 59% of all token volume, with Anthropic leading on spend despite higher unit prices and heavy multi-model routing becoming the production norm. The data confirms that multi-model, multi-agent architectures are no longer experimental.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "context-engineering",
+        "ai-economy"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "1026345e",
+      "title": "Cline Releases Open-Source Agent Runtime SDK for Coding Agents",
+      "url": "https://www.testingcatalog.com/cline-releases-open-source-agent-runtime-sdk-for-coding-agents/",
+      "source": "TestingCatalog",
+      "date": "2026-05-14",
+      "summary": "@cline/sdk is an open-source framework for coding agents with checkpoints, MCP support, cron jobs, and native subagent orchestration, designed for CI/CD pipelines and embedded agent products. It signals the maturation of a composable infrastructure layer for coding agents independent of any single model provider.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "compound-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "460655a2",
+      "title": "Anthropic Beats OpenAI on Business Adoption",
+      "url": "https://econlab.substack.com/p/anthropic-beats-openai",
+      "source": "Econlab",
+      "date": "2026-05-14",
+      "summary": "More businesses used Anthropic than OpenAI in April 2026 for the first time, with Anthropic quadrupling enterprise adoption in a year while OpenAI's business adoption grew only 0.3%. This structural crossing-over overrides typical vendor stickiness and marks a genuine inversion in the enterprise AI market.",
+      "industry_nodes": [],
+      "schools": [
+        "not-a-bubble",
+        "ai-economy"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "dc356efa",
+      "title": "What Parameter Golf Taught Us",
+      "url": "https://openai.com/index/what-parameter-golf-taught-us/",
+      "source": "OpenAI",
+      "date": "2026-05-01",
+      "summary": "OpenAI's 16MB model compression challenge attracted 1,000+ participants and 2,000 submissions, with AI coding agents lowering experimentation costs enough to uncover new techniques like quantization-aware training from non-expert participants. The competition doubles as a talent pipeline and reveals how open challenges accelerate research at the efficiency frontier.",
+      "industry_nodes": [],
+      "schools": [
+        "empiricists",
+        "reasoning-rl",
+        "compound-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "cb15e9ed",
+      "title": "Apple Is Working to Incorporate AI Agents on the App Store",
+      "url": "https://9to5mac.com/2026/05/13/apple-is-working-to-incorporate-ai-agents-on-the-app-store-per-report/",
+      "source": "9to5Mac",
+      "date": "2026-05-13",
+      "summary": "Apple is exploring how to let AI agents into the App Store while preserving its privacy and security policies, which conflict with agents' need to take complex cross-app actions autonomously. This represents the platform tension between Apple's walled-garden revenue model and the emerging agent-first distribution paradigm.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-native-browsing",
+        "autonomous-agent"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "545bc8a0",
+      "title": "Is Software Losing Its Head?",
+      "url": "https://a16z.com/is-software-losing-its-head/",
+      "source": "a16z",
+      "date": "2026-05-13",
+      "summary": "Seema Amble examines what remains valuable in enterprise software when agents bypass the UI layer, arguing incumbents betting on the data layer as their moat must also own the identity and permissioning layer for agent-to-agent interactions to stay relevant. The piece maps three strategic responses for SaaS companies facing headless displacement.",
+      "industry_nodes": [],
+      "schools": [
+        "saas-survives",
+        "living-software",
+        "compound-engineering-org",
+        "ai-rebundling"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "9c77cce4",
+      "title": "The State of Product Development — with Doug Peete",
+      "url": "https://refactoring.fm/p/the-state-of-product-development-22a",
+      "source": "Refactoring",
+      "date": "2026-05-15",
+      "summary": "Luca Rossi and Atono CPO Doug Peete discuss findings from an industry report on product development, covering why planning is fragile, the requirements problem, and AI for product specs as an underexploited opportunity where most teams haven't applied AI. A practitioner lens on where AI-assisted product processes break down and what must be fixed before AI can help.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering",
+        "spec-driven",
+        "workflow-recipes"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "b146e00b",
+      "title": "Opus 4.7 Reels Us Back In",
+      "url": "https://every.to/context-window/opus-4-7-reels-us-back-in",
+      "source": "Every",
+      "date": "2026-05-14",
+      "summary": "Every's Context Window tests Claude Opus 4.7 through editorial and engineering tasks, finding it proactively suggests optimizations and performs like a senior magazine editor, pulling the team back after experimenting with other models. The review includes how Every defines 'agent' and a documented security breach (the Mini Shai-Hulud), offering a calibrated practitioner assessment of the model.",
+      "industry_nodes": [],
+      "schools": [
+        "new-models",
+        "context-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "1b1cec61",
+      "title": "Defense at AI Speed: Microsoft's MDASH Multi-Model Agentic Security System",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/05/12/defense-at-ai-speed-microsofts-new-multi-model-agentic-security-system-tops-leading-industry-benchmark/",
+      "source": "Microsoft Security Blog",
+      "date": "2026-05-12",
+      "summary": "MDASH orchestrates 100+ specialized AI agents across frontier and distilled models to find, debate, and prove real-world software vulnerabilities, reaching 88.45% on the CyberGym benchmark and discovering 16 new Windows flaws including 4 critical RCEs. It demonstrates that multi-agent deliberation loops can exceed single-model performance on complex real-world security tasks.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "agent-internals",
+        "compound-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "ea7776db",
+      "title": "How We Built Security Into Computer",
+      "url": "https://www.perplexity.ai/hub/blog/how-we-built-security-into-computer",
+      "source": "Perplexity",
+      "date": "2026-05-13",
+      "summary": "Perplexity details the Firecracker microVM isolation, scoped connector permissions, and four-layer prompt injection defense powering their Computer autonomous agent, with each session running in its own Linux kernel and a dedicated browser-safety ML classifier scanning external content. A valuable reference architecture for production autonomous agents that browse the web.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-native-browsing",
+        "agent-internals",
+        "constitutional"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "f999960f",
+      "title": "Amazon Ditches Rufus, Launches Alexa Shopping Agent",
+      "url": "https://www.cnbc.com/2026/05/13/amazon-ditches-rufus-ai-chatbot-in-favor-of-alexa-shopping-agent.html",
+      "source": "CNBC",
+      "date": "2026-05-13",
+      "summary": "Amazon is making Alexa the centerpiece of its AI shopping strategy, replacing the standalone Rufus chatbot with an agentic shopping assistant that can take purchasing actions using personal history and preferences. The pivot from chatbot to autonomous shopping agent signals Amazon's commitment to the services-as-software model for e-commerce.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "services-as-software"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "043bc9e0",
+      "title": "AI Is the New Netflix",
+      "url": "https://om.co/2026/05/13/ai-is-the-new-netflix/",
+      "source": "Om Malik",
+      "date": "2026-05-13",
+      "summary": "Om Malik argues AI is reshaping internet traffic as Netflix did, now driving massive upstream bandwidth demand that breaks the old asymmetric broadband model built for passive consumption. AI use is creating upstream traffic at scale that didn't exist a few years ago, permanently ending the fat-downstream/thin-upstream broadband design.",
+      "industry_nodes": [],
+      "schools": [
+        "not-a-bubble",
+        "living-software"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "a2db175c",
+      "title": "Adaption AutoScientist: An AI Tool That Helps Models Train Themselves",
+      "url": "https://techcrunch.com/2026/05/13/adaption-aims-big-with-autoscientist-an-ai-tool-that-helps-models-train-themselves/",
+      "source": "TechCrunch",
+      "date": "2026-05-13",
+      "summary": "Adaption's AutoScientist automates the fine-tuning loop—generating hypotheses, running experiments, and iterating—so models can rapidly acquire specific capabilities with minimal human intervention. An early data point in the shift toward self-directed training pipelines where humans set goals rather than execute experiments.",
+      "industry_nodes": [],
+      "schools": [
+        "scaling-laws-revisionism",
+        "autonomous-agent"
+      ],
+      "relevance": 3,
       "status": "pending"
     }
   ]
