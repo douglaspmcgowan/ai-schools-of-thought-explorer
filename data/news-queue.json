@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-15T10:15:37.706Z",
+  "generated": "2026-05-16T10:10:11.069Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -3837,6 +3837,159 @@
       "schools": [
         "scaling-laws-revisionism",
         "autonomous-agent"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "e310f2e8",
+      "title": "We Gave Every Employee an AI Agent. Here's What We're Doing Differently Now.",
+      "url": "https://every.to/source-code/we-gave-every-employee-an-ai-agent-here-s-what-we-re-doing-differently-now",
+      "source": "Every",
+      "date": "2026-05-15",
+      "summary": "Every ran a two-month experiment giving every employee an OpenClaw agent, then redesigned after finding individual agents created more friction than leverage; the revised model treats agents as shared team resources with defined jobs, not personal AI pets. A firsthand org-design data point that directly challenges the naive one-agent-per-employee assumption.",
+      "industry_nodes": [],
+      "schools": [
+        "manager-of-agents",
+        "ai-native-flat",
+        "compound-engineering-org"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "c63df391",
+      "title": "Introducing Grok Build Early Beta",
+      "url": "https://x.ai/news/grok-build-cli",
+      "source": "xAI",
+      "date": "2026-05-15",
+      "summary": "xAI launches Grok Build, a terminal-native agentic coding CLI with parallel subagent support, worktree integrations, MCP server compatibility, and a headless mode for CI/CD automation—available to SuperGrok Heavy subscribers. Adds competitive pressure to the Claude Code/Codex duopoly and signals that all major frontier labs now have a terminal coding agent.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "vibe-coding"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "fe7a97d7",
+      "title": "Development Environments for Your Cloud Agents",
+      "url": "https://cursor.com/blog/cloud-agent-development-environments",
+      "source": "Cursor",
+      "date": "2026-05-15",
+      "summary": "Cursor details a cloud-based development environment system for autonomous coding agents: multi-repo context, Dockerfile-based configuration, automated setup workflows, and governance controls for managing fleets of parallel agents. Represents the infrastructure layer needed to graduate from one coding agent to a governed fleet running simultaneously.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "compound-engineering",
+        "folder-as-agent"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "2ed8a739",
+      "title": "2028: Two Scenarios for Global AI Leadership",
+      "url": "https://www.anthropic.com/research/2028-ai-leadership",
+      "source": "Anthropic",
+      "date": "2026-05-15",
+      "summary": "Anthropic presents two 2028 scenarios—US democratic leadership maintained through export controls versus authoritarian norm-setting if policy inaction lets China close the gap—arguing 2026 decisions are the hinge point for who governs AI globally. The most explicit AGI-timeline-meets-governance argument published by a frontier lab to date.",
+      "industry_nodes": [],
+      "schools": [
+        "agi-timelines",
+        "alignment-governance",
+        "extrapolators"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "e9bcd1bb",
+      "title": "From \"System of Record\" to \"System of Intelligence\"",
+      "url": "https://www.a16z.news/p/from-system-of-record-to-system-of",
+      "source": "a16z",
+      "date": "2026-05-15",
+      "summary": "a16z argues CRM and systems of record are evolving into AI orchestration layers that drive intelligent action across business functions, with winners owning the system-of-intelligence tier that combines proprietary data with agent orchestration. Frames the SaaS-to-AI-services transition as a race between incumbents rebundling as intelligence layers and AI-native upstarts.",
+      "industry_nodes": [],
+      "schools": [
+        "services-as-software",
+        "ai-rebundling"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "980e91df",
+      "title": "When Knowledge Is Cheap, Insight Is Everything",
+      "url": "https://secondvoice.substack.com/p/when-knowledge-is-cheap-insight-is",
+      "source": "Second Voice (Substack)",
+      "date": "2026-05-15",
+      "summary": "Applies Jevons Paradox to AI: as the cost of finding and synthesizing information collapses, demand for that information explodes and the bottleneck shifts from access to genuine insight and taste. Provides the economic framework for why AI amplifies people who already have strong judgment rather than leveling the playing field.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-as-intensifier",
+        "taste-is-the-bottleneck"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "ee2d4174",
+      "title": "Recursive Superintelligence Raises $650M to Build Self-Improving AI",
+      "url": "https://thenextweb.com/news/recursive-superintelligence-self-improving-ai-funding",
+      "source": "The Next Web",
+      "date": "2026-05-13",
+      "summary": "Recursive Superintelligence, backed by GV and Nvidia at a $4.65B valuation, is building AI systems that can recursively improve themselves with minimal human oversight; its seven co-founders come from OpenAI, DeepMind, Meta AI, and Salesforce AI. A major capital bet on self-improving AI that places AGI-timeline and alignment debates squarely in the investment mainstream.",
+      "industry_nodes": [],
+      "schools": [
+        "agi-timelines",
+        "extrapolators"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "29aa33d9",
+      "title": "Your AI Use Is Breaking My Brain",
+      "url": "https://simonwillison.net/2026/May/11/zombie-internet/",
+      "source": "Simon Willison",
+      "date": "2026-05-11",
+      "summary": "Willison surfaces the \"Zombie Internet\" concept—a web where AI talks to AI, humans use AI to talk to other humans using AI, and authenticity signals collapse into noise—reflecting on the second-order social costs of mass AI adoption. A sharp practitioner essay on the hidden costs of AI ubiquity and the erosion of trust in online content.",
+      "industry_nodes": [],
+      "schools": [
+        "productive-friction",
+        "llm-doubters"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "a68ab591",
+      "title": "Announcing Genkit Middleware: Intercept, Extend, and Harden Your Agentic Apps",
+      "url": "https://developers.googleblog.com/announcing-genkit-middleware-intercept-extend-and-harden-your-agentic-apps/",
+      "source": "Google Developers Blog",
+      "date": "2026-05-15",
+      "summary": "Google's Genkit framework now includes a composable middleware system for agentic apps that intercepts generation calls to enable retries, human-approval gates before destructive tool calls, and full-stack observability—supporting TypeScript, Go, Dart, and Python. A concrete reference implementation of production-grade agent hardening patterns for teams moving past prototype agents.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "workflow-recipes"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "ecdcbbeb",
+      "title": "Claude for Small Business",
+      "url": "https://www.anthropic.com/news/claude-for-small-business",
+      "source": "Anthropic",
+      "date": "2026-05-14",
+      "summary": "Anthropic launches a pre-built package of Claude connectors and workflows integrating with QuickBooks, PayPal, HubSpot, Google Workspace, and Microsoft 365 targeting SMBs that want AI without custom development. Signals the shift from AI-as-API toward AI-as-packaged-service, compressing the adoption curve for non-technical businesses.",
+      "industry_nodes": [],
+      "schools": [
+        "services-as-software",
+        "ai-rebundling"
       ],
       "relevance": 3,
       "status": "pending"
