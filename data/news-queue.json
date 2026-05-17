@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-16T10:10:11.069Z",
+  "generated": "2026-05-17T10:14:59.461Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -3992,6 +3992,113 @@
         "ai-rebundling"
       ],
       "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "338aca27",
+      "title": "How We Built Secure, Scalable Agent Sandbox Infrastructure",
+      "url": "https://browser-use.com/posts/two-ways-to-sandbox-agents",
+      "source": "Browser Use",
+      "date": "2026-05-14",
+      "summary": "Two patterns for sandboxing agents that can execute code: isolate the tool (sandboxed subprocess) or isolate the entire agent (stateless container with zero secrets, a control plane holding all credentials). The isolate-the-agent approach removes anything worth stealing and enables independent kill-restart-scale cycles, at the cost of an extra network hop per operation.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "privacy-sidecar"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "c2fad063",
+      "title": "Unlocking Asynchronicity in Continuous Batching",
+      "url": "https://huggingface.co/blog/continuous_async",
+      "source": "Hugging Face",
+      "date": "2026-05-15",
+      "summary": "Using CUDA streams and events to overlap CPU batch-preparation with GPU computation, this technique cuts idle time between cycles and improves GPU utilisation for inference by 22% without changing kernels or model weights. As inference compute grows to dominate AI infrastructure costs, eliminating idle GPU cycles becomes a significant efficiency lever.",
+      "industry_nodes": [],
+      "schools": [
+        "reasoning-rl",
+        "how-ai-works"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "1b894db6",
+      "title": "Microsoft Is Quietly Shopping for an OpenAI Replacement",
+      "url": "https://thenextweb.com/news/microsoft-startup-deals-life-after-openai",
+      "source": "The Next Web",
+      "date": "2026-05-15",
+      "summary": "Microsoft amended its OpenAI exclusivity deal (freeing OpenAI to sell on any cloud, removing the AGI clause) while simultaneously exploring acquisitions of AI startups including Inception, which builds diffusion-based LLMs, to reduce dependency ahead of its 2032 IP license expiry. The move signals that big-tech AI partnerships are shifting from exclusive lock-in to hedged multi-vendor strategies.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-rebundling",
+        "general-ai-news"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "fa34f98a",
+      "title": "Claude Code's /goals Separates the Agent That Works from the One That Decides It's Done",
+      "url": "https://venturebeat.com/orchestration/claude-codes-goals-separates-the-agent-that-works-from-the-one-that-decides-its-done",
+      "source": "VentureBeat",
+      "date": "2026-05-14",
+      "summary": "/goal is emerging as a universal primitive across coding agents (Claude Code, Codex, Hermes): a small validator model runs after every agent step and checks whether the done condition is met, closing the loop without user approval. Every major AI lab shipped this same primitive within six weeks, signalling industry convergence on a shared interface for closed-loop autonomous coding.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "agent-internals",
+        "coding-paradigms"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "3a7e4348",
+      "title": "Apple-OpenAI Alliance Frays, Setting Up Possible Legal Fight",
+      "url": "https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned/",
+      "source": "TechCrunch",
+      "date": "2026-05-14",
+      "summary": "OpenAI is exploring legal options against Apple over underdelivered ChatGPT integration depth and subscriber growth, while Apple prepares to open Siri to rival providers (Anthropic, Google) with iOS 27 in June. The fracture illustrates how AI distribution deals are failing when model companies expected platform amplification but received marginal embedding.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-rebundling",
+        "general-ai-news"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "04cf3c2b",
+      "title": "AI-Assisted Hack Bypasses Apple's Five-Year Memory Safety Defense in Five Days",
+      "url": "https://www.technology.org/2026/05/15/anthropic-mythos-apple-m5-macos-kernel-exploit/",
+      "source": "Technology.org",
+      "date": "2026-05-15",
+      "summary": "Security researchers used Anthropic's unreleased Mythos model to chain two macOS bugs into a kernel privilege escalation exploit bypassing Apple's Memory Integrity Enforcement on M5 hardware, built in roughly five days. Anthropic's response, Project Glasswing (controlled defensive access for Apple, Microsoft, Google), signals a new model where frontier AI is too capable for unrestricted release and must be managed as a dual-use research tool.",
+      "industry_nodes": [],
+      "schools": [
+        "alignment-governance",
+        "constitutional"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "d6e5115a",
+      "title": "From System of Record to System of Intelligence",
+      "url": "https://a16z.com/from-system-of-record-to-system-of-intelligence/",
+      "source": "Andreessen Horowitz",
+      "date": "2026-05-14",
+      "summary": "AI agents are transforming CRMs and GTM software from passive databases into autonomous orchestration layers that research, coach, and log notes without expanding headcount. The new moat is owning a system of intelligence, the full data model and workflow layer an agent needs to operate, not the human-facing dashboard that previously locked customers in.",
+      "industry_nodes": [],
+      "schools": [
+        "services-as-software",
+        "ai-rebundling",
+        "manager-of-agents"
+      ],
+      "relevance": 4,
       "status": "pending"
     }
   ]
