@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-17T10:14:59.461Z",
+  "generated": "2026-05-18T10:16:47.928Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -4097,6 +4097,165 @@
         "services-as-software",
         "ai-rebundling",
         "manager-of-agents"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "ceb5b124",
+      "title": "The Shape of the Thing",
+      "url": "https://www.oneusefulthing.org/p/the-shape-of-the-thing",
+      "source": "One Useful Thing (Ethan Mollick)",
+      "date": "2026-03-12",
+      "summary": "Mollick marks late 2025 as the inflection into a new era of agentic AI where you delegate work and get results back in minutes — moving from co-intelligence to managing AIs; illustrates with the StrongDM three-person Software Factory that ships production code without human involvement. Essential framing of the manager-of-agents paradigm from a leading AI-in-work researcher.",
+      "industry_nodes": [],
+      "schools": [
+        "manager-of-agents",
+        "autonomous-agent",
+        "ai-native-flat"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "5c58c1fa",
+      "title": "Management as AI Superpower",
+      "url": "https://www.oneusefulthing.org/p/management-as-ai-superpower",
+      "source": "One Useful Thing (Ethan Mollick)",
+      "date": "2026-01-27",
+      "summary": "Mollick argues that traditional management skills — goal-setting, delegation, review, feedback — are the key leverage point for getting value from AI agents, documented through an MBA class where students built startups in four days using agents. Reframes management competence as the core bottleneck in the agentic era.",
+      "industry_nodes": [],
+      "schools": [
+        "manager-of-agents",
+        "compound-engineering-org",
+        "ai-as-intensifier"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "7549fba8",
+      "title": "From Vibe Coding to Spec-Driven Development",
+      "url": "https://towardsdatascience.com/from-vibe-coding-to-spec-driven-development/",
+      "source": "Towards Data Science",
+      "date": "2026-05-12",
+      "summary": "Documents the professional engineering shift from vibe coding (natural-language prompting) to spec-driven development — structured, version-controlled markdown specs that serve as the single source of truth for coding agents; GitHub Spec Kit and AWS Kiro report up to 10x fewer regeneration cycles. Maps directly to the spec-driven school and tracks the maturing of the coding-agent workflow.",
+      "industry_nodes": [],
+      "schools": [
+        "spec-driven",
+        "vibe-coding",
+        "compound-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "fabb4113",
+      "title": "From Vibes to Engineering: How AI Agents Outgrew Their Own Terminology",
+      "url": "https://thenewstack.io/vibe-coding-agentic-engineering/",
+      "source": "The New Stack",
+      "date": "2026-05-01",
+      "summary": "Traces the terminological and practical shift from vibe coding to agentic engineering: the real differentiator is now harness quality — the system of tools, context management, evaluation, and observability around the model — with cognitive debt emerging as the main threat. Useful synthesis of where the field actually is in mid-2026.",
+      "industry_nodes": [],
+      "schools": [
+        "vibe-coding",
+        "compound-engineering",
+        "agent-internals"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "ed266a07",
+      "title": "GitLab Announces Layoffs and Restructuring for 'Agentic Era' as AI Reshapes Developer Tools Economics",
+      "url": "https://thenextweb.com/news/gitlab-layoffs-agentic-era-devops-ai",
+      "source": "The Next Web",
+      "date": "2026-05-11",
+      "summary": "GitLab cuts up to 30% of positions in some markets, removes three management layers, and reorganizes R&D into ~60 smaller empowered teams — explicitly framing the restructuring as preparation for an agentic era where AI agents handle coding, deployment, and maintenance. Live case study of ai-native-flat org design in action.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-native-flat",
+        "services-as-software",
+        "compound-engineering-org"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "c485582d",
+      "title": "2026's Real SaaS Threat Isn't AI. It's Business Model Debt.",
+      "url": "https://www.chargebee.com/blog/saas-business-model-ai-monetization/",
+      "source": "Chargebee",
+      "date": "2026-05-01",
+      "summary": "Argues the existential SaaS crisis is outdated per-seat billing: agentic AI collapses seat counts even as usage rises, forcing a pivot to outcome- or compute-based pricing; vendors who internalize AI efficiencies can undercut competitors with flat pricing while capturing more margin. Strong economic framing of the services-as-software and SaaS-survival debate.",
+      "industry_nodes": [],
+      "schools": [
+        "services-as-software",
+        "saas-survives",
+        "ai-rebundling"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "100f778d",
+      "title": "Beyond the Forward Pass: How Inference-Time Scaling and World Models Are Redefining SOTA in 2026",
+      "url": "https://medium.com/@harshit.sinha0910/beyond-the-forward-pass-how-inference-time-scaling-and-world-models-are-redefining-sota-in-2026-af521f795432",
+      "source": "Medium / Inference Weekly",
+      "date": "2026-04-01",
+      "summary": "Frames inference-time compute — letting models think longer per answer rather than training bigger — as the dominant 2026 paradigm, projecting inference will be 75% of total AI compute by 2030; also covers world models challenging LLM dominance for embodied tasks and the failure mode of confident-but-wrong reasoning traces. Directly covers the reasoning-RL and scaling-laws-revisionism schools.",
+      "industry_nodes": [],
+      "schools": [
+        "reasoning-rl",
+        "world-models",
+        "scaling-laws-revisionism"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "fe7c1b43",
+      "title": "AutoResearch: AI Agents Running ML Research Experiments Automatically",
+      "url": "https://github.com/karpathy/autoresearch",
+      "source": "Andrej Karpathy / GitHub",
+      "date": "2026-03-07",
+      "summary": "Karpathy releases an open-source autonomous AI research loop: an agent with a real LLM training setup runs ~100 experiments overnight, keeping only improvements; reached 66k+ GitHub stars and demonstrated a 19% performance gain at Shopify. The most concrete demonstration of self-improving AI agents reaching practical research use.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "reasoning-rl"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "68e938b8",
+      "title": "Not So Locked In Any More",
+      "url": "https://simonwillison.net/2026/May/14/not-so-locked-in/",
+      "source": "Simon Willison's Weblog",
+      "date": "2026-05-14",
+      "summary": "Willison argues that programming language choice is no longer a strong lock-in factor because coding agents can translate, rewrite, and bridge across languages at low cost — dissolving one of the oldest architectural constraints in software engineering. Relevant to coding-paradigms and the broader thesis that AI is unbundling legacy constraints.",
+      "industry_nodes": [],
+      "schools": [
+        "coding-paradigms",
+        "vibe-coding",
+        "compound-engineering"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "e21029ba",
+      "title": "Artificial Neurodivergence Could Help Solve the AI Alignment Problem",
+      "url": "https://www.psypost.org/fascinating-new-research-suggests-artificial-neurodivergence-could-help-solve-the-ai-alignment-problem/",
+      "source": "PsyPost",
+      "date": "2026-05-01",
+      "summary": "Research by Hernández-Espinosa et al. proposes that instead of enforcing perfect AI obedience, we should design diverse AI agents with distinct reasoning styles and ethical priorities that can balance and correct each other — a polycentric alignment ecosystem. Novel angle on alignment that challenges single-spec approaches.",
+      "industry_nodes": [],
+      "schools": [
+        "constitutional",
+        "constitutionalism-critiques",
+        "alignment-governance"
       ],
       "relevance": 4,
       "status": "pending"
