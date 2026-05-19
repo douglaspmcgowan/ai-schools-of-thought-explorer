@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-18T10:16:47.928Z",
+  "generated": "2026-05-19T10:12:50.958Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -4258,6 +4258,408 @@
         "alignment-governance"
       ],
       "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "54a471a6",
+      "title": "How to Start a Career When AI Is Doing Your Entry-level Job",
+      "url": "https://every.to/working-overtime/how-to-start-a-career-when-ai-is-doing-your-entry-level-job",
+      "source": "Every",
+      "date": "2026-05-18",
+      "summary": "Examines how AI is eliminating entry-level roles as a new generation enters the workforce, with Stanford data showing 13% employment drop for young workers in AI-exposed jobs since late 2022. Argues the scarce skill is now AI judgment and evaluation rather than just prompting, and offers practical strategies for building a career when AI completes your training reps.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-as-intensifier",
+        "services-as-software"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "0b3dec9b",
+      "title": "After the Personal Agent",
+      "url": "https://every.to/context-window/after-the-personal-agent",
+      "source": "Every",
+      "date": "2026-05-17",
+      "summary": "Roundup covering the pivot after personal AI agents proved too fragile to maintain, toward shared stable coworkers, plus tacit knowledge vs search, Opus 4.7 pulling users back, the 16-hour agent benchmark controversy, and mining scattered context before drafting. Documents a real early failure mode in agentic deployment and the design response.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "manager-of-agents",
+        "compound-engineering-org"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "722f48fa",
+      "title": "Google Rolls Out Thinking Level Option for Gemini App",
+      "url": "https://9to5google.com/2026/05/17/gemini-app-thinking-level/",
+      "source": "9to5Google",
+      "date": "2026-05-17",
+      "summary": "Google is surfacing a user-adjustable Thinking level slider in the Gemini app, letting users control how much extended reasoning compute the model applies. Marks a shift toward exposing inference-time compute as a visible, user-selectable parameter relevant to reasoning-RL models.",
+      "industry_nodes": [],
+      "schools": [
+        "new-models",
+        "reasoning-rl"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "50a9d7b9",
+      "title": "OpenAI Will Let Codex Control Other Desktop Devices via Computer Use",
+      "url": "https://www.testingcatalog.com/openai-will-let-codex-control-other-desktop-devices-via-computer-use/",
+      "source": "Testing Catalog",
+      "date": "2026-05-17",
+      "summary": "OpenAI is extending Codex beyond browser sandboxes to allow computer-use control over desktop applications and other devices. Signals the next phase of agentic coding tools escaping isolated environments and operating across the full desktop surface.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-native-browsing",
+        "autonomous-agent"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "6391255c",
+      "title": "Anthropic Cache Tokenomics",
+      "url": "https://skids.dev/blog/anthropic-cache-tokenomics/",
+      "source": "skids.dev",
+      "date": "2026-05-17",
+      "summary": "Deep-dives into the economics of Anthropic prompt caching, showing how the cache pricing structure changes cost models for large-context workloads and rewards stateful long-running applications. Argues caching is a new pricing primitive reshaping how AI infrastructure is bought and billed. candidate-school: compute-as-currency — Caching and tokenomics are creating a new pricing primitive where stateful high-context AI apps have dramatically different unit economics than stateless API calls.",
+      "industry_nodes": [],
+      "schools": [
+        "context-engineering",
+        "candidate-new-school"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "b74623b5",
+      "title": "How Claude Code Works in Large Codebases: Best Practices and Where to Start",
+      "url": "https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start",
+      "source": "Anthropic / claude.com",
+      "date": "2026-05-17",
+      "summary": "Official Anthropic guide for deploying Claude Code at enterprise scale, covering context management, subagent delegation, CLAUDE.md patterns, and repo navigation strategies. Key practitioner reference as agentic coding enters large-org adoption and the compound-engineering pattern matures.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering",
+        "spec-driven",
+        "coding-paradigms"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "162a08b5",
+      "title": "Notes on Pretraining Parallelisms",
+      "url": "https://www.dwarkesh.com/p/notes-on-pretraining-parallelisms",
+      "source": "Dwarkesh Podcast",
+      "date": "2026-05-17",
+      "summary": "Technical explainer on how frontier LLM pretraining distributes computation across data, tensor, pipeline, and sequence parallelism, and why these engineering constraints shape what models are feasible to train at scale. Relevant to understanding infrastructure limits behind scaling law debates.",
+      "industry_nodes": [],
+      "schools": [
+        "how-ai-works",
+        "scaling-laws-revisionism"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "9a115152",
+      "title": "Recent Developments in LLM Architectures",
+      "url": "https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures",
+      "source": "Ahead of AI (Sebastian Raschka)",
+      "date": "2026-05-17",
+      "summary": "Surveys latest architectural innovations across large language models including mixture-of-experts routing, state-space models, attention efficiency improvements, and hybrid designs. Authoritative reference for understanding design choices shaping current and next-generation frontier models.",
+      "industry_nodes": [],
+      "schools": [
+        "how-ai-works",
+        "scaling-laws-revisionism"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "502ef84d",
+      "title": "Lighthouse Attention: 1.4-1.7x Long-Context Pretraining Speedup",
+      "url": "https://nousresearch.com/lighthouse-attention",
+      "source": "Nous Research",
+      "date": "2026-05-16",
+      "summary": "Nous Research releases Lighthouse Attention, a selection-based hierarchical attention mechanism delivering 1.4-1.7x pretraining wall-clock speedup at 98K context and ~17x faster than standard attention at 512K context, without custom CUDA kernels. Concrete efficiency advance extending practical long-context training independent of raw scale.",
+      "industry_nodes": [],
+      "schools": [
+        "how-ai-works",
+        "world-models"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "859b70ce",
+      "title": "The Haves and Have-Nots of the AI Gold Rush",
+      "url": "https://techcrunch.com/2026/05/16/the-haves-and-have-nots-of-the-ai-gold-rush/",
+      "source": "TechCrunch",
+      "date": "2026-05-16",
+      "summary": "Examines how the AI boom is widening the competitive gap rather than leveling it, with large enterprises capturing most productivity gains while smaller companies struggle to get past pilots. Adds empirical grounding to the bubble vs not-a-bubble debate about whether AI benefits are broadly distributed.",
+      "industry_nodes": [],
+      "schools": [
+        "bubble-skeptics",
+        "not-a-bubble",
+        "ai-economy"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "7f1dddbf",
+      "title": "Steering Vectors",
+      "url": "https://www.seangoedecke.com/steering-vectors/",
+      "source": "seangoedecke.com",
+      "date": "2026-05-17",
+      "summary": "Technical explainer on steering vectors, activation-space interventions that redirect model behavior without fine-tuning by adding or subtracting learned direction vectors in the residual stream. Key entry point to activation engineering and its implications for interpretability and model control.",
+      "industry_nodes": [],
+      "schools": [
+        "mechanistic-interpretability"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "5cc89d08",
+      "title": "How I Use LLMs in 2026",
+      "url": "https://www.seangoedecke.com/how-i-use-llms-in-2026/",
+      "source": "seangoedecke.com",
+      "date": "2026-05-17",
+      "summary": "A software engineer first-person account of how actual day-to-day LLM workflows have evolved since 2022, what patterns stuck, what failed, and how the tool-use relationship has changed as models improved. Valuable practitioner perspective for workflow-recipes and how-to-use-ai schools.",
+      "industry_nodes": [],
+      "schools": [
+        "workflow-recipes",
+        "how-to-use-ai",
+        "prompting-craft"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "ed98e6f1",
+      "title": "The Sigmoids Won't Save You",
+      "url": "https://www.astralcodexten.com/p/the-sigmoids-wont-save-you",
+      "source": "Astral Codex Ten (Scott Alexander)",
+      "date": "2026-05-15",
+      "summary": "Scott Alexander argues the common assumption that AI capability growth will naturally flatten into a sigmoid is historically unfounded, with examples from solar adoption and population trends showing humans systematically predict plateaus that do not arrive on schedule. Essential reading for the AGI-timelines and extrapolators debate.",
+      "industry_nodes": [],
+      "schools": [
+        "extrapolators",
+        "agi-timelines",
+        "scaling-laws-revisionism"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "3629a818",
+      "title": "Agent Hooks: Deterministic Control",
+      "url": "https://nader.substack.com/p/agent-hooks-deterministic-control",
+      "source": "Nader's Thoughts (Nader Dabit)",
+      "date": "2026-05-17",
+      "summary": "Explains how Claude Code PreToolUse and PostToolUse hooks provide deterministic guardrails, inspecting and blocking tool calls before they execute to wrap non-deterministic AI with safety guarantees suitable for production. Key for agent-internals and spec-driven schools as lifecycle-hook patterns become standard in agentic engineering.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "spec-driven",
+        "context-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "5ab9044d",
+      "title": "Domain Knowledge Is the Leverage",
+      "url": "https://log.beshr.com/domain-knowledge-is-the-leverage/",
+      "source": "The Log (log.beshr.com)",
+      "date": "2026-05-14",
+      "summary": "Argues that as AI agents produce reasonable code faster than programmers can refactor it, the scarce and valuable skill shifts to deep domain understanding — knowing what the software should do and why it connects to the business. Maps directly to the ai-as-intensifier thesis that AI raises the value of human judgment rather than replacing it.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-as-intensifier",
+        "productive-friction",
+        "compound-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "347e7c89",
+      "title": "Clouded Judgement 5.14.26: The Real App Store Opportunity",
+      "url": "https://cloudedjudgement.substack.com/p/clouded-judgement-51426-the-real",
+      "source": "Clouded Judgement (Jamin Ball)",
+      "date": "2026-05-14",
+      "summary": "Jamin Ball argues that Anthropic skills, markdown files giving Claude company-specific workflow context, represent a B2B app-store moment with product teams who ship skills gaining durable distribution advantages. Strong thesis that bundling skills with software products will reshape SaaS the way app-store integration reshaped mobile.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-rebundling",
+        "services-as-software",
+        "saas-survives"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "e5c5c91e",
+      "title": "Building AI Agents in Accounting",
+      "url": "https://www.onlycfo.io/p/building-ai-agents-in-accounting",
+      "source": "Only CFO",
+      "date": "2026-05-17",
+      "summary": "Practitioner guide to deploying AI agents in accounting workflows including AP automation, reconciliation, and variance analysis, with honest assessment of what works today versus what still requires human review. Documents the services-as-software transition reaching the CFO function.",
+      "industry_nodes": [],
+      "schools": [
+        "services-as-software",
+        "autonomous-agent"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "a32b6813",
+      "title": "Products Are Out, Brains Are In",
+      "url": "https://mrmarket.bearblog.dev/products-are-out-brains-are-in-new/",
+      "source": "mrmarket.bearblog.dev",
+      "date": "2026-05-17",
+      "summary": "Argues software company valuations are shifting from product-led metrics like seats and MAUs to intelligence-led metrics including reasoning quality, task completion rate, and decision accuracy as AI commoditizes the product layer. Frames the ai-rebundling and services-as-software transformation through an investor lens.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-rebundling",
+        "services-as-software"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "25dc97f9",
+      "title": "The AI Subscription Time Bomb",
+      "url": "https://www.thestateofbrand.com/news/ai-subscription-time-bomb",
+      "source": "The State of Brand",
+      "date": "2026-05-17",
+      "summary": "Warns that enterprises are stacking AI subscription commitments faster than they are realizing ROI, creating a future cancellation wave when multi-year contracts come up for renewal. Relevant to the bubble-skeptics school and the saas-survives debate about whether AI tooling economics are sustainable at current pricing.",
+      "industry_nodes": [],
+      "schools": [
+        "bubble-skeptics",
+        "saas-survives"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "897d75bc",
+      "title": "Here Comes Forward Deployed Everybody",
+      "url": "https://worksonmymachine.ai/p/here-comes-forward-deployed-everybody",
+      "source": "Works on My Machine",
+      "date": "2026-05-17",
+      "summary": "Analyzes the 800% YoY surge in forward-deployed engineer hiring, engineers embedded in customer sites to implement and customize AI systems, and what this signals about the broader services-as-software transition. Maps the compound-engineering-org pattern emerging as AI vendors deploy alongside their software.",
+      "industry_nodes": [],
+      "schools": [
+        "services-as-software",
+        "compound-engineering-org",
+        "manager-of-agents"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "f79dfaee",
+      "title": "Intercom, Now Called Fin, Launches an AI Agent Whose Only Job Is Managing Another AI Agent",
+      "url": "https://venturebeat.com/technology/intercom-now-called-fin-launches-an-ai-agent-whose-only-job-is-managing-another-ai-agent",
+      "source": "VentureBeat",
+      "date": "2026-05-17",
+      "summary": "Intercom, rebranded as Fin, launches Fin Operator, an AI agent that manages, configures, and improves their customer-facing AI agent rather than replacing human support staff. First major commercial deployment of the manager-of-agents pattern at scale, with back-office AI overseeing front-office AI.",
+      "industry_nodes": [],
+      "schools": [
+        "manager-of-agents",
+        "compound-engineering-org",
+        "autonomous-agent"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "92d34d9b",
+      "title": "How to Avoid AI Code Slop",
+      "url": "https://newsletter.eng-leadership.com/p/how-to-avoid-ai-code-slop",
+      "source": "Engineering Leadership Newsletter",
+      "date": "2026-05-17",
+      "summary": "Practitioner guide for engineering leaders on maintaining code quality when AI generates the majority of production code, covering review frameworks, context management to reduce hallucination, and when to override or reject AI output. Directly addresses the vibe-coding failure mode and the productive-friction argument.",
+      "industry_nodes": [],
+      "schools": [
+        "vibe-coding",
+        "compound-engineering",
+        "productive-friction"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "a2b238f6",
+      "title": "The Race to Own the Agentic Future",
+      "url": "https://www.tidemarkcap.com/vskp-chapter/the-race-to-own-the-agentic-future",
+      "source": "Tidemark Capital",
+      "date": "2026-05-17",
+      "summary": "Investor thesis arguing the most defensible position in the AI stack is the agent layer, with winners determined by workflow ownership and task-completion reliability rather than model capability alone. Lays out the investment case for the services-as-software and autonomous-agent schools.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "services-as-software",
+        "ai-rebundling"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "65538ede",
+      "title": "Intelligence Company",
+      "url": "https://www.fintechbrainfood.com/p/intelligence-company",
+      "source": "Fintech Brainfood",
+      "date": "2026-05-17",
+      "summary": "Argues fintech companies are evolving from software providers into intelligence companies, selling financial decisions, recommendations, and autonomous actions rather than workflow tools. Strong thesis on the services-as-software transformation reaching financial services.",
+      "industry_nodes": [],
+      "schools": [
+        "services-as-software",
+        "ai-rebundling"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "868f0629",
+      "title": "The Last Six Months in LLMs in Five Minutes",
+      "url": "https://simonwillison.net/2026/May/19/5-minute-llms/",
+      "source": "Simon Willison's Weblog",
+      "date": "2026-05-19",
+      "summary": "Lightning-talk slides from PyCon US 2026 compressing six months of LLM developments: the best-model crown changed hands five times between three providers, coding crossed key capability thresholds, and the November 2025 inflection point redefined practitioner expectations. Authoritative practitioner survey from one of the most consistent AI commentators.",
+      "industry_nodes": [],
+      "schools": [
+        "general-ai-news",
+        "where-ai-is-heading",
+        "new-models"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "c56a7365",
+      "title": "AEO, GEO vs SEO: Google AI Optimization",
+      "url": "https://www.trevorlasn.com/blog/aeo-geo-vs-seo-google-ai-optimization",
+      "source": "Trevor Lasn",
+      "date": "2026-05-17",
+      "summary": "Explains how AI search (Answer Engine Optimization and Generative Engine Optimization) is displacing traditional SEO as ~31% of US internet users shift to AI-generated answers in 2026. Practical guide to optimization strategies for visibility in AI-mediated discovery.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-native-growth",
+        "new-applications"
+      ],
+      "relevance": 3,
       "status": "pending"
     }
   ]
