@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-19T10:12:50.958Z",
+  "generated": "2026-05-20T10:16:45.121Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -4658,6 +4658,161 @@
       "schools": [
         "agent-native-growth",
         "new-applications"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "1094e783",
+      "title": "Inside the 100-agent Software Factory",
+      "url": "https://every.to/context-window/inside-the-100-agent-software-factory",
+      "source": "Every (Context Window)",
+      "date": "2026-05-19",
+      "summary": "Mike Taylor tours Gas City, a project running ~100 agents that merge 50 PRs/day while burning 1B tokens/day. Introduces the 'dark factory vs light factory' split and the 'one pet, many cattle' mayor+polecats pattern for sustainable multi-agent orchestration. Matters because it's the most concrete published account of a real production multi-agent engineering system and its cost/coordination tradeoffs.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "manager-of-agents",
+        "compound-engineering"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "58cd5d83",
+      "title": "Introducing Portent: An Open Spec for Knowledge Bases",
+      "url": "https://refactoring.fm/p/introducing-portent",
+      "source": "Refactoring (Luca Rossi)",
+      "date": "2026-05-20",
+      "summary": "Luca Rossi publishes Portent, an open specification for structuring AI-navigable knowledge bases for work and life, complementing his Tolaria macOS app. Matters because it proposes a standard for how agents and humans co-author and traverse markdown vaults, pushing toward folder-as-agent and spec-driven memory architectures.",
+      "industry_nodes": [],
+      "schools": [
+        "spec-driven",
+        "folder-as-agent",
+        "context-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "a1731214",
+      "title": "Karpathy Joins Anthropic Pre-Training Team",
+      "url": "https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team/",
+      "source": "TechCrunch",
+      "date": "2026-05-19",
+      "summary": "Andrej Karpathy joins Anthropic to build a team using Claude to accelerate pre-training research — explicitly a bet that AI-assisted research beats raw compute as the competitive lever. Matters because it signals Anthropic's thesis that recursive self-improvement at the training loop level is the next frontier.",
+      "industry_nodes": [],
+      "schools": [
+        "scaling-laws-revisionism",
+        "compound-engineering"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "7dbe81eb",
+      "title": "Meta Moves 7,000 Employees Into Four AI-Native Organizations",
+      "url": "https://www.nbcnews.com/tech/tech-news/meta-layoffs-ai-rcna345968",
+      "source": "NBC News",
+      "date": "2026-05-19",
+      "summary": "Meta reassigns 7K workers to Applied AI Engineering, Agent Transformation Accelerator, and Central Analytics — explicitly using 'AI-native design principles' with flatter hierarchies, smaller pods, and fewer managers per employee. Running alongside 8K layoffs, it's the clearest signal yet that a major tech org is restructuring around agent-native principles rather than adding AI to existing structure.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-native-flat",
+        "manager-of-agents",
+        "compound-engineering-org"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "81beda6a",
+      "title": "Anthropic Acquires Stainless for $300M+",
+      "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
+      "source": "Anthropic",
+      "date": "2026-05-19",
+      "summary": "Anthropic acquired Stainless (SDK generator behind every official Anthropic API library, also used by OpenAI, Google, and Cloudflare) and is shutting down its hosted product. This removes a shared infrastructure supplier from competitors and brings SDK generation in-house. Matters as a compound-engineering move: controlling the developer-facing toolchain layer is a distribution and stickiness play, not just a technical one.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "9bfa77f4",
+      "title": "Introducing Cursor Composer 2.5",
+      "url": "https://cursor.com/blog/composer-2-5",
+      "source": "Cursor",
+      "date": "2026-05-18",
+      "summary": "Cursor's new agentic coding model matches Claude Opus 4.7 on SWE-Bench Multilingual at one-tenth the token cost, trained on 25x more synthetic tasks with RL scaling. Built with SpaceXAI and a 10x-compute successor in progress. Matters because it shows a coding-first lab closing the capability gap with frontier models while dramatically undercutting on price.",
+      "industry_nodes": [],
+      "schools": [
+        "vibe-coding",
+        "coding-paradigms",
+        "agent-internals"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "acc96814",
+      "title": "Agent Evals: How to Measure What Agents Actually Do",
+      "url": "https://cameronrwolfe.substack.com/p/agent-evals",
+      "source": "Deep (Learning) Focus (Cameron Wolfe)",
+      "date": "2026-05-19",
+      "summary": "Framework for evaluating AI agents beyond chat benchmarks — agents require distinct metrics for tool use, multi-step reasoning, error recovery, and goal completion. Matters because eval infrastructure is the next bottleneck for production agents and this is one of the clearer practitioner frameworks published.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "compound-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "210c4185",
+      "title": "Introducing Skills: Teaching Agents to Bridge Their Knowledge Gaps",
+      "url": "https://lovable.dev/blog/introducing-skills",
+      "source": "Lovable",
+      "date": "2026-05-19",
+      "summary": "Lovable launches Skills — markdown files that teach agents how to perform domain-specific tasks, writable by anyone in an afternoon. This operationalizes the pattern that skills are modular, reusable instructions that transfer expertise into agent behavior. Matters because it makes the 'write a skill' workflow accessible to non-engineers, accelerating company-specific agent customization.",
+      "industry_nodes": [],
+      "schools": [
+        "workflow-recipes",
+        "context-engineering",
+        "prompting-craft"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "a472a9e2",
+      "title": "The Workflow Collision: How AI Agent Lifecycles Clash with Team Workflows",
+      "url": "https://webframp.com/posts/the-workflow-collision/",
+      "source": "Webframp (Sean Escriva)",
+      "date": "2026-05-17",
+      "summary": "Human team Kanban workflows (pull-based, WIP-limited, informal) collide with AI agent lifecycles (enforced state machines, upfront planning, adversarial review gates) — most teams haven't noticed yet. Matters because it surfaces a concrete integration friction point that will slow agent adoption inside existing orgs.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering-org",
+        "manager-of-agents",
+        "workflow-recipes"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "a6ab8435",
+      "title": "Manus Now Supports Scheduled Agents",
+      "url": "https://manus.im/blog/manus-schedules",
+      "source": "Manus",
+      "date": "2026-05-19",
+      "summary": "Manus adds scheduled execution — agents can now be set to run at daily, weekly, monthly, or custom intervals, automating recurring multi-step tasks with automatic output delivery. Matters as a product milestone toward ambient autonomous agents that run without a human trigger.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "workflow-recipes"
       ],
       "relevance": 3,
       "status": "pending"
