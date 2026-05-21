@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-20T10:16:45.121Z",
+  "generated": "2026-05-21T10:08:56.957Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -4813,6 +4813,146 @@
       "schools": [
         "autonomous-agent",
         "workflow-recipes"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "da814732",
+      "title": "It's Time to Science",
+      "url": "https://www.latent.space/p/science",
+      "source": "Latent Space",
+      "date": "2026-02-01",
+      "summary": "Argues that 2026 in AI for Science parallels 2025 in AI for Software Engineering — the field has matured enough for AI-native research tools to matter. Both OpenAI and Anthropic have launched dedicated AI for Science divisions, signalling a structural rather than experimental shift.",
+      "industry_nodes": [],
+      "schools": [
+        "new-applications",
+        "ai-as-intensifier"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "3a9fd18e",
+      "title": "Compound Engineering: How Every Codes With Agents",
+      "url": "https://every.to/chain-of-thought/compound-engineering-how-every-codes-with-agents",
+      "source": "Every",
+      "date": "2026-01-01",
+      "summary": "Every's practical 4-step compound engineering methodology (Plan→Execute→Review→Compound) for teams building with agents, arguing that making environments agent-native is the prerequisite for velocity gains. First detailed practitioner writeup of compound engineering in production.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering",
+        "vibe-coding"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "3e693509",
+      "title": "Inside Anthropic's 2026 Developer Conference",
+      "url": "https://every.to/chain-of-thought/inside-anthropic-s-2026-developer-conference",
+      "source": "Every",
+      "date": "2026-05-20",
+      "summary": "Deep recap of Code with Claude 2026 featuring interviews with Anthropic product leads, covering the Managed Agents platform, SpaceX Colossus deal, multiagent orchestration, and Outcomes/Dreaming features. Essential companion to the event for practitioners building with Claude.",
+      "industry_nodes": [],
+      "schools": [
+        "new-models",
+        "new-tools",
+        "compound-engineering"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "7c3300fb",
+      "title": "To Thrive in the AI Era, Companies Need Agent Managers",
+      "url": "https://hbr.org/2026/02/to-thrive-in-the-ai-era-companies-need-agent-managers",
+      "source": "Harvard Business Review",
+      "date": "2026-02-01",
+      "summary": "HBR introduces the \"agent manager\" as the emerging leadership role in AI-native enterprises — responsible for orchestrating how AI agents learn, perform, and collaborate alongside humans. Argues real productivity gains require redesigning organizations around agent-first data and APIs, not merely layering AI onto human-centered systems.",
+      "industry_nodes": [],
+      "schools": [
+        "manager-of-agents",
+        "compound-engineering-org",
+        "ai-native-flat"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "c1e2764b",
+      "title": "100 things we announced at Google I/O 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
+      "source": "Google Blog",
+      "date": "2026-05-19",
+      "summary": "Google I/O 2026 launches Gemini 3.5 Flash (beating Gemini 3.1 Pro on coding/agentic benchmarks at 4× speed), Gemini Spark (24/7 personal AI agent), Gemini Omni (unified multimodal model), and Antigravity 2.0 agentic dev platform. Marks Google's structural shift to agent-first positioning across Search, Gmail, and Docs.",
+      "industry_nodes": [],
+      "schools": [
+        "new-models",
+        "autonomous-agent",
+        "agent-native-browsing"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "3aa23a44",
+      "title": "The AI Bubble That Wasn't: How Agents Changed the Revenue Story",
+      "url": "https://www.theatlantic.com/economy/2026/05/ai-bubble-revenue-anthropic/687022/",
+      "source": "The Atlantic",
+      "date": "2026-05-01",
+      "summary": "Traces why the AI bubble narrative collapsed in early 2026 — the answer is agents generating measurable enterprise revenue. Mollick is quoted explaining how agentic workflows shifted the calculus from impressive demos to ROI-positive services, and why infrastructure investment is now undershooting rather than over-shooting demand.",
+      "industry_nodes": [],
+      "schools": [
+        "bubble-skeptics",
+        "not-a-bubble",
+        "services-as-software"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "6e43a992",
+      "title": "Putting the Value Back in RL: Better Test-Time Scaling by Unifying LLM Reasoners With Verifiers",
+      "url": "https://arxiv.org/abs/2505.04842",
+      "source": "arXiv / Microsoft Research",
+      "date": "2026-05-08",
+      "summary": "Proposes RL^V, which jointly trains LLMs as both reasoners and generative verifiers, enabling 1.2–1.6× better test-time compute scaling vs. standard RL methods. Addresses the structural problem that GRPO and similar approaches abandon the value function needed for efficient inference-time scaling.",
+      "industry_nodes": [],
+      "schools": [
+        "reasoning-rl",
+        "scaling-laws-revisionism"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "72dbeff2",
+      "title": "Beyond Scaling: Agents Are Heading to the Edge",
+      "url": "https://arxiv.org/html/2605.18535v1",
+      "source": "arXiv",
+      "date": "2026-05-01",
+      "summary": "Argues that as LLM scaling laws plateau, the next frontier is edge-native agents — LLMs running locally in real-time volatile environments without cloud connectivity. Proposes a framework for budget-aware decentralized multi-agent swarms and examines what agency means when latency constraints eliminate cloud round-trips.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "agent-architecture",
+        "world-models"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "0c45303e",
+      "title": "Top 10 LLM Research Papers of 2026",
+      "url": "https://www.analyticsvidhya.com/blog/2026/05/top-llm-research-papers-2026/",
+      "source": "Analytics Vidhya",
+      "date": "2026-05-01",
+      "summary": "Roundup of the most-upvoted 2026 LLM papers from Hugging Face, covering continuous latent diffusion models, exploratory sampling for semantic diversity, and AI-assisted long-horizon mathematical research. Useful mid-year survey of where formal LLM research is pointing.",
+      "industry_nodes": [],
+      "schools": [
+        "how-ai-works",
+        "mechanistic-interpretability"
       ],
       "relevance": 3,
       "status": "pending"
