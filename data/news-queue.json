@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-21T10:08:56.957Z",
+  "generated": "2026-05-22T10:18:45.098Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -4955,6 +4955,173 @@
         "mechanistic-interpretability"
       ],
       "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "27602693",
+      "title": "After Automation",
+      "url": "https://every.to/p/after-automation",
+      "source": "Every",
+      "date": "2026-05-21",
+      "summary": "Dan Shipper argues from inside Every that automation creates more human work, not less: cheap AI competence floods in and produces sameness, forcing humans to continually establish higher-order frames ahead of the models. Essential practitioner essay on why the AI-eliminates-work narrative misunderstands technological progress.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-as-intensifier",
+        "productive-friction"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "d2c26b23",
+      "title": "Google I/O: Agents, Agents, Agents",
+      "url": "https://every.to/context-window/google-i-o-agents-agents-agents",
+      "source": "Every",
+      "date": "2026-05-20",
+      "summary": "Every's deep-dive on Google I/O 2026 maps Gemini 3.5 Flash and Google's new agent suite into a 'collaborate with' vs 'delegate to' taxonomy, and unpacks Anthropic's $300M Stainless acquisition as a bet on owning agent connectivity plumbing. Important for understanding how major labs compete on infrastructure layers, not just model capability.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "manager-of-agents",
+        "agent-native-browsing"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "a40d386a",
+      "title": "Anthropic on Pace for First Profitable Quarter as Revenue Surges to $10.9B",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-20/anthropic-on-pace-for-first-profitable-quarter-as-revenue-surges",
+      "source": "Bloomberg",
+      "date": "2026-05-20",
+      "summary": "Anthropic projects $10.9B in Q2 revenue—more than doubling Q1 $4.8B—with an estimated $559M operating profit, growing faster than Google or Facebook pre-IPO. The explosive 80x growth validates the services-as-software thesis but exposes structural dependence on massive compute costs that threaten sustained profitability.",
+      "industry_nodes": [],
+      "schools": [
+        "not-a-bubble",
+        "ai-rebundling"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "b57b75bd",
+      "title": "Cheap AI Could Derail OpenAI and Anthropic's IPOs",
+      "url": "https://www.cnbc.com/2026/05/20/cheap-ai-could-derail-openai-and-anthropics-ipos.html",
+      "source": "CNBC",
+      "date": "2026-05-20",
+      "summary": "Chinese models grew from 1% to 60% of OpenAI Router traffic while costing 9x less than Claude, threatening the premium pricing underpinning frontier lab IPO valuations. Argues that as AI commoditizes, willingness-to-pay for the last 5% of capability is far smaller than for the first 80%, collapsing enterprise pricing power.",
+      "industry_nodes": [],
+      "schools": [
+        "bubble-skeptics",
+        "scaling-laws-revisionism"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "a563cf46",
+      "title": "An OpenAI Model Has Disproved a Central Conjecture in Discrete Geometry",
+      "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
+      "source": "OpenAI Blog",
+      "date": "2026-05-20",
+      "summary": "An OpenAI reasoning model autonomously disproved the 80-year-old Erdos planar unit distance conjecture, producing a 125-page proof using deep algebraic number theory verified by Fields Medalist Tim Gowers. The first AI resolution of a prominent open mathematics problem marks a qualitative threshold for AI-as-scientific-collaborator.",
+      "industry_nodes": [],
+      "schools": [
+        "extrapolators",
+        "reasoning-rl"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "e9377813",
+      "title": "Introducing Agent Executor: Google's Distributed Agent Runtime",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/agent-executor-googles-distributed-agent-runtime/",
+      "source": "Google Cloud Blog",
+      "date": "2026-05-21",
+      "summary": "Google open-sources Agent Executor, a runtime standard for durable long-running agent workflows with session consistency, trajectory branching, secure isolation, and Kubernetes-backed Agent Substrate. Signals the field converging on production infrastructure standards for agent deployment beyond one-shot inference.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "autonomous-agent",
+        "compound-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "333d7542",
+      "title": "With Gemini 3.5 Flash, Google Bets Its Next AI Wave on Agents, Not Chatbots",
+      "url": "https://techcrunch.com/2026/05/19/with-gemini-3-5-flash-google-bets-its-next-ai-wave-on-agents-not-chatbots/",
+      "source": "TechCrunch",
+      "date": "2026-05-19",
+      "summary": "Gemini 3.5 Flash launches GA on announcement day at 4x speed and half the cost of comparable models, powering the Spark personal agent and Antigravity developer platform. Google's all-in agentic pivot at I/O 2026 marks chatbot-first AI products as a transitional phase.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "reasoning-rl"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "354ab15a",
+      "title": "Schmoozing Is Dead: Agents Are Hitting 120% of Humans at SaaStr AI Annual 2026",
+      "url": "https://www.saastr.com/schmoozing-is-dead-agents-are-hitting-120-of-humans-and-growth-is-the-only-thing-that-matters-10-things-from-the-closing-qa-at-saastr-ai-annual-2026/",
+      "source": "SaaStr",
+      "date": "2026-05-20",
+      "summary": "SaaStr AI Annual 2026 recap: agents already outperform human SDRs at 120%, Marc Benioff publicly concedes agents broke the enterprise sales motion, and Series A success now requires Replit-style $2M to $500M growth. Practitioners confirm services-as-software is happening, not just being theorized.",
+      "industry_nodes": [],
+      "schools": [
+        "services-as-software",
+        "manager-of-agents",
+        "saas-survives"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "0f25fe25",
+      "title": "Anthropic to Pay SpaceX Nearly $45 Billion for Computing Deal",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-20/anthropic-to-pay-spacex-nearly-45-billion-for-computing-deal",
+      "source": "Bloomberg",
+      "date": "2026-05-20",
+      "summary": "Anthropic commits $1.25B/month through May 2029 to SpaceX for 300MW and 220K NVIDIA GPUs, revealed via the SpaceX IPO filing. Illustrates how frontier labs are now securing compute on infrastructure timescales rather than cloud pay-as-you-go, creating a new class of decade-scale capital obligation.",
+      "industry_nodes": [],
+      "schools": [
+        "candidate-new-school"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "4707d0e8",
+      "title": "A Bitter Lesson for Data Filtering",
+      "url": "https://arxiv.org/abs/2605.19407",
+      "source": "arXiv",
+      "date": "2026-05-21",
+      "summary": "New scaling studies show no data filtering is optimal for large-model pretraining when compute is abundant: large models benefit from low-quality data rather than filtered-out data. Directly challenges prevailing data curation dogma with significant implications for pretraining pipeline design.",
+      "industry_nodes": [],
+      "schools": [
+        "scaling-laws-revisionism",
+        "empiricists"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "d54ac6ec",
+      "title": "Anthropic's Profitability Swindle",
+      "url": "https://www.wheresyoured.at/anthropics-profitability-swindle/",
+      "source": "Where's Your Ed At",
+      "date": "2026-05-21",
+      "summary": "Ed Zitron argues Anthropic's claimed Q2 operating profit is an accounting artifact: the $1.25B/month SpaceX deal starts at a reduced rate in May/June, artificially depressing the exact expenses used to declare profitability. Also surfaces a discrepancy between sworn court filings ($5B lifetime revenue) and public projections ($4.8B in Q1 alone).",
+      "industry_nodes": [],
+      "schools": [
+        "bubble-skeptics",
+        "llm-doubters"
+      ],
+      "relevance": 4,
       "status": "pending"
     }
   ]
