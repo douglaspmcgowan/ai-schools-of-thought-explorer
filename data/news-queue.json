@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-22T10:18:45.098Z",
+  "generated": "2026-05-23T10:18:47.374Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -5122,6 +5122,259 @@
         "llm-doubters"
       ],
       "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "2c00acc3",
+      "url": "https://every.to/playtesting/notes-from-the-foothills-of-the-singularity",
+      "title": "Notes From the Foothills of the Singularity",
+      "source": "Every",
+      "date": "2026-05-22",
+      "summary": "Alex Duffy reports from Google I/O 2026, where DeepMind CEO Demis Hassabis described the current moment as the 'foothills of the singularity' and put AGI 'just a few years' out, with total impact at 10x the Industrial Revolution arriving 10x faster. Matters because it shows a major lab leader publicly framing an AGI arrival window and linking public trust as the key remaining hurdle.",
+      "industry_nodes": [],
+      "schools": [
+        "agi-timelines",
+        "extrapolators",
+        "where-ai-is-heading"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "65233d51",
+      "url": "https://cursor.com/blog/cloud-agent-lessons",
+      "title": "Lessons Learned from Building Cloud Agents",
+      "source": "Cursor Blog",
+      "date": "2026-05-22",
+      "summary": "Cursor's engineering team shares hard-won lessons from building cloud-hosted coding agents, covering reliability patterns, state management, and the architectural tradeoffs that differ from local agent execution. Directly relevant as one of the most detailed practitioner accounts of production agent infrastructure from a team at $3B ARR.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "agent-architecture",
+        "autonomous-agent"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "9c1a3b8c",
+      "url": "https://weightythoughts.com/p/ais-plummeting-prices-are-a-software",
+      "title": "AI's Plummeting Prices Are a Software Story, Not a Hardware One",
+      "source": "Weighty Thoughts",
+      "date": "2026-05-22",
+      "summary": "Argues that the dramatic fall in AI inference costs is primarily driven by software innovations — model architectures, quantization, batching, and distillation — not hardware improvements. Matters because it challenges the assumption that compute cost curves are hardware-bound, shifting the locus of competitive advantage.",
+      "industry_nodes": [],
+      "schools": [
+        "scaling-laws-revisionism",
+        "ai-rebundling",
+        "not-a-bubble"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "2d3de26f",
+      "url": "https://epochai.substack.com/p/frontier-labs-dont-use-most-ai-compute",
+      "title": "Frontier Labs Don't Use Most AI Compute (Yet)",
+      "source": "Epoch AI",
+      "date": "2026-05-22",
+      "summary": "Epoch AI analysis finds that major frontier AI labs are actually underutilizing their massive compute buildouts, with training accounting for only ~40% of ML compute and inference and idle capacity taking the rest. Critical for understanding the gap between compute investment headlines and actual utilization, which complicates scaling-law projections.",
+      "industry_nodes": [],
+      "schools": [
+        "scaling-laws-revisionism",
+        "world-models"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "f8d4d24f",
+      "url": "https://www.goodfire.ai/research/can-saes-capture-neural-geometry",
+      "title": "Can SAEs Capture Neural Geometry?",
+      "source": "Goodfire",
+      "date": "2026-05-22",
+      "summary": "Goodfire research investigates whether sparse autoencoders (SAEs) — a key interpretability tool — can faithfully represent the geometric structure of neural network activations, finding significant gaps in current approaches. Matters because it directly tests a core assumption of the mechanistic interpretability research agenda.",
+      "industry_nodes": [],
+      "schools": [
+        "mechanistic-interpretability"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "8c3c3092",
+      "url": "https://2026.stateofai.dev/en-US",
+      "title": "State of AI 2026",
+      "source": "State of AI",
+      "date": "2026-05-22",
+      "summary": "The 2026 annual State of Web Dev AI report studies how AI tools are reshaping developer work, adoption patterns, and productivity across the industry. A primary data source for understanding how the developer community is actually integrating AI versus how it is perceived in discourse.",
+      "industry_nodes": [],
+      "schools": [
+        "general-ai-news",
+        "where-ai-is-heading",
+        "coding-paradigms"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "d93783b4",
+      "url": "https://thenextweb.com/news/gen-z-commencement-boos-ai-redundancy-cohort",
+      "title": "Gen Z Is Not Booing AI. It Is Booing Its Own Job Market",
+      "source": "The Next Web",
+      "date": "2026-05-22",
+      "summary": "Reframes the wave of Gen Z graduates booing AI at commencement speeches: the anger is less about AI itself and more about entering a labor market where AI has compressed entry-level opportunity faster than new roles have appeared. Relevant as a cultural signal of the ai-economy backlash forming outside tech circles.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-economy",
+        "bubble-skeptics",
+        "llm-doubters"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "af4d02f2",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/agent-executor-googles-distributed-agent-runtime",
+      "title": "Introducing Agent Executor: Google's Distributed Agent Runtime",
+      "source": "Google Cloud Blog",
+      "date": "2026-05-21",
+      "summary": "Google open-sources Agent Executor (AX), a distributed agent runtime providing durable execution, state recovery, secure sandboxing, session consistency, and trajectory branching for long-running agentic workflows. Essential infrastructure-layer release that sets the baseline for what production agent runtimes look like at Google scale.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "autonomous-agent",
+        "agent-architecture"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "a2e4ae92",
+      "url": "https://tomtunguz.com/ai-model-inflation/",
+      "title": "The Unsustainable Subsidy",
+      "source": "Tomasz Tunguz",
+      "date": "2026-05-20",
+      "summary": "Tunguz analyzes how AI model pricing strategies across OpenAI, Anthropic, and Google are shifting from subsidized growth plays to margin-conscious pricing ahead of IPOs, arguing the era of artificially cheap AI tokens is ending. Directly maps the business-model transition that determines whether current AI-native companies are building on sustainable economics.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-rebundling",
+        "saas-survives",
+        "bubble-skeptics"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "9c83f8ed",
+      "url": "https://engineering.atspotify.com/2026/5/better-experiments-with-llm-evals-a-funnel-not-a-fork",
+      "title": "Better Experiments with LLM Evals — A Funnel, Not a Fork",
+      "source": "Spotify Engineering",
+      "date": "2026-05-21",
+      "summary": "Spotify's ML team argues that LLM evaluation should be structured as a narrowing funnel — broad checks, then targeted evals, then human review — rather than branching forks, with detailed guidance on implementing this in production. Valuable practitioner essay on the emerging discipline of AI product quality assurance.",
+      "industry_nodes": [],
+      "schools": [
+        "context-engineering",
+        "prompting-craft",
+        "workflow-recipes"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "7b87a988",
+      "url": "https://arcplane.ai/journal/software-is-not-solved",
+      "title": "Coding Is Solved? Software Is Not",
+      "source": "Arcplane",
+      "date": "2026-05-21",
+      "summary": "Even as AI agents can generate credible code in minutes, the actual challenge in software development has shifted to judgment — deciding what to build, whether the right problem was solved, and whether the change was the correct one to make. A sharp practitioner argument that the bottleneck has moved up the stack, not disappeared.",
+      "industry_nodes": [],
+      "schools": [
+        "vibe-coding",
+        "coding-paradigms",
+        "productive-friction"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "5e513af9",
+      "url": "https://techcrunch.com/2026/05/20/openai-claims-it-solved-an-80-year-old-math-problem-for-real-this-time/",
+      "title": "OpenAI Claims It Solved an 80-Year-Old Math Problem — For Real This Time",
+      "source": "TechCrunch",
+      "date": "2026-05-20",
+      "summary": "OpenAI's internal reasoning model autonomously disproved the Erdős unit distance conjecture, a discrete geometry problem unsolved since 1946, constructing a new family of proofs that beat prior grid-based approaches. Signals a phase change from AI-as-assistant to AI-as-autonomous-mathematical-reasoner with verifiable novel contributions.",
+      "industry_nodes": [],
+      "schools": [
+        "world-models",
+        "reasoning-rl",
+        "where-ai-is-heading"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "a32ea366",
+      "url": "https://fortune.com/2026/05/21/cloudflare-ceo-matthew-prince-layoffs-ai-automation-measurers/",
+      "title": "Cloudflare Posted Record Revenue, Then Cut 20% of Its Workforce. CEO Matthew Prince Says AI Has Made an Entire Category of Workers Obsolete.",
+      "source": "Fortune",
+      "date": "2026-05-21",
+      "summary": "Cloudflare CEO Matthew Prince cut 20% of staff — primarily 'measurers' (middle management, finance, compliance, auditing) — while growing revenue at 30%+, arguing AI now handles measurement functions with superior precision and this reorganization will become standard across industries. Most concrete real-world instantiation of the ai-native-flat and manager-of-agents theses to date.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-native-flat",
+        "manager-of-agents",
+        "ai-economy"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "fdda9296",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-21/cursor-hits-3-billion-annual-sales-rate-ahead-of-spacex-deal",
+      "title": "Cursor Hits $3 Billion Annual Sales Rate Ahead of SpaceX Deal",
+      "source": "Bloomberg",
+      "date": "2026-05-21",
+      "summary": "Cursor's ARR reached $3B — up from $2B in February — with 3,000+ enterprise customers at $100K+ each and a forecast to surpass $6B by year-end, ahead of an anticipated SpaceX acquisition. The velocity is a proxy for how fast AI-native coding tools are displacing traditional software development at enterprise scale.",
+      "industry_nodes": [],
+      "schools": [
+        "vibe-coding",
+        "coding-paradigms",
+        "ai-economy"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "ee001a12",
+      "url": "https://aprildunford.substack.com/p/positioning-in-the-age-of-ai",
+      "title": "Positioning in the Age of AI",
+      "source": "April Dunford / Obviously Awesome",
+      "date": "2026-05-22",
+      "summary": "Positioning expert April Dunford argues that AI is collapsing category distinctions in B2B software, forcing companies to move from feature-based positioning to outcome-based and persona-based positioning that survives AI commoditization. Highly relevant to the ai-rebundling and services-as-software theses, showing how incumbents are rethinking their market narrative.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-rebundling",
+        "services-as-software",
+        "saas-survives"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "0508e54b",
+      "url": "https://www.saastr.com/how-anthropic-rebuilt-its-sales-org-from-scratch-when-demand-went-vertical-54-of-new-enterprise-logos-now-come-self-serve/",
+      "title": "How Anthropic Rebuilt Its Sales Org From Scratch When Demand Went Vertical: 54% of New Enterprise Logos Now Come Self-Serve",
+      "source": "SaaStr",
+      "date": "2026-05-22",
+      "summary": "Detailed breakdown of how Anthropic restructured its go-to-market as demand exploded, with over half of new enterprise logos now coming in without a sales rep — a model where product-led growth drives enterprise revenue at unprecedented rates. Concrete case study for the services-as-software and ai-rebundling schools, showing how AI lab go-to-market differs from traditional SaaS.",
+      "industry_nodes": [],
+      "schools": [
+        "services-as-software",
+        "ai-rebundling",
+        "not-a-bubble"
+      ],
+      "relevance": 3,
       "status": "pending"
     }
   ]
