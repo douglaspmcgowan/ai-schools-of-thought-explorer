@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-23T10:18:47.374Z",
+  "generated": "2026-05-24T10:16:50.970Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -5375,6 +5375,81 @@
         "not-a-bubble"
       ],
       "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "39af1532",
+      "title": "Qwen3.7: The Agent Frontier",
+      "url": "https://www.alibabacloud.com/blog/qwen3-7-the-agent-frontier_603154",
+      "source": "Alibaba Cloud",
+      "date": "2026-05-20",
+      "summary": "Alibaba releases Qwen3.7-Max, a proprietary agent-foundation model posting top scores on Terminal-Bench 2.0, SWE-Pro, and other agent benchmarks — scoring 56.6 on the AI Intelligence Index (highest Chinese model to date). The model demonstrated 35-hour sustained autonomous execution with over 1,000 tool calls, signaling a new tier of long-horizon agent capability from a non-US lab.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "autonomous-agent"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "f7617348",
+      "title": "New Anthropic-, Blackstone-backed AI services firm acquires Fractional AI",
+      "url": "https://siliconangle.com/2026/05/21/new-anthropic-blackstone-backed-ai-services-firm-acquires-fractional-ai/",
+      "source": "SiliconANGLE",
+      "date": "2026-05-21",
+      "summary": "Anthropic, Blackstone, and Hellman & Friedman's unnamed $1.5B joint venture made its first acquisition — Fractional AI — as its operational centerpiece for deploying Claude inside mid-market enterprises, pulling Fractional away from an 11-month OpenAI partnership. This is a direct move toward services-as-software: AI labs building the consulting layer themselves rather than leaving it to SIs.",
+      "industry_nodes": [],
+      "schools": [
+        "services-as-software",
+        "manager-of-agents"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "b578d932",
+      "title": "Microsoft Cancels Claude Code Licenses, Shifting Developers to GitHub Copilot CLI",
+      "url": "https://www.windowscentral.com/microsoft/microsoft-cancels-claude-code-licenses-shifting-developers-to-github-copilot-cli-a-move-likely-driven-by-financial-motives",
+      "source": "Windows Central",
+      "date": "2026-05-22",
+      "summary": "Microsoft is canceling Claude Code licenses for its internal developers and redirecting them to GitHub Copilot CLI, with the motive believed to be cost reduction — a signal that even large AI consumers are consolidating around owned toolchains when capable alternatives exist. The move illustrates the intensifying competition between AI coding tool providers at the enterprise layer.",
+      "industry_nodes": [],
+      "schools": [
+        "saas-survives",
+        "ai-rebundling"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "3072d058",
+      "title": "The Waiting Problem in AI Products",
+      "url": "https://uxdesign.cc/the-waiting-problem-in-ai-products-e7c11fd5a825",
+      "source": "UX Collective",
+      "date": "2026-05-22",
+      "summary": "Every major AI product launched since 2023 misses the Doherty Threshold by minutes — users get a pulsing dot with no estimate, no percent-complete, and no way to know if the model is still running or the network died. The article argues AI tools should adopt decades-old OS conventions: progress indicators, ETAs, chunked logs, and async notifications to make long agentic waits feel manageable.",
+      "industry_nodes": [],
+      "schools": [
+        "productive-friction",
+        "agent-internals"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "9725c1ec",
+      "title": "Streamline your AI coding workflow with Chrome DevTools for agents 1.0",
+      "url": "https://developer.chrome.com/blog/devtools-for-agents-v1",
+      "source": "Chrome for Developers",
+      "date": "2026-05-20",
+      "summary": "Google releases the stable 1.0 of Chrome DevTools for agents — an MCP server and CLI giving coding agents (Cursor, Gemini CLI, Antigravity, and 20+ others) direct access to browser DevTools: console logs, network traffic, accessibility trees, heap snapshots, Lighthouse audits, and device emulation. One enterprise reported 96–98% reduction in manual performance-audit work, illustrating the compounding value of agent-native browser tooling.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-native-browsing",
+        "compound-engineering"
+      ],
+      "relevance": 4,
       "status": "pending"
     }
   ]
