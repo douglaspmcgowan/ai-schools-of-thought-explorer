@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-24T10:16:50.970Z",
+  "generated": "2026-05-25T10:07:34.088Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -5448,6 +5448,71 @@
       "schools": [
         "agent-native-browsing",
         "compound-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "1b6db10f",
+      "title": "Maintainability sensors for coding agents",
+      "url": "https://martinfowler.com/articles/sensors-for-coding-agents.html",
+      "source": "Martin Fowler",
+      "date": "2026-04-02",
+      "summary": "Böckeler introduces 'sensors' — linters, tests, evals, static analysis — as the feedback half of agent harnesses (Model + Harness = Guides + Sensors), arguing agents self-correct only when automated checks produce signals optimized for LLM consumption. The piece coins 'harness engineering' as a discipline and positions sensors as the most underdiscussed component of reliable agentic coding.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "compound-engineering",
+        "workflow-recipes",
+        "spec-driven"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "f6db7ed3",
+      "title": "Reviewable ADRs, AI by default, and weekly readings",
+      "url": "https://refactoring.fm/p/reviewable-adrs-ai-by-default-and",
+      "source": "Refactoring",
+      "date": "2026-05-25",
+      "summary": "Rossi argues that Architecture Decision Records (ADRs) are the missing reviewable artifact in AI coding workflows — giving engineers a high-level control point to audit agent choices without inspecting every line of code. A second thesis from a Stuart Caborn interview: teams only learn how AI fails by using it by default, even when slower, because failures must surface to become process improvements.",
+      "industry_nodes": [],
+      "schools": [
+        "spec-driven",
+        "agent-internals",
+        "compound-engineering",
+        "workflow-recipes"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "9236f32c",
+      "title": "Beyond Scaling: Agents Are Heading to the Edge",
+      "url": "https://arxiv.org/abs/2605.18535",
+      "source": "arXiv",
+      "date": "2026-05-24",
+      "summary": "A Cambridge position paper arguing personal-agent architecture must shift from cloud to edge because agentic tasks require zero-latency local context loops. The authors identify the 'Prefrontal Turn' — the main marginal capability lever has moved from pre-training scale to framework-level executive control.",
+      "industry_nodes": [],
+      "schools": [
+        "scaling-laws-revisionism",
+        "reasoning-rl",
+        "world-models"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "2977b502",
+      "title": "Demis Hassabis: We're at the 'foothills of the singularity'",
+      "url": "https://www.semafor.com/article/05/20/2026/google-exec-demis-hassabis-predicts-were-at-the-foothills-of-the-singularity",
+      "source": "Semafor",
+      "date": "2026-05-20",
+      "summary": "Google DeepMind CEO Demis Hassabis declared at Google I/O 2026 that AI has entered 'the foothills of the singularity,' predicting AGI within a few years at 10× the impact of the Industrial Revolution. He cited the emergence of working agents as the key milestone making him confident enough to say so publicly.",
+      "industry_nodes": [],
+      "schools": [
+        "extrapolators",
+        "agi-timelines"
       ],
       "relevance": 4,
       "status": "pending"
