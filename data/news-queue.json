@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-25T10:07:34.088Z",
+  "generated": "2026-05-26T10:12:34.566Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -5515,6 +5515,98 @@
         "agi-timelines"
       ],
       "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "324790b8",
+      "title": "Inside Claude's Rapid Expansion Across Corporate Finance",
+      "url": "https://www.cfo.com/news/inside-anthropic-claude-rapid-expansion-across-corporate-finance-cfo-/820806/",
+      "source": "TLDR Fintech",
+      "date": "2026-05-25",
+      "summary": "Claude is now embedded across reconciliation, valuation, audit, and earnings workflows at PwC, KPMG, JPMorgan, Goldman Sachs, Citi, AIG, and Visa. Illustrates the services-as-software model at institutional scale, with AI agents replacing whole finance workflow categories.",
+      "industry_nodes": [],
+      "schools": [
+        "services-as-software",
+        "manager-of-agents"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "bc6d8ca8",
+      "title": "Anthropic's New Consulting Venture Makes Its First Acquisition",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-21/anthropic-s-new-consulting-venture-makes-its-first-acquisition",
+      "source": "Bloomberg",
+      "date": "2026-05-21",
+      "summary": "The Anthropic-Blackstone-Hellman & Friedman-backed AI services firm acquired Fractional AI as its operational core, ending Fractional's OpenAI partnership. OpenAI and Anthropic are racing to build deployment arms for enterprise AI adoption via consulting-style teams.",
+      "industry_nodes": [],
+      "schools": [
+        "services-as-software"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "01a363da",
+      "title": "The AI Bifurcation of Tech: Why the Fundamentals Matter More Than Ever",
+      "url": "https://neevash.com/blog/tech-bifurcation-and-the-0.5-layer",
+      "source": "Neevash.com",
+      "date": "2026-05-25",
+      "summary": "Application companies that rely on custom workflows sit in a '0.5 layer' that AI agents can route around; surviving moats must be proprietary data, regulatory positioning, or deep customer relationships. Argues that SaaS vendors must rethink what they sell, who buys it, and how they charge.",
+      "industry_nodes": [],
+      "schools": [
+        "saas-survives",
+        "services-as-software",
+        "ai-rebundling"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "2857e6a5",
+      "title": "The Pulse: Forward Deployed Engineering Heats Up Again",
+      "url": "https://blog.pragmaticengineer.com/the-pulse-forward-deployed-engineering-heats-up-again/",
+      "source": "The Pragmatic Engineer",
+      "date": "2026-05-25",
+      "summary": "Google, OpenAI (via the Tomoro acquisition), and Anthropic are all racing to build forward-deployed engineering organizations as the key interface between AI models and enterprise workflows. FDE demand has surged because humans who can orchestrate agents and understand business processes are the new scarce resource.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering-org",
+        "services-as-software",
+        "manager-of-agents"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "8eda47cf",
+      "title": "Plastic User Interfaces",
+      "url": "https://tomtunguz.com/plastic-user-interfaces/",
+      "source": "Tom Tunguz",
+      "date": "2026-05-25",
+      "summary": "AI is making user interfaces malleable on demand—Salesforce has gone 'headless' and traditional app shells are dissolving as AI agents act on behalf of users. The thesis is that the UI layer is becoming formless: a context-switched surface that reshapes to whatever the user needs.",
+      "industry_nodes": [],
+      "schools": [
+        "living-software",
+        "ai-rebundling"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "e60d39b5",
+      "title": "Welcome to Gas City",
+      "url": "https://steve-yegge.medium.com/welcome-to-gas-city-57f564bb3607",
+      "source": "Steve Yegge / Medium",
+      "date": "2026-04-15",
+      "summary": "Gas City is Gas Town rewritten from scratch as an SDK for building multi-agent 'dark factories': deploy teams of collaborating agents in any topology, with a named supervisor (mayor) routing to anonymous disposable workers (polecats). Most thorough engineering treatment of the software factory pattern.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "compound-engineering",
+        "folder-as-agent"
+      ],
+      "relevance": 5,
       "status": "pending"
     }
   ]
