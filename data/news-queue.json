@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-26T10:12:34.566Z",
+  "generated": "2026-05-27T10:15:28.282Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -5607,6 +5607,204 @@
         "folder-as-agent"
       ],
       "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "dd8ac816",
+      "title": "Insights from our first AI Club",
+      "url": "https://refactoring.fm/p/insights-from-our-first-ai-club",
+      "source": "Refactoring",
+      "date": "2026-05-27",
+      "summary": "Practitioner patterns from a community AI Club session: the \"combine harvester\" markdown-state pattern for long agent tasks, overnight \"guard\" procedures that catch judgment-based issues rules miss, staged automation of complex workflows, and AI-assisted stakeholder ticket analysis. Matters because these are real-world agentic workflow patterns from engineers shipping production AI systems.",
+      "industry_nodes": [],
+      "schools": [
+        "workflow-recipes",
+        "agent-internals",
+        "prompting-craft"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "e9bae737",
+      "title": "How to Use Codex for Knowledge Work: A Power User's Guide",
+      "url": "https://every.to/p/how-to-use-codex-for-knowledge-work-a-power-user-s-guide",
+      "source": "Every",
+      "date": "2026-05-26",
+      "summary": "Every publishes a comprehensive guide to using OpenAI Codex as an operating system for knowledge work — covering workspace setup, the connect-contextualize-delegate loop, five levels of use, and 13 workflow templates for email, research, reporting, and recruiting. Matters because it frames coding agents as general-purpose knowledge tools for non-engineers, directly advancing the agent-as-workflow-OS thesis.",
+      "industry_nodes": [],
+      "schools": [
+        "workflow-recipes",
+        "context-engineering",
+        "prompting-craft"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "28cfcd68",
+      "title": "Notes on Pope Leo XIV's Encyclical on AI (Magnifica Humanitas)",
+      "url": "https://simonwillison.net/2026/May/25/encyclical-on-ai/",
+      "source": "Simon Willison",
+      "date": "2026-05-25",
+      "summary": "Simon Willison annotates Pope Leo XIV's first encyclical on AI, which warns against power concentration in AI systems, AI reshaping human self-conception as optimization targets, and the use of AI in warfare. Matters as a major institutional governance statement that explicitly takes sides in the alignment/power-concentration debate, now elevated to Catholic social teaching.",
+      "industry_nodes": [],
+      "schools": [
+        "alignment-governance",
+        "constitutionalism-critiques"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "a6f4c4ea",
+      "title": "Claude Mythos Preview: Anthropic's Most Capable and Security-Focused Model",
+      "url": "https://red.anthropic.com/2026/mythos-preview/",
+      "source": "Anthropic",
+      "date": "2026-05-25",
+      "summary": "Anthropic unveils Mythos Preview, its most capable model to date, with extraordinary cybersecurity capabilities including discovering 22 Firefox vulnerabilities and writing working exploits — now being deployed through Project Glasswing for defensive security before public release. Matters as a watershed moment for AI safety policy: a model so capable it requires gated, institutional-first rollout rather than standard commercial release.",
+      "industry_nodes": [],
+      "schools": [
+        "constitutional",
+        "new-models",
+        "alignment-governance"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "77afd4e1",
+      "title": "Exploit Evals: Anthropic's Security Benchmark for AI Cyber Capabilities",
+      "url": "https://red.anthropic.com/2026/exploit-evals/",
+      "source": "Anthropic",
+      "date": "2026-05-25",
+      "summary": "Anthropic publishes its exploit evaluation framework — including ExploitBench and ExploitGym (898 real CVEs) — showing that Mythos Preview consistently outperforms all models on offensive security tasks, with Claude Opus 4.6 having written working exploits for now-patched browser vulnerabilities. Matters because it establishes a rigorous capability benchmark for AI-generated exploits and signals a new era of AI-assisted offensive security research.",
+      "industry_nodes": [],
+      "schools": [
+        "constitutional",
+        "mechanistic-interpretability"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "562fd0b5",
+      "title": "The Neocloud Boom (Clouded Judgement 5.22.26)",
+      "url": "https://cloudedjudgement.substack.com/p/clouded-judgement-52226-the-neocloud",
+      "source": "Clouded Judgement",
+      "date": "2026-05-22",
+      "summary": "Analysis of the neocloud infrastructure buildout: Coreweave guiding to ~8.5B annualized revenue and 1.7GW capacity by end of 2026, with the broader AI infra buildout potentially reaching 5% of US GDP through 2030. Matters because it frames the infrastructure layer as the defining wealth-creation event in physical tech infrastructure, with hyperscalers and neoclouds potentially becoming the next bottleneck.",
+      "industry_nodes": [],
+      "schools": [
+        "not-a-bubble",
+        "ai-economy"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "4b49d041",
+      "title": "The MCP Stateless Release Candidate: Protocol Goes Stateless",
+      "url": "https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate/",
+      "source": "Model Context Protocol Blog",
+      "date": "2026-05-25",
+      "summary": "MCP announces its release candidate for a stateless protocol core, removing session IDs so any request can land on any server instance — enabling horizontal scaling on ordinary HTTP infrastructure, plus new Extensions, Tasks, and MCP Apps frameworks. Matters because stateless MCP is the architectural prerequisite for production-grade agentic systems at scale.",
+      "industry_nodes": [],
+      "schools": [
+        "context-engineering",
+        "agent-internals"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "414eb953",
+      "title": "Google DeepMind's AlphaProof Nexus Solves Decades-Old Math Problems for a Few Hundred Dollars",
+      "url": "https://the-decoder.com/google-deepminds-alphaproof-nexus-solves-decades-old-math-problems-for-a-few-hundred-dollars/",
+      "source": "The Decoder",
+      "date": "2026-05-26",
+      "summary": "AlphaProof Nexus, DeepMind's updated math reasoning system, solves longstanding open mathematical problems for under 00 in compute — a dramatic cost-efficiency improvement over earlier systems. Matters as evidence that reasoning-RL systems are now achieving genuine scientific discovery at accessible price points, not just benchmark performance.",
+      "industry_nodes": [],
+      "schools": [
+        "reasoning-rl",
+        "world-models"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "aa511b5c",
+      "title": "Introducing BenchBench: A Benchmark for Benchmarks",
+      "url": "https://www.strangeloopcanon.com/p/introducing-benchbench",
+      "source": "Strange Loop Canon",
+      "date": "2026-05-26",
+      "summary": "Strange Loop Canon introduces BenchBench, a meta-evaluation framework that scores AI benchmarks on their own validity, consistency, and ability to differentiate real capability from benchmark gaming. Matters because it directly challenges the scaling-law narrative by exposing how much benchmark selection shapes perceived AI progress.",
+      "industry_nodes": [],
+      "schools": [
+        "scaling-laws-revisionism",
+        "empiricists"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "42ed26e9",
+      "title": "DeepSeek V4 Pro Cuts Prices 75% Permanently",
+      "url": "https://thenextweb.com/news/deepseek-v4-pro-75-percent-price-cut-permanent",
+      "source": "The Next Web",
+      "date": "2026-05-25",
+      "summary": "DeepSeek makes its V4 Pro model 75% cheaper on a permanent basis, continuing the pattern of Chinese AI labs driving frontier model costs toward zero. Matters as a structural pricing event that validates the commoditization thesis and increases pressure on Western AI labs to compete on cost.",
+      "industry_nodes": [],
+      "schools": [
+        "scaling-laws-revisionism",
+        "bubble-skeptics"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "746e2801",
+      "title": "Anthropic's March to Profitability",
+      "url": "https://contraryresearch.substack.com/p/anthropics-march-to-profitability",
+      "source": "Contrary Research",
+      "date": "2026-05-25",
+      "summary": "Contrary Research analyzes Anthropic's path to profitability through Claude API, Claude.ai subscriptions, and enterprise deals — arguing the lab has a credible route to unit economics that justifies its 0B+ valuation. Matters as a counter-narrative to AI bubble skepticism, grounding Anthropic's commercial trajectory in actual revenue data.",
+      "industry_nodes": [],
+      "schools": [
+        "not-a-bubble",
+        "ai-economy"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "daa3f3ee",
+      "title": "Where the AI Hardware Market Is",
+      "url": "https://www.categoryvc.com/writing/where-the-ai-hardware-market-is",
+      "source": "Category Ventures",
+      "date": "2026-05-26",
+      "summary": "VC analysis of the AI hardware market landscape: who is winning, which segments are commoditizing, and where durable margin remains in the compute stack. Broadly relevant to understanding capital flows in the AI economy but primarily a market map rather than a thesis-driven essay.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-economy",
+        "not-a-bubble"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "8d08562d",
+      "title": "Gemini 3.5 Flash Looks Good For How Fast It Is",
+      "url": "https://thezvi.wordpress.com/2026/05/22/gemini-3-5-flash-looks-good-for-how-fast-it-is/",
+      "source": "Zvi Mowshowitz",
+      "date": "2026-05-22",
+      "summary": "Zvi Mowshowitz benchmarks and analyzes Gemini 3.5 Flash, concluding it represents a significant speed-quality tradeoff breakthrough that makes it competitive for production deployment at high-throughput. Matters as an empiricist take on a new model from a trusted analyst who consistently tests beyond marketing claims.",
+      "industry_nodes": [],
+      "schools": [
+        "empiricists",
+        "new-models"
+      ],
+      "relevance": 4,
       "status": "pending"
     }
   ]
