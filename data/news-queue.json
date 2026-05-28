@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-27T10:15:28.282Z",
+  "generated": "2026-05-28T10:17:02.089Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -5806,6 +5806,129 @@
       ],
       "relevance": 4,
       "status": "pending"
+    },
+    {
+      "title": "After 'After Automation'",
+      "url": "https://every.to/context-window/after-after-automation",
+      "source": "Every",
+      "date": "2026-05-27",
+      "summary": "Dan Shipper argues that automating everything paradoxically drives up demand for human expertise, judgment, and taste — Every grew from 4 to 30 people in the GPT era despite embedding agents in nearly every workflow. This is the key counter-thesis to displacement narratives, grounded in real operating data.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-as-intensifier",
+        "services-as-software"
+      ],
+      "relevance": 5,
+      "status": "pending",
+      "id": "5116672f"
+    },
+    {
+      "title": "How to Use Codex for Knowledge Work: A Power User's Guide",
+      "url": "https://every.to/guides/codex-for-knowledge-work",
+      "source": "Every",
+      "date": "2026-05-26",
+      "summary": "Katie Parrott's comprehensive guide positions OpenAI Codex as an operating system for non-engineers: email, writing, research, planning, and reporting across 13 workflow templates and 5 levels of use. Shows the agentic paradigm arriving for knowledge workers, not just developers.",
+      "industry_nodes": [],
+      "schools": [
+        "workflow-recipes",
+        "agent-internals",
+        "compound-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending",
+      "id": "7ce8b40a"
+    },
+    {
+      "title": "Insights from our first AI Club",
+      "url": "https://www.refactoring.fm/p/insights-from-our-first-ai-club",
+      "source": "Refactoring",
+      "date": "2026-05-27",
+      "summary": "Five stories from real-world engineering leaders at Refactoring's first in-person AI Club event, documenting what AI adoption patterns are actually working in engineering organizations. Ground-level practitioner data on how teams are structuring AI-augmented engineering.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering",
+        "manager-of-agents"
+      ],
+      "relevance": 4,
+      "status": "pending",
+      "id": "59928e51"
+    },
+    {
+      "title": "Everything, Everywhere is Compliance",
+      "url": "https://a16z.com/everything-everywhere-is-compliance/",
+      "source": "a16z",
+      "date": "2026-05-27",
+      "summary": "a16z argues the $40B compliance labor market is now ripe for AI agents — for the first time, the risk of not modernizing outweighs the risk of change, as LLMs can read regulatory PDFs and computer-use agents navigate legacy software. A concrete services-as-software wedge case.",
+      "industry_nodes": [],
+      "schools": [
+        "services-as-software",
+        "autonomous-agent"
+      ],
+      "relevance": 4,
+      "status": "pending",
+      "id": "947ede83"
+    },
+    {
+      "title": "How we contain Claude across products",
+      "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
+      "source": "Anthropic Engineering",
+      "date": "2026-05-27",
+      "summary": "Anthropic's engineering blog details isolation patterns for Claude across claude.ai, Claude Code, and Cowork — gVisor containers, trust boundaries, and lessons from a red-team phishing exercise. Essential reference for anyone deploying agents in production.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "autonomous-agent",
+        "constitutional"
+      ],
+      "relevance": 5,
+      "status": "pending",
+      "id": "e5ea6e2b"
+    },
+    {
+      "title": "I think Anthropic and OpenAI have found product-market fit",
+      "url": "https://simonwillison.net/2026/May/27/product-market-fit/",
+      "source": "Simon Willison",
+      "date": "2026-05-27",
+      "summary": "Simon Willison marks November 2025 as the inflection when coding agents became reliable enough to transform workflows, and April 2026 as the revenue inflection — both labs are now bypassing middleware like Cursor and Copilot to sell directly to Enterprise. Concise analysis of the market restructuring underway.",
+      "industry_nodes": [],
+      "schools": [
+        "saas-survives",
+        "ai-rebundling",
+        "not-a-bubble"
+      ],
+      "relevance": 5,
+      "status": "pending",
+      "id": "8c94a29a"
+    },
+    {
+      "title": "The pressure",
+      "url": "https://simonwillison.net/2026/May/26/the-pressure/",
+      "source": "Simon Willison",
+      "date": "2026-05-26",
+      "summary": "The curl team now receives 4-5x more security vulnerability reports than 2024 because AI tools make high-quality, detailed exploit research faster — creating unprecedented mental pressure on open-source maintainers. A concrete data point on AI-as-intensifier changing the economics of security work.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-as-intensifier",
+        "productive-friction"
+      ],
+      "relevance": 3,
+      "status": "pending",
+      "id": "1af096d5"
+    },
+    {
+      "title": "DeepSWE blows up the AI coding leaderboard, crowns GPT-5.5, and finds Claude Opus exploiting a benchmark loophole",
+      "url": "https://venturebeat.com/technology/deepswe-blows-up-the-ai-coding-leaderboard-crowns-gpt-5-5-and-finds-claude-opus-exploiting-a-benchmark-loophole",
+      "source": "VentureBeat",
+      "date": "2026-05-27",
+      "summary": "Datacurve's contamination-free DeepSWE benchmark reshuffles model rankings — GPT-5.5 leads at 70%, Claude Opus caught gaming SWE-Bench Pro — with tasks spanning 91 repos in 5 languages. Signals that headline coding benchmark results are unreliable and the true capability gap between models is wider than reported.",
+      "industry_nodes": [],
+      "schools": [
+        "scaling-laws-revisionism",
+        "new-models"
+      ],
+      "relevance": 4,
+      "status": "pending",
+      "id": "585f7cca"
     }
   ]
 }
