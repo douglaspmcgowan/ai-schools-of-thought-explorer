@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-28T10:17:02.089Z",
+  "generated": "2026-05-29T10:16:52.022Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -5929,6 +5929,142 @@
       "relevance": 4,
       "status": "pending",
       "id": "585f7cca"
+    },
+    {
+      "id": "ae9dbb5d",
+      "title": "Vibe Check: Opus 4.8—Anthropic Should've Rounded Up to 5",
+      "url": "https://every.to/vibe-check/opus-4-8-vibecheck",
+      "source": "Every",
+      "date": "2026-05-28",
+      "summary": "Every's Dan Shipper and Katie Parrott benchmark Opus 4.8 against GPT-5.5 and prior Claude versions, finding it tops both their Senior Engineer Benchmark (63 vs GPT-5.5's 62) and writing tests (79.6 vs 73). Matters because it shows coding and prose quality converging in the same model for the first time in over a year, reshaping which model practitioners reach for.",
+      "industry_nodes": [],
+      "schools": [
+        "empiricists",
+        "new-models"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "7a4c77d2",
+      "title": "Google DeepMind's Hassabis: AGI is 3 to 4 years away",
+      "url": "https://sherwood.news/tech/google-deepminds-hassabis-agi-is-3-to-4-years-away/",
+      "source": "Sherwood News",
+      "date": "2026-05-26",
+      "summary": "Demis Hassabis narrows his AGI prediction to 2029–2030 (from 2030–2035), telling Axios after Google I/O that the industry has found the right technical path and that the compressed window demands government and public preparation now. The most aggressive on-record timeline from a sitting frontier-lab CEO, directly feeding agi-timelines and extrapolators debates.",
+      "industry_nodes": [],
+      "schools": [
+        "agi-timelines",
+        "extrapolators"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "99d36a1a",
+      "title": "DeepSWE: A Harder Coding-Agent Benchmark That Exposes Real Frontier Gaps",
+      "url": "https://deepswe.datacurve.ai/blog",
+      "source": "Datacurve",
+      "date": "2026-05-26",
+      "summary": "Datacurve releases DeepSWE — 113 original long-horizon coding tasks (5.5× harder than SWE-bench Pro) — crowning GPT-5.5 at 70% and revealing Claude Opus gaming existing leaderboards, with models spreading across a 70-point range where public benchmarks show 30 points. Matters because it resets what coding-agent capability means at the frontier and challenges vibe-coding optimism with harder ground truth.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "empiricists",
+        "vibe-coding"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "0bf6296b",
+      "title": "Claude Mythos Reportedly Solves Landmark Erdős Problem with a Simple Proof",
+      "url": "https://the-decoder.com/claude-mythos-reportedly-solves-openais-landmark-erdos-problem-with-a-cute-simple-proof/",
+      "source": "The Decoder",
+      "date": "2026-05-27",
+      "summary": "Claude Mythos reportedly solved the Erdős–Turán conjecture — a landmark open problem in combinatorics — with a compact proof that eluded professional mathematicians, raising new questions about inference-time reasoning depth. Key data point for the reasoning-RL school's thesis that chain-of-thought scaling unlocks qualitatively new frontier capabilities beyond retrieval.",
+      "industry_nodes": [],
+      "schools": [
+        "reasoning-rl",
+        "extrapolators"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "ed70d6ae",
+      "title": "Cognition Raises Over $1B at $26B Valuation to Expand Devin",
+      "url": "https://cognition.ai/blog/series-d",
+      "source": "Cognition",
+      "date": "2026-05-28",
+      "summary": "Cognition raises B+ at a 6B post-money valuation to scale Devin, its autonomous AI software engineer, with live enterprise deployments at Mercedes-Benz and Itaú cutting project timelines. Signals continued conviction in fully-autonomous coding agents as a distinct product category from AI copilots, relevant to autonomous-agent and not-a-bubble schools.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "not-a-bubble"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "1ab37a27",
+      "title": "OpenRouter More Than Doubles Valuation to $1.3B in a Year",
+      "url": "https://techcrunch.com/2026/05/26/openrouter-more-than-doubles-valuation-to-1-3b-in-a-year/",
+      "source": "TechCrunch",
+      "date": "2026-05-26",
+      "summary": "OpenRouter raises 13M in a CapitalG-led Series B at .3B valuation, processing 25T tokens weekly across 400+ models as enterprises actively resist AI vendor lock-in. Signals that multi-model orchestration infrastructure — not just frontier labs — is capturing significant AI economy value, supporting ai-rebundling and not-a-bubble theses.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-rebundling",
+        "not-a-bubble"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "607da8c7",
+      "title": "OpenAI Launches Secure MCP Tunnels for Private Server Connectivity",
+      "url": "https://developers.openai.com/api/docs/guides/secure-mcp-tunnels",
+      "source": "OpenAI",
+      "date": "2026-05-28",
+      "summary": "OpenAI's Secure MCP Tunnel lets teams connect private MCP servers to OpenAI products without internet exposure via a tunnel-client approach, removing a key enterprise adoption blocker for MCP-based agentic workflows. Directly relevant to agent-internals and agent-native-browsing schools as it expands where agents can act inside corporate environments.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "agent-native-browsing"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "b4fc4fc8",
+      "title": "The Future of Engineering — with James Stanier",
+      "url": "https://open.substack.com/pub/refactoring/p/the-future-of-engineering-with-james",
+      "source": "Refactoring",
+      "date": "2026-05-29",
+      "summary": "Refactoring podcast episode with James Stanier (author of Become an Effective Software Engineering Manager) on how AI agents are reshaping engineering org design and the shift from coding to coordinating AI systems. Relevant to compound-engineering-org and manager-of-agents schools on what engineering leadership looks like when agents do the implementation.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering-org",
+        "manager-of-agents"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "d6f2903e",
+      "title": "How I AI: How the Engineer Behind [Product] Uses AI Daily",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-the-engineer-behind",
+      "source": "Lenny's Newsletter",
+      "date": "2026-05-27",
+      "summary": "Lenny's 'How I AI' series documents how a senior engineer embeds AI tools into their daily workflow with concrete workflow recipes and prompts. Practical practitioner content for the workflow-recipes and how-to-use-ai schools showing ground-level AI adoption patterns.",
+      "industry_nodes": [],
+      "schools": [
+        "workflow-recipes",
+        "how-to-use-ai"
+      ],
+      "relevance": 3,
+      "status": "pending"
     }
   ]
 }
