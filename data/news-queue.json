@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-29T10:16:52.022Z",
+  "generated": "2026-05-30T10:17:26.739Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -6064,6 +6064,171 @@
         "how-to-use-ai"
       ],
       "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "b2af8689",
+      "title": "Software After AI",
+      "url": "https://tomtunguz.com/harnessing-ai/",
+      "source": "Tom Tunguz",
+      "date": "2026-05-29",
+      "summary": "AI is replacing static workflows with adaptable intelligence, requiring a 7-component AI harness (context retrieval, tool integration, orchestration, state management, sandboxing, observability, cost optimization). Companies that master the harness layer will dominate the next competitive landscape in software.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-architecture",
+        "compound-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "928b89b6",
+      "title": "The Future of Engineering with James Stanier",
+      "url": "https://refactoring.fm/p/the-future-of-engineering-with-james",
+      "source": "Refactoring",
+      "date": "2026-05-29",
+      "summary": "CTO James Stanier (Nordhealth, ex-Shopify) discusses what senior engineers and engineering managers will look like in 2035 and how orgs are shifting from chaos to creativity in AI adoption. Covers the evolving expectations of engineering leadership in AI-native organizations.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering-org",
+        "manager-of-agents"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "ef40d4c0",
+      "title": "Agent Judge: Solving Long-Context Evals for Production Agents",
+      "url": "https://www.judgmentlabs.ai/blogs/agent-judge-solving-long-context-evaluations",
+      "source": "Judgment Labs",
+      "date": "2026-05-29",
+      "summary": "Agent Judge addresses the core failure modes of LLM judges in production: navigating long trajectories, verifying stateful actions against real systems, and updating rubrics from live feedback. Surpasses traditional judges on accuracy and consistency for complex agentic scenarios.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "autonomous-agent"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "70134ccb",
+      "title": "How Far Behind Are Open Models?",
+      "url": "https://www.lesswrong.com/posts/rJcCrXyEsJKmmDpWG/how-far-behind-are-open-models",
+      "source": "LessWrong",
+      "date": "2026-05-29",
+      "summary": "Open models are 4-6 months behind closed models on public benchmarks—gap was smallest at DeepSeek R1 and is now growing again. The trajectory of the open/closed capability gap determines whether compute ownership or model access becomes the dominant strategic moat.",
+      "industry_nodes": [],
+      "schools": [
+        "gatekeeping-vs-open",
+        "scaling-laws-revisionism"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "d4ec9ca5",
+      "title": "Building Self-Improving Tax Agents with Codex",
+      "url": "https://openai.com/index/building-self-improving-tax-agents-with-codex/",
+      "source": "OpenAI",
+      "date": "2026-05-27",
+      "summary": "OpenAI and Thrive Holdings built an AI that processes 7,000 tax returns at 97% accuracy and self-improves by converting production failures into training signals via Codex—reducing prep time by a third. The self-improvement loop is the core thesis: production use autonomously drives capability growth.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "services-as-software"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "bed41d0b",
+      "title": "Uber burned through its entire 2026 AI budget in four months",
+      "url": "https://fortune.com/2026/05/26/uber-coo-ai-spending-tokens-claude-code/",
+      "source": "Fortune",
+      "date": "2026-05-26",
+      "summary": "Uber's 5,000-engineer org went from 32% to 84% Claude Code adoption in two months, burning the full 2026 AI budget in four months; COO questions ROI despite productivity gains. The definitive case study on whether inference spend delivers measurable business outcomes at enterprise scale.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-economy",
+        "not-a-bubble"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "6f8ddfea",
+      "title": "Anthropic raises $65B Series H at $965B valuation",
+      "url": "https://www.anthropic.com/news/series-h",
+      "source": "Anthropic",
+      "date": "2026-05-29",
+      "summary": "Anthropic closed a $65B Series H at a $965B post-money valuation on $47B run-rate revenue, citing strong enterprise adoption and plans to expand compute. Signals that frontier model labs are approaching trillion-dollar territory based on consumption-based AI revenue.",
+      "industry_nodes": [],
+      "schools": [
+        "not-a-bubble",
+        "ai-economy"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "d69ef9fd",
+      "title": "NVIDIA γ-World: Multi-Agent World Models",
+      "url": "https://research.nvidia.com/labs/sil/projects/gamma-world/",
+      "source": "NVIDIA Research",
+      "date": "2026-05-29",
+      "summary": "NVIDIA's γ-World is a generative world model supporting independently controllable, permutation-symmetric agents with real-time rollouts and zero-shot generalization from 2-player to 4-player settings. A step toward scalable multi-agent simulation for training and evaluation.",
+      "industry_nodes": [],
+      "schools": [
+        "world-models",
+        "agent-internals"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "3bbc72b4",
+      "title": "The Cursor Developer Habits Report",
+      "url": "https://cursor.com/insights",
+      "source": "Cursor",
+      "date": "2026-05-29",
+      "summary": "Models now use more context to understand codebases, shifting cost composition toward cheaper input/cache tokens over output tokens—improving code calibration and diff survival rates. Cursor's first developer habits data reveals how context-driven coding is reshaping productivity metrics.",
+      "industry_nodes": [],
+      "schools": [
+        "vibe-coding",
+        "compound-engineering"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "28761745",
+      "title": "Reliable Weak-to-Strong Monitoring of LLM Agents (ICLR 2026)",
+      "url": "https://x.com/ScaleAILabs/status/2047338677580468664",
+      "source": "Scale AI",
+      "date": "2026-05-01",
+      "summary": "ICLR 2026 paper introduces Monitor Red Teaming (MRT) to stress-test how weaker models can reliably monitor powerful agents that might try to hide their reasoning. A key alignment research result for ensuring safety oversight doesn't degrade as agent capability scales.",
+      "industry_nodes": [],
+      "schools": [
+        "mechanistic-interpretability",
+        "alignment-governance"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "8e8b4552",
+      "title": "OpenAI Frontier Governance Framework",
+      "url": "https://openai.com/index/openai-frontier-governance-framework/",
+      "source": "OpenAI",
+      "date": "2026-05-28",
+      "summary": "OpenAI published its Frontier Governance Framework aligning safety practices with the California Transparency in Frontier AI Act and EU AI Act, covering risk assessment for cyber offense, CBRN risks, harmful manipulation, and loss of control. First major self-governance document from OpenAI shaped by emerging AI regulations.",
+      "industry_nodes": [],
+      "schools": [
+        "constitutional",
+        "alignment-governance"
+      ],
+      "relevance": 4,
       "status": "pending"
     }
   ]
