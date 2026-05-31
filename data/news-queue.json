@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-30T10:17:26.739Z",
+  "generated": "2026-05-31T10:13:59.908Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -6229,6 +6229,129 @@
         "alignment-governance"
       ],
       "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "f458bb09",
+      "title": "Claude Opus 4.8: \"a modest but tangible improvement\"",
+      "url": "https://simonwillison.net/2026/May/28/claude-opus-4-8/",
+      "source": "Simon Willison's Weblog",
+      "date": "2026-05-28",
+      "summary": "Simon Willison's hands-on review of Claude Opus 4.8 finds its most meaningful gain is epistemic honesty — the model flags uncertainties and avoids unsupported claims more reliably than prior versions, plus introduces mid-conversation system messages for long-running agent sessions. Matters because it documents a new reliability benchmark distinct from capability benchmarks, shaping how practitioners evaluate model trust.",
+      "industry_nodes": [],
+      "schools": [
+        "empiricists",
+        "new-models"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "4d423681",
+      "title": "How Meta is looking for revenue outside advertising to justify its ballooning capex bill",
+      "url": "https://sherwood.news/tech/meta-looks-to-enterprise-cloud-subscriptions-to-justify-ballooning-capex-bill/",
+      "source": "Sherwood News",
+      "date": "2026-05-29",
+      "summary": "Meta is launching an Enterprise Solutions unit and tiered AI subscriptions to offset its capex spiral, mirroring the forward-deployed engineer model used by Google and OpenAI while eyeing a future cloud compute business. Matters because even ad-dominant hyperscalers are pivoting toward services-as-software as the primary AI monetization strategy.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-rebundling",
+        "services-as-software"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "e563025e",
+      "title": "The Fallacy of \"Defensibility\"",
+      "url": "https://memos.hawkhill.ventures/p/the-fallacy-of-defensibility",
+      "source": "Hawkhill Ventures",
+      "date": "2026-05-29",
+      "summary": "Argues the seed-stage defensibility question is often a trap — most durable companies build moats through learning speed, hiring quality, and execution over time rather than structural day-one advantages. Matters at a moment when \"what stops OpenAI from building this?\" is a reflexive investor objection, challenging the AI moat discourse.",
+      "industry_nodes": [],
+      "schools": [
+        "bubble-skeptics",
+        "not-a-bubble"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "575586c9",
+      "title": "I Am Retiring from Tech to Live Offline",
+      "url": "https://simonwillison.net/2026/May/30/retiring-from-tech-to-live-offline/",
+      "source": "Simon Willison's Weblog",
+      "date": "2026-05-30",
+      "summary": "Simon Willison amplifies Chad Whitacre's decision to step away from tech after extended Claude Code sessions induced what Whitacre calls \"AI psychosis\" — a dissociative intoxication from agentic deep-dives. Matters because it surfaces underreported psychological costs at the frontier of agentic workflows.",
+      "industry_nodes": [],
+      "schools": [
+        "productive-friction",
+        "post-agi-skeptics"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "655c70ac",
+      "title": "Spitting Out the Agentic Kool-Aid",
+      "url": "https://openpath.quest/2026/spitting-out-the-agentic-kool-aid/",
+      "source": "Open Path by Chad Whitacre",
+      "date": "2026-02-19",
+      "summary": "Chad Whitacre documents how three 12-hour Claude Code sessions produced a dissociative \"intoxication\" state he calls \"AI psychosis,\" ultimately leading him to exit tech and return to an analog life. The most concrete first-person account of psychological costs from agentic immersion, gaining major fresh circulation in May 2026.",
+      "industry_nodes": [],
+      "schools": [
+        "productive-friction",
+        "post-agi-skeptics",
+        "bubble-skeptics"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "2719dcf9",
+      "title": "Karpathy at Sequoia Ascent 2026: From Vibe Coding to Agentic Engineering",
+      "url": "https://x.com/karpathy/status/2049903821095354523",
+      "source": "X / @karpathy",
+      "date": "2026-05-01",
+      "summary": "Karpathy declares December 2025 the inflection point where he inverted from 80% manual to 80% agent-delegated coding, coining \"agentic engineering\" — the professional discipline of coordinating fallible agents while preserving correctness, security, taste, and maintainability. Matters because it reframes the skill set developers must build in 2026 from \"write better code\" to \"supervise better agents.\"",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "compound-engineering",
+        "extrapolators"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "f56a6f37",
+      "title": "The Orchestration Tax",
+      "url": "https://addyosmani.com/blog/orchestration-tax/",
+      "source": "Addy Osmani's Blog",
+      "date": "2026-05-29",
+      "summary": "Addy Osmani defines the orchestration tax as the structural gap between what 20 parallel agents produce and what one human can review and merge — cognitive bandwidth doesn't parallelize, so running more agents widens the gap rather than closing it. Matters because it reframes multi-agent productivity as a human-throughput constraint, not a model-capability problem.",
+      "industry_nodes": [],
+      "schools": [
+        "manager-of-agents",
+        "agent-internals",
+        "compound-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "6e08e7d0",
+      "title": "AI Adoption Is Being Measured in Tokens, but the Metric Falls Short",
+      "url": "https://www.pymnts.com/artificial-intelligence-2/2026/ai-adoption-is-being-measured-in-tokens-but-the-metric-falls-short-experts-say/",
+      "source": "PYMNTS",
+      "date": "2026-05-29",
+      "summary": "Token counts are the wrong enterprise AI metric; the correct KPIs are cost-per-resolved-ticket, revenue-per-AI-workflow, and human-equivalent hourly rate — shifting procurement from usage-based to outcome-based. Matters as agentic AI at 2026 adoption levels consumes multiples of budgeted tokens, forcing CFOs to rethink how they measure AI ROI.",
+      "industry_nodes": [],
+      "schools": [
+        "services-as-software",
+        "saas-survives"
+      ],
+      "relevance": 3,
       "status": "pending"
     }
   ]
