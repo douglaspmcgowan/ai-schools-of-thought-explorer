@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-31T10:13:59.908Z",
+  "generated": "2026-06-01T10:14:37.471Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -6352,6 +6352,22 @@
         "saas-survives"
       ],
       "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "ecb4509b",
+      "title": "Measure AI Effectiveness by Leverage, Not Usage",
+      "url": "https://refactoring.fm/p/ai-leverage-bottom-line-up-front",
+      "source": "Refactoring",
+      "date": "2026-06-01",
+      "summary": "Luca Rossi argues that AI effectiveness should be measured by leverage — the ratio of useful output to human input — rather than by usage metrics like lines generated or tokens spent. The competitive moat is building systems where agents reuse enough institutional context that prompts stay short and quality stays high: the difference between low leverage (AI writes code only after exhaustive human spec) and maximum leverage (AI one-shots meaningful work from tiny prompts).",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering",
+        "ai-as-intensifier",
+        "context-engineering"
+      ],
+      "relevance": 4,
       "status": "pending"
     }
   ]
