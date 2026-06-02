@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-01T10:14:37.471Z",
+  "generated": "2026-06-02T10:16:45.685Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -6368,6 +6368,168 @@
         "context-engineering"
       ],
       "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "4a8fcbec",
+      "title": "All Model Labs are now Agent Labs",
+      "url": "https://www.latent.space/p/ainews-all-model-labs-are-now-agent",
+      "source": "Latent Space",
+      "date": "2026-06-01",
+      "summary": "Latent Space argues that all major AI companies are pivoting from model labs to agent labs, with the model alone no longer the product and 2026 marking coding agents breaking containment to handle everything beyond code. Matters because it frames the structural shift in what AI companies are selling and building.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "agent-architecture",
+        "where-ai-is-heading"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "5c9ee1c5",
+      "title": "MiniMax-M3 debuts, eclipsing GPT-5.5 and Gemini 3.1 Pro on key benchmarks for 5-10% of the cost",
+      "url": "https://venturebeat.com/technology/minimax-m3-debuts-eclipsing-gpt-5-5-and-gemini-3-1-pro-on-key-benchmark-performance-for-just-5-10-of-the-cost/",
+      "source": "VentureBeat",
+      "date": "2026-06-01",
+      "summary": "MiniMax launches M3, the first open-weight model claiming frontier coding and agentic performance with a 1M-token context window at 5-10% of proprietary model cost, using a sparse-attention architecture for 20x compute reduction. Raises questions about benchmark reliability and China's open-weight model strategy.",
+      "industry_nodes": [],
+      "schools": [
+        "new-models",
+        "scaling-laws-revisionism",
+        "gatekeeping-vs-open"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "24f8dd94",
+      "title": "Simon Willison's May 2026 Newsletter",
+      "url": "https://simonwillison.net/2026/Jun/1/may-newsletter/",
+      "source": "Simon Willison",
+      "date": "2026-06-01",
+      "summary": "Simon Willison's monthly practitioner roundup covers Claude Opus 4.8 experiments, new AI tools built, and observations about the state of LLM-assisted development in May 2026. Essential practitioner signal on where frontier AI tooling and coding workflows are heading.",
+      "industry_nodes": [],
+      "schools": [
+        "empiricists",
+        "new-tools",
+        "workflow-recipes"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "b9224437",
+      "title": "Microsoft is building a super app that combines coding, chat, and other Copilot AI tools",
+      "url": "https://fortune.com/2026/05/29/microsoft-working-on-super-app/",
+      "source": "Fortune",
+      "date": "2026-05-29",
+      "summary": "Microsoft is debuting a unified Copilot super app at Build 2026 that combines GitHub Copilot, Cowork, chat, and Scout—an always-on proactive agent—into a single OS-integrated interface. Represents platform-level consolidation of coding, agentic, and knowledge workflows into one AI product surface.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "agent-native-browsing",
+        "manager-of-agents",
+        "new-tools"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "b7afebca",
+      "title": "Karpathy: The growing gap in AI capability understanding",
+      "url": "https://x.com/karpathy/status/2042334451611693415",
+      "source": "Twitter/X",
+      "date": "2026-05-01",
+      "summary": "Andrej Karpathy identifies a widening perception gap between people whose AI opinions were shaped by free-tier ChatGPT and those using frontier agentic tools daily at 00/month, arguing they are describing entirely different products. Matters because it explains why AI capability debates often talk past each other and how practitioner experience diverges from public perception.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-as-intensifier",
+        "empiricists",
+        "extrapolators"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "fa304b34",
+      "title": "Anthropic raises 5 billion, nears T valuation ahead of IPO",
+      "url": "https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/",
+      "source": "TechCrunch",
+      "date": "2026-05-28",
+      "summary": "Anthropic closes a 5B Series H round at near-T valuation—its second mega-round in 2026—earmarked for compute expansion, safety research, and scaling Claude infrastructure to meet growing demand. The scale of private AI investment signals continued conviction in frontier model scaling despite macroeconomic uncertainty.",
+      "industry_nodes": [],
+      "schools": [
+        "not-a-bubble",
+        "ai-economy",
+        "scaling-laws-revisionism"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "86722d9a",
+      "title": "I don't think AI will make your processes go faster",
+      "url": "https://frederickvanbrabant.com/blog/2026-05-15-i-dont-think-ai-will-make-your-processes-go-faster/",
+      "source": "Frederik van Brabant",
+      "date": "2026-05-15",
+      "summary": "Developer argues that AI accelerates typing and coding but leaves the real bottlenecks—domain documentation quality, expert availability, coordination overhead, and deployment pipelines—completely untouched. The piece resonated broadly on HN, generating debate about whether AI intensifies process friction rather than removing it.",
+      "industry_nodes": [],
+      "schools": [
+        "bubble-skeptics",
+        "productive-friction",
+        "ai-as-intensifier"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "0567c8f0",
+      "title": "AI's Impact on SaaS Will Be Uneven. Here's What Leaders Need to Know.",
+      "url": "https://hbr.org/2026/05/ais-impact-on-saas-will-be-uneven-heres-what-leaders-need-to-know",
+      "source": "Harvard Business Review",
+      "date": "2026-05-01",
+      "summary": "HBR analysis finds AI disruption of SaaS will diverge sharply: products with proprietary data, workflow depth, and integration moats will thrive while generic feature-based tools face existential pressure from AI-native competitors. Offers a mainstream management-level framing of the saas-survives-vs-services-as-software debate.",
+      "industry_nodes": [],
+      "schools": [
+        "saas-survives",
+        "services-as-software",
+        "ai-economy",
+        "ai-rebundling"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "5edf2b62",
+      "title": "swyx: The vibe shift is here — PewDiePie shipped a personal AI productivity suite",
+      "url": "https://x.com/swyx/status/2061256096719970337",
+      "source": "Twitter/X",
+      "date": "2026-06-01",
+      "summary": "Swyx marks a vibe-shift moment: by June 2026, mainstream creator PewDiePie has shipped a vibecoded personal AI productivity suite (email, docs, calendar) using OpenCode, validating the Feb 2025 prediction about local personal agents. Signals that AI agent development has crossed from developer-only into mainstream consumer territory.",
+      "industry_nodes": [],
+      "schools": [
+        "vibe-coding",
+        "living-software",
+        "where-ai-is-heading"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "d73d32b0",
+      "title": "How We Work Now",
+      "url": "https://every.to/context-window/how-we-work-now",
+      "source": "Every",
+      "date": "2026-05-31",
+      "summary": "Every's Context Window roundup surveys how knowledge workers are integrating AI agents into daily workflows in mid-2026, covering Codex for knowledge work, compound engineering updates, and post-automation work structure. A practitioner-level snapshot of AI adoption across writing, coding, and research workflows.",
+      "industry_nodes": [],
+      "schools": [
+        "workflow-recipes",
+        "context-engineering",
+        "how-to-use-ai"
+      ],
+      "relevance": 3,
       "status": "pending"
     }
   ]
