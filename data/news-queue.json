@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-02T10:16:45.685Z",
+  "generated": "2026-06-03T10:18:33.630Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -6530,6 +6530,211 @@
         "how-to-use-ai"
       ],
       "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "1c8292e2",
+      "title": "Where Do You Fall on the Eight Levels of AI Adoption?",
+      "url": "https://every.to/p/where-do-you-fall-on-the-eight-levels-of-ai-adoption",
+      "source": "Every",
+      "date": "2026-06-02",
+      "summary": "Maps eight levels of AI adoption from basic chatbot use to full multi-agent orchestration, with sample prompts for each stage. Matters because it gives practitioners a concrete framework for calibrating their AI workflow depth without chasing power-user hype.",
+      "industry_nodes": [],
+      "schools": [
+        "how-to-use-ai",
+        "workflow-recipes",
+        "ai-as-intensifier"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "2877e740",
+      "title": "My AI Coding Workflow (June 2026 Update)",
+      "url": "https://refactoring.fm/p/my-ai-coding-workflow",
+      "source": "Refactoring",
+      "date": "2026-06-03",
+      "summary": "Luca Rossi's June 2026 monthly update on running a solo AI-native 150K-LOC codebase with a \"Guides, Gates, Guards\" mental model for agent instructions, plus switching from Claude to Codex cutting costs 90%. Matters as a practitioner essay with concrete metrics on AI-native solo development at production scale.",
+      "industry_nodes": [],
+      "schools": [
+        "vibe-coding",
+        "coding-paradigms",
+        "context-engineering"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "6e8d6a40",
+      "title": "The cardinal sin of platform building; the FDE wars intensify",
+      "url": "https://mslotnick.substack.com/p/the-cardinal-sin-of-platform-building",
+      "source": "TLDR Founders / Substack",
+      "date": "2026-06-01",
+      "summary": "Argues that building platform abstractions before the killer app exists guarantees wrong interfaces; forward-deployed engineering is the new battleground as Anthropic and Meta compete for enterprise deployment. Matters as a framework for AI-era platform timing and the FDE competitive dynamic.",
+      "industry_nodes": [],
+      "schools": [
+        "services-as-software",
+        "ai-rebundling",
+        "compound-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "4fd50a35",
+      "title": "The Distribution Era: B2B Software's New Moat",
+      "url": "https://thegtmnewsletter.substack.com/p/distribution-era-b2b-software-moat",
+      "source": "The GTM Newsletter",
+      "date": "2026-06-01",
+      "summary": "AI has collapsed the cost of building software, moving the B2B moat from product to audience and distribution; examples like Cursor and Harvey show distribution-first wins. Matters because it reframes what creates durable advantage for AI-native B2B companies.",
+      "industry_nodes": [],
+      "schools": [
+        "services-as-software",
+        "not-a-bubble",
+        "saas-survives"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "f4828db6",
+      "title": "Rethinking Search as Code Generation",
+      "url": "https://research.perplexity.ai/articles/rethinking-search-as-code-generation",
+      "source": "Perplexity AI Research",
+      "date": "2026-06-01",
+      "summary": "Perplexity's Search as Code (SaC) exposes the search stack as Python SDK primitives that models compose on demand, cutting token use 85% while achieving 100% accuracy on a 200-CVE research task. Matters as a new architecture for agent search that fundamentally outperforms function-call loops.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "agent-native-browsing",
+        "reasoning-rl"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "12dc5c28",
+      "title": "Adapting to AI: Write Things Down",
+      "url": "https://blog.colinbreck.com/adapting-to-ai-write-things-down/",
+      "source": "Colin Breck Blog",
+      "date": "2026-06-01",
+      "summary": "Organizations with a genuine writing culture will outperform those without as AI agents require clear context to work effectively. Matters as an org-level readiness argument: writing is now load-bearing infrastructure for AI adoption.",
+      "industry_nodes": [],
+      "schools": [
+        "context-engineering",
+        "compound-engineering-org",
+        "prompting-craft"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "c5158ac4",
+      "title": "Code Isn't Product",
+      "url": "https://www.mironov.com/code/",
+      "source": "Rich Mironov Blog",
+      "date": "2026-06-01",
+      "summary": "AI scales engineers' ability to produce features but not customers' attention to use them; the bottleneck has shifted from code production to customer value delivery. Matters as a counter-argument to treating AI coding velocity as a business outcome.",
+      "industry_nodes": [],
+      "schools": [
+        "vibe-coding",
+        "compound-engineering",
+        "coding-paradigms"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "b0f83924",
+      "title": "Team Topologies as the Infrastructure for Agency",
+      "url": "https://matthewskelton.com/blog/team-topologies-as-the-infrastructure-for-agency",
+      "source": "Matthew Skelton Blog",
+      "date": "2026-06-01",
+      "summary": "Clear team boundaries, independent services, and defined interaction modes from Team Topologies create the substrate where both humans and AI agents can operate effectively. Matters as an org-design framework for the age of mixed human-agent teams.",
+      "industry_nodes": [],
+      "schools": [
+        "manager-of-agents",
+        "ai-native-flat",
+        "compound-engineering-org"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "36242dfa",
+      "title": "Your Customers' AI Agents Are Coming for Your Data. Are You Ready?",
+      "url": "https://fintechtakes.com/articles/2026-05-29/your-customers-ai-agents-are-coming-for-your-data-are-you-ready/",
+      "source": "FintechTakes",
+      "date": "2026-05-29",
+      "summary": "AI agents acting on behalf of financial services customers will fundamentally change how institutions handle data access, consent, and relationships. Matters as a first-mover analysis of the agent-to-business API layer problem.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "services-as-software"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "168aa891",
+      "title": "[AINews] NVIDIA Cosmos 3, Nemotron 3 Ultra, and RTX Spark",
+      "url": "https://www.latent.space/p/ainews-nvidia-cosmos-3-nemotron-3",
+      "source": "Latent Space",
+      "date": "2026-06-01",
+      "summary": "NVIDIA's Computex 2026 open-source week debuts Nemotron 3 Ultra (550B MoE, #1 US open weights, 5x inference speedup) and Cosmos 3 (first open Physical AI omnimodel, #1 on 7+ robotics benchmarks). Matters as a major open-weights milestone showing open models closing the frontier gap.",
+      "industry_nodes": [],
+      "schools": [
+        "world-models",
+        "new-models",
+        "scaling-laws-revisionism"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "26815248",
+      "title": "The Last Technical Interview",
+      "url": "https://steve-yegge.medium.com/the-last-technical-interview-bc13ddcf4564",
+      "source": "Steve Yegge / Medium",
+      "date": "2026-05-01",
+      "summary": "Steve Yegge argues technical interviewing has been broken for 50 years and proposes paid work trials on real codebases as the replacement now made feasible by AI-generated task scaffolding. Matters as a concrete thesis on how AI is changing tech hiring from the inside.",
+      "industry_nodes": [],
+      "schools": [
+        "coding-paradigms",
+        "ai-as-intensifier"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "d39befec",
+      "title": "The GTM Stack Anthropic Uses From Its Head of Industries",
+      "url": "https://www.saastr.com/the-gtm-stack-anthropic-uses-from-its-head-of-industries-surprisingly-familiar-names-used-in-new-ways/",
+      "source": "SaaStr",
+      "date": "2026-06-01",
+      "summary": "Anthropic's Head of Industries walks through their 6-tool GTM stack at SaaStr AI Annual 2026, showing how frontier AI labs sell enterprise. Matters as a real-world signal of how AI-native orgs operationalize go-to-market.",
+      "industry_nodes": [],
+      "schools": [
+        "services-as-software",
+        "new-applications"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "e36e9217",
+      "title": "Tokenmaxxing Is Dead: Companies Didn't Get the ROI They Expected",
+      "url": "https://fortune.com/2026/05/28/tokenmaxxing-is-dead-companies-didnt-get-the-roi-from-ai-they-wanted-to-see/",
+      "source": "Fortune",
+      "date": "2026-05-28",
+      "summary": "The era of burning tokens to show AI adoption is over; enterprises that tied AI spend to activities rather than outcomes are now facing CFO scrutiny and vendor budget cuts. Matters as a key inflection signal in enterprise AI maturation.",
+      "industry_nodes": [],
+      "schools": [
+        "bubble-skeptics",
+        "ai-economy",
+        "saas-survives"
+      ],
+      "relevance": 4,
       "status": "pending"
     }
   ]
