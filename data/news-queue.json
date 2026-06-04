@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-03T10:18:33.630Z",
+  "generated": "2026-06-04T10:16:35.534Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -6735,6 +6735,310 @@
         "saas-survives"
       ],
       "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "bf8ef4be",
+      "title": "My AI Coding Workflow",
+      "url": "https://refactoring.fm/p/my-ai-coding-workflow-b09",
+      "source": "Refactoring",
+      "date": "2026-06-03",
+      "summary": "Luca Rossi publishes his monthly AI coding workflow update for Tolaria, introducing a Guides/Gates/Guards mental model for structuring AI instructions and announcing a full migration from Claude to Codex with 90%+ cost reduction. Essential practitioner essay on how to architect effective AI harnesses for solo or small-team compound engineering.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering",
+        "coding-paradigms",
+        "context-engineering",
+        "workflow-recipes"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "dcfd97d2",
+      "title": "GitHub's Plan for Agents — Kyle Daigle, GitHub",
+      "url": "https://www.latent.space/p/github",
+      "source": "Latent Space",
+      "date": "2026-06-03",
+      "summary": "GitHub COO Kyle Daigle details how coding agents have grown 1,400% in 2026, driving 275 million commits per week and straining infrastructure built for human developers. Key essay on how agentic platforms will need to rethink core assumptions about speed, scale, and developer identity.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-architecture",
+        "compound-engineering-org",
+        "folder-as-agent",
+        "coding-paradigms"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "6cb263f9",
+      "title": "State of AI Agent Memory 2026",
+      "url": "https://mem0.ai/blog/state-of-ai-agent-memory-2026",
+      "source": "Mem0",
+      "date": "2026-06-03",
+      "summary": "Mem0 surveys memory implementations across Claude Code, Codex, Copilot, Windsurf, Devin, and others, finding consistent failures: bounded local storage, keyword retrieval, and 57–71% cross-user contamination. Critical infrastructure analysis showing memory is still the weakest layer in the agentic stack.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "context-engineering"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "63da5d82",
+      "title": "The Token Reckoning Is Here and It's Not What You Think",
+      "url": "https://www.bigtechnology.com/p/the-token-reckoning-is-here-and-its",
+      "source": "Big Technology",
+      "date": "2026-06-03",
+      "summary": "Only 18% of AI spending results in productive output per EntelligenceAI; Uber burned through its entire 2026 AI budget in four months as Claude Code adoption surged from 32% to 84%. Argues the AI spending crisis is forcing companies to confront the absence of ROI metrics, potentially threatening Anthropic's revenue ahead of its IPO.",
+      "industry_nodes": [],
+      "schools": [
+        "bubble-skeptics",
+        "ai-economy",
+        "services-as-software"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "fb43d775",
+      "title": "Open and Closed Models Are On Different Exponentials",
+      "url": "https://www.interconnects.ai/p/open-and-closed-models-are-on-different",
+      "source": "Interconnects AI",
+      "date": "2026-06-03",
+      "summary": "Nathan Lambert argues open and closed AI models are operating on separate economic and technological trajectories, with open models lagging closed frontier models by a consistent four months on capability benchmarks. Matters for anyone building AI products that must decide between cost flexibility of open models and performance premium of closed ones.",
+      "industry_nodes": [],
+      "schools": [
+        "scaling-laws-revisionism",
+        "gatekeeping-vs-open",
+        "not-a-bubble"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "a8bee581",
+      "title": "The New Primitives of AI-Native Development",
+      "url": "https://www.plg.news/p/the-new-primitives-of-ai-native-development",
+      "source": "PLG News",
+      "date": "2026-06-03",
+      "summary": "Argues a quiet land grab is underway in AI dev tools: whoever owns the \"primitive\" — the small, unavoidable job everything depends on — becomes the platform, just as Stripe owns payments. Maps the emerging ownership battles in AI-native development infrastructure.",
+      "industry_nodes": [],
+      "schools": [
+        "services-as-software",
+        "compound-engineering",
+        "ai-rebundling"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "02d6b79c",
+      "title": "Codex for Every Role, Tool, and Workflow",
+      "url": "https://openai.com/index/codex-for-every-role-tool-workflow/",
+      "source": "OpenAI",
+      "date": "2026-06-02",
+      "summary": "OpenAI extends Codex beyond developers with six role-specific plugins (data analytics, creative production, sales, product design, equity investing, investment banking) and a Sites feature that outputs work as hosted interactive websites. Marks Codex's pivot from coding agent to general white-collar work automation platform with 5M weekly active users.",
+      "industry_nodes": [],
+      "schools": [
+        "services-as-software",
+        "vibe-coding",
+        "new-tools",
+        "autonomous-agent"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "4d11b35c",
+      "title": "Building a Hill-Climbing Machine: Launching Seven New MAI Models",
+      "url": "https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/",
+      "source": "Microsoft AI",
+      "date": "2026-06-02",
+      "summary": "Microsoft announces seven MAI models built with \"Frontier Tuning\" — RL-based customization on enterprise workflows — with the Excel-tuned variant matching GPT 5.4 at 10x lower cost and McKinsey deployment achieving highest win rate of any model tested. Significant for the emerging model efficiency / RL fine-tuning school of thought.",
+      "industry_nodes": [],
+      "schools": [
+        "new-models",
+        "reasoning-rl",
+        "scaling-laws-revisionism"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "5b9085dc",
+      "title": "AI Models Are Having Their iPhone Moment: What's Next?",
+      "url": "https://om.co/2026/06/02/ai-models-are-having-their-iphone-moment-whats-next/",
+      "source": "Om.co",
+      "date": "2026-06-02",
+      "summary": "Om Malik argues AI models in mid-2026 are at the iPhone moment — technically capable enough to enable entirely new categories — and asks what the platform and app-layer equivalents will be. Useful short-form framing of the inflection point thesis.",
+      "industry_nodes": [],
+      "schools": [
+        "where-ai-is-heading",
+        "new-models",
+        "agi-timelines"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "7232316f",
+      "title": "The Google Capital Company",
+      "url": "https://stratechery.com/2026/the-google-capital-company/",
+      "source": "Stratechery",
+      "date": "2026-06-03",
+      "summary": "Ben Thompson analyzes Google's plan to raise 0B in stock sales to fund AI compute infrastructure, arguing Google is transitioning from an advertising business into a capital-intensive compute-as-utility company. Essential for understanding the structural re-bundling of AI industry economics around infrastructure.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-economy",
+        "ai-rebundling",
+        "not-a-bubble"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "199139df",
+      "title": "NVIDIA Launches Cosmos 3, the Open Frontier Foundation Model for Physical AI",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-launches-cosmos-3-the-open-frontier-foundation-model-for-physical-ai",
+      "source": "NVIDIA Newsroom",
+      "date": "2026-06-01",
+      "summary": "Nvidia releases Cosmos 3, the first fully open omnimodel with native vision reasoning and multimodal generation across text, image, video, audio, and actions, built on a mixture-of-transformers architecture for physical AI. Significant for the world-models school and for open physical AI infrastructure.",
+      "industry_nodes": [],
+      "schools": [
+        "world-models",
+        "new-models",
+        "gatekeeping-vs-open"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "3e2c4354",
+      "title": "Why Video Agent Models Are Next — Ethan He, xAI Grok Imagine",
+      "url": "https://www.latent.space/p/video-agents",
+      "source": "Latent Space",
+      "date": "2026-06-03",
+      "summary": "Ethan He, who built Grok Imagine at xAI in three months and led Nvidia's Cosmos World Model, argues video will follow the same coding-agent trajectory: moving from prompt-in-pixel-out to an agentic model with camera, editor, timeline, and tool belt. Key thesis on the next agentic frontier beyond text and code.",
+      "industry_nodes": [],
+      "schools": [
+        "world-models",
+        "autonomous-agent",
+        "where-ai-is-heading"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "458d7307",
+      "title": "Anthropic Faces AI Spending Backlash Before IPO",
+      "url": "https://www.axios.com/2026/06/02/anthropic-ipo-ai-sticker-shock-spending-usage",
+      "source": "Axios",
+      "date": "2026-06-02",
+      "summary": "Companies are entering AI sticker shock — Uber burned through its 2026 AI budget in four months on Claude Code; a CFO client accidentally spent 00M in a month — just as Anthropic files for IPO. Signals the bubble-skeptics vs. not-a-bubble debate is entering its most consequential phase.",
+      "industry_nodes": [],
+      "schools": [
+        "bubble-skeptics",
+        "ai-economy"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "9fb2010c",
+      "title": "The Next Frontier of Visual AI Is Code",
+      "url": "https://a16z.com/the-next-frontier-of-visual-ai-is-code/",
+      "source": "a16z",
+      "date": "2026-06-02",
+      "summary": "a16z's Yoko Li argues visual AI is shifting from generating final pixel outputs to generating source code (SVG, HTML/CSS, Blender scripts, React components) as an editable, versionable artifact — enabling iterative refinement rather than one-shot generation. Matters for understanding design-AI convergence and the new coding-paradigms frontier.",
+      "industry_nodes": [],
+      "schools": [
+        "coding-paradigms",
+        "new-tools",
+        "design-ai-as-tool"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "b1e2c2eb",
+      "title": "Qwen3.7-Plus: Multimodal Agent Intelligence",
+      "url": "https://qwen.ai/blog?id=qwen3.7-plus",
+      "source": "Qwen / Alibaba",
+      "date": "2026-06-02",
+      "summary": "Alibaba's Qwen3.7-Plus is a hybrid GUI+CLI agent model that can read screens, navigate GUIs, and execute shell commands in a single agent loop with a 1M-token context window, outperforming GPT-5.4 on ScreenSpot Pro (79.0) and AndroidWorld (81.0). First mass-market model to genuinely unify visual and code-based agency.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "new-models",
+        "agent-native-browsing"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "94bd2e2c",
+      "title": "Opus 4.8 Part 2: Model Welfare",
+      "url": "https://thezvi.substack.com/p/opus-48-part-2-model-welfare",
+      "source": "Don't Worry About the Vase (Zvi Mowshowitz)",
+      "date": "2026-06-01",
+      "summary": "Zvi dissects Anthropic's Opus 4.8 system card model welfare chapter, which introduces internal-state tracking (positive/negative affect, self-image, emotional stability) and raises questions about whether self-reports are reliable evidence of welfare. Key alignment/constitutional AI intersection as Anthropic goes public.",
+      "industry_nodes": [],
+      "schools": [
+        "constitutional",
+        "alignment-governance",
+        "how-ai-works"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "5628539c",
+      "title": "Memory Is State, Not a Service",
+      "url": "https://nanothoughts.substack.com/p/memory-is-state-not-a-service",
+      "source": "NanoThoughts (Ashwin Gopinath / Sentra)",
+      "date": "2026-06-02",
+      "summary": "Sentra CEO Ashwin Gopinath argues that memory is not an add-on service but the foundational state layer determining what reality an AI agent's reasoning operates on — and that stored data only becomes memory when evaluated for a purpose relative to role, risk, and time horizon. Sharp framing of the unsolved enterprise agent memory problem.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "context-engineering",
+        "world-models"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "2bbba1cd",
+      "title": "Google Is Quietly Buying Code from Play Store Developers to Train AI",
+      "url": "https://www.404media.co/google-is-quietly-buying-code-from-play-store-developers-to-train-ai/",
+      "source": "404 Media",
+      "date": "2026-06-03",
+      "summary": "Google is purchasing source code from Android Play Store developers through a program to use as AI training data, raising questions about the implicit bargain between platforms and developers. Relevant to data-sourcing debates and the governance/alignment implications of how frontier models are trained.",
+      "industry_nodes": [],
+      "schools": [
+        "alignment-governance",
+        "general-ai-news"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "6e454201",
+      "title": "Karpathy's Autoresearch Query Engine Bug — PostHog Engineering",
+      "url": "https://posthog.com/blog/karpathy-autoresearch-query-engine-bug",
+      "source": "PostHog",
+      "date": "2026-06-03",
+      "summary": "PostHog engineers dig into a bug discovered in Karpathy's Autoresearch agentic query system, walking through how agent-generated code introduced a subtle logic error and how they debugged it. Useful practitioner case study on agent code quality and the compound-engineering debugging loop.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering",
+        "coding-paradigms",
+        "agent-internals"
+      ],
+      "relevance": 3,
       "status": "pending"
     }
   ]
