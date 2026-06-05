@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-04T10:16:35.534Z",
+  "generated": "2026-06-05T10:20:00.661Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -7039,6 +7039,240 @@
         "agent-internals"
       ],
       "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "011d2aad",
+      "title": "A Functional Taxonomy of World Models",
+      "url": "https://drfeifei.substack.com/p/a-functional-taxonomy-of-world-models",
+      "source": "TLDR AI",
+      "date": "2026-06-04",
+      "summary": "Fei-Fei Li offers a structured framework distinguishing world model types by purpose and architecture, separating predictive, generative, and causal models. Matters because it provides a shared vocabulary for the increasingly central debate about whether large models have internal world representations.",
+      "industry_nodes": [],
+      "schools": [
+        "world-models"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "15663b33",
+      "title": "Running an AI-Native Engineering Org",
+      "url": "https://claude.com/blog/running-an-ai-native-engineering-org",
+      "source": "Anthropic Blog",
+      "date": "2026-06-04",
+      "summary": "Anthropic shares how it has restructured its own engineering organization around AI-native workflows, with managers orchestrating Claude agents across the full stack. A practitioner account from a frontier lab of what the manager-of-agents paradigm looks like in production.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-native-flat",
+        "compound-engineering-org",
+        "manager-of-agents"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "aba53836",
+      "title": "Intelligence Per Dollar: Why Tokens Per Result Is the Right Metric",
+      "url": "https://tomtunguz.com/tokens-per-result/",
+      "source": "Tom Tunguz",
+      "date": "2026-06-04",
+      "summary": "Tom Tunguz argues AI economics should be measured in outcomes per dollar rather than tokens, reframing how startups and enterprises should evaluate AI spend as token costs commoditize. Matters because it shifts the framework for AI ROI conversations at the board level.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-economy",
+        "services-as-software"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "bd9452ad",
+      "title": "Inside Meta's Attempts to Play Catch-Up with AI",
+      "url": "https://arstechnica.com/ai/2026/06/inside-metas-attempts-to-play-catch-up-with-ai/",
+      "source": "Ars Technica",
+      "date": "2026-06-04",
+      "summary": "Ars Technica investigates Meta's internal strategy and organizational moves to close the capability gap with OpenAI and Anthropic after months of model slippage. Matters as a benchmark of where the open-weight AI leader stands relative to closed frontier labs.",
+      "industry_nodes": [],
+      "schools": [
+        "new-models",
+        "gatekeeping-vs-open"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "3d93cc0a",
+      "title": "Open and Closed Models Are on Different Exponentials",
+      "url": "https://www.interconnects.ai/p/open-and-closed-models-are-on-different-exponentials",
+      "source": "Interconnects.ai",
+      "date": "2026-06-03",
+      "summary": "Nathan Lambert argues open and closed AI models are following structurally different improvement curves, with closed models pulling ahead on reasoning while open models lag by more than a generation. Directly challenges assumptions about open-source AI parity with major implications for the gatekeeping-vs-open debate.",
+      "industry_nodes": [],
+      "schools": [
+        "gatekeeping-vs-open",
+        "scaling-laws-revisionism"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "dd7df2e9",
+      "title": "The Data Center Moves to Your Machine",
+      "url": "https://www.perplexity.ai/hub/blog/the-data-center-moves-to-your-machine",
+      "source": "Perplexity AI",
+      "date": "2026-06-03",
+      "summary": "Perplexity introduces a hybrid local-cloud inference orchestrator that autonomously decides in real time which AI workloads stay on device versus route to frontier cloud models. The first commercial implementation of edge-AI routing that could transform the infrastructure economics of agentic systems. candidate-school: edge-ai-routing — Local-cloud inference orchestrators that route workloads between on-device and frontier models in real time are creating a new infrastructure paradigm distinct from both pure cloud and pure local AI.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-architecture",
+        "privacy-sidecar",
+        "candidate-new-school"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "46948a98",
+      "title": "Why We'll Still Be Employed When AI Can Do Everything",
+      "url": "https://every.to/context-window/why-we-ll-still-be-employed-when-ai-can-do-everything",
+      "source": "Every.to",
+      "date": "2026-06-04",
+      "summary": "Laura Entis argues that human employment persists not because AI lacks capability but because human judgment, accountability, and relationship-building compound in value as AI handles routine cognitive tasks. A substantive counterweight to AGI-displacement narratives from a practitioner perspective.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-as-intensifier",
+        "productive-friction",
+        "post-agi-skeptics"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "570c2ead",
+      "title": "Spiral 4.0 Goes Agent-Native",
+      "url": "https://every.to/on-every/spiral-4-0-goes-agent-native",
+      "source": "Every.to",
+      "date": "2026-06-04",
+      "summary": "Every launches Spiral 4.0 with a new style engine and fully agent-native architecture, demonstrating how a mature AI-first product implements autonomous agent capabilities as a core product primitive. Concrete example of the transition from AI-assisted to agent-native software.",
+      "industry_nodes": [],
+      "schools": [
+        "new-tools",
+        "agent-native-browsing",
+        "living-software"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "124f1173",
+      "title": "The Eight Levels of AI Adoption",
+      "url": "https://every.to/guides/the-eight-levels-of-ai-adoption",
+      "source": "Every.to",
+      "date": "2026-06-04",
+      "summary": "Every.to publishes a framework mapping eight distinct levels of organizational AI adoption from basic prompting to full agentic workflows, giving leaders a common language for assessing organizational maturity. Practical taxonomy filling a gap between abstract AI strategy and concrete implementation guidance.",
+      "industry_nodes": [],
+      "schools": [
+        "workflow-recipes",
+        "how-to-use-ai",
+        "ai-as-intensifier"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "05827285",
+      "title": "Updates to My AI Coding Workflow",
+      "url": "https://refactoring.fm/p/updates-to-my-ai-coding-workflow",
+      "source": "Refactoring.fm",
+      "date": "2026-06-04",
+      "summary": "Luca Rossi shares his updated AI coding workflow for building Tolaria, organizing AI harness patterns into a Guides-Gates-Guards mental model that structures how agents are directed, constrained, and verified. A concrete practitioner framework from a trusted source with reproducible patterns.",
+      "industry_nodes": [],
+      "schools": [
+        "workflow-recipes",
+        "compound-engineering",
+        "vibe-coding"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "311ab14c",
+      "title": "How AI Changes the Software Value Chain",
+      "url": "https://edwardhsu.substack.com/p/how-ai-changes-the-power-dynamics",
+      "source": "Edward Hsu",
+      "date": "2026-06-03",
+      "summary": "Edward Hsu analyzes how AI is shifting power dynamics across the software value chain, with infrastructure benefiting while application-layer SaaS faces disintermediation as agents replace UI-heavy tools. A structured model for understanding which parts of the software industry survive the AI disruption.",
+      "industry_nodes": [],
+      "schools": [
+        "services-as-software",
+        "saas-survives",
+        "ai-rebundling"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "9577be12",
+      "title": "Inside Microsoft's Project Solara: A New Platform for Devices That Run AI Agents Instead of Apps",
+      "url": "https://www.geekwire.com/2026/inside-microsofts-project-solara-a-new-platform-for-devices-that-run-ai-agents-instead-of-apps/",
+      "source": "GeekWire",
+      "date": "2026-06-02",
+      "summary": "GeekWire reports on Microsoft's Project Solara, an agent-first OS platform based on MDEP (Android) for new device categories designed to run AI agents as the primary interaction model instead of traditional apps. The first major OS platform explicitly designed around agents, with pilots at Best Buy, CVS, and Target.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "agent-native-browsing",
+        "folder-as-agent"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "be690dc3",
+      "title": "Microsoft's New MAI Models",
+      "url": "https://simonwillison.net/2026/Jun/2/microsofts-new-models/",
+      "source": "Simon Willison",
+      "date": "2026-06-02",
+      "summary": "Simon Willison analyzes Microsoft's new MAI-Thinking-1 (1T param MoE, 35B active) and MAI-Code-1-Flash models, with MAI-Thinking-1 claiming to outperform Claude Sonnet 4.6 in human blind evaluations. Matters because Microsoft entering the frontier model race with models claiming Anthropic-parity is a major competitive signal.",
+      "industry_nodes": [],
+      "schools": [
+        "new-models",
+        "scaling-laws-revisionism"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "ebb7ad59",
+      "title": "Visa Backs Replit as Agentic Payments Move Into Developer Workflows",
+      "url": "https://techcrunch.com/2026/05/28/visa-invests-in-replit-to-power-agentic-payments-for-developers/",
+      "source": "TechCrunch",
+      "date": "2026-05-28",
+      "summary": "Visa invested in Replit to embed payments infrastructure into AI-native development platforms, including a Trusted Agent Protocol that lets Replit agents accept payments on behalf of users. The first major payment network investing directly in agentic developer infrastructure, signaling commerce is being redesigned for agent-first workflows.",
+      "industry_nodes": [],
+      "schools": [
+        "vibe-coding",
+        "agent-native-growth",
+        "services-as-software"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "13e612f3",
+      "title": "Agentic Engineering Patterns",
+      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/",
+      "source": "Simon Willison",
+      "date": "2026-05-01",
+      "summary": "Simon Willison's living guide to agentic engineering patterns, covering how coding agents like Claude Code and Codex work, patterns for tool use and multi-agent coordination, and reproducible techniques for working with AI-assisted development. A practitioner taxonomy from one of the most prolific AI tool practitioners.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-architecture",
+        "compound-engineering",
+        "workflow-recipes"
+      ],
+      "relevance": 5,
       "status": "pending"
     }
   ]
