@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-05T10:20:00.661Z",
+  "generated": "2026-06-06T10:10:15.253Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -7273,6 +7273,223 @@
         "workflow-recipes"
       ],
       "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "cdd5322b",
+      "title": "How Microsoft Is Building for a World of Metered Intelligence",
+      "url": "https://every.to/also-true-for-humans/how-microsoft-is-building-for-a-world-of-metered-intelligence",
+      "source": "Every.to",
+      "date": "2026-06-05",
+      "summary": "Mike Taylor covers Microsoft Build's pivot to metered AI intelligence, arguing the '$5 Uber era' of subsidized LLMs is ending as labs prepare IPOs and must show profitability. Matters because it signals a structural shift in how enterprise AI will be priced and consumed, from flat subscription to usage-metered intelligence.",
+      "industry_nodes": [],
+      "schools": [
+        "services-as-software",
+        "ai-economy",
+        "saas-survives"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "5a4fc1b9",
+      "title": "When AI Builds Itself",
+      "url": "https://www.anthropic.com/institute/recursive-self-improvement",
+      "source": "Anthropic Institute",
+      "date": "2026-06-04",
+      "summary": "Anthropic's first Institute paper reports Claude now writes 80%+ of merged production code and engineers ship 8x more per quarter, while formally warning that recursive self-improvement could arrive sooner than institutions are prepared for and calling for a global pause mechanism. Essential because it combines concrete capability benchmarks with a governance proposal from the lab building the systems.",
+      "industry_nodes": [],
+      "schools": [
+        "agi-timelines",
+        "alignment-governance",
+        "extrapolators"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "3bf5a9d0",
+      "title": "A Functional Taxonomy of World Models",
+      "url": "https://www.worldlabs.ai/blog/taxonomy-of-world-models",
+      "source": "World Labs (Fei-Fei Li)",
+      "date": "2026-06-03",
+      "summary": "Fei-Fei Li proposes a three-part taxonomy of world models—renderer, simulator, planner—arguing clearer vocabulary is needed to distinguish the overlapping roles these components play in physical AI and spatial intelligence. Important for grounding 'world model' debates across robotics, RL, and generative AI in a shared conceptual framework.",
+      "industry_nodes": [],
+      "schools": [
+        "world-models",
+        "how-ai-works"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "206c967d",
+      "title": "AI Enthusiasts Are in a Race Against Time, AI Skeptics Are in a Race Against Entropy",
+      "url": "https://simonwillison.net/2026/Jun/4/ai-enthusiasts-ai-skeptics/",
+      "source": "Simon Willison",
+      "date": "2026-06-04",
+      "summary": "Simon Willison frames the AI discourse divide as a structural asymmetry: believers are racing to capitalize before disruption consolidates, while skeptics bet that friction, entropy, and institutional inertia will outlast any hype cycle. Sharp practitioner framing that maps directly onto the schools-of-thought divide between extrapolators and bubble-skeptics.",
+      "industry_nodes": [],
+      "schools": [
+        "bubble-skeptics",
+        "post-agi-skeptics",
+        "extrapolators"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "f712848d",
+      "title": "How to Build an Outcome-Based Pricing Plan",
+      "url": "https://www.thesaascfo.com/how-to-build-outcome-based-pricing/",
+      "source": "The SaaS CFO",
+      "date": "2026-06-05",
+      "summary": "Ben Murray lays out 12 design decisions for true outcome-based AI pricing with real benchmarks: Intercom Fin ($0.99/outcome), Help Scout ($0.75/resolution), HubSpot Breeze ($0.50/conversation), and Zendesk's 72-hour LLM-verified resolution window. Essential mechanics reference as SaaS transitions to services-as-software billing models.",
+      "industry_nodes": [],
+      "schools": [
+        "services-as-software",
+        "ai-economy"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "47bab565",
+      "title": "Asana Launches Agentic Work Management Platform",
+      "url": "https://thelettertwo.com/2026/06/04/asana-agentic-work-management-platform/",
+      "source": "The Letter Two",
+      "date": "2026-06-04",
+      "summary": "Asana repositions as the organizational memory and governance layer for human-agent teams, launching 'Dash' (chief-of-staff agent) plus AI Teammates aligned around the same plan, context, and roles as human workers. Signals enterprise workflow software claiming the coordination layer between agents and organizations.",
+      "industry_nodes": [],
+      "schools": [
+        "manager-of-agents",
+        "compound-engineering-org",
+        "autonomous-agent"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "df6a1630",
+      "title": "Apps Are Becoming Memes",
+      "url": "https://www.dead.online/p/apps-as-memes",
+      "source": "dead.online",
+      "date": "2026-06-05",
+      "summary": "When building software gets as cheap as posting a meme, the unit of production shifts from product to 'drop'—made fast, judged on whether it lands, with taste and audience mattering more than roadmaps. Argues VCs are now scouting founders the way labels scout musicians, making taste the new competitive moat.",
+      "industry_nodes": [],
+      "schools": [
+        "vibe-coding",
+        "living-software",
+        "taste-is-the-bottleneck"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "bb1b0576",
+      "title": "The AI Treadmill",
+      "url": "https://debliu.substack.com/p/the-ai-treadmill",
+      "source": "Substack (debliu)",
+      "date": "2026-06-05",
+      "summary": "AI eliminates repetitive work but the real question is whether freed capacity goes into more tasks or into meaningful thinking; the author argues productivity gains are being consumed by volume rather than quality. Relevant to the productive-friction school's argument that AI intensification without reflection produces diminishing returns.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-as-intensifier",
+        "productive-friction"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "218e40b9",
+      "title": "Meta's AI Agent for WhatsApp Business Is Now Available Globally",
+      "url": "https://techcrunch.com/2026/06/03/metas-ai-agent-for-whatsapp-business-is-now-available-globally/",
+      "source": "TechCrunch",
+      "date": "2026-06-03",
+      "summary": "Meta's Business Agent launches on WhatsApp, Instagram, and Messenger globally, enabling businesses to delegate customer interactions, appointment booking, and sales closing to an AI agent, with Zuckerberg signaling the goal is to eventually run whole businesses. Significant as the first mass-scale deployment of autonomous business agents inside consumer messaging channels.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "manager-of-agents",
+        "services-as-software"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "abda3bcb",
+      "title": "Gartner Tells CFOs AI Must Become an Operating Model Question, Not Just a Pilot Budget",
+      "url": "https://www.cfo.com/news/gartner-finance-symposiums-ai-message-trial-balance/821576/",
+      "source": "CFO.com",
+      "date": "2026-06-04",
+      "summary": "Gartner's Finance Symposium 2026 finds that AI ROI now depends on operating model design and disciplined capital allocation across tools, workflows, and token usage rather than isolated pilots. Marks CFO-level recognition that AI transformation requires org redesign—relevant to compound-engineering-org and ai-native-flat schools.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering-org",
+        "ai-as-intensifier"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "51fc7b83",
+      "title": "Dreaming: Better Memory for a More Helpful ChatGPT",
+      "url": "https://openai.com/index/chatgpt-memory-dreaming/",
+      "source": "OpenAI",
+      "date": "2026-06-04",
+      "summary": "OpenAI's Dreaming V3 replaces static memory with an asynchronous background process that continuously synthesizes memory from many conversations, self-updating as circumstances change and reducing memory compute by 5x. Relevant as a new architecture for persistent context in AI assistants that affects how agents maintain state across sessions.",
+      "industry_nodes": [],
+      "schools": [
+        "new-tools",
+        "agent-internals"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "1df1ff67",
+      "title": "Why Shipping Faster Is Making Your Product Worse",
+      "url": "https://dianastepner.substack.com/p/the-faster-you-ship-the-less-your",
+      "source": "Substack (Diana Stepner)",
+      "date": "2026-06-05",
+      "summary": "AI-enabled speed to ship creates quality debt when decision-making quality doesn't keep pace, with faster shipping paradoxically degrading product when taste and judgment aren't applied before code is generated. A practitioner counterpoint to vibe-coding velocity culture.",
+      "industry_nodes": [],
+      "schools": [
+        "productive-friction",
+        "vibe-coding"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "edb2ec80",
+      "title": "OpenAI Help: Lockdown Mode",
+      "url": "https://simonwillison.net/2026/Jun/5/openai-help-lockdown-mode/",
+      "source": "Simon Willison",
+      "date": "2026-06-05",
+      "summary": "Simon Willison analyzes OpenAI's Lockdown Mode, a new feature that prevents data exfiltration via prompt injection attacks by restricting what external content can influence model behavior. Relevant as a practitioner's lens on the emerging security tooling layer for deployed AI systems.",
+      "industry_nodes": [],
+      "schools": [
+        "constitutional",
+        "alignment-governance"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "f7c3de82",
+      "title": "Top SaaS Vendors on Ramp (June 2026)",
+      "url": "https://ramp.com/leading-indicators/top-saas-vendors-on-ramp-june-2026",
+      "source": "Ramp",
+      "date": "2026-06-05",
+      "summary": "Ramp's June 2026 spend data shows DeepSeek as the top trending software while companies increasingly shift from OpenAI/Anthropic to open-source models and platforms like Fireworks AI and DeepInfra; design tools like Figma remain resilient. Signals accelerating commoditization of foundation model spend and potential structural changes in AI market share.",
+      "industry_nodes": [],
+      "schools": [
+        "saas-survives",
+        "ai-economy",
+        "gatekeeping-vs-open"
+      ],
+      "relevance": 3,
       "status": "pending"
     }
   ]
