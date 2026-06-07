@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-06T10:10:15.253Z",
+  "generated": "2026-06-07T10:09:48.158Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -7488,6 +7488,191 @@
         "saas-survives",
         "ai-economy",
         "gatekeeping-vs-open"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "aeb71ca1",
+      "title": "How We Made Continuous Trace Intelligence Possible at Scale",
+      "url": "https://www.braintrust.dev/blog/topics-architecture",
+      "source": "Braintrust",
+      "date": "2026-06-04",
+      "summary": "Ankur Goyal describes the architecture behind Topics, Braintrust's intelligence layer that analyzes million-token production agent traces at scale via a preprocess-facet-embed-cluster-name-classify pipeline inspired by Anthropic's Clio paper. The key insight is that LLM-summarizing individual traces to a sentence first makes the embedding and clustering tractable without needing to fit raw traces in a context window.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "context-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "66ea9350",
+      "title": "Anthropic Says 80% of Its New Production Code Is Now Authored by Claude — How Your Enterprise Can Keep Up",
+      "url": "https://venturebeat.com/technology/anthropic-says-80-of-its-new-production-code-is-now-authored-by-claude-how-your-enterprise-can-keep-up",
+      "source": "VentureBeat",
+      "date": "2026-06-04",
+      "summary": "Anthropic reports that Claude now writes over 80% of its production codebase, yielding an 8x increase in code shipped per engineer per quarter. VentureBeat argues enterprises need to shift from a developer-assistant mindset to an automated-factory architecture to replicate this result.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering",
+        "vibe-coding",
+        "coding-paradigms"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "97ca7bdb",
+      "title": "Code Is Cheap(er)",
+      "url": "https://htmx.org/essays/code-is-cheap/",
+      "source": "htmx",
+      "date": "2026-06-05",
+      "summary": "Carson Gross argues that AI has inverted the engineering value proposition: producing code is now trivial, so the new craft is sculpting and removing LLM output rather than creating it. Engineers should take pride in the code they prevent from entering systems, not the code they write.",
+      "industry_nodes": [],
+      "schools": [
+        "vibe-coding",
+        "compound-engineering",
+        "coding-paradigms"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "76d3efd0",
+      "title": "Silicon Control",
+      "url": "https://silicon-frontier.com/research/silicon-control",
+      "source": "Silicon Frontier",
+      "date": "2026-06-05",
+      "summary": "A 50-minute deep-dive arguing hardware — not models or algorithms — is the true means of production in the AI race, and that demand for machine labor is effectively infinite while supply is constrained by a handful of semiconductor monopolists. The piece maps the two dozen companies that control the future of chip manufacturing.",
+      "industry_nodes": [],
+      "schools": [
+        "scaling-laws-revisionism",
+        "not-a-bubble"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "40bdf610",
+      "title": "An Interview with Microsoft CEO Satya Nadella About Finding Core Competencies",
+      "url": "https://stratechery.com/2026/an-interview-with-microsoft-ceo-satya-nadella-about-finding-core-competencies/",
+      "source": "Stratechery",
+      "date": "2026-06-04",
+      "summary": "Ben Thompson interviews Satya Nadella immediately after Microsoft Build, pressing him on MAI models, the OpenAI relationship, GitHub Copilot token billing backlash, and whether Microsoft can operate independently from frontier labs. A rare candid look at how a major platform holder is repositioning its AI strategy post-subsidy era.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-economy",
+        "services-as-software"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "ba896b95",
+      "title": "Bots Have Now Passed Human Traffic Online",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/bots-have-now-passed-human-traffic-online-cloudflare-boss-laments-says-agentic-traffic-wasnt-expected-to-eclipse-real-people-until-next-year",
+      "source": "Tom's Hardware",
+      "date": "2026-06-05",
+      "summary": "Cloudflare's CEO reports that AI agent traffic has overtaken human traffic on the internet, arriving a year earlier than predicted. This signals the infrastructure and business-model consequences of an agentic web where bots performing tasks outnumber people browsing.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "agent-native-browsing"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "5b546b76",
+      "title": "What Google Did to Websites Is Happening to Your App Right Now",
+      "url": "https://vinvashishta.substack.com/p/what-google-did-to-websites-is-happening",
+      "source": "Substack",
+      "date": "2026-06-05",
+      "summary": "Vinvashishta argues that AI is doing to SaaS apps what Google did to websites — transforming from a traffic source into an answer layer that removes the reason to open the app. The article maps how AI-mediated access is already hollowing out app engagement, the same way search hollowed out direct navigation.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-rebundling",
+        "saas-survives",
+        "services-as-software"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "9bd767c2",
+      "title": "Uber Caps Usage of AI Coding Tools Like Claude Code to Manage Costs",
+      "url": "https://simonwillison.net/2026/Jun/3/uber-caps-usage/",
+      "source": "Simon Willison",
+      "date": "2026-06-03",
+      "summary": "Simon Willison reports that Uber burned through its 2026 AI coding budget in four months and capped employees at ,500/month per tool after Claude Code and Cursor usage exploded. A concrete data point in the emerging debate about what AI-accelerated engineering actually costs at enterprise scale.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-economy",
+        "compound-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "4f9e92d8",
+      "title": "Satya Nadella: No Priors × Latent Space Crossover Special at Microsoft Build",
+      "url": "https://www.latent.space/p/satya-2026",
+      "source": "Latent Space",
+      "date": "2026-06-05",
+      "summary": "swyx and Sarah Guo interview Satya Nadella live at Microsoft Build, covering MAI models, the post-foundation-model platform play, agentic OS strategy, and whether Microsoft can become the enterprise AI default. A substantive primary-source take on where Microsoft places its bets in an agent-first world.",
+      "industry_nodes": [],
+      "schools": [
+        "manager-of-agents",
+        "ai-economy",
+        "compound-engineering-org"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "03b306be",
+      "title": "[AINews] Microsoft Build: MAI-Thinking-1 and MAI Family Models",
+      "url": "https://www.latent.space/p/ainews-microsoft-build-mai-thinking",
+      "source": "Latent Space",
+      "date": "2026-06-04",
+      "summary": "Latent Space's AINews digest from Microsoft Build covers MAI-Thinking-1 tech report details, zero-synthetic-data training, the agent-focused context window, and community takes on whether Microsoft's in-house model strategy threatens OpenAI's enterprise position. One of the most detailed first-look analyses of the MAI family.",
+      "industry_nodes": [],
+      "schools": [
+        "new-models",
+        "scaling-laws-revisionism",
+        "world-models"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "25fa76e2",
+      "title": "Extreme Harness Engineering for Token Billionaires: 1M LOC, 1B toks/day, 0% Human Code, 0% Human Review",
+      "url": "https://www.latent.space/p/harness-eng",
+      "source": "Latent Space",
+      "date": "2026-04-07",
+      "summary": "Ryan Lopopolo from OpenAI details how the Frontier team ran a >1M LOC internal product with zero human-written and zero human-reviewed code for five months, consuming 1B tokens/day. When the agent failed, the answer was not better prompting but \"what capability, context, or structure is missing?\" — defining harness engineering as a fourth paradigm of AI engineering.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering",
+        "vibe-coding",
+        "agent-internals"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "bdd0addf",
+      "title": "A New Claude-Oceanus-v1-p Has Been Made Available to Red Teams",
+      "url": "https://threadreaderapp.com/thread/2062548860308730061.html",
+      "source": "Twitter/X (threadreaderapp)",
+      "date": "2026-06-05",
+      "summary": "Leak thread reporting that Anthropic shared a checkpoint of its next model — codenamed Oceanus, described as better than Mythos Preview — with red teamers, typically a week before public launch. The program was paused after a participant resold the model via a Chinese API proxy.",
+      "industry_nodes": [],
+      "schools": [
+        "new-models"
       ],
       "relevance": 3,
       "status": "pending"
