@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-07T10:09:48.158Z",
+  "generated": "2026-06-08T10:09:29.380Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -7673,6 +7673,142 @@
       "industry_nodes": [],
       "schools": [
         "new-models"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "d29189d2",
+      "title": "AI Is Ready. Organizations Aren't.",
+      "url": "https://every.to/p/ai-is-ready-organizations-aren-t",
+      "source": "Every",
+      "date": "2026-06-07",
+      "summary": "Argues that AI capabilities have outpaced organizational ability to adopt and deploy them, documenting the gap enterprise clients face between frontier model power and internal readiness. Matters because it maps the human-process bottleneck that determines actual AI impact inside companies.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-native-flat",
+        "manager-of-agents",
+        "compound-engineering-org"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "80e748dc",
+      "title": "An Executive's Guide to Implementing AI",
+      "url": "https://every.to/guides/an-executive-s-guide-to-implementing-ai",
+      "source": "Every",
+      "date": "2026-06-07",
+      "summary": "Lays out a five-step process for executives rolling out AI across their companies, based on interviews with leadership teams at hundreds of organizations. Important as a ground-level synthesis of what actually works in enterprise AI rollouts versus what fails.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering-org",
+        "manager-of-agents"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "67092a70",
+      "title": "Figma Exec on Why the SaaSpocalypse Is a Goldmine",
+      "url": "https://every.to/podcast/figma-exec-on-why-the-saaspocalypse-is-a-goldmine",
+      "source": "Every",
+      "date": "2026-06-07",
+      "summary": "Figma's Matt Colyer argues the predicted SaaS collapse from AI is actually creating opportunity for incumbent SaaS players who can integrate AI into existing workflows. Key counter-narrative to the services-as-software displacement thesis.",
+      "industry_nodes": [],
+      "schools": [
+        "saas-survives",
+        "not-a-bubble"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "ec270c5f",
+      "title": "Opus 4.8 Is Smart Enough to Get in Your Way",
+      "url": "https://every.to/context-window/opus-4-8-is-smart-enough-to-get-in-your-way",
+      "source": "Every",
+      "date": "2026-06-07",
+      "summary": "Explores how Claude Opus 4.8's increased capability creates a new failure mode: the model is now smart enough to over-engineer solutions and resist simple instructions. Points to productive-friction as a design concern when models become more capable than the task requires.",
+      "industry_nodes": [],
+      "schools": [
+        "new-models",
+        "productive-friction"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "6dab02c6",
+      "title": "Mapping Devex, Planning Careers, and Weekly Readings",
+      "url": "https://refactoring.fm/p/mapping-devex-planning-careers-and",
+      "source": "Refactoring",
+      "date": "2026-06-08",
+      "summary": "Edition #211 of Monday Ideas covers how to structure developer experience surveys into scored friction maps, and how engineers can use peak-moment reflection for career direction. Relevant to compound-engineering-org as it addresses systematic improvement of developer workflows.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering",
+        "compound-engineering-org"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "0bb0ca65",
+      "title": "Business and IT Leaders Report AI Agents Are Scaling Faster Than Their Guardrails",
+      "url": "https://www.deloitte.com/us/en/insights/topics/emerging-technologies/ai-agents-scaling-faster.html",
+      "source": "Deloitte",
+      "date": "2026-06-01",
+      "summary": "Deloitte's 2026 survey finds only 21% of organizations have a mature governance model for agentic AI, documenting the gap between deployment speed and safety frameworks. Key evidence for the alignment-governance and constitutionalism-critiques schools.",
+      "industry_nodes": [],
+      "schools": [
+        "alignment-governance",
+        "constitutionalism-critiques"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "08d81fe6",
+      "title": "Introducing MAI-Thinking-1",
+      "url": "https://microsoft.ai/news/introducing-mai-thinking-1/",
+      "source": "Microsoft AI",
+      "date": "2026-06-02",
+      "summary": "Microsoft officially introduces MAI-Thinking-1, its first in-house reasoning model built without OpenAI data, using a mixture-of-experts architecture with 35B active parameters. Marks a strategic inflection as Microsoft moves toward model independence and frontier reasoning capability.",
+      "industry_nodes": [],
+      "schools": [
+        "new-models",
+        "reasoning-rl"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "fb8c7c76",
+      "title": "xbench: Tracking Agents Productivity Scaling with Profession-Aligned Real-World Evaluations",
+      "url": "https://arxiv.org/abs/2506.13651",
+      "source": "arXiv",
+      "date": "2026-06-01",
+      "summary": "New benchmark (xbench) tracks how agent productivity scales across profession-aligned real-world tasks, moving beyond synthetic evals. Important methodological contribution for measuring whether agent systems actually scale in practice.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "reasoning-rl"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "d31b5b3d",
+      "title": "Top Agentic Frameworks for Building Applications 2026",
+      "url": "https://blog.jetbrains.com/pycharm/2026/06/top-agentic-frameworks-for-building-applications-2026/",
+      "source": "JetBrains",
+      "date": "2026-06-02",
+      "summary": "JetBrains surveys the 2026 agentic framework landscape including LangGraph, AutoGen, Semantic Kernel, and its own Koog framework for JVM developers. Useful practitioner map for engineers choosing an agent architecture stack.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "workflow-recipes"
       ],
       "relevance": 3,
       "status": "pending"
