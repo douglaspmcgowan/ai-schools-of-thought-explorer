@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-08T10:09:29.380Z",
+  "generated": "2026-06-09T10:12:08.145Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -7811,6 +7811,320 @@
         "workflow-recipes"
       ],
       "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "dd5669a2",
+      "title": "Your model provider is now your competitor",
+      "url": "https://aspiringforintelligence.substack.com/p/your-vendor-is-your-competitor",
+      "source": "TLDR Founders",
+      "date": "2026-06-08",
+      "summary": "Argues that AI startups building on OpenAI or Anthropic are now competing with their own suppliers, as both labs launched billion-dollar consulting arms targeting the same enterprise customers. This is the AWS-product cannibalization pattern playing out in the AI stack, forcing founders to think about defensibility beyond model access.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-rebundling",
+        "services-as-software"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "15634ea9",
+      "title": "The Startup That Launched Itself",
+      "url": "https://www.opensourceceo.com/p/andrew-busse-interview",
+      "source": "TLDR Founders",
+      "date": "2026-06-08",
+      "summary": "A startup inside Airtable ran its own launch almost entirely with agents — cold outreach, landing page, lead qualification — arguing that the durable product is the harness around models (skills, memory, checks) not the model itself. Shows agentic workflows being applied end-to-end to company operations, not just dev tasks.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "agent-internals"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "0383df7e",
+      "title": "AI Just Took 40 of the App Store's Top 100",
+      "url": "https://www.apple.com/newsroom/2026/06/app-store-ecosystem-reaches-1-point-4-trillion-usd-as-developers-thrive-globally",
+      "source": "TLDR Founders",
+      "date": "2026-06-08",
+      "summary": "More than 40 of the top 100 App Store apps now have AI features and grew sales 4x faster than the rest, inside a $1.4T market. Strongest consumer-spending signal yet that AI has moved from hype to real commercial traction.",
+      "industry_nodes": [],
+      "schools": [
+        "not-a-bubble",
+        "new-applications"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "cdef2d07",
+      "title": "Your AI Strategy Has a Trust Problem, Not a Tooling Problem",
+      "url": "https://www.elenaverna.com/p/your-ai-strategy-has-a-trust-problem",
+      "source": "TLDR Founders",
+      "date": "2026-06-08",
+      "summary": "Elena Verna argues that companies now have the tools to move fast — the blocker is organizational systems designed to prevent employees from making decisions. AI innovation requires genuine employee agency, not just access to models.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-native-flat",
+        "compound-engineering-org"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "a069641d",
+      "title": "We Accidentally Built a Second Codebase",
+      "url": "https://akshay.co/posts/accidental-second-codebase",
+      "source": "TLDR Founders",
+      "date": "2026-06-08",
+      "summary": "Teams codifying workflows as 'skills' handed to models are unknowingly building a second codebase that accretes technical debt as models improve and skills become stale. A practical warning about the lifecycle of AI workflow artifacts.",
+      "industry_nodes": [],
+      "schools": [
+        "workflow-recipes",
+        "living-software"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "03f54f37",
+      "title": "My Editor Caught Me Sounding Like AI. Now AI Catches Me First.",
+      "url": "https://every.to/working-overtime/my-editor-caught-me-sounding-like-ai-now-ai-catches-me-first",
+      "source": "Every",
+      "date": "2026-06-08",
+      "summary": "Katie Parrott turns her editor's list of writing foibles into an AI skill that catches AI-sounding prose before publication. A concrete practitioner case of using AI to enforce the human voice — prompting-as-craft.",
+      "industry_nodes": [],
+      "schools": [
+        "prompting-craft",
+        "ai-as-intensifier"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "1acca242",
+      "title": "LLMs Are Picking Winners. Here's How to Become One",
+      "url": "https://newsletter.posthog.com/p/llms-are-picking-winners-heres-how",
+      "source": "Product for Engineers (PostHog)",
+      "date": "2026-06-08",
+      "summary": "PostHog's LLM traffic grew 41x over two years with conversion rates higher than most channels, but not all products are recommended equally — introducing the field of Answer Engine Optimization (AEO) for the era of AI-first discovery. candidate-school: answer-engine-optimization — LLMs are becoming the primary discovery surface for software products, requiring a new discipline between SEO and product strategy.",
+      "industry_nodes": [],
+      "schools": [
+        "candidate-new-school"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "4cd4a498",
+      "title": "Anthropic/OpenAI May Be Spending More Than $1,000 For Every $100 You Pay Them",
+      "url": "https://ea.rna.nl/2026/06/07/anthropic-openai-may-be-spending-more-than-1000-for-every-100-you-pay-them",
+      "source": "TLDR AI",
+      "date": "2026-06-08",
+      "summary": "A detailed analysis arguing that LLM-assisted coding subscriptions are heavily subsidized — real inference costs for agentic loops and thinking APIs are 10x what consumers pay — and developers must plan for costs to rise significantly. Direct challenge to the compounding-productivity story of AI coding tools.",
+      "industry_nodes": [],
+      "schools": [
+        "bubble-skeptics",
+        "ai-economy"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "f12d8644",
+      "title": "What Remains Scarce After AGI?",
+      "url": "https://www.dwarkesh.com/p/alex-imas-phil-trammell",
+      "source": "Dwarkesh Podcast",
+      "date": "2026-06-08",
+      "summary": "A 67-minute interview with Google DeepMind's Director of AGI Economics and a Stanford postdoc on what remains economically scarce when AI can do most cognitive work — covering optimal taxation, wealth distribution, and whether inequality explodes. One of the few rigorous economics treatments of post-AGI scarcity.",
+      "industry_nodes": [],
+      "schools": [
+        "agi-timelines",
+        "where-ai-is-heading"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "5ed979ac",
+      "title": "Microsoft Rolls Out Scout AI Agent to Frontier Users",
+      "url": "https://www.testingcatalog.com/early-look-microsoft-rolls-out-scout-ai-agent-to-frontier-users",
+      "source": "TLDR AI",
+      "date": "2026-06-08",
+      "summary": "Microsoft Scout is an always-on persistent agent for Microsoft 365 that runs multi-step routines, integrates with local files, and supports OpenAI and Anthropic models. Positions Microsoft directly in the persistent-agent space competing with Copilot+ and Google's Workspace agents.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "manager-of-agents"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "b55bf7c0",
+      "title": "Making Claude a Chemist",
+      "url": "https://www.anthropic.com/research/making-claude-a-chemist",
+      "source": "Anthropic Research",
+      "date": "2026-06-08",
+      "summary": "Anthropic research showing Claude (Opus 4.7) accurately predicts NMR spectra — matching or beating traditional chemistry tools like ChemDraw — and can reverse-engineer molecular structures from spectral data. Shows reasoning models doing specialist scientific work previously requiring domain-specific software.",
+      "industry_nodes": [],
+      "schools": [
+        "new-applications",
+        "how-ai-works"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "640a1ab4",
+      "title": "Give Your Agent Its Own Computer",
+      "url": "https://www.langchain.com/blog/give-your-ai-agent-its-own-computer",
+      "source": "LangChain Blog",
+      "date": "2026-06-08",
+      "summary": "LangSmith introduces Sandboxes — hardware-virtualized microVMs that give AI agents their own secure, persistent compute environment for executing untrusted code in production. Addresses the key infrastructure gap between demo agents and production agentic systems.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "autonomous-agent"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "0561c90b",
+      "title": "Anthropic Embeds Engineers in the NSA to Deploy Mythos for Offensive Cyber",
+      "url": "https://www.implicator.ai/anthropic-embeds-engineers-in-the-nsa-to-deploy-mythos-for-offensive-cyber",
+      "source": "TLDR AI",
+      "date": "2026-06-08",
+      "summary": "Anthropic has placed ~6 engineers inside the NSA to help deploy Mythos for offensive cyber operations against China and Iran — while simultaneously suing the Pentagon over how its models are used in war. A concrete alignment-governance contradiction inside Anthropic itself.",
+      "industry_nodes": [],
+      "schools": [
+        "alignment-governance",
+        "constitutional"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "0337adfe",
+      "title": "How LLMs Actually Work",
+      "url": "https://www.0xkato.xyz/how-llms-actually-work",
+      "source": "TLDR AI",
+      "date": "2026-06-08",
+      "summary": "A 26-minute technical primer on modern LLM architecture: transformer stacks, training data, scale choices, and post-training — explaining why models look the way they do. Strong empiricist-school reference piece.",
+      "industry_nodes": [],
+      "schools": [
+        "how-ai-works",
+        "empiricists"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "edf3c5e4",
+      "title": "Intent Debt",
+      "url": "https://addyosmani.com/blog/intent-debt",
+      "source": "Addy Osmani Blog",
+      "date": "2026-06-08",
+      "summary": "Addy Osmani coins 'intent debt' — the accumulated gap between what users originally wanted and what AI-generated code actually delivers over many iteration cycles. Argues for stronger context engineering practices to prevent semantic drift in AI-assisted codebases.",
+      "industry_nodes": [],
+      "schools": [
+        "context-engineering",
+        "compound-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "e2bc3d6a",
+      "title": "Why Software Automation is Hard",
+      "url": "https://www.lesswrong.com/posts/KzXptMbuDsYLrppss/why-software-automation-is-hard",
+      "source": "LessWrong",
+      "date": "2026-06-08",
+      "summary": "A careful LessWrong analysis of the structural reasons software automation remains hard despite agent capabilities — covering state management, integration complexity, and the long tail of edge cases. Calibrated skepticism with engineering depth.",
+      "industry_nodes": [],
+      "schools": [
+        "llm-doubters",
+        "bubble-skeptics"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "6041bfed",
+      "title": "The Jevons Misunderstanding",
+      "url": "https://platforms.substack.com/p/the-jevons-misunderstanding",
+      "source": "Platforms Substack",
+      "date": "2026-06-08",
+      "summary": "Challenges the common Jevons-paradox framing applied to AI productivity — arguing that AI-enabled efficiency doesn't automatically generate demand expansion in all domains. Useful counterpoint in the bubble vs not-a-bubble debate.",
+      "industry_nodes": [],
+      "schools": [
+        "not-a-bubble",
+        "bubble-skeptics"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "eb0412d1",
+      "title": "Chat Is Dead",
+      "url": "https://spyglass.org/chatgpt-is-dead-long-live-chatgpt",
+      "source": "Spyglass",
+      "date": "2026-06-08",
+      "summary": "Argues that the chat-box interface paradigm is dying as AI embeds into agents, applications, and ambient compute rather than discrete chat sessions — 'ChatGPT is dead, long live ChatGPT'. Strong agent-native framing.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-native-browsing",
+        "living-software"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "c0733419",
+      "title": "LLM Research Papers: The 2026 List (January to May)",
+      "url": "https://magazine.sebastianraschka.com/p/llm-research-papers-2026-part1",
+      "source": "Ahead of AI (Sebastian Raschka)",
+      "date": "2026",
+      "summary": "Sebastian Raschka's curated roundup of notable LLM research from the first half of 2026 — covering diffusion language models, long context, agent harnesses, tool use, and practical serving infrastructure. More papers on agent scaffolding and efficiency this year vs 2025's model architecture focus.",
+      "industry_nodes": [],
+      "schools": [
+        "scaling-laws-revisionism",
+        "new-models"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "47a804b1",
+      "title": "New Approach to Scaling Laws Could Change How AI Models Are Trained",
+      "url": "https://hai.stanford.edu/news/new-approach-to-scaling-laws-could-change-how-ai-models-are-trained",
+      "source": "Stanford HAI",
+      "date": "2026",
+      "summary": "Stanford researchers introduce IRSL, a framework that dramatically reduces the compute required to predict how large models will scale — potentially making scaling experiments 10x cheaper. Could democratize scaling research beyond the largest labs.",
+      "industry_nodes": [],
+      "schools": [
+        "scaling-laws-revisionism",
+        "extrapolators"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "f5445b01",
+      "title": "Google Tests Sending Users Straight to AI Mode Instead of Search in Chrome",
+      "url": "https://9to5google.com/2026/06/05/google-tests-sending-users-straight-to-ai-mode-instead-of-search-in-chrome",
+      "source": "9to5Google",
+      "date": "2026-06-05",
+      "summary": "Google is testing routing Chrome users directly to AI Mode by default, bypassing the traditional search results page entirely — a structural move to make AI-first the default entry point for the web. Strongest yet signal of the agent-native browsing shift.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-native-browsing",
+        "ai-rebundling"
+      ],
+      "relevance": 4,
       "status": "pending"
     }
   ]
