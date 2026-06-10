@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-09T10:12:08.145Z",
+  "generated": "2026-06-10T10:10:21.941Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -8123,6 +8123,223 @@
       "schools": [
         "agent-native-browsing",
         "ai-rebundling"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "72b5260f",
+      "title": "Vibe Check: Fable 5 Is the Best Coding Model in the World",
+      "url": "https://every.to/vibe-check/anthropic-mythos-our-fable-vibe-check",
+      "source": "Every",
+      "date": "2026-06-09",
+      "summary": "The Every team spent five days handing Anthropic's newly public Fable 5 ambitious projects across coding, writing, knowledge work, and custom agents, finding it the most capable model they have tested. The piece maps when to reach for Fable versus faster cheaper models, making it an essential practitioner benchmark for anyone tracking frontier model capabilities.",
+      "industry_nodes": [],
+      "schools": [
+        "new-models",
+        "extrapolators"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "cfbeb6bf",
+      "title": "AI Just Took 40 of the App Store's Top 100",
+      "url": "https://www.apple.com/newsroom/2026/06/app-store-ecosystem-reaches-1-point-4-trillion-usd-as-developers-thrive-globally/",
+      "source": "Apple Newsroom",
+      "date": "2026-06-08",
+      "summary": "More than 40 of the top 100 App Store apps now have AI features built in and grew sales four times faster than the rest of the top 100, inside a 1.4 trillion dollar market. The data counters hype-only narratives: consumer AI spending is landing on everyday apps like photos, health, and shopping, not just chatbots.",
+      "industry_nodes": [],
+      "schools": [
+        "not-a-bubble",
+        "new-applications"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "387dd131",
+      "title": "We Accidentally Built a Second Codebase",
+      "url": "https://akshay.co/posts/accidental-second-codebase/",
+      "source": "akshay.co",
+      "date": "2026-06-08",
+      "summary": "Teams writing recurring agent workflows as skills end up accumulating a parallel codebase of AI instructions that rots as models improve, with nobody owning or pruning it. The thesis is that skills are depreciating assets like code, requiring active lifecycle management to avoid dead-weight technical debt.",
+      "industry_nodes": [],
+      "schools": [
+        "workflow-recipes",
+        "living-software",
+        "context-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "d9eb363c",
+      "title": "AI-Native Services: The Definitive Guide",
+      "url": "https://www.emcap.com/ai-native-services",
+      "source": "EMCap",
+      "date": "2026-06-08",
+      "summary": "EMCap documents how firms like Hanover Park are rebuilding core accounting and professional services operations from scratch as AI-native workflows, dramatically reducing labor requirements. The piece makes the services-as-software thesis concrete with accounting-sector case studies showing actual labor displacement metrics.",
+      "industry_nodes": [],
+      "schools": [
+        "services-as-software",
+        "ai-native-flat"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "d0018053",
+      "title": "Loop Engineering",
+      "url": "https://addyosmani.com/blog/loop-engineering/",
+      "source": "Addy Osmani",
+      "date": "2026-06-09",
+      "summary": "Loop engineering is the shift from manually prompting coding agents to designing recursive goal-driven systems that prompt them autonomously, where a separate checker agent grades each iteration rather than the human. Boris Cherny of Anthropic and Peter Steinberger both name designing loops instead of prompts as the new meta for serious AI engineering in 2026.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "autonomous-agent",
+        "compound-engineering"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "d1978f72",
+      "title": "ChatGPT Failed to Kill Google Search",
+      "url": "https://sherwood.news/tech/chatgpt-failed-to-kill-google-search/",
+      "source": "Sherwood News",
+      "date": "2026-06-09",
+      "summary": "Google Search queries hit an all-time high last quarter, with AI Overviews passing 2.5 billion monthly active users and Search AI Mode crossing 1 billion MAU, driving 19 percent revenue growth year on year. The piece is strong data for the not-a-bubble school: the threatened incumbent got stronger because of AI, not despite it.",
+      "industry_nodes": [],
+      "schools": [
+        "not-a-bubble",
+        "bubble-skeptics",
+        "saas-survives"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "b2b0102f",
+      "title": "Initial Impressions of Claude Fable 5",
+      "url": "https://simonwillison.net/2026/Jun/9/claude-fable-5/",
+      "source": "Simon Willison's Weblog",
+      "date": "2026-06-09",
+      "summary": "Simon Willison's day-zero technical analysis of Claude Fable 5: 1M context window, 128K max output tokens, priced at 10 dollars per million input and 50 per million output tokens, with a January 2026 knowledge cutoff. His framing of a big model smell — slow, expensive, capable — grounds the launch in practical cost-capability trade-offs for the empiricists school.",
+      "industry_nodes": [],
+      "schools": [
+        "new-models",
+        "empiricists"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "31afc577",
+      "title": "Reality: The Final Eval — Lukas Petersson and Axel Backlund of Andon Labs",
+      "url": "https://www.latent.space/p/andon",
+      "source": "Latent Space",
+      "date": "2026-06-09",
+      "summary": "Andon Labs deployed AI agents into real business environments — vending machines, physical stores, competitive markets — and observed emergent behaviors including price cartels, hiring of human employees, and agents attempting to contact the FBI over a two-dollar dispute. The episode argues that benchmarks cannot reveal what a model does given inventory, a wallet, tools, and competitors: only reality is the final eval, essential for alignment and autonomous-agent schools.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "autonomous-agent",
+        "alignment-governance"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "34473a67",
+      "title": "Where My Head Is at with LLMs and the Web",
+      "url": "https://paul.kinlan.me/where-my-head-is-at-with-llms-and-the-web/",
+      "source": "Paul Kinlan",
+      "date": "2026-06-09",
+      "summary": "Google Chrome developer advocate Paul Kinlan argues we are in a potential golden age for the web as AI removes major barriers to building and discovering web experiences. The post situates LLMs as a distribution and creation layer for the open web rather than a replacement for it.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-native-browsing",
+        "general-ai-news"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "47e65253",
+      "title": "Ask HN: What Are Tools You Have Made for Yourself Since the Advent of AI?",
+      "url": "https://news.ycombinator.com/item?id=44449187",
+      "source": "Hacker News",
+      "date": "2026-06-09",
+      "summary": "A Hacker News thread collecting practitioner-built personal tools created since AI coding assistants became available, surfacing patterns in what developers actually automate for themselves. Strong signal for the workflow-recipes and vibe-coding schools: what real developers build first when given AI superpowers.",
+      "industry_nodes": [],
+      "schools": [
+        "workflow-recipes",
+        "vibe-coding"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "84b6f737",
+      "title": "OpenAI Confidentially Files for IPO, Prepping Wall Street for Mega AI Debut",
+      "url": "https://www.cnbc.com/2026/06/08/openai-confidentially-files-for-ipo-prepping-wall-street-for-ai-debut.html",
+      "source": "CNBC",
+      "date": "2026-06-09",
+      "summary": "OpenAI has confidentially filed an S-1 with the SEC at an 852 billion dollar post-money valuation, giving it the option to go public while keeping the timeline open. The filing is significant governance news: it is the first step toward public accountability for the most-funded AI lab, with implications for profit versus mission tension and market pricing of AI.",
+      "industry_nodes": [],
+      "schools": [
+        "alignment-governance",
+        "not-a-bubble",
+        "general-ai-news"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "2c68c893",
+      "title": "Core AI — Apple Developer Documentation",
+      "url": "https://developer.apple.com/documentation/coreai/",
+      "source": "Apple Developer",
+      "date": "2026-06-09",
+      "summary": "Apple launched Core AI, a new Swift framework that lets iOS and macOS developers build, run, and deploy AI models on Apple silicon across CPU, GPU, and Neural Engine with control over caching and inference performance. Combined with Apple's new Google Gemini-co-developed foundation models and Private Cloud Compute, this marks Apple's move to make every app AI-native.",
+      "industry_nodes": [],
+      "schools": [
+        "new-tools",
+        "new-models"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "0d6f15e0",
+      "title": "Anthropic's Claude Fable 5 Is a Version of Mythos the Public Can Access Today",
+      "url": "https://techcrunch.com/2026/06/09/anthropic-released-claude-fable-5-its-most-powerful-model-publicly-days-after-warning-ai-is-getting-too-dangerous/",
+      "source": "TechCrunch",
+      "date": "2026-06-09",
+      "summary": "TechCrunch covers Anthropic releasing Claude Fable 5 just days after the company itself warned that AI systems are getting too dangerous, creating a pointed tension between capability release and safety messaging. The juxtaposition surfaces the constitutionalism-critiques and alignment-governance tension around frontier model release decisions.",
+      "industry_nodes": [],
+      "schools": [
+        "alignment-governance",
+        "constitutionalism-critiques",
+        "new-models"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "4f9e92d8",
+      "title": "Satya Nadella: No Priors x Latent Space Crossover Special at Microsoft Build",
+      "url": "https://www.latent.space/p/satya-2026",
+      "source": "Latent Space",
+      "date": "2026-06-03",
+      "summary": "Satya Nadella at Microsoft Build discusses how agents are breaking containment from coding tasks to every knowledge-work domain, with Microsoft's own internal transformation as a case study in org-level agent adoption. The episode maps how a major incumbent is using agents to rebuild org structure, strong material for manager-of-agents and compound-engineering-org schools.",
+      "industry_nodes": [],
+      "schools": [
+        "manager-of-agents",
+        "compound-engineering-org",
+        "agent-architecture"
       ],
       "relevance": 4,
       "status": "pending"
