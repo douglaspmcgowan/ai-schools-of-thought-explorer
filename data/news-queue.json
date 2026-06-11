@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-10T10:10:21.941Z",
+  "generated": "2026-06-11T10:10:12.129Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -8342,6 +8342,113 @@
         "agent-architecture"
       ],
       "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "557731bf",
+      "title": "What it feels like to work with Mythos",
+      "url": "https://www.oneusefulthing.org/p/what-it-feels-like-to-work-with-mythos",
+      "source": "One Useful Thing (Ethan Mollick)",
+      "date": "2026-06-09",
+      "summary": "Mollick tested Fable 5 on multi-hour, multi-page specification tasks and found it 'a very real leap over every model I have used before,' working autonomously for up to 12 hours. Matters because Mollick is the field's most credible practitioner-academic and this signals a qualitative capability jump that changes his framing of the human-AI relationship.",
+      "industry_nodes": [],
+      "schools": [
+        "empiricists",
+        "agi-timelines"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "f203cead",
+      "title": "How AI Agents Reshape Knowledge Work: Autonomy, Efficiency, and Scope",
+      "url": "https://research.perplexity.ai/articles/how-ai-agents-reshape-knowledge-work",
+      "source": "Perplexity Research / Harvard",
+      "date": "2026-06-07",
+      "summary": "Empirical study from Harvard and Perplexity using production data finds AI agents perform 26 minutes of autonomous work per session versus 33 seconds for search, with agent queries 71% abstract/nonroutine tasks and 55% lower dissatisfaction rates. This is the first large-scale production measurement confirming the autonomous-agent task-complexity and delegation claims at scale.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "services-as-software",
+        "agent-internals"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "cf3ac9ff",
+      "title": "In 2026, Less than One Third of Google Searches Still Send a Click",
+      "url": "https://sparktoro.com/blog/in-2026-less-than-one-third-of-google-searches-still-send-a-click/",
+      "source": "SparkToro",
+      "date": "2026-06-09",
+      "summary": "SparkToro finds 68% of US Google searches ended without a click in Q1 2026, up from 60% in 2024, driven by AI Overviews now on 20%+ of searches reducing CTR by 60%. This is the clearest empirical signal yet that LLM-native interfaces are structurally cannibalizing the open web's click economy.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-rebundling",
+        "bubble-skeptics"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "cb039b08",
+      "title": "The Current Impact of AI on Engineering Velocity",
+      "url": "https://newsletter.getdx.com/p/the-current-impact-of-ai-on-engineering",
+      "source": "DX / GetDX",
+      "date": "2026-06-09",
+      "summary": "DX's large-sample data shows AI tool adoption at 93% but PR throughput gains of only 8–15% — far below the promised 3–10x — while some firms see 50% increases in defect rates. Provides the most rigorous empirical counterpoint to productivity hype with real engineering team data.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering",
+        "bubble-skeptics"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "e53b23ba",
+      "title": "Domain Expertise Has Always Been the Real Moat",
+      "url": "https://www.brethorsting.com/blog/2026/05/domain-expertise-has-always-been-the-real-moat/",
+      "source": "Aaron Brethorst",
+      "date": "2026-05-28",
+      "summary": "AI makes writing code cheap but not knowing what 'correct' means; the moat now belongs to engineers who can verify both code soundness and domain correctness, not just translate tickets into syntax. Hit Hacker News front page and crystallizes the human-as-verifier argument that is reshaping hiring and team design decisions.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-as-intensifier",
+        "taste-is-the-bottleneck",
+        "compound-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "415ec3a8",
+      "title": "What Happens When the Coding Becomes the Least Interesting Part of the Work",
+      "url": "https://obie.medium.com/what-happens-when-the-coding-becomes-the-least-interesting-part-of-the-work-ab10c213c660",
+      "source": "Obie Fernandez (Medium)",
+      "date": "2025-12-12",
+      "summary": "Fernandez argues agents have made mechanical coding feel like a waste of time, clearing space for judgment, tradeoffs, and intent — the senior-engineering work that was always the interesting part. Surfaced fresh in HybridHacker's June 11 Week 24 digest as a practitioner essay framing the new cognitive division of labor.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering",
+        "manager-of-agents"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "a085722c",
+      "title": "xAI's New Rental Business",
+      "url": "https://martinalderson.com/posts/xais-new-rental-business/",
+      "source": "Martin Alderson",
+      "date": "2026-06-10",
+      "summary": "Analyses xAI's emerging compute-rental business model where inference capacity is offered as a service separate from the Grok subscription, potentially a template for how AI labs evolve from model subscriptions to capacity-as-a-service. Relevant as an early signal in the compute-as-currency pricing shift.",
+      "industry_nodes": [],
+      "schools": [
+        "saas-survives",
+        "services-as-software"
+      ],
+      "relevance": 3,
       "status": "pending"
     }
   ]
