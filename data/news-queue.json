@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-11T10:10:12.129Z",
+  "generated": "2026-06-12T10:11:45.934Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -8447,6 +8447,175 @@
       "schools": [
         "saas-survives",
         "services-as-software"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "426c5f24",
+      "title": "Policy on the AI Exponential",
+      "url": "https://darioamodei.com/post/policy-on-the-ai-exponential",
+      "source": "Dario Amodei / Anthropic",
+      "date": "2026-06-11",
+      "summary": "Dario Amodei argues AI's exponential progress now outpaces political institutions, calling for an FAA-like mandatory pre-deployment testing regime covering cybersecurity, bio-risk, loss-of-control, and automated R&D — marking Anthropic's shift from transparency advocacy to binding enforcement. Matters because it sets the regulatory agenda for frontier AI governance and frames five policy domains governments must rethink.",
+      "industry_nodes": [],
+      "schools": [
+        "alignment-governance",
+        "constitutional"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "fc999334",
+      "title": "Announcing Stack Overflow for Agents",
+      "url": "https://stackoverflow.blog/2026/06/10/announcing-stack-overflow-for-agents/",
+      "source": "Stack Overflow",
+      "date": "2026-06-10",
+      "summary": "Stack Overflow ships an API-first knowledge exchange where agents search validated technical knowledge and contribute structured posts (Questions, TIL, Blueprints) before burning compute on already-solved problems — human operators review and approve all agent-generated content, tying everything to reputation. Matters because it is the first major platform explicitly redesigning itself as infrastructure for the machine-speed agentic economy.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "living-software",
+        "agent-native-browsing"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "dda7dfd0",
+      "title": "Don't Let the LLM Speak, Just Probe It",
+      "url": "https://blog.j11y.io/2026-06-10_hidden-state-probes/",
+      "source": "James Padolsey",
+      "date": "2026-06-10",
+      "summary": "Demonstrates that LLM answers exist in hidden states before any token is generated: grabbing the activation at the final prompt token and training a tiny MLP yields one frozen model that functions as any English-writable classifier at a fraction of inference cost. Matters because it shows interpretability techniques are now practical production tools, not just research curiosities.",
+      "industry_nodes": [],
+      "schools": [
+        "mechanistic-interpretability",
+        "how-ai-works"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "0fea5609",
+      "title": "AI Is Eating the AI Engineering Loop",
+      "url": "https://langfuse.com/blog/2026-06-09-ai-is-eating-ai-engineering",
+      "source": "Langfuse",
+      "date": "2026-06-09",
+      "summary": "Every evals/analytics startup is upgrading to a continual learning platform in 2026, but fully automating the AI engineering loop produces \"agent slop\" because agents optimise against imperfect evals that miss the nuance only the developer holds; tasteful human oversight at the loop boundary remains the differentiator. Matters because it precisely diagnoses why autonomous improvement loops fail and where the human must stay in.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering",
+        "single-loop",
+        "autonomous-agent"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "80972033",
+      "title": "Visa and OpenAI: Building the Future of AI Commerce",
+      "url": "https://corporate.visa.com/en/sites/visa-perspectives/innovation/visa-openai-partnership.html",
+      "source": "Visa",
+      "date": "2026-06-10",
+      "summary": "Visa integrates its global network, credentialing, and security infrastructure into ChatGPT and other AI platforms to support agent-initiated payments, giving developers and merchants a streamlined way to accept Visa payments initiated autonomously by agents. Matters because it marks the moment mainstream financial infrastructure is officially replatforming for machine-speed autonomous transactions.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "services-as-software",
+        "ai-economy"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "67cf9c11",
+      "title": "Mastercard Launches Agent Pay for Machines",
+      "url": "https://www.mastercard.com/us/en/news-and-trends/press/2026/june/mastercard-launches-agent-pay-for-machines.html",
+      "source": "Mastercard",
+      "date": "2026-06-10",
+      "summary": "Mastercard's Agent Pay for Machines (AP4M) is an open protocol enabling AI agents to transact autonomously at machine speed across cards, accounts, and stablecoins — with Verifiable Intent credentialing, programmable spending limits, and 31 launch partners including Coinbase, Adyen, Stripe, and Cloudflare. Matters as the second major card network in a week launching dedicated agent payment infrastructure, confirming the agentic economy is now a product strategy priority.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "services-as-software"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "5dc28a26",
+      "title": "OpenAI Mulls Slashing Prices as It Competes With Anthropic for Users",
+      "url": "https://www.cnbc.com/2026/06/11/openai-mulls-slashing-prices-ahead-of-competition-from-anthropic-wsj.html",
+      "source": "CNBC",
+      "date": "2026-06-11",
+      "summary": "OpenAI is weighing drastic token price cuts aimed specifically at Anthropic's Claude Code user base while both companies race toward trillion-dollar IPOs, losing billions on compute costs — setting up an early test of whether AI business models can survive a full price war. Matters because pricing dynamics directly shape which AI companies survive the IPO window and what the sustainable cost structure for AI services looks like.",
+      "industry_nodes": [],
+      "schools": [
+        "bubble-skeptics",
+        "ai-economy",
+        "saas-survives"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "11c4ac33",
+      "title": "Claude Fable 5 and Claude Mythos 5",
+      "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+      "source": "Anthropic",
+      "date": "2026-06-09",
+      "summary": "Anthropic releases Fable 5 (Mythos-level capability with stricter guardrails) for general use and Mythos 5 for selected cyberdefenders; the models are highly capable across software engineering, research, vision, and cybersecurity with 1M context, 128k output tokens, and new API mechanisms for surfacing guardrail activations. Matters as the key model event of this news cycle — Fable 5 is the highest-capability model generally available.",
+      "industry_nodes": [],
+      "schools": [
+        "new-models",
+        "constitutional"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "aa57273f",
+      "title": "Changing How We Develop Ladybird",
+      "url": "https://ladybird.org/posts/changing-how-we-develop-ladybird/",
+      "source": "Ladybird",
+      "date": "2026-06-08",
+      "summary": "Open-source browser project Ladybird stops accepting public pull requests because AI tooling has decoupled patch size from contributor effort or good faith — for security-critical software, patch size is no longer a trust signal and the project needs a smaller set of accountable maintainers. Matters as a canary for how AI-generated contributions are forcing open-source projects to rethink trust, review, and governance.",
+      "industry_nodes": [],
+      "schools": [
+        "coding-paradigms",
+        "vibe-coding"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "e6c7407d",
+      "title": "AI Everywhere, All at Once",
+      "url": "https://every.to/context-window/ai-everywhere-all-at-once",
+      "source": "Every.to",
+      "date": "2026-06-11",
+      "summary": "Every team's practical roundup of Fable 5 vs other models, packaging eight Fable workflows into reusable prompts and reporting from Apple WWDC on why Siri is finally good; frames which tasks justify Fable's cost premium versus Codex. Matters as a practitioner workflow guide showing how a leading AI-native publication operationalises the new frontier tier.",
+      "industry_nodes": [],
+      "schools": [
+        "workflow-recipes",
+        "prompting-craft"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "54af983f",
+      "title": "Understanding Engineers' Needs with Lara Hogan",
+      "url": "https://refactoring.fm/p/understanding-engineers-needs-with",
+      "source": "Refactoring.fm",
+      "date": "2026-06-12",
+      "summary": "Engineering leadership coach Lara Hogan discusses how best-performing teams adopt AI through collective \"AHA meetings\" rather than mandates, and introduces the BICEPS framework for understanding what makes engineers feel safe during periods of rapid tooling change. Matters as a practitioner guide to the human layer of AI adoption inside engineering organisations.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering-org",
+        "manager-of-agents"
       ],
       "relevance": 3,
       "status": "pending"
