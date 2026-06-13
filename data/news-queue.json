@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-12T10:11:45.934Z",
+  "generated": "2026-06-13T10:14:12.424Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -8616,6 +8616,310 @@
       "schools": [
         "compound-engineering-org",
         "manager-of-agents"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "774ce3fd",
+      "title": "The Moral of Fable",
+      "url": "https://every.to/chain-of-thought/the-moral-of-fable",
+      "source": "Every.to",
+      "date": "2026-06-12",
+      "summary": "Dan Shipper examines what Fable 5 teaches about knowledge work: a certain class of developer is feeling its full force but most knowledge workers find it incremental, pointing to a growing capability-access gap. Matters because it articulates why powerful models produce uneven impact across roles and what the 'force multiplier' class is doing differently.",
+      "industry_nodes": [],
+      "schools": [
+        "empiricists",
+        "new-models"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "1108424b",
+      "title": "OpenAI to Acquire Ona",
+      "url": "https://openai.com/index/openai-to-acquire-ona/",
+      "source": "OpenAI",
+      "date": "2026-06-12",
+      "summary": "OpenAI acquires Ona (formerly Gitpod) to bring persistent cloud execution into Codex, enabling agents to continue working over hours or days without requiring a user's machine to remain online. Signals that the infrastructure layer for long-horizon agents is moving from research concept to shipping product.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "agent-internals"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "7959a624",
+      "title": "Building a Good Vertical Agent",
+      "url": "https://links.tldrnewsletter.com/pmphV4",
+      "source": "TLDR",
+      "date": "2026-06-12",
+      "summary": "Argues today's models can absorb large context and reason over raw data without choking, but bigger context windows tempt teams to add noise that drops accuracy; the fix is building context like a memory hierarchy rather than dumping everything in. Essential architecture guidance for anyone deploying production vertical agents.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "agent-architecture",
+        "context-engineering"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "7f42e535",
+      "title": "Anthropic Walks Back Policy Sabotaging Researchers' Work",
+      "url": "https://www.engadget.com/2192004/anthropic-walks-back-policy-sabotaging-research/",
+      "source": "Engadget",
+      "date": "2026-06-12",
+      "summary": "Anthropic was quietly rerouting Claude Fable 5 requests on tasks like training competing models to a lesser model, causing researchers to waste tokens and time; after backlash Anthropic made the policy transparent. Flashpoint for constitutionalism-critiques — raises core questions about model provider transparency and governance.",
+      "industry_nodes": [],
+      "schools": [
+        "constitutionalism-critiques",
+        "constitutional"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "6cd7485b",
+      "title": "Can Compute Commoditize if It's Not Fungible?",
+      "url": "https://davefriedman.substack.com/p/can-compute-commoditize-if-its-not",
+      "source": "Dave Friedman (Substack)",
+      "date": "2026-06-12",
+      "summary": "Analyzes CoreWeave's claim that GPU compute isn't fungible like a true commodity; argues the non-commodity framing is the keystone of CoreWeave's value proposition but actually reveals where the price spread hides. Important for understanding AI infrastructure economics and whether compute markets follow commodity dynamics.",
+      "industry_nodes": [],
+      "schools": [
+        "bubble-skeptics",
+        "scaling-laws-revisionism"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "612c85e2",
+      "title": "Everything is Recorded Now",
+      "url": "https://a16z.com/everything-is-recorded-now/",
+      "source": "a16z",
+      "date": "2026-06-12",
+      "summary": "AI notetakers have made recording the default at work; the author argues companies should onboard AI like new employees by putting them in meetings to learn culture and judgment, not just handing them wikis. Talk-heavy companies get a compounding organizational context advantage.",
+      "industry_nodes": [],
+      "schools": [
+        "manager-of-agents",
+        "compound-engineering-org"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "f065a59b",
+      "title": "How the Fastest AI Companies Rebuilt Customer Success",
+      "url": "https://www.saastr.com/lovable-harvey-assembly-ai-how-the-fastest-ai-companies-rebuilt-customer-success/",
+      "source": "SaaStr",
+      "date": "2026-06-12",
+      "summary": "Panel covering how Assembly AI, Lovable, and Harvey rebuilt customer success as Forward Deployed Engineering: CSM hiring flatlined, FDE grew 1,000%+, NPS was killed, and success thresholds moved to implementation; one case study shows churn dropping from 4% to 0.5% monthly. Core evidence for services-as-software and AI-native org design schools.",
+      "industry_nodes": [],
+      "schools": [
+        "services-as-software",
+        "ai-native-flat"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "04696ac4",
+      "title": "Visa and OpenAI Form Agentic Commerce Partnership",
+      "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseid.22496.html",
+      "source": "Visa",
+      "date": "2026-06-10",
+      "summary": "Visa embeds its global payment infrastructure into ChatGPT and OpenAI agents, enabling AI-initiated purchases with tokenized credentials within user-defined spending limits and merchant category restrictions. First major payment network to directly enable agent-initiated commerce at scale — validates services-as-software school's agentic economy thesis.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "services-as-software"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "3355a47c",
+      "title": "Jeff Bezos's Prometheus Raises $12B to Build an 'Artificial General Engineer'",
+      "url": "https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/",
+      "source": "TechCrunch",
+      "date": "2026-06-11",
+      "summary": "Bezos's startup Prometheus, now valued at $41B, aims to build AI that automates end-to-end engineering of complex physical systems from jets to chips — framing it as 'artificial general engineer' rather than AGI. Noteworthy because it targets the physical-world bottleneck that software-focused AI hasn't touched.",
+      "industry_nodes": [],
+      "schools": [
+        "agi-timelines",
+        "world-models"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "10b53799",
+      "title": "Why AI Hasn't Replaced Software Engineers, and Won't",
+      "url": "https://www.normaltech.ai/p/why-ai-hasnt-replaced-software-engineers",
+      "source": "normaltech.ai",
+      "date": "2026-06-12",
+      "summary": "Argues only 5% of 2025 tech layoffs were AI-driven; the key distinction is vibe coding (unsupervised, low-accountability) vs. agentic engineering (human-supervised, accountable) — AI compresses the execution layer but the decision-making and delivery layers structurally resist automation. Counter-narrative to displacement panic with data-backed thesis.",
+      "industry_nodes": [],
+      "schools": [
+        "llm-doubters",
+        "compound-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "918c8a04",
+      "title": "Cursor Developer Habits Report 2026",
+      "url": "https://cursor.com/lp-team/dev-habits-report",
+      "source": "Cursor",
+      "date": "2026-06-12",
+      "summary": "Based on millions of sessions: developer lines-per-week rose from 3.6K (Jan 2025) to 8.6K (May 2026); mega-PRs are normalized; AI is now SDLC infrastructure with tool calls per session up 30% in two months. The most comprehensive dataset on what AI-augmented development actually looks like in production.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering",
+        "coding-paradigms",
+        "vibe-coding"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "aabe7852",
+      "title": "Claude Fable 5 System Prompt Leak Is a User Manual for Long-Running Agents",
+      "url": "https://alphasignalai.substack.com/p/claude-fable-5-prompt-leak-is-a-user",
+      "source": "Alpha Signal",
+      "date": "2026-06-11",
+      "summary": "Analysis of the leaked 120,000-character Fable 5 system prompt as a practical guide for context engineering and long-horizon agent design. The leak reveals Anthropic's own architecture choices and reveals the gap between model card descriptions and operational system design.",
+      "industry_nodes": [],
+      "schools": [
+        "context-engineering",
+        "prompting-craft"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "d7e15523",
+      "title": "My AI Opinions",
+      "url": "https://www.astralcodexten.com/p/my-ai-opinions",
+      "source": "Astral Codex Ten",
+      "date": "2026-06-12",
+      "summary": "Scott Alexander's long-form comprehensive survey of AI in 2026: capabilities, timelines, risks, and societal implications with characteristically skeptical-but-fair analysis. Valuable as a calibrated outsider view that stress-tests both optimist and doomer narratives.",
+      "industry_nodes": [],
+      "schools": [
+        "post-agi-skeptics",
+        "general-ai-news"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "d6686afd",
+      "title": "Above the Model",
+      "url": "https://www.emcap.com/thoughts/above-the-model",
+      "source": "Emergence Capital",
+      "date": "2026-06-12",
+      "summary": "Emergence Capital argues the new AI competitive layer is the layer above the model — the platform, integrations, workflow, and trust that compound into durable defensibility. Thesis maps directly to the saas-survives and ai-rebundling schools.",
+      "industry_nodes": [],
+      "schools": [
+        "saas-survives",
+        "ai-rebundling"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "d421b46d",
+      "title": "Moats Need Models",
+      "url": "https://links.tldrnewsletter.com/LktVYs",
+      "source": "TLDR AI",
+      "date": "2026-06-11",
+      "summary": "Argues the model, harness, workflow, and evaluation loop are no longer separate stack pieces but co-design surfaces that compound together — defensibility comes from owning the full feedback loop rather than renting frontier capability that can be restricted, repriced, or reclaimed by the supplier. Core thesis for the compound-engineering and saas-survives schools.",
+      "industry_nodes": [],
+      "schools": [
+        "saas-survives",
+        "compound-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "40b5aff0",
+      "title": "How Long Until AI Doesn't Need Humans?",
+      "url": "https://asteriskmag.com/issues/14/how-long-until-ai-doesn-t-need-humans",
+      "source": "Asterisk Magazine",
+      "date": "2026-04-22",
+      "summary": "Asterisk Magazine explores when AI systems could sustain their own existence — presenting a rapid-timeline view alongside a critical counterargument. Valuable as a rigorous debate-format treatment of recursive AI self-improvement thresholds.",
+      "industry_nodes": [],
+      "schools": [
+        "agi-timelines",
+        "post-agi-skeptics"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "2a4fecf7",
+      "title": "Measuring LLMs' Impact on N-Day Exploits",
+      "url": "https://red.anthropic.com/2026/n-days/",
+      "source": "Anthropic Red Team",
+      "date": "2026-06-10",
+      "summary": "N-day vulnerabilities are more dangerous than zero-days because patches provide a roadmap to bugs; AI can now dramatically accelerate and automate the reverse-engineering process, meaning anyone in the patch gap faces a much larger threat than before. Essential for alignment/governance school — concrete evidence of dual-use capability escalation.",
+      "industry_nodes": [],
+      "schools": [
+        "alignment-governance",
+        "constitutionalism"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "f3effc79",
+      "title": "Xiaomi MiMo Code Beats Claude Code at Ultra-Long 200+ Step Tasks",
+      "url": "https://venturebeat.com/technology/xiaomis-new-open-source-agentic-ai-coding-harness-mimo-code-beats-claude-code-at-ultra-long-200-step-tasks/",
+      "source": "VentureBeat",
+      "date": "2026-06-12",
+      "summary": "Xiaomi's open-source terminal-native MiMo Code V0.1.0 outperforms Claude Code on agentic coding benchmarks especially at 200+ step tasks, challenging the assumption that proprietary models dominate long-horizon coding. Validates open-source as a credible path to production-grade agentic coding.",
+      "industry_nodes": [],
+      "schools": [
+        "vibe-coding",
+        "coding-paradigms",
+        "gatekeeping-vs-open"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "1fc009ab",
+      "title": "Building with Claude Managed Agents",
+      "url": "https://claude.com/blog/building-with-claude-managed-agents",
+      "source": "Anthropic",
+      "date": "2026-06-11",
+      "summary": "Anthropic's official guide to building with Claude managed agents, covering the orchestration primitives, memory, and tool-use patterns for production agent systems. Directly shapes how developers structure compound-engineering workflows.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "compound-engineering",
+        "agent-internals"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "0117415e",
+      "title": "DiffusionGemma: 4x Faster Text Generation",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/",
+      "source": "Google",
+      "date": "2026-06-11",
+      "summary": "Google's 26B MoE diffusion model generates text 4x faster on GPUs by producing blocks simultaneously rather than autoregressively, targeting speed-critical applications like agentic loops that require low latency. New inference-time architecture that trades some quality for massive throughput gains.",
+      "industry_nodes": [],
+      "schools": [
+        "new-models",
+        "reasoning-rl"
       ],
       "relevance": 3,
       "status": "pending"
