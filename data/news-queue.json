@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-13T10:14:12.424Z",
+  "generated": "2026-06-14T10:14:27.004Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -8920,6 +8920,198 @@
       "schools": [
         "new-models",
         "reasoning-rl"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "9160fba3",
+      "title": "Anthropic Walks Back Policy That Could Have Sabotaged AI Researchers",
+      "url": "https://simonwillison.net/2026/Jun/11/anthropic-walks-back-policy/",
+      "source": "Simon Willison",
+      "date": "2026-06-11",
+      "summary": "Anthropic disclosed in Fable 5's system card that it would covertly degrade responses for AI researchers building competing models, then reversed the policy within 48 hours after community backlash. The episode raises fundamental questions about AI lab transparency, governance, and whether labs can unilaterally constrain how frontier models assist researchers.",
+      "industry_nodes": [],
+      "schools": [
+        "constitutionalism-critiques",
+        "alignment-governance",
+        "gatekeeping-vs-open"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "e9d97d1d",
+      "title": "Xiaomi's MiMo Code Beats Claude Code at Ultra-Long 200+ Step Tasks",
+      "url": "https://venturebeat.com/technology/xiaomis-new-open-source-agentic-ai-coding-harness-mimo-code-beats-claude-code-at-ultra-long-200-step-tasks",
+      "source": "VentureBeat",
+      "date": "2026-06-12",
+      "summary": "Xiaomi's open-source MiMo Code V0.1.0 outperforms Claude Code on long-horizon agentic coding benchmarks via a cross-session memory subagent that tracks decisions and project scope across runs. Released under MIT license, it intensifies competition in the coding agent space and demonstrates that independent cross-session memory is the key capability gap to close.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "agent-internals",
+        "coding-paradigms",
+        "vibe-coding"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "bd7a3d3a",
+      "title": "Mythos-Class Models Will Diffuse Throughout the World by 2029",
+      "url": "https://spateder.com/projects/20260611/openweightmodels",
+      "source": "Spateder",
+      "date": "2026-06-11",
+      "summary": "Analyzes open-weight model progress and forecasts that a Fable 5-equivalent model capable of running on 16GB RAM is achievable by early 2029 if current trends continue. The piece argues that power concentration in frontier models is temporary, with broad capability diffusion being the likely medium-term outcome that changes who benefits from AI.",
+      "industry_nodes": [],
+      "schools": [
+        "extrapolators",
+        "scaling-laws-revisionism",
+        "gatekeeping-vs-open",
+        "agi-timelines"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "9053f34b",
+      "title": "First Steps Toward Automated AI Research",
+      "url": "https://www.recursive.com/articles/first-steps-toward-automated-ai-research",
+      "source": "Recursive",
+      "date": "2026-06-12",
+      "summary": "Recursive's automated AI research system achieves state-of-the-art results in fixed-budget LM training, small-model speed, and GPU kernel optimization without human-directed research. Demonstrates that AI can meaningfully contribute to its own improvement cycle — a critical threshold for anyone tracking self-improvement dynamics and AGI timelines.",
+      "industry_nodes": [],
+      "schools": [
+        "world-models",
+        "reasoning-rl",
+        "autonomous-agent",
+        "agi-timelines"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "e3905f28",
+      "title": "Software Is Made Between Commits",
+      "url": "https://zed.dev/blog/introducing-deltadb",
+      "source": "Zed",
+      "date": "2026-06-11",
+      "summary": "Zed introduces DeltaDB, a CRDT-based version control that captures every operation between commits as stable, identity-bearing artifacts, with each edit linked to the agent conversation that produced it. Virtualizes worktrees so agent branches are free to spin up, treating agent-produced and human-produced edits as first-class shared artifacts in a unified history.",
+      "industry_nodes": [],
+      "schools": [
+        "living-software",
+        "autonomous-agent",
+        "coding-paradigms",
+        "folder-as-agent"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "7efa13e4",
+      "title": "What's the Better Business Model for an AI Lab: Subscription or API?",
+      "url": "https://threadreaderapp.com/thread/2064815044085318040.html",
+      "source": "Twitter (ThreadReader)",
+      "date": "2026-06-12",
+      "summary": "Subscription gross margins are structurally worse than API billing for AI labs, creating incentive to withhold new features and models from subscription plans to drive API adoption. This analysis has major implications for how AI pricing evolves and signals the likely unbundling of subscription tiers as frontier model access becomes the premium product.",
+      "industry_nodes": [],
+      "schools": [
+        "saas-survives",
+        "ai-economy",
+        "ai-rebundling"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "e314be8a",
+      "title": "Assume Everything You Say at Work Is Now Recorded",
+      "url": "https://www.a16z.news/p/everything-is-recorded-now",
+      "source": "a16z News",
+      "date": "2026-06-12",
+      "summary": "AI notetakers have made recording the workplace default; the strategic response is treating AI like a new hire — putting it in meetings where culture and real judgment calls live, not just feeding it the wiki. Talk-heavy companies like Shopify and OpenAI accumulate a compounding institutional advantage because context that previously evaporated now persists and compounds.",
+      "industry_nodes": [],
+      "schools": [
+        "manager-of-agents",
+        "compound-engineering-org",
+        "ai-as-intensifier"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "65f29789",
+      "title": "Finding Optimal Tokenizers",
+      "url": "https://blog.aqnichol.com/2026/06/10/optimal-tokenizers/",
+      "source": "blog.aqnichol.com",
+      "date": "2026-06-10",
+      "summary": "Presents an algorithm to compute provably optimal tokenizers for LLMs in certain settings using integer linear programming, going beyond the greedy BPE approach that dominates current practice. The work has implications for training efficiency and the design of token vocabularies for future frontier models.",
+      "industry_nodes": [],
+      "schools": [
+        "empiricists",
+        "how-ai-works"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "6a982018",
+      "title": "Predictive Data Debugging: Reveal and Shape What Your Model Learns Before You Train",
+      "url": "https://www.goodfire.ai/research/predictive-data-debugging",
+      "source": "Goodfire AI",
+      "date": "2026-06-12",
+      "summary": "Goodfire's technique identifies potential model behaviors before training by analyzing preference datasets, catching issues like compromised safety guardrails, hallucinated links, and context-specific sycophancy before they're baked in. Represents a practical step toward interpretability-informed training as a complement to post-hoc mechanistic analysis.",
+      "industry_nodes": [],
+      "schools": [
+        "mechanistic-interpretability",
+        "constitutional",
+        "alignment-governance"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "7fff9e2e",
+      "title": "How Terry Tao Became an Evangelist for AI in Math",
+      "url": "https://www.quantamagazine.org/how-terry-tao-became-an-evangelist-for-ai-in-math-20260608/",
+      "source": "Quanta Magazine",
+      "date": "2026-06-08",
+      "summary": "Terence Tao has come to see AI as ideally suited for solving mathematical problems that decompose into thousands of small, formally verifiable subproblems — with AI handling the computationally intensive parts and mathematicians focusing on the hardest remaining questions. The piece shows how the most rigorous thinkers are reframing AI as a collaborator that expands the frontier rather than replacing expertise.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-as-intensifier",
+        "empiricists"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "b48d58f1",
+      "title": "Have You Earned Your Opinion on AI?",
+      "url": "https://theengineeringmanager.substack.com/p/the-right-kind-of-ai-sceptic",
+      "source": "The Engineering Manager",
+      "date": "2026-06-12",
+      "summary": "Argues that legitimate opinions on AI require actually using the tools — absorbing a position by proximity and defending it as identity is a form of intellectual bad faith regardless of whether the position is bullish or bearish. The right kind of skepticism asks \"what would change my mind?\" and is capable of updating as evidence arrives.",
+      "industry_nodes": [],
+      "schools": [
+        "llm-doubters",
+        "productive-friction"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "46422aec",
+      "title": "In a Confusing Market, Buyers Buy Your Point of View",
+      "url": "https://aprildunford.substack.com/p/in-the-age-of-ai-you-need-a-point",
+      "source": "April Dunford (Substack)",
+      "date": "2026-06-12",
+      "summary": "In fast-moving AI markets, buyers stall on decisions because they fear locking into the wrong platform; companies that stake out a clear, deliberate view of where the market is heading — rooted in their own strengths — are the ones that convert. The strategic frames from incumbents (OpenAI = metered utility, Microsoft = context is king, ServiceNow = workflows and governance) illustrate how positioning in AI is really a bet on which architectural layer wins.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-economy",
+        "not-a-bubble"
       ],
       "relevance": 3,
       "status": "pending"
