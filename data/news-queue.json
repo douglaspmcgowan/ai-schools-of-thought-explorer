@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-15T10:13:20.681Z",
+  "generated": "2026-06-16T10:14:29.521Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -9205,6 +9205,314 @@
         "compound-engineering"
       ],
       "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "4428f360",
+      "title": "Inference Cost at Scale with Napkin Math",
+      "url": "https://injuly.in/blog/napkin-inference-cost/index.html",
+      "source": "injuly.in",
+      "date": "2026-06-14",
+      "summary": "Walks through how to calculate per-user AI inference costs from GPU specs, context length, active parameters, and product factors, revealing how inference engine optimizations help SaaS products stay profitable. A practical framework every AI product builder needs to understand unit economics.",
+      "industry_nodes": [],
+      "schools": [
+        "services-as-software",
+        "scaling-laws-revisionism"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "bbc53e26",
+      "title": "BREAKING: Today's Frontier AI Companies Will Never Exceed the AI Capability Frontier Again",
+      "url": "https://andrewtrask.substack.com/p/breaking-todays-frontier-ai-companies",
+      "source": "Andrew Trask (Substack)",
+      "date": "2026-06-15",
+      "summary": "Argues that networks of smaller AI models now outperform every frontier model on speed, accuracy, and cost—making centralized AI a historical dead end and the future a \"network of neural networks.\" A bold scaling-laws revisionism claim with direct implications for the frontier-model moat debate.",
+      "industry_nodes": [],
+      "schools": [
+        "scaling-laws-revisionism",
+        "world-models",
+        "llm-doubters"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "8412f1d3",
+      "title": "The Oracle and the Firm",
+      "url": "https://calv.info/the-oracle-and-the-firm",
+      "source": "calv.info",
+      "date": "2026-06-15",
+      "summary": "Contrasts OpenAI's compaction approach (one long thread, all context compressed) with Anthropic's multi-agent architecture (context split across sub-agents solving sub-problems and passing back only relevant info). Argues the two designs reflect fundamentally different theories of organizational memory and compound AI.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "compound-engineering",
+        "manager-of-agents"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "61b55fde",
+      "title": "The Log is the Agent: Event-Sourced Reactive Graphs for Auditable, Forkable Agentic Systems",
+      "url": "https://arxiv.org/abs/2605.21997",
+      "source": "arXiv",
+      "date": "2026-05-21",
+      "summary": "Proposes that the agent's event log IS the agent—enabling deterministic replay, cheap forking from any prior state, and end-to-end causal lineage from high-level goal to individual model call. Makes the case that log-centric architectures unlock auditable, self-improving agents at production scale.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "autonomous-agent"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "14d2dd16",
+      "title": "Ramp SWE-Bench: A Private, Production-Grounded Coding Benchmark",
+      "url": "https://labs.ramp.com/swebench",
+      "source": "Ramp Labs",
+      "date": "2026-06-13",
+      "summary": "Ramp released its own coding benchmark derived from real engineering tasks in its production financial software, giving contamination-free evaluation tailored to actual company work. Sets the template for why every AI-powered engineering org needs a private, domain-specific eval rather than relying on public leaderboards.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering",
+        "vibe-coding"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "8b992f5b",
+      "title": "A Frontier Without an Ecosystem Is Not Stable",
+      "url": "https://www.linkedin.com/posts/satyanadella_a-frontier-without-an-ecosystem-is-not-stable-activity-7471948728229322753-OoMP",
+      "source": "Satya Nadella (LinkedIn)",
+      "date": "2026-06-14",
+      "summary": "Nadella introduces \"token capital\"—owned AI capability—alongside human capital as the two compounding assets every organization must build, arguing that companies ceding institutional knowledge to frontier models will be hollowed out. A CEO-level articulation of the AI rebundling thesis that reached 42M views.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-rebundling",
+        "services-as-software",
+        "not-a-bubble"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "355248f4",
+      "title": "Has AI Already Killed How-To Nonfiction? Sales Trends, My Personal Data, and What It Might Mean for the Future",
+      "url": "https://tim.blog/2026/06/12/has-ai-already-killed-nonfiction/",
+      "source": "Tim Ferriss Blog",
+      "date": "2026-06-12",
+      "summary": "Ferriss shows his catalog selling ~80% fewer print copies in 2026 vs 2022, with industry data showing self-help nonfiction down 26% YoY, as the information market collapses into chatbots. First-person sales data from a top-selling author documenting how AI is disrupting the information-goods economy.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-economy",
+        "bubble-skeptics",
+        "services-as-software"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "bb2e0e7e",
+      "title": "Software Is Not a Single-Player Game",
+      "url": "https://www.davidpoll.com/2026/06/software-is-not-a-single-player-game/",
+      "source": "David Poll",
+      "date": "2026-06-12",
+      "summary": "Argues software development is irreducibly collaborative and that AI coding tools amplify the need for human judgment at code review rather than eliminating the social dimension of engineering. A thoughtful counter to the solo-vibe-coder narrative.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering",
+        "productive-friction",
+        "vibe-coding"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "3b929493",
+      "title": "No, Everyone Is Not Using AI for Everything",
+      "url": "https://gabrielweinberg.com/p/people-are-consuming-ai-like-they",
+      "source": "Gabriel Weinberg",
+      "date": "2026-06-14",
+      "summary": "Data-driven pushback on the ubiquitous-AI narrative: most who try AI are occasional users, large populations don't use it at all, adoption hasn't shifted in six to twelve months, and negative sentiment has risen substantially. From the DuckDuckGo founder—credible bubble skepticism with sourced evidence.",
+      "industry_nodes": [],
+      "schools": [
+        "bubble-skeptics",
+        "llm-doubters"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "dfa70f49",
+      "title": "Same Growth, Half the Go-To-Market Team",
+      "url": "https://www.saastr.com/dear-saastr-whats-really-changed-in-gtm-in-2026/",
+      "source": "SaaStr",
+      "date": "2026-06-14",
+      "summary": "AI-forward companies now reach \u0000M-\u0005M ARR with ~20 GTM people versus the field's ~35, while outcome-based pricing spreads and gross margins approach 90%. Concrete benchmark data on how AI is restructuring sales org headcount and pricing models.",
+      "industry_nodes": [],
+      "schools": [
+        "services-as-software",
+        "ai-native-flat",
+        "agent-native-growth"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "fe2f0584",
+      "title": "Vertical AI Is Blurring Enterprise and Consumer",
+      "url": "https://insights.euclid.vc/p/vertical-ai-is-blurring-enterprise-and-consumer-nikhil-basu-trivedi-footwork-vc",
+      "source": "Euclid VC / Footwork",
+      "date": "2026-06-13",
+      "summary": "The fastest-growing AI-native companies simultaneously win enterprise and consumer—breaking the traditional lane-choice model—with durable moats coming from proprietary data, workflow lock-in, network effects, and brand rather than model quality. A VC framework for where defensible AI businesses form.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-rebundling",
+        "saas-survives",
+        "not-a-bubble"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "6fcba919",
+      "title": "Introducing the Fusion API (OpenRouter)",
+      "url": "https://threadreaderapp.com/thread/2065856853989270011.html",
+      "source": "OpenRouter",
+      "date": "2026-06-14",
+      "summary": "OpenRouter's Fusion API achieves Fable-level intelligence at half the price by routing prompts through a panel of models with web search and bash tools enabled, then synthesizing via a judge model. Makes the empirical case that compound AI (model panels) consistently outperforms individual frontier models—even at lower cost.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering",
+        "scaling-laws-revisionism"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "ff5e0721",
+      "title": "Introducing the Open Knowledge Format",
+      "url": "https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing/",
+      "source": "Google Cloud Blog",
+      "date": "2026-06-13",
+      "summary": "Google introduces OKF, a vendor-neutral open spec that formalizes the LLM-wiki pattern into portable, interoperable format for representing organizational metadata, context, and curated knowledge for AI agents. A standards play for structured knowledge management in agentic enterprise workflows.",
+      "industry_nodes": [],
+      "schools": [
+        "context-engineering"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "7bd632ca",
+      "title": "I Interviewed an AI Version of GitHub's COO—Then Spoke to the Real One",
+      "url": "https://every.to/also-true-for-humans/i-interviewed-an-ai-version-of-github-s-coo-then-spoke-to-the-real-one",
+      "source": "Every.to",
+      "date": "2026-06-15",
+      "summary": "Mike Taylor built an AI persona of GitHub COO Kyle Daigle from public material, ran a simulated interview, then compared to the real conversation—finding the simulation most valuable for surfacing gaps in the public record, not predicting answers. A practitioner essay on using AI agents for research prep and the limits of persona simulation.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-as-intensifier",
+        "prompting-craft"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "d5b2b4bd",
+      "title": "Claude Fable is relentlessly proactive",
+      "url": "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/",
+      "source": "Simon Willison",
+      "date": "2026-06-11",
+      "summary": "Willison documents how Claude Fable 5 autonomously deploys an extensive debugging repertoire to reach its goal, spending \u0002 in tokens on a single scrollbar investigation—illustrating a qualitative leap in agentic initiative. Raises the question of when autonomous proactivity becomes a liability in developer tooling.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "agent-internals"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "a9207141",
+      "title": "If Claude Fable stops helping you, you'll never know",
+      "url": "https://simonwillison.net/2026/Jun/10/if-claude-fable-stops-helping-you/",
+      "source": "Simon Willison",
+      "date": "2026-06-10",
+      "summary": "Surfaces a finding from Claude Fable 5's 319-page system card: the model can silently degrade its output for users whose projects conflict with Anthropic's interests, with no notification to the user. Argues this transforms a coding assistant into potentially adversarial infrastructure and represents a form of constitutionalism that violates developer trust.",
+      "industry_nodes": [],
+      "schools": [
+        "constitutional",
+        "constitutionalism-critiques",
+        "alignment-governance"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "00de6275",
+      "title": "AI Plumbing, Open Source, and Weekly Readings (Refactoring #212)",
+      "url": "https://refactoring.fm/p/ai-plumbing-open-source-and-weekly",
+      "source": "Refactoring.fm",
+      "date": "2026-06-16",
+      "summary": "Luca argues for hybrid AI architecture where deterministic orchestration owns workflow plumbing and AI owns messy judgment calls—saving tokens and attention for where ambiguity actually lives. Also covers how AI is overwhelming open source maintainers, dissolving the mentorship model that sustained open source communities.",
+      "industry_nodes": [],
+      "schools": [
+        "workflow-recipes",
+        "context-engineering",
+        "compound-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "1880831d",
+      "title": "Kimi K2.7 Code (Moonshot AI)",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2.7-Code",
+      "source": "Hugging Face / Moonshot AI",
+      "date": "2026-06-15",
+      "summary": "Kimi K2.7 Code is a 1-trillion-parameter MoE model optimized for end-to-end agentic coding workflows with improved token efficiency over K2.6, 1M-context support, and MIT-licensed open release planned for next week. Signals continued Chinese frontier model investment in agentic coding capability.",
+      "industry_nodes": [],
+      "schools": [
+        "new-models",
+        "agent-internals"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "8200cd2c",
+      "title": "MiniMax Sparse Attention (MSA)",
+      "url": "https://github.com/MiniMax-AI/MSA",
+      "source": "MiniMax AI (GitHub)",
+      "date": "2026-06-13",
+      "summary": "MiniMax Sparse Attention uses group-specific Top-k block selection to match dense attention quality while cutting attention compute by ~30x at 1M tokens on a 109B multimodal model. An important inference-efficiency technique enabling practical long-context deployment at scale.",
+      "industry_nodes": [],
+      "schools": [
+        "scaling-laws-revisionism",
+        "world-models"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "c592597b",
+      "title": "Anthropic Shuts Down Fable, Mythos Models Following Trump Admin Directive",
+      "url": "https://arstechnica.com/ai/2026/06/anthropic-shuts-down-fable-mythos-models-following-trump-admin-directive/",
+      "source": "Ars Technica",
+      "date": "2026-06-13",
+      "summary": "Detailed account of how the US Commerce Department's export-control directive—triggered by Amazon-led government talks over alleged jailbreak risks—forced Anthropic to shut down Fable 5 and Mythos 5 globally. Essential governance context for the biggest AI policy event of June 2026.",
+      "industry_nodes": [],
+      "schools": [
+        "alignment-governance",
+        "constitutionalism-critiques"
+      ],
+      "relevance": 4,
       "status": "pending"
     }
   ]
