@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-16T10:14:29.521Z",
+  "generated": "2026-06-17T10:14:44.460Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -9513,6 +9513,228 @@
         "constitutionalism-critiques"
       ],
       "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "4ab27674",
+      "title": "Anthropic's Safety Superpower",
+      "url": "https://stratechery.com/2026/anthropics-safety-superpower/",
+      "source": "Stratechery",
+      "date": "2026-06-16",
+      "summary": "Ben Thompson argues Anthropic's genuine belief in safety gives it license to take aggressive commercial and political positions — including silently altering models and challenging the US government over Fable. A sharp critique of how safety framing can serve as both ethical cover and competitive moat.",
+      "industry_nodes": [],
+      "schools": [
+        "constitutional",
+        "constitutionalism-critiques",
+        "alignment-governance"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "b67ce753",
+      "title": "Agentic Code Review",
+      "url": "https://addyosmani.com/blog/agentic-code-review/",
+      "source": "Addy Osmani",
+      "date": "2026-06-16",
+      "summary": "Osmani argues the hard part of engineering has shifted from writing code to deciding whether to trust agent-generated diffs — with agent PRs abandoning once they hit subjective feedback and 441% longer review times to reconstruct lost reasoning. Includes data from 33,707 agent-authored PRs and proposes 'circuit breaker' triage for high-maintenance agent submissions.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "compound-engineering",
+        "coding-paradigms"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "bb259de2",
+      "title": "Running Local Models Is Good Now",
+      "url": "https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/",
+      "source": "Vicki Boykis",
+      "date": "2026-06-15",
+      "summary": "Boykis argues that local LLMs have crossed a genuine usability threshold for daily development work — she now uses them for proofreading, unit tests, and bootstrapping repos. Marks a practitioner shift away from API-only workflows toward on-device models for routine tasks.",
+      "industry_nodes": [],
+      "schools": [
+        "gatekeeping-vs-open",
+        "new-tools",
+        "new-models"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "c7ff858e",
+      "title": "The Once And Future Fable #2",
+      "url": "https://thezvi.substack.com/p/the-once-and-future-fable-2",
+      "source": "Zvi Mowshowitz (Substack)",
+      "date": "2026-06-16",
+      "summary": "Mowshowitz gives a detailed account of how the White House forced Anthropic to take down Fable via export restriction after Anthropic refused a request based on a narrow jailbreak whose outputs GPT-5.5 produces without any jailbreak. Argues this represents ad hoc AI regulation by executive pressure that bypasses normal rule-making.",
+      "industry_nodes": [],
+      "schools": [
+        "constitutionalism-critiques",
+        "alignment-governance",
+        "constitutional"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "1cf371bf",
+      "title": "We Built Our Own Agent-Native Tool. It Overhauled How We Build Software.",
+      "url": "https://every.to/p/we-built-our-own-agent-native-tool-it-overhauled-how-we-build-software",
+      "source": "Every.to",
+      "date": "2026-06-16",
+      "summary": "Every's team built Hoop, an internal agent-native planning tool that replaced chaotic cross-channel Monday coordination with structured agent-mediated planning loops — changing what they ship. A practitioner essay showing how agent-native tooling transforms org workflow rather than just automating individual tasks.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-native-browsing",
+        "compound-engineering-org",
+        "workflow-recipes"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "0c87b21f",
+      "title": "How to Make AI Better at Product",
+      "url": "https://refactoring.fm/p/how-to-make-ai-better-at-product",
+      "source": "Refactoring",
+      "date": "2026-06-17",
+      "summary": "A practical essay arguing that AI falls short at product decisions because it lacks taste, user context, and the judgment to say no — and proposes how teams should structure AI-human collaboration to fix this. Relevant to the tension between AI as execution tool vs. strategic partner in product work.",
+      "industry_nodes": [],
+      "schools": [
+        "design-ai-as-tool",
+        "prompting-craft",
+        "productive-friction"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "d56d88ef",
+      "title": "Factory 2.0: From Coding Agents to Software Factories",
+      "url": "https://factory.ai/news/software-factory",
+      "source": "Factory.ai",
+      "date": "2026-06-15",
+      "summary": "Factory launched Factory 2.0, transitioning from individual coding agents to end-to-end interconnected agent systems spanning bug intake, planning, building, security, deployment, and feedback loops — used by NVIDIA, Adobe, and Palo Alto Networks. Marks a commercial-scale shift from single agent productivity to full agentic software factory architecture.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "compound-engineering",
+        "manager-of-agents",
+        "agent-internals"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "ba173491",
+      "title": "Marlin: Sakana AI's Autonomous Research Agent",
+      "url": "https://sakana.ai/marlin-release/",
+      "source": "Sakana AI",
+      "date": "2026-06-16",
+      "summary": "Sakana AI released Marlin, an autonomous researcher agent capable of conducting multi-step scientific research — identifying hypotheses, running experiments, and synthesizing results without human-in-the-loop guidance. Significant as one of the first production AI systems claiming genuine end-to-end autonomous research capability.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "world-models",
+        "reasoning-rl"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "56b7b98f",
+      "title": "Meta's Months-Old AI Unit Is a 'Soul-Crushing Gulag,' Say the Engineers Stuck Inside It",
+      "url": "https://techcrunch.com/2026/06/12/metas-months-old-ai-unit-is-a-soul-crushing-gulag-say-the-engineers-stuck-inside-it/",
+      "source": "TechCrunch",
+      "date": "2026-06-12",
+      "summary": "Engineers at Meta's centralized AI division describe it as bureaucratic, isolated from products, and unable to ship — stripped of the context needed to do meaningful work. A real-world case study in what goes wrong when large orgs build centralized AI units that violate principles of flat, product-embedded AI teams.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-native-flat",
+        "compound-engineering-org"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "37b56edb",
+      "title": "Breaking News, and How the End Might Begin",
+      "url": "https://garymarcus.substack.com/p/breaking-news-and-how-the-end-might",
+      "source": "Gary Marcus (Substack)",
+      "date": "2026-06-14",
+      "summary": "Marcus discusses his conversation with Steve Eisman (who called the subprime crisis) on how the AI bubble could unwind, with GPT-5's underwhelming reception cited as the first crack in Altman's AGI narrative. The bubble-skeptic school's most substantive recent entry, bringing external financial credibility to the critique.",
+      "industry_nodes": [],
+      "schools": [
+        "bubble-skeptics",
+        "llm-doubters",
+        "post-agi-skeptics"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "1d2bfc88",
+      "title": "Next-Generation Speculative Decoding: DFlash v2",
+      "url": "https://www.lmsys.org/blog/2026-06-15-next-generation-speculative-decoding-dflash-v2/",
+      "source": "LMSYS",
+      "date": "2026-06-15",
+      "summary": "LMSYS released DFlash v2, a speculative decoding system that dramatically accelerates inference throughput — showing how inference-time compute improvements continue to compound on top of existing model capability. Relevant to the scaling-law debate about where AI capability gains will come from as pre-training scaling slows.",
+      "industry_nodes": [],
+      "schools": [
+        "empiricists",
+        "scaling-laws-revisionism",
+        "how-ai-works"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "4667898e",
+      "title": "AI GPUs Live Longer Than Three Years",
+      "url": "https://www.seangoedecke.com/ai-gpus-live-longer-than-three-years/",
+      "source": "Sean Goedecke",
+      "date": "2026-06-16",
+      "summary": "Goedecke argues the conventional assumption that AI GPU investments depreciate fully in three years is wrong — the hardware lasts longer, reshaping the actual economics of inference infrastructure. Relevant to understanding whether current AI infrastructure spending is rational at current valuations.",
+      "industry_nodes": [],
+      "schools": [
+        "empiricists",
+        "not-a-bubble",
+        "ai-economy"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "81aaeece",
+      "title": "AWS WAF Adds AI Traffic Monetization to Help Content Owners Charge AI Bots",
+      "url": "https://aws.amazon.com/blogs/aws/aws-waf-adds-ai-traffic-monetization-capability-to-help-content-owners-charge-ai-bots-for-content-access/",
+      "source": "AWS Blog",
+      "date": "2026-06-16",
+      "summary": "AWS WAF now lets content owners detect and charge AI bots for scraping — formalizing content licensing as an infrastructure primitive. Significant for the AI economy school as it represents platform-level metering of AI-to-content value flows becoming a standard cloud capability.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-rebundling",
+        "ai-economy"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "e081d8e2",
+      "title": "A Modest Proposal: Reformat Everything to Make Documents More Palatable to AI",
+      "url": "https://www.theregister.com/ai-and-ml/2026/06/16/a-modest-proposal-reformat-everything-to-make-documents-more-palatable-to-ai/5255938",
+      "source": "The Register",
+      "date": "2026-06-16",
+      "summary": "A satirical-but-serious piece arguing that organizations are increasingly optimizing documents, contracts, and content for AI ingestion rather than human reading — an inversion with major implications for information architecture. Relevant to context-engineering and the broader question of how AI changes who documents are really written for.",
+      "industry_nodes": [],
+      "schools": [
+        "context-engineering",
+        "living-software"
+      ],
+      "relevance": 3,
       "status": "pending"
     }
   ]
