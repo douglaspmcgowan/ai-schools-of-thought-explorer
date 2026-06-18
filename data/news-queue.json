@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-17T10:14:44.460Z",
+  "generated": "2026-06-18T10:11:20.748Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -9735,6 +9735,218 @@
         "living-software"
       ],
       "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "7b8fdcfb",
+      "title": "Why We're Bullish on Loops",
+      "url": "https://newsletter.posthog.com/p/why-were-bullish-on-loops",
+      "source": "Product for Engineers (PostHog)",
+      "date": "2026-06-17",
+      "summary": "PostHog breaks down the four ingredients of a good agent loop (goal, context, evaluation, agent) and explains why loop engineering is the new frontier of AI-native development, grounded in METR data showing Opus 4.6 completes 50% of 12-hour tasks. A strong practitioner argument for why designing durable automated cycles beats one-shot prompting.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "autonomous-agent",
+        "single-loop"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "9e8e01cf",
+      "title": "Loops for Non-coders",
+      "url": "https://every.to/context-window/loops-for-non-coders",
+      "source": "Every.to",
+      "date": "2026-06-17",
+      "summary": "Every.to staff explains the loop architecture concept for non-technical readers, including the Fable ban and a practical playbook for when your coding model disappears. Anchors the growing loops-as-paradigm discourse in a leading practitioner publication.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "workflow-recipes"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "231985aa",
+      "title": "GLM-5.2",
+      "url": "https://z.ai/blog/glm-5.2",
+      "source": "Z.ai",
+      "date": "2026-06-17",
+      "summary": "Z.ai launches GLM-5.2 with a 1M-token context window, new reasoning controls, and focus on long-horizon agentic coding tasks across entire codebases, with open weights to follow. Another strong open-weight coding agent entering the frontier with immediate API and chatbot access.",
+      "industry_nodes": [],
+      "schools": [
+        "new-models",
+        "agent-architecture"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "2f1caa77",
+      "title": "Android 17 Expands AI Agent Integration",
+      "url": "https://android-developers.googleblog.com/2026/06/Android-17.html",
+      "source": "Android Developers Blog",
+      "date": "2026-06-17",
+      "summary": "Android 17 introduces AppFunctions and Android MCP, enabling apps to expose orchestratable tools that on-device agents can discover and execute, as Google repositions the OS as an intelligence system. A significant platform-level move making agent-native browsing and multi-app orchestration a first-class Android capability.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-native-browsing",
+        "autonomous-agent"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "e7485fd4",
+      "title": "Leviathan Waking",
+      "url": "https://www.hyperdimensional.co/p/leviathan-waking",
+      "source": "Hyperdimensional",
+      "date": "2026-06-17",
+      "summary": "Deep analysis of the US government's incomprehensibly strict response to Anthropic's advanced model releases, examining what motivated the decision, whether it reflects genuine risk assessment or political confusion, and what the Mythos/Fable ban means for the state-AI relationship. Essential read as the administration and Anthropic remain in unresolved policy dispute.",
+      "industry_nodes": [],
+      "schools": [
+        "alignment-governance",
+        "constitutionalism-critiques"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "79bbec08",
+      "title": "Anthropic Pauses Token-Based Billing for Its Claude Agent SDK",
+      "url": "https://arstechnica.com/ai/2026/06/anthropic-pauses-token-based-billing-for-its-claude-agent-sdk/",
+      "source": "Ars Technica",
+      "date": "2026-06-17",
+      "summary": "Anthropic has paused its token-based billing model for the Claude Agent SDK, a significant pivot in how AI infrastructure is priced for agentic workloads. Directly relevant to the debate over whether compute-by-token pricing survives as agents run multi-hour loops.",
+      "industry_nodes": [],
+      "schools": [
+        "services-as-software",
+        "saas-survives"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "b577eea4",
+      "title": "Never Waste a Token",
+      "url": "https://sunilpai.dev/posts/never-waste-a-token/",
+      "source": "Sunil Pai (sunilpai.dev)",
+      "date": "2026-06-17",
+      "summary": "Sunil Pai lays out a framework for maximizing signal value of every token in a context window, arguing token economy should be treated as infrastructure design rather than a prompt detail. A tight engineering essay on context-engineering discipline.",
+      "industry_nodes": [],
+      "schools": [
+        "context-engineering",
+        "prompting-craft"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "56253f9c",
+      "title": "AI Demands More Engineering Discipline. Not Less.",
+      "url": "https://charity.wtf/2026/06/15/ai-demands-more-engineering-discipline-not-less-xpost/",
+      "source": "Charity Majors (charity.wtf)",
+      "date": "2026-06-15",
+      "summary": "Charity Majors argues the vibe-coding era is eroding shared understanding at scale because AI-generated code makes it easier to destroy what software teams actually produce (comprehension, not code), and that AI should raise engineering discipline expectations, not lower them. A sharp counterpoint to no-discipline AI optimism from Honeycomb's CTO.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering",
+        "vibe-coding"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "4f3e0b9b",
+      "title": "Revised Rules of Engineering Leadership",
+      "url": "https://lethain.com/revised-rules-of-engineering-leadership/",
+      "source": "Irrational Exuberance (Will Larson)",
+      "date": "2026-06-15",
+      "summary": "Will Larson revisits his engineering leadership principles for the agentic era, covering migrations, domain expertise, harnesses, and how AI-tooling has changed the pace of work at Imprint. Practical updates to foundational eng-leadership thinking with real examples from hypergrowth contexts.",
+      "industry_nodes": [],
+      "schools": [
+        "manager-of-agents",
+        "compound-engineering-org"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "2c0030ea",
+      "title": "Humans and Agents in Software Engineering Loops",
+      "url": "https://martinfowler.com/articles/exploring-gen-ai/humans-and-agents.html",
+      "source": "Martin Fowler Blog (Kief Morris)",
+      "date": "2026-03-04",
+      "summary": "Kief Morris defines three human-agent relationships: in the loop (reviewing each output), out of the loop (fully autonomous), and on the loop (designing the system itself), arguing engineers should focus on building and improving the loop rather than micromanaging outputs. The foundational framing for the current loop-engineering discourse, resurfaced by Hybridhacker this week.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "manager-of-agents"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "f70a34a3",
+      "title": "The Promise of Polymath LLMs",
+      "url": "https://www.overcomingbias.com/p/the-promise-of-polymath-llms",
+      "source": "Overcoming Bias",
+      "date": "2026-06-16",
+      "summary": "Robin Hanson makes the case that LLMs capable across many domains will reshape knowledge work in ways narrow-specialist AI cannot, challenging the default assumption that agent specialization is the winning architecture. A philosophical intervention in the generalist-versus-specialist agent design debate.",
+      "industry_nodes": [],
+      "schools": [
+        "where-ai-is-heading",
+        "world-models",
+        "extrapolators"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "205a9483",
+      "title": "A Guide to AI Inference Engineering",
+      "url": "https://blog.bytebytego.com/p/a-guide-to-ai-inference-engineering",
+      "source": "ByteByteGo",
+      "date": "2026-06-16",
+      "summary": "Systematic explainer on inference engineering for LLMs covering batching, KV caching, speculative decoding, and serving architectures as AI workloads become production-critical. A reference piece for practitioners building the infrastructure that agent loops depend on.",
+      "industry_nodes": [],
+      "schools": [
+        "how-ai-works",
+        "reasoning-rl"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "3798f4e2",
+      "title": "Claude Fable is Relentlessly Proactive",
+      "url": "https://simonw.substack.com/p/claude-fable-is-relentlessly-proactive",
+      "source": "Simon Willison",
+      "date": "2026-06-11",
+      "summary": "Simon Willison documents Fable 5's unusually proactive behavior, taking initiative without being asked and reshaping workflows in ways that feel qualitatively different from prior models, exploring what this implies for human-agent collaboration norms. A sharp practitioner observation mapping directly to the productive-friction and autonomous-agent debate.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "productive-friction"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "bbbedffc",
+      "title": "OpenAI CDP Support for Browser Use on Codex",
+      "url": "https://www.testingcatalog.com/icymi-openai-released-cdp-support-for-browser-use-on-codex/",
+      "source": "Testing Catalog",
+      "date": "2026-06-17",
+      "summary": "OpenAI added Chrome DevTools Protocol support for browser use inside Codex, enabling agent-native web interaction directly in the coding agent environment. An important expansion of agentic browser capabilities into the coding context.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-native-browsing",
+        "autonomous-agent"
+      ],
+      "relevance": 4,
       "status": "pending"
     }
   ]
