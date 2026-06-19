@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-18T10:11:20.748Z",
+  "generated": "2026-06-19T10:12:54.848Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -9947,6 +9947,321 @@
         "autonomous-agent"
       ],
       "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "50f62e15",
+      "title": "How Anthropic Makes Claude More Reliable",
+      "url": "https://every.to/context-window/how-anthropic-makes-claude-more-reliable",
+      "source": "Every.to",
+      "date": "2026-06-18",
+      "summary": "Examines the systematic techniques Anthropic uses to improve Claude reliability, including constitutional AI refinements and prompt engineering at training time. Directly relevant to the schools of thought on constitutional AI and context engineering.",
+      "industry_nodes": [],
+      "schools": [
+        "constitutional",
+        "context-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "ae52a3e7",
+      "title": "What I Learned Onboarding Our AI Project Manager",
+      "url": "https://every.to/p/what-i-learned-onboarding-our-ai-project-manager",
+      "source": "Every.to",
+      "date": "2026-06-18",
+      "summary": "First-person practitioner account of onboarding an AI agent as a project manager, surfacing lessons about task delegation, oversight, and expectation-setting. A direct case study for the manager-of-agents and compound-engineering-org schools.",
+      "industry_nodes": [],
+      "schools": [
+        "manager-of-agents",
+        "compound-engineering-org"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "8d751eb1",
+      "title": "Reid Hoffman Makes Five Predictions About AI in 2026",
+      "url": "https://every.to/podcast/reid-hoffman-makes-five-predictions-about-ai-in-2026",
+      "source": "Every.to",
+      "date": "2026-06-17",
+      "summary": "Hoffman stakes out five specific claims about AI trajectory in 2026, from agent economics to geopolitical dynamics. High-signal extrapolator perspective from a founder-investor who has been consistently early on AI transformation timelines.",
+      "industry_nodes": [],
+      "schools": [
+        "extrapolators",
+        "agi-timelines"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "835572d0",
+      "title": "Vercel's Guillermo Rauch on What Comes After Coding",
+      "url": "https://every.to/podcast/vercel-s-guillermo-rauch-on-what-comes-after-coding",
+      "source": "Every.to",
+      "date": "2026-06-17",
+      "summary": "Rauch argues that as coding agents take over routine implementation, the human role shifts to orchestration, taste, and architecture—not writing functions. Complements the vibe-coding/agentic-engineering debate with a product-leader perspective from the edge of deployment infrastructure.",
+      "industry_nodes": [],
+      "schools": [
+        "vibe-coding",
+        "compound-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "8f6efe6a",
+      "title": "How to Use Claude Code Like the People Who Built It",
+      "url": "https://every.to/podcast/how-to-use-claude-code-like-the-people-who-built-it",
+      "source": "Every.to",
+      "date": "2026-06-17",
+      "summary": "Insider practitioner guide to Claude Code workflows drawn from Anthropic engineers, covering session management, context hygiene, and agentic task structuring. Essential prompting-craft and workflow-recipes material for the coding-paradigms school.",
+      "industry_nodes": [],
+      "schools": [
+        "prompting-craft",
+        "workflow-recipes"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "752ebc93",
+      "title": "ChatGPT's Market Share Slips Below 50% for the First Time",
+      "url": "https://techcrunch.com/2026/06/16/chatgpts-market-share-slips-below-50-for-first-time/",
+      "source": "TechCrunch",
+      "date": "2026-06-17",
+      "summary": "Sensor Tower data shows ChatGPT dropped to 46.4% of AI assistant market share as Gemini (27.7%) and Claude (10.3%) surge—first time below 50% since 2022. Signals market fragmentation and the end of ChatGPT monoculture, directly relevant to ai-economy and ai-rebundling schools.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-economy",
+        "ai-rebundling"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "f2c58b6a",
+      "title": "Introducing Eve: An Open-Source Agent Framework",
+      "url": "https://vercel.com/blog/introducing-eve",
+      "source": "Vercel",
+      "date": "2026-06-17",
+      "summary": "Vercel launches Eve, a TypeScript-native open-source framework where each agent is a directory of files (instructions.md, tools/, skills/), backed by durable execution via Vercel Workflow and sandboxed compute. Over 50% of Vercel deployments are now triggered by coding agents—Eve formalizes the folder-as-agent pattern at production scale.",
+      "industry_nodes": [],
+      "schools": [
+        "folder-as-agent",
+        "agent-architecture"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "fc875288",
+      "title": "Replit Links Claude",
+      "url": "https://replit.com/blog/replit-claude",
+      "source": "Replit",
+      "date": "2026-06-18",
+      "summary": "Replit integrates Claude directly into its platform, extending Claude-powered coding assistance and agentic development to Replit's large base of web-based developers. Expands vibe-coding and coding-paradigms reach to a new demographic of builders.",
+      "industry_nodes": [],
+      "schools": [
+        "vibe-coding",
+        "coding-paradigms"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "00defbdc",
+      "title": "Anthropic Pauses Claude Agent SDK Subscription Change",
+      "url": "https://thenewstack.io/anthropic-pauses-claude-agent-sdk-subscription-change/",
+      "source": "The New Stack",
+      "date": "2026-06-17",
+      "summary": "Anthropic reversed a planned billing shift that would have moved Agent SDK usage off flat subscriptions to tiered credit pools (0-00/mo), pulling back on launch day after developer backlash. Illustrates the tension between usage-based AI economics and subscription incumbent expectations—central to the saas-survives vs services-as-software debate.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-economy",
+        "saas-survives"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "d937b2eb",
+      "title": "AI Coding Agents Can Autonomously Direct Robot Training",
+      "url": "https://arstechnica.com/ai/2026/06/ai-coding-agents-can-autonomously-direct-robot-training/",
+      "source": "Ars Technica",
+      "date": "2026-06-17",
+      "summary": "NVIDIA's ENPIRE framework (with CMU and UC Berkeley) hands the entire robotics research cycle—hardware reset, trial execution, policy rewriting—to AI coding agents using Claude Code, Codex, and Kimi Code, achieving 99% success on physical manipulation tasks. A concrete demonstration of autonomous-agent and agent-architecture principles applied beyond software into physical systems.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "agent-architecture"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "12aca123",
+      "title": "Anthropic Ships Major Claude Design Overhaul: Design System Imports, Code Round-Trips, Token Fix",
+      "url": "https://venturebeat.com/technology/anthropic-ships-major-claude-design-overhaul-with-design-system-imports-code-round-trips-and-a-fix-for-its-token-burning-problem",
+      "source": "VentureBeat",
+      "date": "2026-06-17",
+      "summary": "Claude Design now imports design systems from GitHub, syncs component state with Claude Code for two-way round-trips, and resolves the 80%-tokens-in-25-minutes burn problem. Closes the design-to-code loop and positions Claude as a spec-driven development tool rather than just a generative canvas.",
+      "industry_nodes": [],
+      "schools": [
+        "spec-driven",
+        "new-tools"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "97bd6444",
+      "title": "You Got Faster, Your Company Didn't",
+      "url": "https://terriblesoftware.org/2026/06/17/you-got-faster-your-company-didnt/",
+      "source": "Terrible Software",
+      "date": "2026-06-17",
+      "summary": "Individual engineers are 10x faster with AI coding tools, but companies haven't restructured approvals, reviews, and coordination to match—the bottleneck has shifted from writing code to organizational process. A practitioner thesis directly relevant to compound-engineering-org and ai-as-intensifier debates about why individual AI velocity doesn't compound into org-wide speed.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering-org",
+        "ai-as-intensifier"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "8c7e22cd",
+      "title": "METR's Joel Becker on Exponential Time Horizon Evals, Threat Models, and the Limits of AI Productivity",
+      "url": "https://www.latent.space/p/metr",
+      "source": "Latent Space",
+      "date": "2026-02-27",
+      "summary": "METR's Joel Becker explains their Time Horizon eval—a straight trendline showing AI agents can now reliably complete tasks requiring 12 hours of human work—and how METR connects capability curves to catastrophic risk threat models. Essential alignment-governance and agi-timelines material with the most rigorous capability measurement framework in public circulation.",
+      "industry_nodes": [],
+      "schools": [
+        "alignment-governance",
+        "agi-timelines"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "5a6ec20c",
+      "title": "Every Agent Needs a Box — Aaron Levie, Box",
+      "url": "https://www.latent.space/p/box",
+      "source": "Latent Space",
+      "date": "2026-03-05",
+      "summary": "Box CEO Aaron Levie argues that enterprise AI agents require secure, permissioned data infrastructure—Box is that layer—and that 2026 is the year of knowledge-work agents following 2025's coding agents. Directly maps to autonomous-agent deployment at enterprise scale and the manager-of-agents school.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "manager-of-agents"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "4b3d9152",
+      "title": "\"They Screwed Us\": Personality Clashes Sent Anthropic's Models Offline",
+      "url": "https://www.axios.com/2026/06/15/anthropic-white-house-fable-mythos",
+      "source": "Axios",
+      "date": "2026-06-15",
+      "summary": "Behind-the-scenes account of how a US government-Anthropic dispute over export controls temporarily took Claude Fable and Mythos offline, driven by personal relationships rather than formal policy. A landmark piece for alignment-governance: AI model availability is now hostage to geopolitical relationships, not just technical decisions.",
+      "industry_nodes": [],
+      "schools": [
+        "alignment-governance",
+        "constitutionalism-critiques"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "6f60b191",
+      "title": "SpaceX to Acquire Cursor for 0B in Stock, Days After Blockbuster IPO",
+      "url": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo/",
+      "source": "TechCrunch",
+      "date": "2026-06-16",
+      "summary": "SpaceX acquires AI coding startup Anysphere (Cursor) for 0B—the largest VC-backed acquisition on record—folding it into its xAI division. Signals the consolidation of AI coding tools under vertically integrated hardware-AI-software stacks and the accelerating rebundling of the developer stack.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-rebundling",
+        "coding-paradigms"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "598e035d",
+      "title": "AI Can't Survive Your C-Suite's Magic",
+      "url": "https://vinvashishta.substack.com/p/ai-cant-survive-your-c-suites-magic",
+      "source": "Substack (Vin Vashishta)",
+      "date": "2026-06-17",
+      "summary": "Argues that organizational politics and executive decision-making styles—'C-suite magic'—are the primary barrier to AI adoption, not technology readiness or model capability. A practitioner thesis for compound-engineering-org: the limiting factor for AI ROI is human coordination, not AI quality.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering-org",
+        "ai-as-intensifier"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "608f7d2a",
+      "title": "How to Calculate Compute-Adjusted LTV",
+      "url": "https://www.thesaascfo.com/how-to-calculate-compute-adjusted-ltv/",
+      "source": "The SaaS CFO",
+      "date": "2026-06-17",
+      "summary": "Introduces compute-adjusted LTV as a new financial metric for AI-native SaaS where marginal costs scale with AI usage, forcing a rethink of standard SaaS unit economics. A practical financial tool for the ai-economy and saas-survives schools modeling how AI usage costs reshape customer lifetime value.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-economy",
+        "saas-survives"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "fb685c90",
+      "title": "Slop",
+      "url": "https://www.workingtheorys.com/p/slop",
+      "source": "Working Theorys",
+      "date": "2026-06-17",
+      "summary": "Defines and diagnoses AI-generated \"slop\"—the wave of low-quality, plausible-sounding content that floods platforms and workflows when AI is deployed without editorial judgment or friction. A practitioner indictment mapping directly to bubble-skeptics and productive-friction schools arguing that AI quality requires human taste as a bottleneck.",
+      "industry_nodes": [],
+      "schools": [
+        "bubble-skeptics",
+        "productive-friction"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "65532c44",
+      "title": "Why Weibo's Tiny VibeThinker 3B Has the AI World Arguing Over Benchmarks Again",
+      "url": "https://venturebeat.com/technology/why-weibos-tiny-vibethinker-3b-has-the-ai-world-arguing-over-benchmarks-again",
+      "source": "VentureBeat",
+      "date": "2026-06-17",
+      "summary": "A 3B parameter model from Weibo's AI lab posts surprisingly strong benchmark scores, reigniting debate about whether small-model benchmark performance reflects genuine capability or benchmark gaming. Directly relevant to scaling-laws-revisionism and llm-doubters schools debating whether capability is concentration-dependent.",
+      "industry_nodes": [],
+      "schools": [
+        "scaling-laws-revisionism",
+        "llm-doubters"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "549153a4",
+      "title": "Inside DeepSeek's .4 Billion Funding Raise: China's AI Champion Keeps Investors Close and Control Closer",
+      "url": "https://www.digitimes.com/news/a20260617VL211/deepseek-funding-ai.html",
+      "source": "Digitimes",
+      "date": "2026-06-17",
+      "summary": "DeepSeek raises .4B at 0B+ valuation with an unusual deal structure—five-year lock-up, no voting rights, founder retains ~90% pre-money control—preserving Chinese AI independence while signaling massive capital backing. Relevant to gatekeeping-vs-open debates about whether leading AI development centralizes under national control.",
+      "industry_nodes": [],
+      "schools": [
+        "gatekeeping-vs-open",
+        "general-ai-news"
+      ],
+      "relevance": 3,
       "status": "pending"
     }
   ]
