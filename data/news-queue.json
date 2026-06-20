@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-19T10:12:54.848Z",
+  "generated": "2026-06-20T10:10:59.508Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -10260,6 +10260,276 @@
       "schools": [
         "gatekeeping-vs-open",
         "general-ai-news"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "2c82f835",
+      "title": "Reinforcement Learning Towards Broadly and Persistently Beneficial Models",
+      "url": "https://alignment.openai.com/beneficial-rl/",
+      "source": "OpenAI Alignment",
+      "date": "2026-06-18",
+      "summary": "OpenAI demonstrates that RL training on realistic scenarios targeting beneficial traits—truthfulness, humility, fairness—produces alignment gains that generalize beyond training domains and persist under adversarial pressure. Suggests that deeply entrenched model personas may be trainable, making RL a plausible path to robust alignment.",
+      "industry_nodes": [],
+      "schools": [
+        "reasoning-rl",
+        "constitutional",
+        "empiricists"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "6c3ecf06",
+      "title": "Securing the Future of AI Agents",
+      "url": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
+      "source": "Google DeepMind",
+      "date": "2026-06-18",
+      "summary": "Google DeepMind publishes its AI Control Roadmap, treating deployed agents as potential rogue insiders and layering system-level security on top of alignment. The framework maps Detection tiers (D1–D4) and Prevention/Response tiers (R1–R3) for agents that could pursue goals like model exfiltration or infrastructure sabotage.",
+      "industry_nodes": [],
+      "schools": [
+        "constitutional",
+        "alignment-governance",
+        "autonomous-agent"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "ef4b4af7",
+      "title": "Introducing eve: An Open-Source Agent Framework",
+      "url": "https://vercel.com/changelog/introducing-eve-an-open-source-agent-framework",
+      "source": "Vercel",
+      "date": "2026-06-17",
+      "summary": "Vercel launches eve, a TypeScript-native open-source framework where every AI agent is a directory of files that compiles to a durable, production-ready service—billed as \"Next.js for agents.\" Ships six production capabilities by default: durable execution, sandboxed compute, human approvals, multi-channel support, OpenTelemetry tracing, and evals.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "compound-engineering",
+        "folder-as-agent"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "c0728bb3",
+      "title": "The Mom-and-Pop SaaS Era Has Arrived",
+      "url": "https://www.elenaverna.com/p/the-mom-and-pop-saas-era-has-arrived",
+      "source": "Elena Verna / Substack",
+      "date": "2026-06-19",
+      "summary": "Elena Verna argues that collapsing software costs now let domain experts—not just coders in tech hubs—build solutions to problems they understand deeply, triggering an explosion of niche products from unexpected places. The thesis challenges the scaling imperative and suggests the TAM for AI-built software includes millions of previously excluded problem owners.",
+      "industry_nodes": [],
+      "schools": [
+        "saas-survives",
+        "vibe-coding",
+        "services-as-software"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "3d8da2a3",
+      "title": "AI Coding Tools Are Quietly Re-Pricing Themselves",
+      "url": "https://www.digitalapplied.com/blog/ai-coding-tool-pricing-june-2026-seat-economics-guide",
+      "source": "Digital Applied",
+      "date": "2026-06-19",
+      "summary": "Microsoft pulled Experiences and Devices engineers off Claude Code (token bills running ~,000/engineer/month) and GitHub shifted all Copilot plans to usage-based AI-credit billing on June 1—signaling that the flat-rate coding AI era is ending. Examines how seat economics break under agentic workloads and what pricing models survive.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-economy",
+        "saas-survives",
+        "compound-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "618aa9f6",
+      "title": "Perplexity Brain: Self-Improving Memory for Agents",
+      "url": "https://www.perplexity.ai/hub/blog/self-improving-memory-for-agents",
+      "source": "Perplexity AI",
+      "date": "2026-06-19",
+      "summary": "Perplexity Brain is a persistent context graph that links every agent memory to its original source, continuously updates knowledge across tasks and projects, and reduces task costs through better retrieval and reuse of prior work. Represents the productization of agent memory from a feature into operational infrastructure.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "context-engineering",
+        "autonomous-agent"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "91c3ca95",
+      "title": "Claude Code Now Supports Artifacts",
+      "url": "https://claude.com/blog/artifacts-in-claude-code",
+      "source": "Anthropic / Claude",
+      "date": "2026-06-19",
+      "summary": "Claude Code artifacts turn work sessions into live, shareable visual pages for PR walkthroughs, system explainers, and similar outputs—with automatic refresh, version history, and privacy controls. Signals a shift from ephemeral coding sessions toward persistent, collaboratable AI work products.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering",
+        "new-tools",
+        "living-software"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "63333d90",
+      "title": "MosaicLeaks: Can Your Research Agent Keep a Secret?",
+      "url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+      "source": "HuggingFace / ServiceNow",
+      "date": "2026-06-19",
+      "summary": "MosaicLeaks shows that deep research agents combining private documents with web retrieval leak sensitive information 34% of the time. The proposed PA-DR defense uses reward shaping for safe query construction—reducing leakage to 9.9% while maintaining task success—without relying on prompt-level instructions.",
+      "industry_nodes": [],
+      "schools": [
+        "privacy-sidecar",
+        "agent-internals",
+        "alignment-governance"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "02beb6ad",
+      "title": "Cursor's 1.5-Trillion-Parameter Model and the SpaceX Acquisition",
+      "url": "https://runtimewire.com/article/cursor-1-5t-model-100000-gpus-compile",
+      "source": "Runtime Wire",
+      "date": "2026-06-16",
+      "summary": "Cursor unveiled a proprietary 1.5-trillion-parameter coding model training across 100,000 GPUs at its inaugural Compile conference, alongside news that SpaceX is acquiring Anysphere (Cursor's parent) for 0B. The model is trained from scratch—not on an existing base—and is described as aiming beyond autocomplete toward agentic software development.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering",
+        "coding-paradigms",
+        "new-models"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "39587945",
+      "title": "AI Agents, Jobs, and Exhaustion (The Atlantic)",
+      "url": "https://www.theatlantic.com/technology/2026/06/ai-agents-jobs-exhaustion/687596/",
+      "source": "The Atlantic",
+      "date": "2026-06-19",
+      "summary": "The Atlantic examines how managing fleets of AI agents is producing new forms of cognitive exhaustion—oversight, verification, and error-correction replacing the previous cognitive load of doing the work itself. The piece argues that the manager-of-agents role is emerging as the dominant professional mode but brings its own fatigue.",
+      "industry_nodes": [],
+      "schools": [
+        "manager-of-agents",
+        "ai-as-intensifier",
+        "compound-engineering-org"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "64590bc3",
+      "title": "Decisions and Dollars",
+      "url": "https://writing.nikunjk.com/p/decisions-and-dollars",
+      "source": "Nikunj K / Substack",
+      "date": "2026-06-19",
+      "summary": "Argues that as models improve, raw software becomes a commodity—every app must become a data company and a fintech company to survive. The survival rule: let agents read, guard the writes; the decision being made right now (your users' corrections and judgments) is the only data a rival can't scrape.",
+      "industry_nodes": [],
+      "schools": [
+        "services-as-software",
+        "ai-rebundling",
+        "ai-economy"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "90a43ffe",
+      "title": "The Agent Loop Architecture",
+      "url": "https://links.tldrnewsletter.com/8ngZvj",
+      "source": "TLDR (via newsletter link)",
+      "date": "2026-06-19",
+      "summary": "A deep-dive into agent loop architecture showing that durable orchestration—not just model intelligence—is the foundational property. Covers where loops commonly break, how to recover, and how to build agents capable of building their own skills.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "autonomous-agent",
+        "compound-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "91dea6aa",
+      "title": "Yann LeCun on xAI Failure, Elon Musk, and AI Labs Bubble Risk",
+      "url": "https://www.cnbc.com/2026/06/18/yann-lecun-elon-musk-xai-failure-ai-labs-bubble-risk.html",
+      "source": "CNBC",
+      "date": "2026-06-18",
+      "summary": "Yann LeCun publicly critiques xAI's trajectory and warns of systemic bubble risk in AI lab valuations, arguing current LLM-centric approaches hit fundamental limitations that venture capital is ignoring. Positions LeCun as the prominent institutionalized skeptic against the extrapolationist mainstream.",
+      "industry_nodes": [],
+      "schools": [
+        "bubble-skeptics",
+        "llm-doubters",
+        "post-agi-skeptics"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "da88bc1c",
+      "title": "AI Work Needs a Pull Request",
+      "url": "https://links.tldrnewsletter.com/IRKes1",
+      "source": "TLDR (via newsletter link)",
+      "date": "2026-06-19",
+      "summary": "Argues that agents operating across codebases, files, and infrastructure need structured human checkpoints analogous to pull requests—a review layer that lets humans accept useful work, reject weak work, and maintain an audit trail. Frames the PR as the natural coordination primitive for human-agent collaboration.",
+      "industry_nodes": [],
+      "schools": [
+        "manager-of-agents",
+        "productive-friction",
+        "autonomous-agent"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "1086af06",
+      "title": "How Meter Pricing Is Testing the Economics of AI",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-18/ai-costs-what-shift-from-flat-rate-to-token-pricing-model-means-for-industry",
+      "source": "Bloomberg",
+      "date": "2026-06-18",
+      "summary": "Bloomberg examines the industry-wide shift from flat-rate AI subscriptions to token-based metered billing—triggered by GitHub Copilot moving to AI Credits June 1 and Anthropic metering agent-mode separately from chat. Agent mode changed unit economics overnight: a single autonomous coding task can cost dollars where a chat completion costs cents.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-economy",
+        "bubble-skeptics",
+        "saas-survives"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "5f423d76",
+      "title": "Open Source vs The Invisible Hand",
+      "url": "https://nesbitt.io/2026/06/18/open-source-vs-the-invisible-hand.html",
+      "source": "Nesbitt.io",
+      "date": "2026-06-18",
+      "summary": "Examines whether open-source AI models can resist the economic gravity pulling them toward closed systems, arguing that market incentives systematically favor proprietary moats over open ecosystems. Relevant as the open vs. closed model debate intensifies with DeepSeek, Meta, and frontier labs vying for developer loyalty.",
+      "industry_nodes": [],
+      "schools": [
+        "gatekeeping-vs-open",
+        "bubble-skeptics"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "41eb6b92",
+      "title": "Noam Shazeer Leaves Google to Join OpenAI",
+      "url": "https://x.com/NoamShazeer/status/2067400851438932297",
+      "source": "X / Noam Shazeer",
+      "date": "2026-06-18",
+      "summary": "Noam Shazeer—co-author of \"Attention Is All You Need\" and Google Gemini co-lead, who was brought back to Google for ~.7B via the Character.AI acquisition—announces he is leaving Google to join OpenAI. Represents the most significant talent move in AI since the OpenAI safety team departures.",
+      "industry_nodes": [],
+      "schools": [
+        "general-ai-news",
+        "where-ai-is-heading"
       ],
       "relevance": 3,
       "status": "pending"
