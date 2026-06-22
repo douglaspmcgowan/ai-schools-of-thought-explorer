@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-21T10:09:54.885Z",
+  "generated": "2026-06-22T10:13:01.519Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -10622,6 +10622,101 @@
         "ai-economy"
       ],
       "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "130d8ce0",
+      "title": "AI Demands More Engineering Discipline. Not Less",
+      "url": "https://charitydotwtf.substack.com/p/ai-demands-more-engineering-discipline",
+      "source": "charity.wtf",
+      "date": "2026-06-15",
+      "summary": "Charity Majors argues that AI's ability to generate good code at the pace of the median engineer makes engineering discipline more essential, not less—because bad practices are now scalable and fast. The real product of a software team is shared understanding, and AI-generated code makes that easier to destroy at scale.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering",
+        "spec-driven",
+        "vibe-coding"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "9144e17e",
+      "title": "Validation, Async vs Sync, and Weekly Readings",
+      "url": "https://refactoring.fm/p/validation-async-vs-sync-and-weekly",
+      "source": "Refactoring.fm",
+      "date": "2026-06-22",
+      "summary": "Luca Rossi argues that reviewing AI output before release has become the dominant engineering bottleneck in agentic workflows—and the right response is releasing control incrementally rather than waiting for perfection. The issue also covers async vs sync communication at remote-first Doist and surfaces three recent practitioner essays on AI and engineering discipline.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering",
+        "workflow-recipes",
+        "vibe-coding"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "e08f1956",
+      "title": "Built on Moving Ground",
+      "url": "https://every.to/context-window/built-on-moving-ground",
+      "source": "Every",
+      "date": "2026-06-21",
+      "summary": "Every's Context Window newsletter reflects on building products and practices in a landscape where AI capabilities shift faster than organizations can adapt—framing the core practitioner challenge of mid-2026 as building on unstable foundations while still shipping. The piece covers Anthropic's dynamic workflows, Cora's email-app alpha, and loop automation for non-coders.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-as-intensifier",
+        "productive-friction"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "93e5f67a",
+      "title": "Temporary Cloudflare Accounts for AI Agents",
+      "url": "https://simonwillison.net/2026/Jun/21/temporary-cloudflare-accounts/",
+      "source": "Simon Willison's Weblog",
+      "date": "2026-06-21",
+      "summary": "Simon Willison covers Cloudflare's new feature letting AI agents deploy Workers via `wrangler deploy --temporary` without needing a human account—solving the hard stop that OAuth flows and dashboards create for background agents. The post is significant as infrastructure that removes a key friction point for fully autonomous agents operating without human presence.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "autonomous-agent",
+        "agent-native-browsing"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "2e94db4b",
+      "title": "Co-Existence and the End of Co-Intelligence",
+      "url": "https://www.oneusefulthing.org/p/co-existence-and-the-end-of-co-intelligence",
+      "source": "One Useful Thing (Ethan Mollick)",
+      "date": "2026-06-04",
+      "summary": "Ethan Mollick argues that AI has moved past co-intelligence—where humans and AI collaborate as rough equals—into co-existence, where AI is sometimes but not always better and humans must decide when to defer. The essay reframes the practitioner challenge from learning to use AI to learning when to trust it and when to override it.",
+      "industry_nodes": [],
+      "schools": [
+        "post-agi-skeptics",
+        "ai-as-intensifier",
+        "productive-friction"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "5f04e4b5",
+      "title": "Choosing to Stay Human",
+      "url": "https://www.oneusefulthing.org/p/choosing-to-stay-human",
+      "source": "One Useful Thing (Ethan Mollick)",
+      "date": "2026-05-26",
+      "summary": "Ethan Mollick examines the proliferation of AI-generated content on social media and in academic publishing, arguing that humans now face a genuine choice about when AI assistance undermines rather than enhances their work. The essay matters as AI-content saturation becomes a real phenomenon, creating a premium on authentic human judgment and voice.",
+      "industry_nodes": [],
+      "schools": [
+        "productive-friction",
+        "post-agi-skeptics",
+        "taste-is-the-bottleneck"
+      ],
+      "relevance": 3,
       "status": "pending"
     }
   ]
