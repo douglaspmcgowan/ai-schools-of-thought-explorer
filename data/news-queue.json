@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-23T10:09:47.526Z",
+  "generated": "2026-06-26T10:13:51.752Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -10964,6 +10964,318 @@
         "spec-driven",
         "compound-engineering",
         "agent-internals"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "152d6bfb",
+      "title": "So You Want to Sell Inference",
+      "url": "https://tomtunguz.com/so-you-want-to-sell-inference/",
+      "source": "TLDR Founders",
+      "date": "2026-06-24",
+      "summary": "AI companies selling inference face a zero-margin cost-plus pricing dilemma and can only escape through value-based pricing tied to outcomes. Optimizing with model routing, caching, and distillation offers additional margin leverage and competitive differentiation.",
+      "industry_nodes": [],
+      "schools": [
+        "services-as-software",
+        "ai-economy"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "fbfc0ef8",
+      "title": "Companies That Build Companies",
+      "url": "https://mondaymorning.substack.com/p/companies-that-build-companies",
+      "source": "TLDR Founders",
+      "date": "2026-06-24",
+      "summary": "Polsia, a startup staffed almost entirely by AI agents, claims $10M in annual revenue — a leading example of the emerging model of AI-agent-run companies. YC-backed Thomas and similar ventures represent a new business archetype where the product is itself a company-building machine.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "services-as-software"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "4efb5feb",
+      "title": "Introducing Claude Tag",
+      "url": "https://www.anthropic.com/news/introducing-claude-tag",
+      "source": "Anthropic",
+      "date": "2026-06-24",
+      "summary": "Anthropic launched Claude Tag, a Slack-native workflow that lets teams assign tasks to Claude across channels, connect it to tools and codebases, and have it retain context over time. The feature marks a significant step toward Claude as a persistent, context-aware team member rather than a one-shot chatbot.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "manager-of-agents"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "938a3c69",
+      "title": "What You Need to Know About Lambda MicroVMs",
+      "url": "https://theburningmonk.com/2026/06/what-you-need-to-know-about-lambda-microvms/",
+      "source": "The Burning Monk",
+      "date": "2026-06-24",
+      "summary": "Lambda MicroVMs offer VM-level isolation with fast startup and stateful sessions, making them ideal for AI agent sandboxes that need to run generated code safely. The auto-suspend-on-idle and vertical scaling features suit the bursty, stateful workloads typical of coding agents.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "9859668b",
+      "title": "AI Agent Hype Meets Reality: The Product Doesn't Work (And Churn Is Coming)",
+      "url": "https://tremendous.blog/2026/06/23/ai-agent-hype-meets-reality-the-product-doesnt-work-and-churn-is-coming/",
+      "source": "Tremendous Blog",
+      "date": "2026-06-23",
+      "summary": "Broad superagent AI products are failing in real-world conditions and losing customers rapidly, threatening the current wave of AI startups. The author argues that narrow focus, rigorous real-world testing, and honest scope constraints are the only viable path to retention.",
+      "industry_nodes": [],
+      "schools": [
+        "bubble-skeptics",
+        "post-agi-skeptics"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "da886c5e",
+      "title": "Red-Teaming after Mythos: Gray Swan on Prompt Injection and AI Security",
+      "url": "https://www.latent.space/p/gray-swan",
+      "source": "Latent Space",
+      "date": "2026-06-22",
+      "summary": "Gray Swan founders Zico Kolter and Matt Fredrikson discuss the growing threat of indirect prompt injection attacks as AI models become more agentic and connected to external data. The episode covers their security benchmarks, the challenge of building safe AI systems at the frontier, and their role evaluating advanced AI for organizations.",
+      "industry_nodes": [],
+      "schools": [
+        "alignment-governance"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "237e7c87",
+      "title": "Build Real Agentic Apps Using CUGA: Two Dozen Working Examples",
+      "url": "https://huggingface.co/blog/ibm-research/cuga-apps",
+      "source": "Hugging Face / IBM Research",
+      "date": "2026-06-24",
+      "summary": "IBM's CUGA open-source agent harness simplifies agentic app development by handling planning, execution, and state management so developers can focus on tool selection and prompts. It outperforms alternatives on AppWorld benchmarks and includes configurable reasoning modes and policy governance.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "workflow-recipes"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "5fc36909",
+      "title": "The Coming Loop",
+      "url": "https://lucumr.pocoo.org/2026/6/23/the-coming-loop/",
+      "source": "Armin Ronacher",
+      "date": "2026-06-23",
+      "summary": "Armin Ronacher argues that software engineering is entering a loop paradigm where AI agents iterate within feedback cycles rather than executing linear instructions, fundamentally changing how programs are structured. This loop-first architecture requires rethinking state management, error recovery, and human-AI handoff conventions.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering",
+        "coding-paradigms"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "67f39e1c",
+      "title": "The Problem Is Prompt Debt",
+      "url": "https://www.dbreunig.com/2026/06/22/the-problem-is-prompt-debt.html",
+      "source": "Drew Breunig",
+      "date": "2026-06-22",
+      "summary": "Prompt debt accumulates when AI systems are built around prompts that are never updated, creating brittle pipelines as models evolve underneath them. This mirrors technical debt but operates on much faster decay cycles, making prompt maintenance an underappreciated engineering discipline.",
+      "industry_nodes": [],
+      "schools": [
+        "prompting-craft",
+        "context-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "eafad190",
+      "title": "Introducing Computer Use on Gemini 3.5 Flash",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/",
+      "source": "Google",
+      "date": "2026-06-25",
+      "summary": "Google launched native computer-use capabilities for Gemini 3.5 Flash, enabling the lightweight model to interact directly with digital desktop interfaces by processing continuous screenshots and executing click, scroll, and typing actions. The move brings direct screen-control agency to a cost-efficient model, expanding the deployment surface for autonomous browser and desktop agents.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-native-browsing",
+        "new-models"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "e7d67751",
+      "title": "Notes on Amazon v. Perplexity",
+      "url": "https://educatedguesswork.org/posts/notes-amazon-perplexity/",
+      "source": "Educated Guesswork",
+      "date": "2026-06-25",
+      "summary": "Eric Rescorla's detailed analysis argues that agentic browsing is simply another browser feature users are entitled to, and that requiring agents to identify themselves as non-Chrome clients violates the open web principles of user control over their client. The case is a bellwether for how existing web law will — or won't — adapt to autonomous browsing agents.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-native-browsing"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "dae7dbd9",
+      "title": "GLM-5.2 Is the Step Change for Open Agents",
+      "url": "https://www.interconnects.ai/p/glm-52-is-the-step-change-for-open",
+      "source": "Interconnects.ai",
+      "date": "2026-06-25",
+      "summary": "Z.ai's GLM-5.2 (753B, MIT-licensed, 1M context) is being called a genuine step change for open-weight coding agents, performing well in agentic harnesses where proprietary models previously dominated. The release signals a narrowing gap between open and closed frontier models for agentic use cases.",
+      "industry_nodes": [],
+      "schools": [
+        "new-models",
+        "autonomous-agent"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "97fda020",
+      "title": "We Used Context Engineering to 5x Conversion and 2x Activation",
+      "url": "https://newsletter.posthog.com/p/we-used-ai-to-5x-conversion-and-2x",
+      "source": "Product for Engineers (PostHog)",
+      "date": "2026-06-24",
+      "summary": "PostHog's AI onboarding wizard reduced a two-hour manual SDK setup to 8 minutes by discovering that reasoning improvement at the agent layer had marginal gains — the real unlock was engineering the context supply. Their docs team became context engineers, building a company-wide retrieval layer covering 20+ products and 17+ SDKs.",
+      "industry_nodes": [],
+      "schools": [
+        "context-engineering",
+        "agent-internals"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "4d8ea677",
+      "title": "Codex for Everything and Everyone",
+      "url": "https://every.to/context-window/codex-for-everything-and-everyone",
+      "source": "Every.to",
+      "date": "2026-06-25",
+      "summary": "Every.to argues that coding agents like Codex have crossed the threshold from engineer-only tools to general productivity tools for anyone who wants to work more ambitiously. The piece updates their practical guide to Codex for non-technical readers, framing the shift as analogous to calculators reaching beyond math specialists.",
+      "industry_nodes": [],
+      "schools": [
+        "vibe-coding",
+        "coding-paradigms"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "9c0059c0",
+      "title": "Token Tightening",
+      "url": "https://every.to/context-window/token-tightening",
+      "source": "Every.to",
+      "date": "2026-06-24",
+      "summary": "Companies are entering an AI allocation era where access to the most powerful models is being rationed internally — the biggest compute budgets going to people who can prove the biggest returns. The piece frames token budgets as emerging like trading portfolios, with ROI measurement becoming a new org-design challenge.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-economy",
+        "ai-rebundling"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "5ab4a021",
+      "title": "Can AI Learn Good Judgment?",
+      "url": "https://every.to/context-window/can-ai-learn-good-judgment",
+      "source": "Every.to",
+      "date": "2026-06-24",
+      "summary": "Every.to experiments show AI can learn judgment from surprisingly thin evidence: 30,000 past edits, a two-minute screen recording, or a clear goal. Dan Shipper is training a copy editor on an expert editor's edit history, exploring how demonstrations transfer human expertise to models.",
+      "industry_nodes": [],
+      "schools": [
+        "reasoning-rl",
+        "alignment-governance"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "032f4eac",
+      "title": "The Power of Stories with Rands",
+      "url": "https://refactoring.fm/p/the-power-of-stories-with-michael",
+      "source": "Refactoring.fm",
+      "date": "2026-06-26",
+      "summary": "Michael Lopp (Rands) discusses how storytelling remains the core management skill even as AI takes over coding, and predicts the return of the coding manager — leaders who understand technology well enough to guide AI agents. The conversation explores what leadership leverage looks like when the machines write the code.",
+      "industry_nodes": [],
+      "schools": [
+        "manager-of-agents",
+        "org-design"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "dac1d2e3",
+      "title": "The AI Engineering Report 2026: The AI Acceleration Whiplash",
+      "url": "https://www.faros.ai/research/ai-acceleration-whiplash",
+      "source": "Faros.ai",
+      "date": "2026-06-01",
+      "summary": "The largest quantitative study of AI impact across the full software delivery lifecycle finds developers completing 66% more epics but code churn exploding 861% — the downstream systems of review, QA, and production were never designed to absorb AI-paced output. Volume is up, quality is down, and the gap is widening as adoption deepens.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering",
+        "vibe-coding",
+        "bubble-skeptics"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "3147f903",
+      "title": "Agent-native Architectures: How to Build Apps After the End of Code",
+      "url": "https://every.to/chain-of-thought/agent-native-architectures-how-to-build-apps-after-the-end-of-code",
+      "source": "Every.to",
+      "date": "2026-05-01",
+      "summary": "Dan Shipper argues that agent-native apps replace imperative code with prompts that name outcomes rather than steps, making the agent — not the codebase — the core of the application. The piece introduces a framework for building apps as garden-like living systems rather than constructed machines.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "autonomous-agent",
+        "living-software"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "56c4f1e9",
+      "title": "Living Software",
+      "url": "https://every.to/p/living-software",
+      "source": "Every.to",
+      "date": "2026-04-17",
+      "summary": "Jack Cheng distinguishes tool-like software (expected to be stable and consistent) from living software (expected to grow and adapt), arguing that AI-powered apps are blurring this line in ways that confuse users mental models. The essay provides vocabulary for a new design and product challenge: how do you build for something that changes itself?",
+      "industry_nodes": [],
+      "schools": [
+        "living-software"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "93fd59b4",
+      "title": "Why the Frontier Ecosystem Must Be Open — Matei Zaharia and Reynold Xin, Databricks",
+      "url": "https://www.latent.space/p/databricks",
+      "source": "Latent Space",
+      "date": "2026-06-25",
+      "summary": "Databricks founders Matei Zaharia and Reynold Xin make the case that a closed frontier AI ecosystem poses existential risk to the industry and that open data infrastructure is the prerequisite for trustworthy AI. The episode covers their Omnigent, LTAP, and Lakebase announcements as evidence that openness is a competitive moat, not a sacrifice.",
+      "industry_nodes": [],
+      "schools": [
+        "gatekeeping-vs-open"
       ],
       "relevance": 4,
       "status": "pending"
