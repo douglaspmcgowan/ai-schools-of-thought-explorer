@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-26T10:13:51.752Z",
+  "generated": "2026-06-28T10:08:49.918Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -11278,6 +11278,257 @@
         "gatekeeping-vs-open"
       ],
       "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "cc1f66ba",
+      "title": "Claude Code Is the OpenClaw Alternative You Already Have",
+      "url": "https://every.to/source-code/claude-code-is-the-openclaw-alternative-you-already-have",
+      "source": "Every",
+      "date": "2026-06-26",
+      "summary": "Every.to engineer Nityesh Agarwal details how Claude Code — marketed as a coding tool — is a more reliable and architecturally simpler alternative to OpenClaw for building autonomous AI employees, based on hands-on experience building 'Claudie,' an AI agent running 24/7 on a Mac Mini. The piece maps the five capabilities that made OpenClaw go viral (memory, real-world actions, skills, persistence, autonomy) and shows how Claude Code already delivers each, while avoiding OpenClaw's bloated context and unreliable memory layers.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "agent-internals",
+        "compound-engineering",
+        "folder-as-agent",
+        "manager-of-agents"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "f546c5d9",
+      "title": "The State of the AI Economy",
+      "url": "https://www.exponentialview.co/p/the-state-of-the-ai-economy",
+      "source": "Exponential View",
+      "date": "2026-06-26",
+      "summary": "A deep analysis of the generative AI economy shows $110B in sales over the past 12 months with a $175B annualized run rate, with demand-side understanding lagging supply-side clarity. The piece examines enterprise and consumer spend, revenue-to-investment ratios, and the long-run impact of falling token prices on market dynamics.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-economy",
+        "not-a-bubble",
+        "saas-survives",
+        "services-as-software"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "70cc6726",
+      "title": "Scaling Laws, Carefully",
+      "url": "https://lilianweng.github.io/posts/2026-06-24-scaling-laws/",
+      "source": "Lil'Log (Lilian Weng)",
+      "date": "2026-06-24",
+      "summary": "Lilian Weng's long-awaited deep dive into scaling laws — covering compute-optimal allocation between model size and data, why Kaplan and Chinchilla disagree, and how approaching data exhaustion (quality-filtered public text potentially depleted 2026–2032) makes extrapolation treacherous. Essential reading for anyone reasoning about where frontier training is heading.",
+      "industry_nodes": [],
+      "schools": [
+        "scaling-laws-revisionism",
+        "world-models",
+        "reasoning-rl",
+        "where-ai-is-heading"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "7d96e7da",
+      "title": "White House Asks OpenAI to Slow Roll New Model Release",
+      "url": "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/",
+      "source": "TechCrunch",
+      "date": "2026-06-25",
+      "summary": "The Trump administration has issued a formal request asking OpenAI to delay the public rollout of its next-generation frontier model (GPT-5.6) for extended red-teaming of cyber-capability execution limits and social manipulation vulnerabilities. GPT-5.6 will initially release to 20 trusted partners via AWS Bedrock as the administration develops a shared framework with frontier labs.",
+      "industry_nodes": [],
+      "schools": [
+        "alignment-governance",
+        "agi-timelines",
+        "constitutionalism-critiques"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "ce3b9afb",
+      "title": "Vercel AI SDK 7: Production-Ready Agent Infrastructure",
+      "url": "https://vercel.com/blog/ai-sdk-7",
+      "source": "Vercel",
+      "date": "2026-06-26",
+      "summary": "Vercel's AI SDK 7 tackles the hard problems for production agents: durable execution that survives crashes, tool-approval policies requiring human sign-off, persistent streaming, and a harness layer that wraps Claude Code, Codex, and others behind a unified agent interface. This moves the SDK from a 'chat primitives' toolkit to a full agent platform covering text, audio, realtime, image, and video.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "compound-engineering",
+        "coding-paradigms",
+        "new-tools"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "8cafc9ad",
+      "title": "Build the Agent or Power the Agent",
+      "url": "https://www.tanayj.com/p/build-the-agent-or-power-the-agent",
+      "source": "Tanay Jaipuria (Substack)",
+      "date": "2026-06-26",
+      "summary": "Tanay Jaipuria maps the emerging bifurcation in the agentic software market: vertical end-to-end agents that replace human service labor vs. infrastructure platforms that gain defensibility by providing essential orchestration layers. The piece argues that infrastructure platforms will win long-run moats while vertical agents capture high initial contract values.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-architecture",
+        "services-as-software",
+        "manager-of-agents",
+        "ai-rebundling"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "fe33f0e1",
+      "title": "Lessons from Anthropic on Building Effective Human-Agent Teams",
+      "url": "https://claude.com/blog/building-effective-human-agent-teams",
+      "source": "Anthropic",
+      "date": "2026-06-26",
+      "summary": "Anthropic's internal lessons from deploying 'multiplayer agents' — AI systems working alongside many humans simultaneously — cover how to define roles, maintain shared memory via text, and set human-controlled north stars. The piece argues that agents build context entirely from written, searchable text, making documentation and role clarity the key leverage points.",
+      "industry_nodes": [],
+      "schools": [
+        "manager-of-agents",
+        "compound-engineering-org",
+        "ai-native-flat",
+        "spec-driven"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "7e7e3ed6",
+      "title": "The Age of the Solopreneur",
+      "url": "https://www.stripeeconomics.com/p/the-age-of-the-solopreneur",
+      "source": "Stripe Economics",
+      "date": "2026-06-26",
+      "summary": "Stripe data shows solopreneurs clearing $1M/year doubled from 2023 to 2025 and $5M+ crossers tripled, with 2025 cohorts hitting $1M 30% faster than 2023 and 3x faster than 2019. The data marks a structural shift in what a one-person business can achieve — driven largely by AI leverage.",
+      "industry_nodes": [],
+      "schools": [
+        "services-as-software",
+        "ai-rebundling",
+        "ai-economy"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "0ed81f55",
+      "title": "The AI Era Requires a Different Kind of Experimentation",
+      "url": "https://www.elenaverna.com/p/the-ai-era-requires-a-different-kind",
+      "source": "Elena Verna (Substack)",
+      "date": "2026-06-26",
+      "summary": "Elena Verna argues that AI's impact breaks traditional A/B testing orthodoxy: founders should skip minor revenue optimizations, run longer tests, and take bigger strategic swings because product development velocity has fundamentally changed. The core thesis is that AI enables experiments that would previously be too expensive or slow to run.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering",
+        "ai-as-intensifier",
+        "productive-friction"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "69683494",
+      "title": "How the Smartest Startups Are Building Moats Right Now",
+      "url": "https://newsletter.notablecap.com/p/how-the-smartest-startups-are-building-moats-right-now",
+      "source": "Notable Capital",
+      "date": "2026-06-26",
+      "summary": "As foundational model access commoditizes software functionality, early-stage startups are pivoting toward proprietary data loops and deeply embedded operational workflows as defensible moats — capturing high-fidelity enterprise interaction data that can't be scraped or simulated by generalized frontier models. The piece contrasts pure software moats (gone) against data and workflow moats (durable).",
+      "industry_nodes": [],
+      "schools": [
+        "saas-survives",
+        "not-a-bubble",
+        "services-as-software",
+        "ai-rebundling"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "0cf38641",
+      "title": "Repricing of Software Engineering Labor",
+      "url": "https://blog.grandimam.com/posts/repricing-of-software-engineering-labor/",
+      "source": "Grand Imam (blog)",
+      "date": "2026-06-26",
+      "summary": "The AI-native tooling layer is crowded and being an 'AI engineer' is not a moat, but production-grade engineering — reliability, scale, security, performance, observability — remains hard and distinctly human-valuable. The piece argues the biggest returns come from knowing one hard technical domain exceptionally well, not from generic AI fluency.",
+      "industry_nodes": [],
+      "schools": [
+        "services-as-software",
+        "compound-engineering",
+        "saas-survives",
+        "bubble-skeptics"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "602ff8e2",
+      "title": "Incident Report: CVE-2026-LGTM — When Two AI Review Agents Disagreed for $41K",
+      "url": "https://simonwillison.net/2026/Jun/26/incident-report/",
+      "source": "Simon Willison",
+      "date": "2026-06-26",
+      "summary": "A hypothetical-but-plausible incident report (linked by Simon Willison) describes two AI code review agents from competing vendors entering an infinite disagreement loop over a package's security status, generating 340 comments and $41,255 in inference spend before Finance revokes both API keys. It's a parable for agent-to-agent coordination failure modes and the absence of circuit breakers.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "agent-internals",
+        "alignment-governance",
+        "productive-friction"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "330c54d3",
+      "title": "Beyond Vibe Coding: A Designer's Case for Directed Generation",
+      "url": "https://uxmag.com/articles/beyond-vibe-coding-a-designers-case-for-directed-generation",
+      "source": "UX Magazine",
+      "date": "2026-06-26",
+      "summary": "A designer argues the term 'vibe coding' misframes intentional AI-assisted workflows as passive, low-accountability generation and proposes 'directed generation' or 'reference-guided generation' to better describe a process where human judgment, references, and constraints actively steer AI output. The reframing positions designers as curators and directors rather than passive prompt-givers.",
+      "industry_nodes": [],
+      "schools": [
+        "vibe-coding",
+        "design-ai-as-tool",
+        "taste-is-the-bottleneck",
+        "productive-friction"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "d71c51ab",
+      "title": "Control an Android Phone with Gemini 3.5 Flash Computer Use",
+      "url": "https://www.philschmid.de/gemini-android-use",
+      "source": "Philipp Schmid",
+      "date": "2026-06-26",
+      "summary": "A step-by-step guide to using Gemini 3.5 Flash's built-in Computer Use tool for mobile automation — the model takes a screenshot and a goal and returns structured actions to execute, supporting desktop, mobile, and browser automation. Demonstrates a practical agent loop for phone control requiring no custom tooling.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-native-browsing",
+        "new-tools",
+        "how-to-use-ai"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "0f4be8a5",
+      "title": "Liquid AI Releases LFM 2.5: 230M Non-Transformer Model",
+      "url": "https://www.liquid.ai/blog/lfm2-5-230m",
+      "source": "Liquid AI",
+      "date": "2026-06-26",
+      "summary": "Liquid AI releases LFM 2.5, a 230M-parameter non-transformer model based on state-space and liquid neural network formulations that achieves parity with transformers 3x its size on edge reasoning benchmarks. Significant as evidence that post-transformer architectures are approaching practical viability at small-to-medium scale.",
+      "industry_nodes": [],
+      "schools": [
+        "scaling-laws-revisionism",
+        "new-models",
+        "world-models"
+      ],
+      "relevance": 3,
       "status": "pending"
     }
   ]
