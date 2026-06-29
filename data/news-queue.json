@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-28T10:08:49.918Z",
+  "generated": "2026-06-29T10:10:30.851Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -11529,6 +11529,145 @@
         "world-models"
       ],
       "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "c829911a",
+      "title": "Everyone Gets an Agent. Almost No One Gets the Model.",
+      "url": "https://every.to/context-window/everyone-gets-an-agent-almost-no-one-gets-the-model",
+      "source": "Every",
+      "date": "2026-06-28",
+      "summary": "Dan Shipper and Mike Taylor explore the paradox of GPT-5.6 Sol being locked to 20 pre-approved companies while Codex hits 5M weekly active users—access to frontier models is being rationed as they become more powerful. The piece argues this creates a two-tier AI economy where token access functions like capital allocation, reshaping who can compete in knowledge work.",
+      "industry_nodes": [],
+      "schools": [
+        "gatekeeping-vs-open",
+        "services-as-software",
+        "autonomous-agent"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "4d009f16",
+      "title": "Earn Your Scepticism",
+      "url": "https://www.theengineeringmanager.com/growth/earn-your-scepticism/",
+      "source": "The Engineering Manager",
+      "date": "2026-06-11",
+      "summary": "James Stanier draws a sharp distinction between scepticism as a conclusion (earned through hands-on use and updating as evidence changes) versus scepticism as an identity (a defensive stance that resists evidence). The piece argues that the real risk in AI adoption is not where you land but how rigidly you hold the position—applicable equally to over-zealous believers and knee-jerk dismissers.",
+      "industry_nodes": [],
+      "schools": [
+        "bubble-skeptics",
+        "llm-doubters"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "c875a063",
+      "title": "Expertise in the Age of AI",
+      "url": "https://www.moderndescartes.com/essays/ai_and_expertise/",
+      "source": "Modern Descartes",
+      "date": "2026-06-29",
+      "summary": "Brian Kihoon Lee uses the historical calculator analogy to argue that AI removes mechanical execution from expertise but makes the underlying intuition and judgment more valuable—not less. He traces the junior engineer market collapse as evidence and challenges the assumption that abundant cheap AI output reduces the value of domain expertise.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-as-intensifier",
+        "compound-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "7035792e",
+      "title": "What happened after 2,000 people tried to hack my AI assistant",
+      "url": "https://simonwillison.net/2026/Jun/26/hack-my-ai-assistant/",
+      "source": "Simon Willison's Weblog",
+      "date": "2026-06-26",
+      "summary": "Simon Willison covers Fernando Irarrázaval's real-world challenge where 2,000 people attempted to exfiltrate secrets from an OpenClaw instance by sending it email—probing the prompt injection attack surface of AI agents in production. The findings matter because they document which attack classes succeed in practice against a deployed agent, informing both defensive design and the constitutional guardrails debate.",
+      "industry_nodes": [],
+      "schools": [
+        "constitutional",
+        "constitutionalism-critiques"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "fc5dac60",
+      "title": "AI and Liability",
+      "url": "https://simonwillison.net/2026/Jun/25/ai-and-liability/",
+      "source": "Simon Willison's Weblog",
+      "date": "2026-06-25",
+      "summary": "Bruce Schneier's analysis of a German ruling holding Google liable for AI overview errors argues that AI agents are legally agents of their deployers—and that allowing companies to hide behind faulty AI output would be a massive regulatory handout. The ruling creates a potential template for AI liability frameworks globally, making this essential for the alignment-governance school.",
+      "industry_nodes": [],
+      "schools": [
+        "constitutional",
+        "constitutionalism-critiques"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "877a624a",
+      "title": "AI Scaling Laws Guide Billions in Compute Spend: Weng Reveals the Cracks",
+      "url": "https://www.techtimes.com/articles/319204/20260627/ai-scaling-laws-guide-billions-compute-spend-weng-reveals-cracks.htm",
+      "source": "TechTimes",
+      "date": "2026-06-27",
+      "summary": "Covers researcher Weng's critique showing that repeated training tokens decay in value exponentially rather than linearly, and that quality-filtered public text will be exhausted between 2026 and 2032 at current rates—exposing cracks in the scaling-law assumptions guiding billions in AI investment. The piece is a significant update to the scaling debate and directly challenges the extrapolators camp.",
+      "industry_nodes": [],
+      "schools": [
+        "scaling-laws-revisionism",
+        "bubble-skeptics",
+        "extrapolators"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "0dc74f0b",
+      "title": "OpenAI and Anthropic face new AI reality as users shift from tokenmaxxing to efficiency",
+      "url": "https://www.cnbc.com/2026/06/26/openai-anthropic-new-ai-spending-reality-as-users-shift-to-efficiency.html",
+      "source": "CNBC",
+      "date": "2026-06-26",
+      "summary": "CNBC documents the industry-wide shift from tokenmaxxing (maximize AI use without cost scrutiny) to token discipline, with major companies including Uber (95% AI coding adoption but no direct correlation to useful features) and Coinbase imposing caps. This piece frames the AI productivity paradox as a macro trend shaping how frontier AI labs must now price and position their products.",
+      "industry_nodes": [],
+      "schools": [
+        "services-as-software",
+        "saas-survives",
+        "bubble-skeptics"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "444e45a4",
+      "title": "Companies are scrambling to stop employees from maxing out AI budgets with small tasks",
+      "url": "https://techcrunch.com/2026/06/24/companies-are-scrambling-to-stop-employees-from-maxing-out-ai-budgets-with-small-tasks/",
+      "source": "TechCrunch",
+      "date": "2026-06-24",
+      "summary": "TechCrunch reports that per-developer token consumption rose 18.6x in nine months and major companies are now implementing tiered access, spending caps, and ROI requirements for AI tool usage—with Uber, Walmart, Amazon, and Coinbase all named. The piece documents the operational transition from AI-as-productivity-tool to AI-as-managed-resource, directly relevant to the AI economy and org-design schools.",
+      "industry_nodes": [],
+      "schools": [
+        "services-as-software",
+        "compound-engineering-org",
+        "ai-rebundling"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "177fcfdc",
+      "title": "The token bill comes due: Inside the industry scramble to manage AI runaway costs",
+      "url": "https://techcrunch.com/2026/06/05/the-token-bill-comes-due-inside-the-industry-scramble-to-manage-ais-runaway-costs/",
+      "source": "TechCrunch",
+      "date": "2026-06-05",
+      "summary": "TechCrunch investigates how companies found themselves 3x over their 2026 token budget by April/May after late-2025 models dramatically multiplied tokens-per-task through stronger agentic behavior. An investigative piece documenting the structural reason the AI economy shifted—not usage growth, but per-task token explosion from agentic model generations.",
+      "industry_nodes": [],
+      "schools": [
+        "services-as-software",
+        "bubble-skeptics"
+      ],
+      "relevance": 4,
       "status": "pending"
     }
   ]
