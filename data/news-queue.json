@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-12T10:16:54.404Z",
+  "generated": "2026-07-13T10:16:11.044Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -12502,6 +12502,174 @@
       "relevance": 4,
       "id": "59a28d23",
       "industry_nodes": [],
+      "status": "pending"
+    },
+    {
+      "id": "9c5376b9",
+      "title": "Viability of Local Models for Coding",
+      "url": "https://martinfowler.com/articles/exploring-gen-ai/local-models-for-coding-factors.html",
+      "source": "Martin Fowler / Thoughtworks",
+      "date": "2026-07-07",
+      "summary": "Birgitta Böckeler shares a four-week personal evaluation of local coding models, finding they are improving rapidly but still constrained by RAM, speed, context size, tool-calling reliability, and multi-file coherence. Matters as a practitioner-level reality check on the local-model path before teams commit to infrastructure investment.",
+      "industry_nodes": [],
+      "schools": [
+        "coding-paradigms",
+        "vibe-coding"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "48653a18",
+      "title": "In Defense of AI Mandates",
+      "url": "https://charity.wtf/p/in-defense-of-ai-mandates",
+      "source": "charity.wtf",
+      "date": "2026-07-02",
+      "summary": "Charity Majors argues that AI mandates are legitimate 'funding devices' for organizational transformation, requiring leaders to budget for the inevitable slowdowns and messes that accompany change rather than just demanding adoption. Reframes mandates not as authoritarian imposition but as a change-management tool that creates space for teams to genuinely learn.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-as-intensifier",
+        "compound-engineering-org"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "f919a11d",
+      "title": "We Should Be More Tired Than the Model",
+      "url": "https://vickiboykis.com/2026/05/28/we-should-be-more-tired-than-the-model/",
+      "source": "vickiboykis.com",
+      "date": "2026-05-28",
+      "summary": "Vicki Boykis argues that agentic code generation creates cognitive off-loading risk and proposes deliberate friction heuristics—spending 20 minutes on a problem before delegating, discussing implementations with colleagues—to keep developer skills sharp. A counterpoint to pure vibe-coding advocates, arguing that friction builds your own foundation rather than the model's.",
+      "industry_nodes": [],
+      "schools": [
+        "productive-friction",
+        "vibe-coding"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "1e7deb3e",
+      "title": "From Doing to Tending",
+      "url": "https://every.to/context-window/from-doing-to-tending",
+      "source": "Every",
+      "date": "2026-07-12",
+      "summary": "Every's Context Window newsletter reframes the future of knowledge work as 'tending loops' rather than doing tasks directly, with Dan Shipper's open-source Tend prompt showing how GPT-5.6 can autonomously process Gmail, Slack, and other feeds while you approve decisions. Also includes a Grok 4.5 vibe check (Opus-level quality at $2/$6 per million tokens) and an NYT essay on AI scribes dulling clinical reasoning—together the strongest articulation yet of the manager-of-agents paradigm.",
+      "industry_nodes": [],
+      "schools": [
+        "manager-of-agents",
+        "living-software",
+        "single-loop"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "4d94d17a",
+      "title": "GPT-5.6 Sol Is Our Favorite Model to Collaborate With",
+      "url": "https://every.to/vibe-check/gpt-5-6-sol",
+      "source": "Every",
+      "date": "2026-07-13",
+      "summary": "Every's team ran GPT-5.6 Sol through their full compound-engineering workflow—coding, writing, research, spreadsheets, and agents—finding it their preferred daily driver for nearly everything, with Fable reserved for the biggest open-ended assignments. Provides direct practitioner benchmarking at a workflow level rather than abstract benchmark scores, relevant to teams choosing a daily-driver model.",
+      "industry_nodes": [],
+      "schools": [
+        "new-models",
+        "compound-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "a5d6e381",
+      "title": "AI Medical Scribes Could Dull Doctors' Judgment",
+      "url": "https://www.nytimes.com/2026/07/01/magazine/ai-medical-scribes-doctors.html",
+      "source": "New York Times",
+      "date": "2026-07-01",
+      "summary": "Emergency medicine professor Dr. Helen Ouyang argues that writing clinical notes is integral to diagnostic reasoning, and that AI scribes risk 'cognitive off-loading' that atrophies the clinical judgment muscle over time. Analogizes to aviation's autopilot-induced skill degradation and proposes a future requiring mandated manual practice for trainees—a high-stakes case study in productive-friction thinking.",
+      "industry_nodes": [],
+      "schools": [
+        "productive-friction",
+        "ai-as-intensifier"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "8a618913",
+      "title": "Introducing GPT-Live",
+      "url": "https://simonwillison.net/2026/Jul/8/introducing-gptlive/",
+      "source": "Simon Willison",
+      "date": "2026-07-08",
+      "summary": "Simon Willison reports on OpenAI's GPT-Live, a simultaneous-listen-and-speak voice model that delegates harder tasks—web search, deeper reasoning—to GPT-5.5 asynchronously and brings the result back into conversation. Matters as a design pattern for voice-native AI products and a concrete example of model orchestration at the consumer layer.",
+      "industry_nodes": [],
+      "schools": [
+        "new-models",
+        "new-tools",
+        "agent-internals"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "7ecd1630",
+      "title": "Fable Gets Another Bump",
+      "url": "https://simonwillison.net/2026/Jul/12/bump/",
+      "source": "Simon Willison",
+      "date": "2026-07-12",
+      "summary": "Anthropic has again extended Claude Fable 5 access—through July 19—as a defensive response to GPT-5.6 Sol achieving Fable-class quality at a fraction of the price, but Willison argues the temporary-extension strategy is ceding users to OpenAI and calls for permanent Fable availability on paid plans. A useful competitive-dynamics signal on frontier model access and pricing pressure.",
+      "industry_nodes": [],
+      "schools": [
+        "new-models",
+        "scaling-laws-revisionism"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "746a0461",
+      "title": "Welcome to Efficiencymaxxing",
+      "url": "https://every.to/context-window/welcome-to-efficiencymaxxing",
+      "source": "Every",
+      "date": "2026-07-06",
+      "summary": "Argues that the subsidized tokenmaxxing era—measuring AI adoption by tokens burned—is ending as labs pull back subsidies and compute costs rise, replaced by 'efficiencymaxxing': competing on what you get per token spent. Introduces 'revenue per million tokens' as a successor KPI to 'revenue per employee', reflecting the shift from AI access to AI ROI discipline.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-economy",
+        "services-as-software"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "82c81fef",
+      "title": "How a Writer Uses AI Without Losing His Voice",
+      "url": "https://every.to/podcast/transcript-how-a-writer-uses-ai-without-losing-his-voice",
+      "source": "Every / AI & I podcast",
+      "date": "2026-07-10",
+      "summary": "Writer Craig Mod joins Dan Shipper to explain why cheap software creation has raised the premium on creative intent—he vibe-codes SaaS tool replacements with Opus/Fable but writes every word himself on a WiFi-free MacBook because 'being in the mess of writing is the point.' A practitioner case study in drawing conscious AI adoption boundaries within a creative practice.",
+      "industry_nodes": [],
+      "schools": [
+        "productive-friction",
+        "taste-is-the-bottleneck",
+        "design-ai-as-tool"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "623f6abf",
+      "title": "Introducing Grok 4.5",
+      "url": "https://x.ai/news/grok-4-5",
+      "source": "xAI",
+      "date": "2026-07-10",
+      "summary": "xAI launches Grok 4.5, jointly trained with Cursor/SpaceX using real-codebase interaction data, running at ~80 tokens/second at $2/$6 per million input/output tokens—reaching roughly Opus-level quality at dramatically lower cost. Introduces a new competitive price-performance point at the frontier tier that directly pressures Anthropic's and OpenAI's pricing models.",
+      "industry_nodes": [],
+      "schools": [
+        "new-models",
+        "saas-survives"
+      ],
+      "relevance": 4,
       "status": "pending"
     }
   ]
