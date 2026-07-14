@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-13T10:16:11.044Z",
+  "generated": "2026-07-14T10:17:49.746Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -12668,6 +12668,165 @@
       "schools": [
         "new-models",
         "saas-survives"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "b49a8121",
+      "title": "How I Polish Software That Agents Built",
+      "url": "https://every.to/source-code/how-i-polish-software-that-agents-built",
+      "source": "Every / Source Code",
+      "date": "2026-07-13",
+      "summary": "Kieran Klaassen argues that the 'factory' of coding has been automated by agents, leaving humans to supply taste: sitting with the agent's output and pushing it past functional into genuinely good. Defines 'polishing' as the final loop of compound engineering where human judgment about feel, UX, and product voice shapes what agents can't produce alone.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering",
+        "taste-is-the-bottleneck",
+        "vibe-coding"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "887cafb5",
+      "title": "Own Your Weights",
+      "url": "https://cloudedjudgement.substack.com/p/clouded-judgement-71026-own-your",
+      "source": "Clouded Judgement",
+      "date": "2026-07-10",
+      "summary": "Argues the complexity tax of maintaining model weights is too high for most businesses, and what the market actually needs is a managed service that builds task-specific models on a company's data while they retain infrastructure control. Frames this as the missing middle between renting frontier APIs and full model ownership.",
+      "industry_nodes": [],
+      "schools": [
+        "saas-survives",
+        "services-as-software",
+        "ai-rebundling"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "7fe53b6e",
+      "title": "The Future Worth Building Is Human",
+      "url": "https://thinkingmachines.ai/blog/the-future-worth-building-is-human/",
+      "source": "Thinking Machines",
+      "date": "2026-07-13",
+      "summary": "Thinking Machines lays out a thesis for AI that extends rather than replaces human judgment: customizable, interactive models that allow organizations to align AI with their unique knowledge and values. Argues diverse, localized AI adaptations—not one-size global models—are the meaningful frontier.",
+      "industry_nodes": [],
+      "schools": [
+        "constitutional",
+        "ai-as-intensifier",
+        "design-ai-as-tool"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "e0a1c33d",
+      "title": "OpenWiki Brains: Proactive Memory for AI Agents",
+      "url": "https://www.langchain.com/blog/introducing-openwiki-brains-general-purpose-wiki-memory-for-agents",
+      "source": "LangChain",
+      "date": "2026-07-13",
+      "summary": "LangChain's OpenWiki Brains enables agents to autonomously gather and update context from connected sources (Gmail, Notion, Twitter), maintaining local wikis without manual updates. Version 0.1.0 moves beyond code docs toward a general-purpose 'Personal Brain' that keeps agent context current across diverse workflows.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "context-engineering",
+        "folder-as-agent"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "168c9b80",
+      "title": "AI-Pilling Our Company: Lessons Learned",
+      "url": "https://sierra.ai/blog/ai-pilling-our-company-lessons-learned",
+      "source": "Sierra",
+      "date": "2026-07-13",
+      "summary": "Sierra's engineering team found 5× productivity on some tasks by running agents in parallel with git worktrees, then built a six-person AI acceleration team to extend this to all 600+ employees. Their coding agent Pinecone now accounts for 70% of PRs; the post details the MCP Gateway architecture, security model, and how they got from pilot to company-wide deployment.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering-org",
+        "manager-of-agents",
+        "compound-engineering"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "bd5f9380",
+      "title": "The Harness as the Context Manager",
+      "url": "https://www.glean.com/blog/harness-context-manager",
+      "source": "Glean",
+      "date": "2026-07-10",
+      "summary": "Glean argues the agent harness—the execution logic surrounding the model—is where real enterprise gains are being made, not the model itself. By moving to code-based orchestration and progressive disclosure, they reduced token usage 24% while handling more complex, longer-running work.",
+      "industry_nodes": [],
+      "schools": [
+        "context-engineering",
+        "agent-internals",
+        "compound-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "82a5aedf",
+      "title": "OpenAI Head of Safety Leaving the Company",
+      "url": "https://www.engadget.com/2212941/openai-head-of-safety-leaving-company-reorganization/",
+      "source": "Engadget",
+      "date": "2026-07-13",
+      "summary": "OpenAI's head of safety is departing during a broader reorganization ahead of its prospective IPO, with Greg Brockman consolidating oversight of key projects. Signals ongoing tension between safety infrastructure and commercial acceleration at frontier labs.",
+      "industry_nodes": [],
+      "schools": [
+        "alignment-governance",
+        "constitutionalism-critiques"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "d27a8a79",
+      "title": "Reflect with Claude",
+      "url": "https://www.anthropic.com/news/reflect-with-claude",
+      "source": "Anthropic",
+      "date": "2026-07-13",
+      "summary": "Anthropic launches Reflect, a new mode or product enabling reflective/journaling interactions with Claude. Signals Anthropic's move into non-coding productivity and personal AI use cases beyond code and work tasks.",
+      "industry_nodes": [],
+      "schools": [
+        "new-tools",
+        "productive-friction",
+        "ai-as-intensifier"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "a76830b2",
+      "title": "Proactive Memory for Long-Horizon Agents",
+      "url": "https://arxiv.org/abs/2607.08716",
+      "source": "arXiv",
+      "date": "2026-07-11",
+      "summary": "A separate memory agent tracks important state and selectively reminds the action agent when relevant context risks being lost, improving pass rates on Terminal-Bench 2.0 and τ2-Bench without modifying the underlying action model. Demonstrates that memory architecture, not model intelligence, is the key bottleneck for long-horizon tasks.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "reasoning-rl",
+        "world-models"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "23411617",
+      "title": "Claude Code Desktop Now Has an In-App Browser",
+      "url": "https://threadreaderapp.com/thread/2075635283211772279.html",
+      "source": "Anthropic (via X/threadreaderapp)",
+      "date": "2026-07-10",
+      "summary": "Anthropic's Claude Code desktop app ships a sandboxed in-app browser that lets the agent read, click, and interact with external sites and docs as naturally as it does with local dev servers. Sessions are configurable, user permissions are per-site, and safety classifiers review actions—a significant step for agent-native browsing workflows.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-native-browsing",
+        "agent-internals",
+        "compound-engineering"
       ],
       "relevance": 4,
       "status": "pending"
