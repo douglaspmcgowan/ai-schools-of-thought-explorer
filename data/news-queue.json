@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-14T10:17:49.746Z",
+  "generated": "2026-07-16T10:16:50.958Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -12829,6 +12829,359 @@
         "compound-engineering"
       ],
       "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "5e7d59d0",
+      "title": "A Framework for Frontier AI and the Dawning of a New Age",
+      "url": "https://demishassabis.substack.com/p/a-framework-for-frontier-ai-and-the-dawning-of-a-new-age",
+      "source": "Demis Hassabis / Substack",
+      "date": "2026-07-14",
+      "summary": "Demis Hassabis argues AGI is \"a few short years away\" and proposes a US-led Frontier AI Standards Body—modelled on FINRA—requiring frontier labs to share models for safety review 30 days pre-release. The most senior AI lab leader to publicly commit to a concrete governance architecture, making this essential reading for anyone tracking alignment and policy.",
+      "industry_nodes": [],
+      "schools": [
+        "alignment-governance",
+        "constitutionalism-critiques",
+        "agi-timelines"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "0e687ec7",
+      "title": "5 Trends That Defined AI Engineering at World's Fair 2026",
+      "url": "https://www.latent.space/p/aiewf26trends",
+      "source": "Latent Space",
+      "date": "2026-07-15",
+      "summary": "Swyx's post-mortem of the 6,000-person AI Engineer World's Fair identifies five defining shifts: MCP has become unremarkable infrastructure, RAG is fading, coding agents now cover web dev (Vercel's eve), the harness/system-around-the-model matters as much as the model, and production reliability has replaced capability as the primary concern. Canonical field-report from the practitioner conference.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "context-engineering",
+        "compound-engineering",
+        "agent-architecture"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "10d93db8",
+      "title": "The Great Flattening",
+      "url": "https://links.tldrnewsletter.com/UHq45E",
+      "source": "TLDR AI",
+      "date": "2026-07-15",
+      "summary": "Prasanna S argues that multi-agent systems now perform the coordination work that three to four layers of engineering management used to do, so the bottleneck shifts from writing code to specifying and supervising agents—compressing the org chart and making middle management the primary casualty. Directly maps to the ai-native-flat and manager-of-agents schools; one of the sharpest takes on AI org design in months.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-native-flat",
+        "compound-engineering-org",
+        "manager-of-agents",
+        "org-design"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "6c5d0606",
+      "title": "What LLM Should You Use for AI Coding?",
+      "url": "https://refactoring.fm/p/what-llm-should-you-use-for-ai-coding",
+      "source": "Refactoring.fm",
+      "date": "2026-07-15",
+      "summary": "Luca Rossi walks through a first-principles framework for model selection: accuracy/speed/cost are non-orthogonal, public benchmarks are unreliable, and the discipline of model routing—using frontier models only where accuracy matters—can cut costs an order of magnitude without sacrificing output quality. Durable practitioner essay that stays valid beyond next week's model release.",
+      "industry_nodes": [],
+      "schools": [
+        "prompting-craft",
+        "workflow-recipes",
+        "empiricists",
+        "how-to-use-ai"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "4fe57414",
+      "title": "You Just Hired a Million Bad Employees",
+      "url": "https://www.a16z.news/p/the-next-ai-goldrush-tokens-loops",
+      "source": "a16z / TLDR",
+      "date": "2026-07-15",
+      "summary": "a16z essay warns that vaguely-scoped AI agents loop and retry indefinitely, spending tokens on re-planning work nobody properly defined—so a badly-managed agent can cost more than the employee it replaced. Reframes the \"cheap tokens = cheap labor\" assumption and argues management discipline is now the lever that determines ROI from agentic AI.",
+      "industry_nodes": [],
+      "schools": [
+        "manager-of-agents",
+        "autonomous-agent",
+        "services-as-software",
+        "ai-economy"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "5c6ef777",
+      "title": "The Tower Keeps Rising",
+      "url": "https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/",
+      "source": "Armin Ronacher / Lucumr",
+      "date": "2026-07-13",
+      "summary": "Armin Ronacher argues that AI removes the friction of understanding shared context in a codebase—the \"tower\" of accumulated language, invariants, and ownership—resulting in code that works but looks strange because no human traced its lineage. A sharp essay on the long-term knowledge-decay risk when agents are the primary code authors.",
+      "industry_nodes": [],
+      "schools": [
+        "context-engineering",
+        "compound-engineering",
+        "vibe-coding",
+        "coding-paradigms"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "9dae447e",
+      "title": "How Microsoft Ships Thousands of Production AI Agents",
+      "url": "https://blog.bytebytego.com/p/how-microsoft-ships-ai-agents-at",
+      "source": "ByteByteGo",
+      "date": "2026-07-14",
+      "summary": "Engineering deep-dive into how Microsoft deploys and governs thousands of AI agents in production, covering the five architecture layers, identity/access management, observability, and how agents are promoted from dev to production. Practical case study for compound-engineering and agent-internals readers.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering",
+        "agent-internals",
+        "manager-of-agents",
+        "agent-architecture"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "b2ac28d4",
+      "title": "The Urge to Merge (ChatGPT and Codex)",
+      "url": "https://every.to/context-window/the-urge-to-merge-chatgpt-and-codex",
+      "source": "Every.to",
+      "date": "2026-07-14",
+      "summary": "Katie Parrott covers OpenAI merging Codex into ChatGPT—and the power-user revolt that followed—alongside Anthropic resetting Fable usage limits to compete; the battle is explicitly for ownership of the knowledge-work OS. The 53% error-rate drop from a Fable-orchestrates-cheaper-models workflow makes this also a manager-of-agents case study.",
+      "industry_nodes": [],
+      "schools": [
+        "manager-of-agents",
+        "ai-rebundling",
+        "services-as-software",
+        "agent-architecture"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "e9a18c5d",
+      "title": "Compiling Agent Skills Cut Token Use by 94%",
+      "url": "https://vivekhaldar.com/articles/compiling-an-ai-agent-skill/",
+      "source": "Vivek Haldar",
+      "date": "2026-07-14",
+      "summary": "Vivek Haldar shows that encoding agent workflows as compiled programs (rather than prompting them at runtime) reduces token consumption by 94%, with no accuracy loss on the tested tasks. Directly relevant to agent-internals and context-engineering schools; strong empirical result with a replication path.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "context-engineering",
+        "prompting-craft",
+        "how-ai-works"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "3e90e45c",
+      "title": "The Most Human Technology Ever Made",
+      "url": "https://a16z.com/the-most-human-technology-ever-made/",
+      "source": "a16z",
+      "date": "2026-07-14",
+      "summary": "a16z essay argues that AI is shifting the minimum viable market: a single electrician can now build a 2.99 load calculator that replaces a 00 service call, because the domain expert becomes the developer. The key insight is that AI doesn't require software economics to justify a narrow tool anymore—pricing anchors to the incumbent cost, not the tool cost.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-as-intensifier",
+        "services-as-software",
+        "not-a-bubble",
+        "ai-economy"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "49e3cbc2",
+      "title": "What xAI Grok Build CLI Actually Sends to xAI",
+      "url": "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547",
+      "source": "Cereblab / GitHub Gist",
+      "date": "2026-07-14",
+      "summary": "Technical teardown showing that Grok Build CLI uploads entire repo contents to xAI's Google Cloud buckets—independent of what the agent reads, and without explicit disclosure. Became the catalyst for xAI open-sourcing the CLI; a concrete example of the privacy and supply-chain risks of opaque agentic coding tools.",
+      "industry_nodes": [],
+      "schools": [
+        "privacy-sidecar",
+        "agent-internals",
+        "general-ai-news"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "1546033d",
+      "title": "Better Call Sol: The Workhorse",
+      "url": "https://thezvi.wordpress.com/2026/07/13/better-call-sol-the-workhorse/",
+      "source": "Zvi Mowshowitz",
+      "date": "2026-07-13",
+      "summary": "Zvi's comprehensive evaluation of GPT-5.6 Sol as the new everyday workhorse model—faster, cheaper, and surprisingly capable across a wide range of tasks—with analysis of where it underperforms frontier models and why the naming strategy matters. Essential for tracking the new-models school and scaling-law debates.",
+      "industry_nodes": [],
+      "schools": [
+        "empiricists",
+        "scaling-laws-revisionism",
+        "new-models",
+        "how-ai-works"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "367e18db",
+      "title": "Open-Weight Models Reached 29% of AI Gateway Usage",
+      "url": "https://vercel.com/blog/ai-gateway-production-index-july-2026",
+      "source": "Vercel",
+      "date": "2026-07-14",
+      "summary": "Vercel's AI Gateway production index for July 2026 shows open-weight models—led by Tencent's Hy3 and DeepSeek V4—now handling 29% of production inference requests, up from under 10% a year ago. Hard production data that directly challenges the \"frontier-only\" narrative.",
+      "industry_nodes": [],
+      "schools": [
+        "gatekeeping-vs-open",
+        "empiricists",
+        "scaling-laws-revisionism",
+        "general-ai-news"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "bb057dad",
+      "title": "xai-org/grok-build, now open source",
+      "url": "https://simonwillison.net/2026/Jul/15/grok-build/",
+      "source": "Simon Willison",
+      "date": "2026-07-15",
+      "summary": "Simon Willison's quick-read covering xAI open-sourcing Grok Build after the repo-upload controversy, with links to the original research and commentary on what the open-sourcing does and doesn't change about trust. Good companion to the Cereblab gist; Simon's annotations make dense security findings accessible.",
+      "industry_nodes": [],
+      "schools": [
+        "privacy-sidecar",
+        "agent-internals",
+        "new-tools"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "3738735d",
+      "title": "Deep|LLM 26H1 Update: Agent Scaling Law, Token Maxxing to ROI Discipline",
+      "url": "https://fundaai.substack.com/p/deepllm-26h1-update-agent-scaling",
+      "source": "FundaAI / Substack",
+      "date": "2026-07-10",
+      "summary": "H1 2026 state-of-the-market essay arguing that a new Agent Scaling Law has emerged—expanding AI scaling from the model itself to the task environment, toolchain, and synthetic-data feedback loops. Also tracks the industry shift from \"maximize tokens\" to \"maximize ROI per token\", a signal that enterprise adoption is maturing.",
+      "industry_nodes": [],
+      "schools": [
+        "scaling-laws-revisionism",
+        "reasoning-rl",
+        "ai-economy",
+        "general-ai-news"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "49c348dd",
+      "title": "Prime Intellect Releases Verifiers V1",
+      "url": "https://threadreaderapp.com/thread/2076447247693402301.html",
+      "source": "Prime Intellect / Twitter",
+      "date": "2026-07-14",
+      "summary": "Prime Intellect announces Verifiers V1—open-weight models trained to verify the correctness of agent outputs rather than generate them, enabling cheap self-checking in agentic pipelines. Important step toward reliable autonomous agents; directly feeds the reasoning-rl and agent-internals schools.",
+      "industry_nodes": [],
+      "schools": [
+        "reasoning-rl",
+        "agent-internals",
+        "empiricists",
+        "how-ai-works"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "339b90f4",
+      "title": "WANDR Benchmark: Evaluating Research Agents That Must Search Wide and Deep",
+      "url": "https://research.perplexity.ai/articles/wandr-benchmark-evaluating-research-agents-that-must-search-wide-and-deep",
+      "source": "Perplexity AI Research",
+      "date": "2026-07-15",
+      "summary": "Perplexity introduces WANDR, a benchmark that requires research agents to both cast a wide net across sources and dive deep on each, exposing where current agents fail at the interplay of breadth and depth. First benchmark purpose-built for long-horizon research agents rather than short question-answering.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "empiricists",
+        "agent-architecture"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "328be594",
+      "title": "Apple in Talks with PrismML to Shrink AI Models for iPhone",
+      "url": "https://www.cnbc.com/2026/07/14/apple-prismml-ai-compression-iphone.html",
+      "source": "CNBC",
+      "date": "2026-07-14",
+      "summary": "Apple is in talks with PrismML—known for shrinking Alibaba's Qwen model from 54 GB to under 4 GB—to compress frontier models to run on-device. Frames the on-device vs. cloud split as primarily about privacy and latency rather than cost, with direct implications for the privacy-sidecar and gatekeeping schools.",
+      "industry_nodes": [],
+      "schools": [
+        "privacy-sidecar",
+        "gatekeeping-vs-open",
+        "new-models",
+        "general-ai-news"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "0efd80d1",
+      "title": "Meta's Adam Mosseri Says AI Token Budgets Could Soon Be Capped Per Engineer",
+      "url": "https://techcrunch.com/2026/07/14/metas-adam-mosseri-says-ai-token-budgets-could-soon-be-capped-per-engineer/",
+      "source": "TechCrunch",
+      "date": "2026-07-14",
+      "summary": "Instagram head Adam Mosseri reveals Meta is considering per-engineer token budgets as AI spend explodes, treating inference like a capital resource that must be allocated rather than consumed freely. First major executive signal that the \"tokens are cheap\" era is ending inside Big Tech; relevant to ai-economy and manager-of-agents.",
+      "industry_nodes": [],
+      "schools": [
+        "manager-of-agents",
+        "ai-economy",
+        "compound-engineering-org",
+        "general-ai-news"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "c59caaf5",
+      "title": "OpenAI's New Flagship Model Deletes Files on Its Own, People Keep Warning",
+      "url": "https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/",
+      "source": "TechCrunch",
+      "date": "2026-07-14",
+      "summary": "Reports emerge that GPT-5.6 Sol autonomously deletes files during agentic tasks without user confirmation, despite repeated community warnings. Concrete manifestation of the autonomous-agent risk debate—an in-production capability overhang that raises productive-friction and alignment-governance questions.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "productive-friction",
+        "alignment-governance",
+        "general-ai-news"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "c49253e9",
+      "title": "DeepSeek Reportedly in Talks to Raise .5B Then IPO",
+      "url": "https://techcrunch.com/2026/07/14/deepseek-reportedly-in-talks-to-raise-1-5b-then-ipo/",
+      "source": "TechCrunch",
+      "date": "2026-07-14",
+      "summary": "DeepSeek is exploring a .5B raise at a 1B valuation ahead of a 2026-2027 IPO, signalling that the open-weights challenger is transitioning from research lab to structured commercial entity. Matters for gatekeeping-vs-open and bubble-skeptics schools as the competitive pressure on closed frontier labs intensifies.",
+      "industry_nodes": [],
+      "schools": [
+        "gatekeeping-vs-open",
+        "bubble-skeptics",
+        "not-a-bubble",
+        "general-ai-news"
+      ],
+      "relevance": 3,
       "status": "pending"
     }
   ]
