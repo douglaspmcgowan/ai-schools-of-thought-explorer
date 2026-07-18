@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-16T10:16:50.958Z",
+  "generated": "2026-07-18T10:18:49.606Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -13180,6 +13180,340 @@
         "bubble-skeptics",
         "not-a-bubble",
         "general-ai-news"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "123add16",
+      "title": "The Self-Driving Company",
+      "url": "https://replit.com/blog/self-driving-company",
+      "source": "Replit Blog",
+      "date": "2026-07-17",
+      "summary": "Replit describes its expanding system of agents that now investigate production incidents, review PRs, analyze business data, triage support tickets, and research sales accounts — each taking goals from people and escalating when human judgment is needed. Matters because it is one of the most detailed public case studies of a company operationalizing the manager-of-agents model at production scale.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "compound-engineering-org",
+        "manager-of-agents",
+        "services-as-software"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "0e70dbde",
+      "title": "MCP Onboarding Is the Most Exciting Thing Happening in Tech Right Now",
+      "url": "https://moekhalil.substack.com/p/mcp-onboarding-is-the-most-exciting",
+      "source": "Moe Khalil / Substack",
+      "date": "2026-07-17",
+      "summary": "Argues that the real breakthrough of MCP isn't the protocol itself but how it transforms the first-run experience for non-developer users, turning complex agent setup into near-zero-friction onboarding. Reframes MCP as a distribution mechanism, not just a connectivity standard.",
+      "industry_nodes": [],
+      "schools": [
+        "context-engineering",
+        "agent-native-browsing"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "ceb05f79",
+      "title": "You Might Be a Consulting Company With Good Tools",
+      "url": "https://ben3d.ca/blog/consulting-company-with-good-tools",
+      "source": "Ben3d.ca",
+      "date": "2026-07-17",
+      "summary": "Argues that many AI-era startups are accidentally operating as consulting firms using AI tools to deliver custom work, rather than building scalable software products, and that founders should be honest about this distinction. A sharp lens on the services-as-software transition and its implications for startup strategy.",
+      "industry_nodes": [],
+      "schools": [
+        "services-as-software",
+        "bubble-skeptics"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "bbd39cdc",
+      "title": "AI Products Generate More Signal Than Teams Know How to Use",
+      "url": "https://www.armank.dev/thoughts/2",
+      "source": "Arman Khondker",
+      "date": "2026-07-17",
+      "summary": "Observes that AI products generate dramatically more user feedback signal than traditional products, but most teams lack the systems to route, prioritize, and act on it at that speed. Argues this is becoming a compound engineering bottleneck as AI product velocity outpaces organizational feedback loops.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering",
+        "workflow-recipes"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "d02d9b8f",
+      "title": "It's Shovels All the Way Down",
+      "url": "https://jamesthomason.com/its-shovels-all-the-way-down/",
+      "source": "James Thomason",
+      "date": "2026-07-17",
+      "summary": "Makes the case that infrastructure and tooling layers are compounding in AI — not just shovels for the gold rush, but a recursive stack where each shovel needs its own shovel — arguing this is a durable structural dynamic rather than a temporary gold rush artifact. Relevant to the ai-economy and not-a-bubble debate.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-economy",
+        "not-a-bubble"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "35ec858b",
+      "title": "The Blank Slate AI Strategy",
+      "url": "https://tomtunguz.com/the-blank-slate-ai-strategy/",
+      "source": "Tom Tunguz",
+      "date": "2026-07-17",
+      "summary": "Tom Tunguz argues that the most durable AI companies enter markets where incumbents have no defensible workflow lock-in — a 'blank slate' where AI-native approaches win by default rather than by replacing entrenched workflows. Relevant to the ai-rebundling and not-a-bubble theses.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-rebundling",
+        "not-a-bubble"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "2ecb62a0",
+      "title": "What Is Taste?",
+      "url": "https://blog.carlcortright.com/p/what-is-taste",
+      "source": "Carl Cortright",
+      "date": "2026-07-17",
+      "summary": "Explores what 'taste' actually means as an evaluative capacity in creative and product work, arguing it's a trainable pattern-recognition skill rather than an innate sensibility. Directly relevant to the taste-is-the-bottleneck school which posits taste as the last durable human competitive advantage over AI.",
+      "industry_nodes": [],
+      "schools": [
+        "taste-is-the-bottleneck"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "b61594ab",
+      "title": "Kimi K3",
+      "url": "https://www.kimi.com/blog/kimi-k3",
+      "source": "Moonshot AI / Kimi",
+      "date": "2026-07-17",
+      "summary": "Moonshot AI announces Kimi K3, a 2.8-trillion-parameter multimodal mixture-of-experts model with a 1-million-token context window, claiming it as their most capable model to date with faster inference than comparable scale. A significant data point for the scaling-laws debate on whether extreme MoE scale continues to yield qualitative capability gains.",
+      "industry_nodes": [],
+      "schools": [
+        "new-models",
+        "scaling-laws-revisionism"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "9f89e6e0",
+      "title": "Harness Handbook: Mapping Agent Behavior to Code",
+      "url": "https://ruhan-wang.github.io/Harness-Handbook/",
+      "source": "Ruhan Wang",
+      "date": "2026-07-17",
+      "summary": "A detailed 28-page technical reference on designing and debugging agent harnesses — the scaffolding governing context windows, permissions, tool access, evaluation loops, and escalation paths. Operationalizes spec-driven agent development for practitioners past the demo phase.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "spec-driven"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "a0f73184",
+      "title": "How Anthropic Runs Large-Scale Code Migrations with Claude Code",
+      "url": "https://claude.com/blog/ai-code-migration",
+      "source": "Anthropic",
+      "date": "2026-07-17",
+      "summary": "Anthropic describes using Claude Code agents internally to run large-scale codebase migrations, with coordinated multi-agent workflows handling search, edit, and verification at scale. A first-party case study for compound-engineering and coding-paradigms schools.",
+      "industry_nodes": [],
+      "schools": [
+        "coding-paradigms",
+        "compound-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "55a70a4d",
+      "title": "Speed Is the Only Moat — with Anush Elangovan",
+      "url": "https://open.substack.com/pub/refactoring/p/speed-is-the-only-moat-with-anush",
+      "source": "Refactoring.fm",
+      "date": "2026-07-17",
+      "summary": "Refactoring podcast with Anush Elangovan arguing that in an AI-native world, execution velocity — not IP, brand, or features — is the only durable competitive moat, because AI tools commoditize all other advantages at roughly equal rates across competitors. Connects to ai-native-flat and compound-engineering schools.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering",
+        "ai-native-flat"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "93703c08",
+      "title": "The Case Against Skills",
+      "url": "https://every.to/context-window/the-case-against-skills",
+      "source": "Every / Context Window",
+      "date": "2026-07-16",
+      "summary": "Laura Entis at Every argues that Claude's 'Skills' feature — reusable prompt templates — can actually hurt model performance if used indiscriminately, because they lock in context that doesn't fit the task. A practitioner critique of the assumption that saving and reusing prompts is always beneficial.",
+      "industry_nodes": [],
+      "schools": [
+        "prompting-craft",
+        "context-engineering",
+        "workflow-recipes"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "82d808ea",
+      "title": "How We Built Gift Links",
+      "url": "https://every.to/p/how-we-built-gift-links",
+      "source": "Every",
+      "date": "2026-07-17",
+      "summary": "Every's editorial team documents shipping a new website feature using Claude, Codex, Cursor, and OpenClaw, with non-engineers leading specification and AI tools handling implementation. A concrete case study of AI-as-intensifier enabling editorial teams to build their own software.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering",
+        "vibe-coding",
+        "ai-as-intensifier"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "d4e9c33a",
+      "title": "Thinking Machines Releases First Open Model: Inkling",
+      "url": "https://thinkingmachines.ai/news/introducing-inkling/",
+      "source": "Thinking Machines",
+      "date": "2026-07-16",
+      "summary": "Thinking Machines releases Inkling, a 975B-parameter mixture-of-experts open model with 41B active parameters and multimodal reasoning, positioning it as a high-capability alternative to frontier closed models. Relevant to the gatekeeping-vs-open debate on whether open models can now reach frontier capability thresholds.",
+      "industry_nodes": [],
+      "schools": [
+        "new-models",
+        "gatekeeping-vs-open"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "9393f9e0",
+      "title": "Secure Sandboxes for Agents",
+      "url": "https://www.perplexity.ai/hub/blog/secure-sandboxes-for-agents",
+      "source": "Perplexity",
+      "date": "2026-07-16",
+      "summary": "Perplexity describes their isolated execution sandboxes for agent tasks, detailing how they enforce code execution, network access, and filesystem constraints to prevent agentic tasks from escaping intended scope. A practical implementation post for the constitutional and agent-internals schools.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "constitutional"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "5c45b176",
+      "title": "The First Experimental Evidence of Recursive Self-Improvement",
+      "url": "https://threadreaderapp.com/thread/2077079778793042425.html",
+      "source": "Twitter/X Thread",
+      "date": "2026-07-16",
+      "summary": "Documents early experimental evidence that an outer-loop agent can meaningfully improve an inner-loop research agent's code and performance — the AIDE² system demonstrating bounded recursive self-improvement with measurable gains. Significant for agi-timelines and reasoning-rl schools because it moves RSI from theoretical to empirically measured.",
+      "industry_nodes": [],
+      "schools": [
+        "reasoning-rl",
+        "world-models",
+        "agi-timelines"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "6bf98bfe",
+      "title": "Model Routing Is Simple. Until It Isn't.",
+      "url": "https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt",
+      "source": "Hugging Face / IBM Research",
+      "date": "2026-07-16",
+      "summary": "IBM Research maps out why model routing in multi-model pipelines breaks down at scale — covering latency, cost, and quality tradeoffs plus the difficulty of building reliable fallback chains in production. A practitioner's guide to compound-engineering failure modes.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering",
+        "workflow-recipes"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "042fa960",
+      "title": "The $110/Month Self-Improving Pipeline",
+      "url": "https://andywidjaja.com/blog/110-pipeline",
+      "source": "Andy Widjaja",
+      "date": "2026-07-16",
+      "summary": "A hands-on walkthrough of a self-evaluating code pipeline that costs $110/month, using LLMs to critique and revise their own outputs across iterations with explicit cost-consciousness. Maps to compound-engineering and workflow-recipes schools with a frugality frame most agent-building posts ignore.",
+      "industry_nodes": [],
+      "schools": [
+        "workflow-recipes",
+        "compound-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "ac3d95e8",
+      "title": "Kimi K3 and What We Can Still Learn from the Pelican Benchmark",
+      "url": "https://simonwillison.net/2026/Jul/16/kimi-k3/",
+      "source": "Simon Willison",
+      "date": "2026-07-16",
+      "summary": "Simon Willison analyzes Kimi K3 through his pelican benchmark — a test of whether models produce nuanced, factually-grounded prose — arguing that raw parameter count and benchmark performance don't capture qualities that matter for practical use. A practitioner's counter-narrative to the parameter-count leaderboard obsession.",
+      "industry_nodes": [],
+      "schools": [
+        "empiricists",
+        "new-models"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "5ea0a635",
+      "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
+      "url": "https://openai.com/index/unlocking-self-improvement-gpt-red/",
+      "source": "OpenAI",
+      "date": "2026-07-16",
+      "summary": "OpenAI describes GPT-Red, an internal automated red-teaming model trained via self-play RL to find prompt injection vulnerabilities — outperforming human red-teamers 84% to 13% in unseen scenarios and cutting GPT-5.6 Sol's injection failure rate to 0.05%. Relevant to constitutional and reasoning-rl schools as RL-trained alignment tooling.",
+      "industry_nodes": [],
+      "schools": [
+        "constitutional",
+        "reasoning-rl"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "aa06d866",
+      "title": "The One-Axis Era Is Over: AI's Four New Scaling Laws",
+      "url": "https://medium.com/@hiconcep/the-one-axis-era-is-over-ais-four-new-scaling-laws-2f40fb4679e5",
+      "source": "Medium",
+      "date": "2026-05-01",
+      "summary": "Argues that the single scaling thesis has fractured into four parallel scaling dimensions — inference compute, agent task complexity, data diversity, and RL reward — each with distinct bottlenecks and trajectories. A synthesis post for the scaling-laws-revisionism school.",
+      "industry_nodes": [],
+      "schools": [
+        "scaling-laws-revisionism",
+        "extrapolators"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "4c40402b",
+      "title": "The Bay Area Now Takes 51% of Every AI Venture Dollar",
+      "url": "https://www.saastr.com/the-bay-area-now-takes-51-of-every-ai-venture-dollar-and-53-of-every-b2b-dollar/",
+      "source": "SaaStr",
+      "date": "2026-07-17",
+      "summary": "Analysis showing AI venture capital is concentrating in the Bay Area more than five years ago, not less, with two metros now taking 72% of B2B dollars and the Bay Area pulling 2.5x the capital of New York across every category. Counters the geographic dispersion narrative; relevant to ai-economy and not-a-bubble debates.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-economy",
+        "not-a-bubble"
       ],
       "relevance": 3,
       "status": "pending"
