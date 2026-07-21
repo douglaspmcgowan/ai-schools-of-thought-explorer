@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-18T10:18:49.606Z",
+  "generated": "2026-07-21T10:19:26.765Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -13514,6 +13514,283 @@
       "schools": [
         "ai-economy",
         "not-a-bubble"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "c2e07df8",
+      "title": "2030-Shaped Software",
+      "url": "https://newsletter.posthog.com/p/2030-shaped-software",
+      "source": "Product for Engineers",
+      "date": "2026-07-20",
+      "summary": "PostHog lays out their thesis that by 2030, AI agents will be the primary users of software — UI will shift from doing-buttons to judgment-and-approval surfaces, and complete APIs plus MCP servers become mandatory infrastructure. Matters because it's a practitioner blueprint for agent-native product design, not just speculation.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "living-software",
+        "compound-engineering"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "4faeabba",
+      "title": "Why Some AI Workflows Stick—And Others Don't",
+      "url": "https://every.to/working-overtime/why-some-ai-workflows-stick-and-others-don-t",
+      "source": "Every",
+      "date": "2026-07-20",
+      "summary": "Katie Parrott proposes four questions for auditing AI workflows: does it save time, does output quality hold, is it sustainable, and does it require too much babysitting? Matters because it's a practical pruning framework for the growing graveyard of AI workflows that felt exciting but didn't stick.",
+      "industry_nodes": [],
+      "schools": [
+        "workflow-recipes",
+        "productive-friction"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "d95815ad",
+      "title": "In-House LLM Serving at Netflix",
+      "url": "https://netflixtechblog.com/in-house-llm-serving-at-netflix-a5a8e799ea2c",
+      "source": "Netflix Tech Blog",
+      "date": "2026-07-20",
+      "summary": "Netflix details how it deployed LLM inference inside its existing production stack — covering engine selection, model packaging, API design, deployment strategy, output constraints, and real-workload trade-offs. Matters as a high-signal, production-grade reference for teams building compound AI systems.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering",
+        "agent-internals"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "40a043cc",
+      "title": "Fable 5 vs. GPT-5.6 Sol on an NP-Hard Problem: Does /goal Help?",
+      "url": "https://charlesazam.com/blog/fable-5-gpt-5-6-sol-goal/",
+      "source": "charlesazam.com",
+      "date": "2026-07-20",
+      "summary": "Detailed comparison of Claude Code /goal (session-scoped Stop hook) vs Codex /goal (persisted thread state) on an NP-hard optimization problem, finding that /goal can amplify bad decisions as much as good ones. Matters because it reveals a fundamental architecture difference that affects how engineers should use agentic tools.",
+      "industry_nodes": [],
+      "schools": [
+        "reasoning-rl",
+        "context-engineering",
+        "spec-driven"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "219f1b36",
+      "title": "Demis Hassabis and Google's AI Commitments",
+      "url": "https://thezvi.substack.com/p/demis-hassabis-on-the-new-coming",
+      "source": "The Zvi",
+      "date": "2026-07-20",
+      "summary": "Zvi Mowshowitz analyzes Demis Hassabis's framework for frontier AI development alongside Google's contested military AI agreements, including Alex Turner's resignation over autonomous weapons use. Matters because it surfaces the deepening tension between alignment commitments and the actual deployment of frontier models in national security contexts.",
+      "industry_nodes": [],
+      "schools": [
+        "constitutional",
+        "alignment-governance"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "c523da3b",
+      "title": "AI Scaffolding, Daily Feedback, and Weekly Readings",
+      "url": "https://refactoring.fm/p/ai-scaffolding-daily-feedback-and",
+      "source": "Refactoring FM",
+      "date": "2026-07-20",
+      "summary": "Luca Rossi argues agents should be used as initial scaffolding to discover workflow shape, then have their stable steps replaced with deterministic scripts and APIs — keeping AI only where flexibility is needed. Matters because it offers a disciplined progression from agent-first prototyping to hardened production workflows.",
+      "industry_nodes": [],
+      "schools": [
+        "workflow-recipes",
+        "compound-engineering",
+        "agent-internals"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "e2494d7b",
+      "title": "The Model Is the Easy Part",
+      "url": "https://every.to/context-window/the-model-is-the-easy-part",
+      "source": "Every",
+      "date": "2026-07-19",
+      "summary": "Every's Context Window argues that model access is now commoditized — the hard part is identifying measurable business goals, tracking which AI use is actually valuable, and spending efficiently by routing tasks to appropriate model tiers. Matters because it reframes AI ROI as a measurement and routing problem, not a capability problem.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering",
+        "ai-economy"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "a27b000b",
+      "title": "Two Questions Every CEO Should Ask About AI",
+      "url": "https://chamath.substack.com/p/two-questions-every-ceo-should-ask",
+      "source": "Social Capital / Chamath Palihapitiya",
+      "date": "2026-07-20",
+      "summary": "Chamath argues that at 8090 — an internal benchmark — AI token costs are doubling every 45 days while productivity gains run only 5-10%, and most companies won't notice the gap until margins compress. Matters because it gives executives a concrete cost-vs-output accountability framework and warns about the data-leakage risk of employee prompt corrections.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-economy",
+        "compound-engineering-org"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "b76b10e8",
+      "title": "Top SaaS Vendors on Ramp (July 2026)",
+      "url": "https://ramp.com/data/top-saas-vendors-on-ramp-july-2026",
+      "source": "Ramp",
+      "date": "2026-07-20",
+      "summary": "Ramp's spend data shows AI support bots and coding agents are the two most commercially-advanced enterprise AI use cases, with rising adoption of open-source Chinese models indicating demand not met by US providers. Matters as hard transaction data on where enterprise AI spend is actually concentrating.",
+      "industry_nodes": [],
+      "schools": [
+        "saas-survives",
+        "services-as-software",
+        "ai-economy"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "aa345d4d",
+      "title": "AI Mania Is Eviscerating Global Decision-Making",
+      "url": "https://hermit-tech.com/blog/ai-mania-is-eviscerating-global-decisionmaking",
+      "source": "hermit-tech.com",
+      "date": "2026-07-19",
+      "summary": "Essay argues that AI hype is distorting corporate and government decision-making by causing over-investment in AI solutions regardless of fit, eroding critical judgment about when AI is the wrong tool. Matters because it articulates a structural critique of AI adoption pressure that sits at the intersection of bubble skepticism and governance concerns.",
+      "industry_nodes": [],
+      "schools": [
+        "bubble-skeptics",
+        "llm-doubters",
+        "constitutionalism-critiques"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "3ad3dcdb",
+      "title": "Domain-Specific Harnesses",
+      "url": "https://alanyahya.com/writing/domain-specific-harnesses",
+      "source": "alanyahya.com",
+      "date": "2026-07-20",
+      "summary": "Argues that the real leverage in AI engineering is building domain-specific harnesses — orchestration layers tuned to a team's specific tools, context, and decision patterns — rather than relying on general-purpose agent frameworks. Matters because it advances the compound-engineering thesis that custom scaffolding beats off-the-shelf agents for production work.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering",
+        "context-engineering",
+        "agent-internals"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "6ff94326",
+      "title": "LLM Wars = Database Wars",
+      "url": "https://rruxandra.github.io/llm-wars-database-wars.html",
+      "source": "rruxandra.github.io",
+      "date": "2026-07-20",
+      "summary": "Draws parallels between the current LLM competition and the 1990s database wars, predicting that models will commoditize while value accrues to the orchestration and application layer, much as SQL commoditized storage engines. Matters because it provides a historical precedent for how model provider competition resolves and where durable value is likely to land.",
+      "industry_nodes": [],
+      "schools": [
+        "scaling-laws-revisionism",
+        "saas-survives"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "a730b038",
+      "title": "Meta and Anthropic in Talks for Potential 0B Compute Lease Deal",
+      "url": "https://dataconomy.com/2026/07/20/meta-anthropic-compute-deal-10-billion/",
+      "source": "Dataconomy",
+      "date": "2026-07-20",
+      "summary": "Reports that Anthropic proposed leasing computing power from Meta worth up to 0B over two years, with monthly payments and early-exit options — a deal that would open a new revenue stream for Meta while providing Anthropic with scale to match hyperscaler demand. Matters because it signals a new compute-leasing business model emerging between AI labs and tech platforms.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-economy",
+        "not-a-bubble"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "89baab0a",
+      "title": "SpaceX Is Quietly Building an AI Compute Business",
+      "url": "https://fortune.com/2026/07/19/spacex-ai-compute-renting-business-google-anthropic-pentagon-deals-revenue-valuation-elon-musk-colossus-data-centers/",
+      "source": "Fortune",
+      "date": "2026-07-19",
+      "summary": "Fortune reports SpaceX is building a datacenter compute-rental business serving Google, Anthropic, and now potentially the Pentagon — leveraging Colossus capacity as a new revenue line alongside rockets and satellites. Matters as another data point in the emerging pattern of non-traditional players commoditizing AI compute infrastructure.",
+      "industry_nodes": [],
+      "schools": [
+        "candidate-new-school",
+        "ai-economy"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "98542375",
+      "title": "Why Is AI Bad at Design?",
+      "url": "https://www.philmorton.co/why-is-ai-bad-at-design/",
+      "source": "philmorton.co",
+      "date": "2026-07-20",
+      "summary": "Argues AI struggles with design because there's no automatic correctness signal for visual judgment, forcing reliance on subjective human evaluation — which pushes models toward generic \"average\" outputs and makes taste a structural limit regardless of model capability improvements. Matters because it articulates the core structural argument behind the taste-is-the-bottleneck thesis.",
+      "industry_nodes": [],
+      "schools": [
+        "taste-is-the-bottleneck",
+        "llm-doubters"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "6d9180c6",
+      "title": "Design Systems Need Evals",
+      "url": "https://blog.murphytrueman.com/design-systems-need-evals/",
+      "source": "murphytrueman.com",
+      "date": "2026-07-20",
+      "summary": "Argues that as agents generate code against design systems, teams need dedicated evaluation suites combining mechanical checks (props, tokens, component usage) with LLM-based judgment on pattern selection — a practice Meta's Astryx and Intuit have started but most haven't. Matters because it extends eval culture from model training into the design-systems-as-agent-interface layer.",
+      "industry_nodes": [],
+      "schools": [
+        "spec-driven",
+        "compound-engineering"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "5d2b0c79",
+      "title": "Neil Rimer Thinks the AI Money Is Coming Back Out",
+      "url": "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out/",
+      "source": "TechCrunch",
+      "date": "2026-07-17",
+      "summary": "Index Ventures's Neil Rimer warns that the massive concentration of AI-generated wealth will face redistribution pressure and hopes it happens voluntarily before political forces compel it. Matters because it signals that top-tier VCs are starting to speak openly about the AI wealth inequality question as a systemic risk.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-economy",
+        "bubble-skeptics"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "44d3387e",
+      "title": "Kimi Code — Open-Source Coding Agent CLI",
+      "url": "https://github.com/MoonshotAI/kimi-code",
+      "source": "Moonshot AI",
+      "date": "2026-07-20",
+      "summary": "Moonshot AI releases Kimi Code, an open-source CLI coding agent positioned as an alternative to Claude Code and Codex — expanding the competitive field for autonomous coding agents beyond the two dominant US labs. Matters as a signal of Chinese AI labs entering the agentic developer tools space with open-weight approaches.",
+      "industry_nodes": [],
+      "schools": [
+        "coding-paradigms",
+        "gatekeeping-vs-open",
+        "vibe-coding"
       ],
       "relevance": 3,
       "status": "pending"
