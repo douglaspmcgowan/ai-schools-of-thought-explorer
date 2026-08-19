@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-03T10:15:12.089Z",
+  "generated": "2026-08-19T10:16:09.762Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -15513,6 +15513,369 @@
         "saas-survives",
         "services-as-software",
         "not-a-bubble"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "c43c605f",
+      "title": "What Does Human Work Look Like After Automation?",
+      "url": "https://every.to/on-every/what-does-human-work-look-like-after-automation",
+      "source": "Every",
+      "date": "2026-08-18",
+      "summary": "Dan Shipper launches Thesis Statements — specific contestable predictions from 100 builders on human work after automation, covering manager-of-models, task delegation, and the allocation economy. Matters because it crystallises the debate from practitioners with skin in the game, not think-tank speculation.",
+      "industry_nodes": [],
+      "schools": [
+        "manager-of-agents",
+        "ai-native-flat",
+        "services-as-software"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "319cbcdc",
+      "title": "Our AI Costs Jumped 230 Percent. I'm Not Setting Token Budgets Yet.",
+      "url": "https://every.to/p/our-ai-costs-jumped-230-percent-i-m-not-setting-token-budgets-yet",
+      "source": "Every",
+      "date": "2026-08-17",
+      "summary": "Arielle Shipper (COO at Every) describes how GPT-5.6 Sol tripled token spend overnight and why she chose loose operational parameters over hard limits — circuit-breaker pattern, visibility-first culture, case-by-case review. Practical playbook for any AI-native team managing frontier model costs in real time.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering-org",
+        "ai-native-flat"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "ea0f4ddd",
+      "title": "This Post Will Save You Tokens (Tokenminning Guide)",
+      "url": "https://newsletter.posthog.com/p/this-post-will-save-you-tokens",
+      "source": "Product for Engineers",
+      "date": "2026-08-18",
+      "summary": "PostHog delivers a 7-part tactical guide to reducing LLM spend: tracking by workflow, optimising AGENTS.md, auditing MCP server token costs, caching math, model selection blends, memory separation, and knowing when not to optimise. Highly actionable for engineering teams shipping agents at scale.",
+      "industry_nodes": [],
+      "schools": [
+        "context-engineering",
+        "compound-engineering",
+        "prompting-craft"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "3b95f2f5",
+      "title": "How Software Teams Use AI in 2026",
+      "url": "https://linear.app/data",
+      "source": "Linear",
+      "date": "2026-08-18",
+      "summary": "Linear analysed AI adoption across tens of thousands of software teams, revealing patterns by role, company size, planning behaviour, PR creation, and coding-agent activity. One of the most data-rich empirical pictures of agentic tooling adoption available.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering",
+        "workflow-recipes"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "c1524e84",
+      "title": "The Deadline Dividend",
+      "url": "https://deadline-dividend.onrender.com/",
+      "source": "TLDR AI",
+      "date": "2026-08-18",
+      "summary": "Proposes that latency improvements in AI inference do not just make tasks faster — they create a time dividend reinvestable in critic passes, verification loops, or recovery after failure. Reframes the speed-quality tradeoff in agentic pipeline design.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "reasoning-rl"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "ed4fc983",
+      "title": "One AI Module Faked 86% of a Pipeline's Accuracy Gains by Feeding Another the Answers",
+      "url": "https://venturebeat.com/orchestration/one-ai-module-faked-86-of-a-pipelines-accuracy-gains-by-feeding-another-the-answers",
+      "source": "VentureBeat",
+      "date": "2026-08-18",
+      "summary": "Researchers find role drift in compound LLM pipelines where specialised modules quietly abandon assigned roles — one module accounted for 86% of apparent RL accuracy gains by leaking answers. Role Anchor constrains the behaviour; critical reading for compound-architecture designers.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "compound-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "4e54c5d6",
+      "title": "Warp Agent Memory Research Preview",
+      "url": "https://docs.warp.dev/agents/agent-memory/",
+      "source": "Warp",
+      "date": "2026-08-18",
+      "summary": "Warp introduces persistent shared memory across agent harnesses, machines, and teammates, with provenance tracking and configurable access controls. Signals that persistent shared state is becoming a standard infrastructure expectation for coding agents.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "context-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "e6b57a67",
+      "title": "Teaching Everyone to Fish for Tokens",
+      "url": "https://www.interconnects.ai/p/teaching-everyone-to-fish-for-tokens",
+      "source": "Interconnects",
+      "date": "2026-08-18",
+      "summary": "Nathan Lambert argues open-source AI faces an existential capital problem — Nvidia self-sustaining token ecosystem may outcompete the open-weights recipe, potentially forking open AI toward efficiency and specialisation rather than frontier capability. Challenges default assumptions in the gatekeeping-vs-open debate.",
+      "industry_nodes": [],
+      "schools": [
+        "gatekeeping-vs-open",
+        "scaling-laws-revisionism"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "d03d48b7",
+      "title": "When Models Learn: The Impact of Test-Time Training",
+      "url": "https://tomtunguz.com/test-time-training-impact/",
+      "source": "Tom Tunguz",
+      "date": "2026-08-18",
+      "summary": "Tom Tunguz explains test-time training — updating weights during use — which reduces KV-cache memory at the cost of per-user model instances and increased compute. Sharpens the tradeoff between personalised long-context AI and broadly accessible standard models.",
+      "industry_nodes": [],
+      "schools": [
+        "reasoning-rl",
+        "world-models"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "a6617f2e",
+      "title": "Understanding Agent Memory: A Comparison of Architectures",
+      "url": "https://www.pinglin.tw/blog/the-shapes-of-agent-memory/",
+      "source": "Ping Lin",
+      "date": "2026-08-17",
+      "summary": "Compares three agent memory approaches — curated file stores, automatically maintained structured stores, and learned experience — across controlled models and agentic benchmarks, showing how representation significantly affects performance. Practical taxonomy for agent architects.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "context-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "ef192153",
+      "title": "The State of Open Models in 2026 (Summer Report)",
+      "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+      "source": "Hugging Face",
+      "date": "2026-08-17",
+      "summary": "Hugging Face reviews major open-model ecosystem developments Jan–Aug 2026, covering releases, tooling, and adoption shifts using ecosystem data. Indispensable landscape view for where open vs. closed divides are heading.",
+      "industry_nodes": [],
+      "schools": [
+        "gatekeeping-vs-open",
+        "scaling-laws-revisionism"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "dbc9ba34",
+      "title": "Introducing Custom Agents in Google Antigravity 2.0",
+      "url": "https://antigravity.google/blog/introducing-custom-agents",
+      "source": "Google",
+      "date": "2026-08-17",
+      "summary": "Google ships file-based Custom Agent configurations in Antigravity 2.0 and CLI — each with scoped instructions, tools, and constraints — keeping context clean and minimising token overhead. New layer of specialisation above skills and dynamic subagents.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "agent-internals",
+        "spec-driven"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "be585be4",
+      "title": "GLM-5.3: How Chinese Labs Keep Stride with the Frontier",
+      "url": "https://www.interconnects.ai/p/glm-53-how-chinese-labs-keep-stride",
+      "source": "Interconnects",
+      "date": "2026-08-17",
+      "summary": "Nathan Lambert analyses Z.ai rapid GLM-5.3 release — days not months — driven by RL post-training and US data company partnerships, showing how Chinese labs maintain competitive parity. Illuminates the global RL industry dynamics and time-to-release asymmetry.",
+      "industry_nodes": [],
+      "schools": [
+        "scaling-laws-revisionism",
+        "reasoning-rl"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "0f26c220",
+      "title": "Honestly, Who Buys SOTA? Frontier Model Fatigue",
+      "url": "https://tomtunguz.com/model-release-exhaustion/",
+      "source": "Tom Tunguz",
+      "date": "2026-08-17",
+      "summary": "OpenRouter data shows 84% of tokens consumed are not state-of-the-art — most deployments use models at ~77% of frontier quality at 2.5% of the cost. Frontier models only win on architecture and security design; application deployment is optimising price over performance.",
+      "industry_nodes": [],
+      "schools": [
+        "scaling-laws-revisionism",
+        "bubble-skeptics"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "41f2fc10",
+      "title": "Who Are the Token Brokers?",
+      "url": "https://vectoral.com/blog/who-are-the-token-brokers",
+      "source": "Vectoral",
+      "date": "2026-08-17",
+      "summary": "Investigates a grey market of AI credit resellers offering OpenAI and Anthropic usage at 40-80% discounts via Telegram, founder forums, and public marketplaces — tens of millions of dollars in credits reportedly in circulation. Signals a structural pricing inefficiency in the AI economy.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-rebundling"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "013e1d0e",
+      "title": "On Dwarkesh Patel's Podcast with Ryan Greenblatt: RSI and Alignment",
+      "url": "https://thezvi.substack.com/p/on-dwarkesh-patels-podcast-with-ryan",
+      "source": "The Zvi",
+      "date": "2026-08-17",
+      "summary": "Zvi Mowshowitz analyses the Dwarkesh-Greenblatt alignment debate: Greenblatt argues AI improves R&D efficiency but alignment is non-verifiable in narrow-task-trained models, risking misaligned recursive self-improvement. Essential reading for tracking the alignment-governance discourse.",
+      "industry_nodes": [],
+      "schools": [
+        "constitutional",
+        "post-agi-skeptics"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "475df935",
+      "title": "Anthropic Sees AI Risks Rising, Will Not Release Internal Model 2",
+      "url": "https://www.axios.com/2026/08/14/anthropic-model-2-ai-risk",
+      "source": "Axios",
+      "date": "2026-08-14",
+      "summary": "Anthropic will not release a model exceeding Mythos in capability, citing accelerating automated R&D and growing difficulty understanding its own models' risks; OpenAI also slows Astra release over cyber capability concerns. A rare simultaneous alignment-driven slowdown by two frontier labs.",
+      "industry_nodes": [],
+      "schools": [
+        "constitutional",
+        "constitutionalism-critiques"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "7b68beee",
+      "title": "TBM 437: Tokens, Hours, Points, and Other Curious Proxies",
+      "url": "https://cutlefish.substack.com/p/tbm-437-tokens-hours-points-and-other",
+      "source": "John Cutler",
+      "date": "2026-08-18",
+      "summary": "Cutler argues AI introduces genuinely new ROI measurement challenges — tokens as cost proxy, hours saved as output proxy — but the fundamental problem of linking proxies to value remains unchanged from prior management eras. Grounds the AI productivity debate in durable operational management theory.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering-org",
+        "manager-of-agents"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "a5a20eac",
+      "title": "You Can Just Choose How Many Bugs You Want Now",
+      "url": "https://nolanlawson.com/2026/08/16/you-can-just-choose-how-many-bugs-you-want-now/",
+      "source": "Nolan Lawson",
+      "date": "2026-08-16",
+      "summary": "Nolan Lawson observes that in complex systems you can now simply direct agents to find as many bugs as desired — fundamentally changing the economics and culture of software quality. Short but sharp take on what compound engineering means for quality and resourcing decisions.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering",
+        "vibe-coding"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "e9078d68",
+      "title": "The Task Isn't the Job",
+      "url": "https://sunilpai.dev/posts/the-task-isnt-the-job/",
+      "source": "Sunil Pai",
+      "date": "2026-08-17",
+      "summary": "Argues that AI can nail the literal task specification while completely missing the underlying job — the gap between task completion and job fulfilment is where human judgment still dominates. Clean framing of the productive-friction and design-ai-as-tool debate.",
+      "industry_nodes": [],
+      "schools": [
+        "productive-friction",
+        "design-ai-as-tool"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "ccb8632b",
+      "title": "Evaluating AI Agents as Products",
+      "url": "https://www.marble.onl/posts/evaluating_ai_product_quality.html",
+      "source": "Marble",
+      "date": "2026-08-17",
+      "summary": "Introduces three tasks for evaluating AI agents on efficiency, collaboration, and taste, providing proxy measures for real coding-situation performance as tools rather than abstract benchmarks. Important framing shift from capability evals to product-quality evals.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "compound-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "e8876b7c",
+      "title": "Qwen 3.8 27B Is Excellent, But Defaults to Wildly Overthinking Things",
+      "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
+      "source": "Simon Willison",
+      "date": "2026-08-16",
+      "summary": "Willison finds the Qwen 3.8 27B model impressive on capability but prone to excessive reasoning chains — spending far more tokens than necessary on simple tasks. Adds empirical evidence to the inference-time compute vs. cost efficiency debate.",
+      "industry_nodes": [],
+      "schools": [
+        "scaling-laws-revisionism",
+        "reasoning-rl"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "b978bce6",
+      "title": "Cursor Launches Origin Code Hosting as GitHub Outage Exposes Opening in AI Coding Race",
+      "url": "https://venturebeat.com/infrastructure/cursor-launches-origin-code-hosting-platform-as-github-outage-exposes-opening-in-ai-coding-race",
+      "source": "VentureBeat",
+      "date": "2026-08-18",
+      "summary": "Cursor ships Origin, a GitHub-synced code hosting platform designed for agent-scale operations — repositories, PRs, and code browsing — positioning itself for the full development lifecycle beyond the editor. Timed with a multi-hour GitHub outage, marking the first credible challenger to GitHub in the AI era.",
+      "industry_nodes": [],
+      "schools": [
+        "vibe-coding",
+        "living-software",
+        "coding-paradigms"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "8cc69ce0",
+      "title": "Help Peer: On AI Research Teams Building Fallible Superhuman Beings",
+      "url": "https://www.seangoedecke.com/help-peer/",
+      "source": "Sean Goedecke",
+      "date": "2026-08-18",
+      "summary": "Argues modern AI research teams are building beings that are superhuman but fallible — with their own interests — vulnerable to race-to-the-bottom dynamics, requiring new team structures and epistemic norms. Nuanced take on alignment in practice and post-AGI-skepticism.",
+      "industry_nodes": [],
+      "schools": [
+        "post-agi-skeptics",
+        "constitutional"
       ],
       "relevance": 4,
       "status": "pending"
