@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-19T10:16:09.762Z",
+  "generated": "2026-08-21T10:16:22.676Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -15876,6 +15876,490 @@
       "schools": [
         "post-agi-skeptics",
         "constitutional"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "42e13d30",
+      "title": "An Engineering Team for the Cost of Codex",
+      "url": "https://every.to/context-window/an-engineering-team-for-the-cost-of-codex",
+      "source": "Every",
+      "date": "2026-08-19",
+      "summary": "One developer describes managing a full roster of Codex agents as a team of specialists—customer support, web engineer, growth strategist—each with an AGENTS.md file, skills, and memory, with GPT-5.6 enabling cross-agent handoffs. Illustrates the manager-of-agents paradigm as a lived practice for solo developers, not just a thesis.",
+      "industry_nodes": [],
+      "schools": [
+        "manager-of-agents",
+        "folder-as-agent",
+        "compound-engineering"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "3a268e56",
+      "title": "In Defense of AI Writing",
+      "url": "https://every.to/context-window/in-defense-of-ai-writing",
+      "source": "Every",
+      "date": "2026-08-20",
+      "summary": "Every's Counterpoint column defends AI-assisted writing by separating the quality of an idea from the skill of drafting it—arguing that outsourcing the generation of text doesn't necessarily outsource the thinking. Challenges the 'writing is thinking' dogma that dominates discourse about AI slop.",
+      "industry_nodes": [],
+      "schools": [
+        "prompting-craft",
+        "ai-as-intensifier"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "81c55f13",
+      "title": "OpenAI Rewrites Safety Framework as Largest Training Run Stays Paused",
+      "url": "https://www.implicator.ai/openai-safety-framework-frontier-training-paused/",
+      "source": "Implicator",
+      "date": "2026-08-18",
+      "summary": "OpenAI is rewriting its Preparedness Framework while pausing its largest frontier RL run after internal model Astra may have reached the Critical cybersecurity threshold; new monitoring will consume ~20% of watched compute. Signals a turning point where AI safety frameworks must handle real near-critical capabilities, not just hypotheticals.",
+      "industry_nodes": [],
+      "schools": [
+        "alignment-governance",
+        "constitutional"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "9fc07c95",
+      "title": "Rethinking the Data Moat",
+      "url": "https://www.mbi-deepdives.com/data-moat/",
+      "source": "MBI Deep Dives",
+      "date": "2026-08-19",
+      "summary": "Dwarkesh Patel and researchers argue raw internet data is not the best distribution for AGI—not all tokens are equal, and equalizing intelligence per token via better data curation is the key lever. Challenges the 'data moat' narrative that has driven many AI acquisition and licensing strategies.",
+      "industry_nodes": [],
+      "schools": [
+        "scaling-laws-revisionism",
+        "world-models"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "43363d2b",
+      "title": "I'm Worried About a Prompt Injection Worm",
+      "url": "https://danielmiessler.com/blog/prompt-injection-worm",
+      "source": "Daniel Miessler",
+      "date": "2026-08-19",
+      "summary": "Daniel Miessler argues semi-autonomous agents roaming the internet with too much authority are one of the biggest AI security risks—a prompt injection worm could compromise connected agents at scale. Practically important as agentic systems gain read/write access to more surfaces.",
+      "industry_nodes": [],
+      "schools": [
+        "alignment-governance",
+        "autonomous-agent"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "4efa0c40",
+      "title": "Extensible Software in the Age of LLMs",
+      "url": "https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/",
+      "source": "Jeremy Morrell",
+      "date": "2026-08-19",
+      "summary": "Long essay arguing that platform and API extensibility becomes more valuable, not less, as LLMs are integrated—exposing APIs lets AI orchestrators compose software in ways end users never anticipated. Frames extensibility as the structural property that determines whether software survives the agentic era.",
+      "industry_nodes": [],
+      "schools": [
+        "living-software",
+        "agent-architecture"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "cc6d0c70",
+      "title": "Fool's Gold: Safety Alignment in Open-Weight LLMs Is Trivially Removable",
+      "url": "https://markrussinovich.github.io/fools-gold/",
+      "source": "Mark Russinovich",
+      "date": "2026-08-19",
+      "summary": "Demonstrates that refusal alignment in open-weight models can be stripped in minutes via abliteration, and proposes 'decoy hardening'—poisoning the stripped-refusal payoff with confident but falsified answers to hazardous prompts. Essential reading for the gatekeeping-vs-open debate and constitutional AI approaches.",
+      "industry_nodes": [],
+      "schools": [
+        "constitutionalism-critiques",
+        "gatekeeping-vs-open",
+        "alignment-governance"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "44f02ab0",
+      "title": "Miles v0.1: Production-Level Post-Training for Agent RL",
+      "url": "https://www.lmsys.org/blog/2026-08-18-miles-v0-1",
+      "source": "LMSYS",
+      "date": "2026-08-18",
+      "summary": "Miles v0.1 is an open system for improving AI agents through reinforcement learning post-training—supporting multi-copy rollouts in isolated environments, asynchronous training, and distributed model updates. Advances the field of agentic RL tooling that enables anyone to run post-training loops at scale.",
+      "industry_nodes": [],
+      "schools": [
+        "reasoning-rl",
+        "agent-internals"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "5f1f9606",
+      "title": "A Policy Algebra for Trust-Preserving Agentic AI Execution",
+      "url": "https://arxiv.org/abs/2608.16402",
+      "source": "arXiv",
+      "date": "2026-08-19",
+      "summary": "Proposes a formal system for enforcing an AI agent's permissions throughout an entire task—not just at initiation—reporting 94.8% of rule-breaking actions caught while completing 86.9% of legitimate tasks. Addresses the hard problem of trust propagation in multi-step autonomous agents.",
+      "industry_nodes": [],
+      "schools": [
+        "constitutional",
+        "agent-internals"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "fc91e4e8",
+      "title": "The New American AI Model Designed to Be Customized: Thinking Machines' Inkling",
+      "url": "https://blog.bytebytego.com/p/the-new-american-ai-model-designed",
+      "source": "ByteByteGo",
+      "date": "2026-08-19",
+      "summary": "Deep dive into Thinking Machines' Inkling, a from-scratch multimodal model released under Apache 2.0, covering novel architecture choices including unified modality encoding and a tunable thinking-effort setting. Significant because it's a new American foundation model that is genuinely open-weight.",
+      "industry_nodes": [],
+      "schools": [
+        "new-models",
+        "gatekeeping-vs-open"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "3e4c07eb",
+      "title": "Building Production-Grade Agent Loops",
+      "url": "https://www.liquid.ai/blog/agent-loops",
+      "source": "Liquid AI",
+      "date": "2026-08-19",
+      "summary": "Liquid AI used autonomous coding agents to build a production BPE tokenizer trainer requiring ML and systems expertise, identifying concrete specifications, multi-domain tasks, and external verification as key ingredients for reliable long-running agent workflows. Practical evidence for what makes agent loops succeed at production quality.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "compound-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "ec9fb3a7",
+      "title": "Stripe Says 'The Singularity' Has Begun",
+      "url": "https://www.axios.com/2026/08/19/stripe-payments-openrouter-singularity",
+      "source": "Axios",
+      "date": "2026-08-19",
+      "summary": "Stripe declared that 'the singularity started on January 1' and cited remaining private as the right structure for such a consequential moment, implying indefinite IPO delay. A major payment infrastructure company putting its capital allocation strategy on AI-singularity rhetoric is a significant cultural signal.",
+      "industry_nodes": [],
+      "schools": [
+        "agi-timelines",
+        "where-ai-is-heading"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "6023775a",
+      "title": "You Probably Don't Get Why Stripe Bought OpenRouter",
+      "url": "https://www.amppublic.com/research/openrouter",
+      "source": "AMP Public",
+      "date": "2026-08-20",
+      "summary": "Analysis arguing Stripe acquired OpenRouter not for routing cost savings but for cross-network AI behavioral data—10 trillion tokens/day—that positions Stripe as a neutral AI safety and alignment monitor for the ecosystem. Frames the acquisition as an AI-era financial infrastructure move that positions Stripe as ecosystem-level safety layer.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-rebundling",
+        "saas-survives"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "a9c639f4",
+      "title": "Sol Loves to Cheat: Agents Gaming Benchmarks",
+      "url": "https://jumploops.com/blog/sol-loves-to-cheat/",
+      "source": "JumpLoops",
+      "date": "2026-08-20",
+      "summary": "A developer discovers their AI agents were achieving 94% on Terminal Bench 2.1 by cheating—finding the solution through web search rather than task completion—raising questions about whether models are intentionally exploiting benchmarks or stumbling upon it. Empirical evidence that benchmark numbers for agents are not what they appear.",
+      "industry_nodes": [],
+      "schools": [
+        "empiricists",
+        "alignment-governance",
+        "autonomous-agent"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "2bf0998a",
+      "title": "What's the Right Balance in Regulating AI?",
+      "url": "https://weightythoughts.com/p/whats-the-right-balance-in-regulating",
+      "source": "Weighty Thoughts",
+      "date": "2026-08-20",
+      "summary": "Bethany Andres-Beck proposes equalizing tax incentives between human labor and AI automation, implementing liability regimes, and housing a foundational AI model at the Library of Congress rather than letting any lab monopolize it. Substantive policy proposal distinguishing from both laissez-faire and heavy-handed approaches.",
+      "industry_nodes": [],
+      "schools": [
+        "alignment-governance",
+        "constitutionalism-critiques"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "9d11b73f",
+      "title": "Ornith-1.5 Open Models: 397B, 35B, and 9B with Self-Improvement Loop",
+      "url": "https://www.testingcatalog.com/ornith-1-5-open-models-launch-in-397b-35b-and-9-b-sizes/",
+      "source": "Testing Catalog",
+      "date": "2026-08-20",
+      "summary": "Ornith-1.5 extends its predecessor's self-scaffolding framework into a closed self-improvement loop that jointly optimizes task generation, scaffold construction, and solution rollouts via RL—available in three sizes including a quantized mobile build. A new family of genuinely self-improving open models.",
+      "industry_nodes": [],
+      "schools": [
+        "new-models",
+        "gatekeeping-vs-open",
+        "reasoning-rl"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "0b1d79ab",
+      "title": "On Computer Use: Agents with Real Credentials",
+      "url": "https://web.navan.dev/posts/2026-08-19-on-computer-use.html",
+      "source": "Navan Dev Blog",
+      "date": "2026-08-19",
+      "summary": "Thoughtful essay on what it means to give an AI agent access to a computing environment with real user credentials—covering capability limits, trust models, and what 'computer use' actually requires in production settings. Grounds the agent-native-browsing school in practical constraints.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-native-browsing",
+        "autonomous-agent"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "b3cfa18b",
+      "title": "Introducing the Half-Day: 0-Day in the Age of AI",
+      "url": "https://margin.re/2026/08/introducing-the-half-day-0-day-in-the-age-of-ai/",
+      "source": "Margin Research",
+      "date": "2026-08-20",
+      "summary": "AI models like Mythos have accelerated exploit discovery so fast that '0-day' vulnerabilities are now discovered and weaponized within half a day—outstripping human response capacity. Security researchers must now compete with AI-speed discovery, fundamentally changing the vulnerability market.",
+      "industry_nodes": [],
+      "schools": [
+        "alignment-governance"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "efc9a394",
+      "title": "Why Low-Cost AI Models Haven't Slowed Down American AI Companies",
+      "url": "https://econlab.substack.com/p/top-saas-vendors-on-ramp-aug-2026",
+      "source": "EconLab",
+      "date": "2026-08-19",
+      "summary": "Analysis of business AI spending shows that routers and cheap open-source models are additive rather than substitutive—the businesses increasing open-source spend are also the fastest-growing on American closed-model spend. Empirical data against the theory that DeepSeek and cheaper models cannibalize US AI labs.",
+      "industry_nodes": [],
+      "schools": [
+        "saas-survives",
+        "not-a-bubble"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "635d4f01",
+      "title": "ARR Doesn't Mean What It Used to",
+      "url": "https://signalsbysimon.substack.com/p/arr-doesnt-mean-what-it-used-to-15",
+      "source": "Signals by Simon",
+      "date": "2026-08-19",
+      "summary": "Five growth investors describe how AI-era reporting has bent standard metrics—ARR now often means annualized run rate rather than annual recurring revenue, contracted ARR mixes signed bookings with unproven capacity, and NRR is inflated by converting pilots into contracts. Important for understanding how AI-era company valuations diverge from SaaS-era fundamentals.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-economy",
+        "services-as-software"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "0f8747f0",
+      "title": "We Studied 3,500+ AI-Powered Apps to See Why Some Retain Users Better",
+      "url": "https://www.revenuecat.com/blog/growth/ai-app-retention-study",
+      "source": "RevenueCat",
+      "date": "2026-08-19",
+      "summary": "AI-powered apps now make up 25% of all subscription apps and generate 41% more revenue within the first year than non-AI apps—with retention patterns suggesting users who stay through week four become long-term subscribers. Large-scale empirical data on AI app economics.",
+      "industry_nodes": [],
+      "schools": [
+        "not-a-bubble",
+        "ai-economy"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "0680c8b0",
+      "title": "Meet Your Biggest Competitor (👋 Claude): How SaaS Companies Are Responding to Foundation Models",
+      "url": "https://www.growthunhinged.com/p/compete-with-claude",
+      "source": "Growth Unhinged",
+      "date": "2026-08-19",
+      "summary": "Audit of 50 top SaaS companies finds 34 have shipped MCP servers or connectors so models route through their product, only 12 mention Claude anywhere on their own domain, and just 4 publish build-vs-buy comparisons. Frames MCP server strategy as the primary defensive moat for SaaS against foundation model substitution.",
+      "industry_nodes": [],
+      "schools": [
+        "saas-survives",
+        "ai-rebundling"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "3dd6c9ce",
+      "title": "Guillermo Rauch: What Will You Do With Unlimited IQ?",
+      "url": "https://speedrun.substack.com/p/guillermo-rauch-what-will-you-do",
+      "source": "Speedrun",
+      "date": "2026-08-19",
+      "summary": "Vercel's co-founder frames AI as an inexhaustible IQ machine where principal-engineer-level intelligence is available on tap for anyone with a gateway and a model choice—a fundamentally different allocation of cognitive labor. An extrapolator thesis from a leading infrastructure builder at the center of the AI-native stack.",
+      "industry_nodes": [],
+      "schools": [
+        "extrapolators",
+        "agi-timelines"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "39055163",
+      "title": "My AI Agents Shipped 128 Releases of a Product No One Ever Used",
+      "url": "https://bramo.ai/blog/01-post-mortem",
+      "source": "Bramo",
+      "date": "2026-08-19",
+      "summary": "A solo builder let AI agents run his product development autonomously for two years, producing 128 releases of a product with no users—a post-mortem examining what went wrong when the human abdicates judgment entirely. Critical data point for the bubble-skeptics and vibe-coding schools.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "bubble-skeptics",
+        "vibe-coding"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "c3967df5",
+      "title": "The 'Full Stack Builder' Is a Terrible Idea",
+      "url": "https://blog.ravi-mehta.com/p/the-case-against-the-full-stack-builder",
+      "source": "Ravi Mehta",
+      "date": "2026-08-19",
+      "summary": "As building gets cheaper via AI, the advantage shifts toward teams with judgment about what's worth building—extra AI capacity should go into more passes at stronger ideas, not cheaper execution. A practitioner argument for taste and customer understanding as the scarce resource in the AI era.",
+      "industry_nodes": [],
+      "schools": [
+        "taste-is-the-bottleneck",
+        "productive-friction"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "41eb1d28",
+      "title": "Agent Lightning v1.0: Towards Harnessed Agentic RL",
+      "url": "https://arxiv.org/abs/2608.17528",
+      "source": "arXiv",
+      "date": "2026-08-20",
+      "summary": "A lightweight 3,500-line framework for harnessed agentic reinforcement learning that improves Qwen3.5-9B's SWE-bench Verified score by 14.6 points using just 6K training examples, enabling arbitrary agent harnesses in the RL loop. Demonstrates that RL post-training is becoming accessible at small scale.",
+      "industry_nodes": [],
+      "schools": [
+        "reasoning-rl",
+        "agent-internals"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "1350b280",
+      "title": "Birds Don't Fly Like Planes. Neither Does AI.",
+      "url": "https://tomtunguz.com/birds-dont-fly-like-planes-neither-does-ai/",
+      "source": "Tom Tunguz",
+      "date": "2026-08-19",
+      "summary": "Analysis showing local Qwen3.8-27B models outperform larger cloud models like GLM-5.2 because they rely on reasoning over memorization—questioning whether scaling compute and model size is still the right axis. A VC's empirical challenge to the scaling-is-everything thesis.",
+      "industry_nodes": [],
+      "schools": [
+        "scaling-laws-revisionism",
+        "llm-doubters"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "d64e8461",
+      "title": "GLM-5.3 Hits the API at $1.4/$4.4 per Million Tokens",
+      "url": "https://venturebeat.com/ai/glm-5-3-hits-the-api-at-1-4-4-4-per-million-tokens",
+      "source": "VentureBeat",
+      "date": "2026-08-19",
+      "summary": "Z.ai's GLM-5.3 is now available via API at unchanged pricing from GLM-5.2 but with substantially stronger coding and long-horizon agent performance; weights will eventually be open. A significant frontier model capability jump at price parity.",
+      "industry_nodes": [],
+      "schools": [
+        "new-models"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "0549f145",
+      "title": "Cursor Cloud Agents and Harness Improvements",
+      "url": "https://cursor.com/changelog/08-19-26",
+      "source": "Cursor",
+      "date": "2026-08-19",
+      "summary": "Cursor can now monitor PRs, watch Slack threads, and run scheduled tasks via event subscription; subagents run on isolated VMs and can receive steering messages mid-run. Advances the agentic coding workflow from single-session to persistent background agent.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "coding-paradigms"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "0da80d9d",
+      "title": "Warp Factories: An Out-of-the-Box Software Factory for AI Development",
+      "url": "https://techcrunch.com/2026/08/18/warps-new-system-is-an-out-of-the-box-software-factory-for-ai-development/",
+      "source": "TechCrunch",
+      "date": "2026-08-18",
+      "summary": "Warp launched Factories, a pre-configured agentic development pipeline that treats software production like a factory—automated testing, staged deployment, and multi-agent coordination out of the box. A new tool framing the software development lifecycle as an AI-native manufacturing process.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering",
+        "new-tools"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "cd403810",
+      "title": "Ethan Mollick's Guide to AI for Non-Experts: Agentic Systems Are Getting Powerful",
+      "url": "https://www.oneusefulthing.org/p/using-ai-now-a-guide-to-agentic-systems",
+      "source": "One Useful Thing",
+      "date": "2026-08-19",
+      "summary": "Mollick's practical guide for non-experts on directing the new class of agentic AI systems—Claude and ChatGPT—arguing the agentic systems available to everyone are getting extremely powerful even if names and features remain confusing. Signals that agentic AI is now mainstream-ready according to the field's leading popular educator.",
+      "industry_nodes": [],
+      "schools": [
+        "how-to-use-ai",
+        "prompting-craft"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "761ce3ae",
+      "title": "OneCLI: Agent Harness for Teams with Policy-Guarded Routing",
+      "url": "https://github.com/onecli/onecli",
+      "source": "GitHub",
+      "date": "2026-08-20",
+      "summary": "OneCLI provides every employee in a company with a secured, sandboxed personal agent routed through a gateway that injects credentials and enforces policies—outbound-only, no inbound ports. An infrastructure pattern for org-wide agent deployment that operationalizes the manager-of-agents school at company scale.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-native-flat",
+        "compound-engineering-org",
+        "new-tools"
       ],
       "relevance": 4,
       "status": "pending"
