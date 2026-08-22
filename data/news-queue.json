@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-21T10:16:22.676Z",
+  "generated": "2026-08-22T10:16:26.481Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -16362,6 +16362,277 @@
         "new-tools"
       ],
       "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "7677448d",
+      "title": "Anthropic's Project Parka Sits Through Meetings and Assigns Claude Agents the Homework",
+      "url": "https://runtimewire.com/article/anthropic-s-project-parka-sits-through-meetings-and-assigns-claude-agents-the-ho",
+      "source": "TLDR AI",
+      "date": "2026-08-21",
+      "summary": "Anthropic's Project Parka is a Mac-first feature that captures system and microphone audio, streams speaker-attributed transcripts, and creates runnable agent tasks from meetings. It turns meeting content into full implementation prompts for Claude agents, representing a new class of ambient-computing agents that operate on real-world workplace context.",
+      "industry_nodes": [],
+      "schools": [
+        "autonomous-agent",
+        "agent-internals",
+        "compound-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "f7ebc55b",
+      "title": "Mistral Replaces One-Shot Document Retrieval with a Navigable Search Loop (Agentic Search)",
+      "url": "https://mistral.ai/news/agentic-search/",
+      "source": "Mistral AI",
+      "date": "2026-08-21",
+      "summary": "Mistral's Agentic Search gives models five operations—search, open, navigate, read, and grep—to inspect long documents, follow references, and verify answers instead of accepting first-retrieved chunks. The loop raised FinanceBench correctness from 26.7% to 86%, demonstrating that iterative search-and-read outperforms single-shot RAG for document-heavy tasks.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "context-engineering",
+        "reasoning-rl"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "ca7e5a5e",
+      "title": "Harvey Post-Trains Kimi K3 for Long-Horizon Legal Work",
+      "url": "https://www.harvey.ai/blog/post-training-update-harvey-tenet",
+      "source": "Harvey AI",
+      "date": "2026-08-21",
+      "summary": "Harvey post-trained Kimi K3 using asynchronous RL in realistic long-horizon legal environments, with separate capabilities for diligence, review tables, and firm knowledge routed as tools or subagents. The key insight: professional-service models improve by learning the workflow and harness—not merely by ingesting domain text.",
+      "industry_nodes": [],
+      "schools": [
+        "reasoning-rl",
+        "compound-engineering",
+        "services-as-software"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "3e18d86e",
+      "title": "Are We Thinking Correctly About AI Intelligence?",
+      "url": "https://www.quantamagazine.org/are-we-thinking-correctly-about-ai-intelligence-20260820/",
+      "source": "Quanta Magazine",
+      "date": "2026-08-20",
+      "summary": "Melanie Mitchell argues AI's intelligence differs fundamentally from human reasoning and proposes classifying it as 'alien intelligence.' She proposes adapting psychological methods from infant and animal research to evaluate AI cognition, emphasizing six principles that guard against anthropomorphism in AI assessment.",
+      "industry_nodes": [],
+      "schools": [
+        "empiricists",
+        "llm-doubters",
+        "post-agi-skeptics"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "e9fbb184",
+      "title": "Harness-Aware Training: Post-Training a Smaller Model to Follow a Changing Harness (TaoLive)",
+      "url": "https://arxiv.org/abs/2608.15763",
+      "source": "arXiv",
+      "date": "2026-08-20",
+      "summary": "TaoLive's Harness-Aware Training varies skill names, tool schemas, prompt structure, and hook behavior during SFT and agentic RL, teaching a compact 35B model to interpret any harness it currently receives rather than memorizing one fixed interface. This decouples agent capability from any single deployment configuration.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "spec-driven",
+        "reasoning-rl"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "1fa8ceca",
+      "title": "Google Brings Antigravity Agents into Enterprise Subscriptions and Existing IDEs",
+      "url": "https://antigravity.google/blog/antigravity-enterprise",
+      "source": "Google",
+      "date": "2026-08-21",
+      "summary": "Google added Antigravity to eligible Gemini Enterprise subscriptions with extensions for VS Code, Visual Studio, JetBrains, and Zed. Enterprise administrators can set sandbox, tool-permission, budget, identity, and audit controls across all agent workspaces, marking a shift toward enterprise-managed agentic coding infrastructure.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering",
+        "vibe-coding",
+        "manager-of-agents"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "84a91781",
+      "title": "Slack Code: Where Your Team and Agents Build Together",
+      "url": "https://slack.com/blog/news/slack-code-channels-for-agents",
+      "source": "Slack",
+      "date": "2026-08-21",
+      "summary": "Slack Code adds project-specific code channels where teams and AI agents plan, write, and review software together, with integrations from GitHub, Anthropic, and Vercel. Engineers can monitor code diffs and live previews directly in Slack, bringing agent-driven development into the team communication layer.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering-org",
+        "manager-of-agents",
+        "compound-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "e11a8bac",
+      "title": "The End of Open Source",
+      "url": "https://galratner.substack.com/p/the-end-of-open-source",
+      "source": "Gal Ratner (Substack)",
+      "date": "2026-08-21",
+      "summary": "AI removes the analytical bottleneck that made secrecy effective: intelligence agencies were limited not by what they could steal but by what they could read. Closing source code now only hides your exposure, not the exposure itself—AI can audit everything foreign analysts previously lacked bandwidth for.",
+      "industry_nodes": [],
+      "schools": [
+        "gatekeeping-vs-open",
+        "privacy-sidecar",
+        "alignment-governance"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "f42c61a0",
+      "title": "The Healthcare Company That Built the AI Tool It Couldn't Buy",
+      "url": "https://every.to/p/the-healthcare-company-that-built-the-ai-tool-it-couldn-t-buy",
+      "source": "Every",
+      "date": "2026-08-21",
+      "summary": "Headway built Eddy, an internal Claude Code SDK-based agent assistant now used daily by 650 of 900 employees, after no vendor could meet their compliance and workflow requirements. The piece provides a concrete build-vs-buy-vs-wait framework and architecture lessons for deploying autonomous agents in regulated industries.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering-org",
+        "agent-internals",
+        "autonomous-agent"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "14d6e72e",
+      "title": "Build Production Agents with Computer Use, the Skills API, and the Files API",
+      "url": "https://claude.com/blog/computer-use-skills-api-files-api",
+      "source": "Anthropic / Claude",
+      "date": "2026-08-21",
+      "summary": "Anthropic announces general availability of computer use, browser use, the Skills API, and the Files API as a unified production-agent surface. Together they close the gap between an AI that answers questions and an agent that can understand a goal, apply a documented method, act in an external environment, and return a usable deliverable.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "compound-engineering",
+        "autonomous-agent"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "734a0e13",
+      "title": "The Next GitHub Is Not Worth Winning",
+      "url": "https://davidpoblador.com/blog/the-next-github-is-not-worth-winning.html",
+      "source": "David Poblador",
+      "date": "2026-08-20",
+      "summary": "GitHub currently optimizes for cheap experiments and serious long-lived projects simultaneously—workloads that want opposite things. The argument: the AI-era winner in code hosting will not be 'GitHub but better' but a product designed from scratch for agent-native workflows where code is a live artifact, not a static archive.",
+      "industry_nodes": [],
+      "schools": [
+        "coding-paradigms",
+        "living-software",
+        "compound-engineering"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "32db2c23",
+      "title": "Designing the First Five Minutes: Agent Onboarding UX",
+      "url": "https://microsoft.design/articles/designing-the-first-five-minutes/",
+      "source": "Microsoft Design",
+      "date": "2026-08-21",
+      "summary": "Research on a sales-outreach agent identifies five principles for agent onboarding: show value before setup, break configuration into small steps, signal progress during processing, personalize gradually via defaults rather than upfront questions, and clarify capabilities early. First-impressions design for agents is as important as output quality.",
+      "industry_nodes": [],
+      "schools": [
+        "design-ai-as-tool",
+        "productive-friction",
+        "design-partnering"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "35035d25",
+      "title": "A Forgotten Quality: Self-Improving DESIGN.md via AI Agent Loop",
+      "url": "https://designsobremesa.substack.com/p/031-a-forgotten-quality",
+      "source": "Design Sobremesa (Substack)",
+      "date": "2026-08-21",
+      "summary": "A design team moved from a static DESIGN.md to a self-improving specification in two weeks: generate spec from code, run an isolated agent against it, compare output to a screenshot, and feed corrections back into the loop. Each cycle improves the spec until Claude runs out of issues—a living specification pattern for design systems.",
+      "industry_nodes": [],
+      "schools": [
+        "spec-driven",
+        "living-software",
+        "design-ai-as-tool"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "6249b54a",
+      "title": "The Human Is the Loop: Rethinking AI Dependency",
+      "url": "https://brentfitzgerald.com/posts/the-human-is-the-loop/",
+      "source": "Brent Fitzgerald",
+      "date": "2026-08-20",
+      "summary": "After weeks away from AI tools, the author returned realizing their usage had become a habit-forming crutch rather than genuinely useful—using agents as a buffer against stress rather than for real productivity gains. A practitioner call for intentional, selective AI use that keeps the human as the decision-maker rather than a relay.",
+      "industry_nodes": [],
+      "schools": [
+        "productive-friction",
+        "llm-doubters",
+        "design-ai-as-tool"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "5c650dc9",
+      "title": "Cursor Launches Origin Code Hosting Service to Compete with GitHub",
+      "url": "https://siliconangle.com/2026/08/17/cursor-launches-origin-code-hosting-service-to-compete-with-github/",
+      "source": "SiliconAngle",
+      "date": "2026-08-17",
+      "summary": "Cursor Origin is a Git-based cloud code-hosting service accessible via Cursor's desktop app and CLI, supporting its AI agents with connectors to Vercel, Depot, and Buildkite. Following SpaceX's June acquisition of Cursor, Origin signals a move toward an agent-native code platform where hosting, agents, and deployment form a single surface.",
+      "industry_nodes": [],
+      "schools": [
+        "coding-paradigms",
+        "agent-native-browsing",
+        "compound-engineering"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "a2a6493c",
+      "title": "PagedAttention: Virtual Memory for the KV Cache",
+      "url": "https://thegustafson.com/blog/paged-attention",
+      "source": "The Gustafson Blog",
+      "date": "2026-08-21",
+      "summary": "At long contexts the KV cache consumes more GPU memory than model weights themselves; PagedAttention applies virtual memory concepts to make KV cache paging transparent to attention kernels. Explains why KV cache memory management is now a primary bottleneck in production LLM serving at scale.",
+      "industry_nodes": [],
+      "schools": [
+        "scaling-laws-revisionism",
+        "context-engineering",
+        "how-ai-works"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "27cc4758",
+      "title": "AI Governance Weekly — August 20, 2026",
+      "url": "https://buttondown.com/aigovernance/archive/ai-governance-weekly-august-20-2026/",
+      "source": "AI Governance Newsletter",
+      "date": "2026-08-20",
+      "summary": "Weekly roundup covering EU AI Act full enforcement from August 2, the Summer 2026 frontier agent security incidents, and regulatory responses from the US and EU. Marks the first period of binding AI regulation with active enforcement powers and fines.",
+      "industry_nodes": [],
+      "schools": [
+        "alignment-governance",
+        "constitutionalism-critiques"
+      ],
+      "relevance": 3,
       "status": "pending"
     }
   ]
