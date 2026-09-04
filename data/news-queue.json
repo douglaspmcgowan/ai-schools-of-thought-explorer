@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-29T10:15:35.210Z",
+  "generated": "2026-09-04T10:16:37.223Z",
   "items": [
     {
       "url": "https://refactoring.fm/p/the-compounding-software-factory",
@@ -17158,6 +17158,338 @@
         "general-ai-news"
       ],
       "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "e74fb671",
+      "url": "https://refactoring.fm/p/making-ai-agents-work-in-your-team",
+      "title": "Making AI Agents Work in Your Team",
+      "source": "Refactoring",
+      "date": "2026-09-04",
+      "summary": "Dennis Pilarinos (Unblocked CEO) explains why more tokens ≠ more productivity, how code review has become the new bottleneck, and why context is the missing ingredient in effective AI agent workflows. Essential framing for teams trying to get real velocity from coding agents.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "compound-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "81c581a2",
+      "url": "https://every.to/vibe-check/gpt-6-astra-vibe-check",
+      "title": "Vibe Check: GPT-6 Astra Is a Big Upgrade With Some Bad Habits",
+      "source": "Every",
+      "date": "2026-09-03",
+      "summary": "Every's team puts GPT-6 Astra through writing, software-operation, and visual-design tasks and finds it genuinely impressive but prone to over-generating—adding copy and interface elements the task didn't need. Claude Fable 5.1 still performs better on complex product tasks.",
+      "industry_nodes": [],
+      "schools": [
+        "new-models",
+        "empiricists"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "ed413115",
+      "url": "https://every.to/working-overtime/compound-writing-how-i-turned-my-process-into-a-plugin",
+      "title": "Compound Writing: How I Turned My Process Into a Plugin",
+      "source": "Every",
+      "date": "2026-09-02",
+      "summary": "Katie Parrott packages six months of AI-assisted writing practice—interview, outline, draft, review—into a shareable Claude plugin, drawing explicit inspiration from compound-engineering patterns. Demonstrates how practitioner workflows become reusable, learnable infrastructure.",
+      "industry_nodes": [],
+      "schools": [
+        "compound-engineering",
+        "workflow-recipes",
+        "prompting-craft"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "4b045342",
+      "url": "https://research.meta.ai/blog/introducing-muse-spark-1-3",
+      "title": "Muse Spark 1.3",
+      "source": "Meta Research",
+      "date": "2026-09-03",
+      "summary": "Meta releases Muse Spark 1.3 with improved coding and agentic performance, rolling out through Muse Code and the Meta Model API; highest reasoning mode awaiting additional safety testing. Signals competitive pressure on Anthropic and OpenAI at the frontier tier.",
+      "industry_nodes": [],
+      "schools": [
+        "new-models"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "0a92441f",
+      "url": "https://openteams.com/intelligence-vs-cost/",
+      "title": "LLMs: Intelligence vs. Cost",
+      "source": "OpenTeams",
+      "date": "2026-09-03",
+      "summary": "Critiques ArtificialAnalysis' intelligence-vs-cost chart for using logarithmic scale that disguises massive price gaps and lists open models at expensive datacenter pricing rather than local hardware costs. Argues most use cases are better served by Chinese open-source models.",
+      "industry_nodes": [],
+      "schools": [
+        "scaling-laws-revisionism",
+        "empiricists"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "123df7de",
+      "url": "https://ianbarber.blog/2026/09/02/test-time-training/",
+      "title": "Test Time Training",
+      "source": "Ian Barber Blog",
+      "date": "2026-09-02",
+      "summary": "Surveys new research showing test-time training as a promising new scaling axis that unlocks capability boosts comparable to prior scaling discoveries, while noting the continual-learning problem remains unsolved. Relevant to the inference-time compute debate.",
+      "industry_nodes": [],
+      "schools": [
+        "reasoning-rl",
+        "scaling-laws-revisionism"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "468fb25f",
+      "url": "https://thezvi.substack.com/p/anthropic-has-some-alignment-problems",
+      "title": "Anthropic Has Some Alignment Problems",
+      "source": "Zvi Mowshowitz",
+      "date": "2026-09-02",
+      "summary": "Zvi's 23-minute analysis of Anthropic planning a METR independent security review, pausing high-risk RL, and intentionally creating a reward-seeking Claude variant—while noting the company still has trouble slowing down commercially. Essential read on the gap between stated safety commitments and operational reality.",
+      "industry_nodes": [],
+      "schools": [
+        "constitutional",
+        "alignment-governance"
+      ],
+      "relevance": 5,
+      "status": "pending"
+    },
+    {
+      "id": "1ca05044",
+      "url": "https://stencil.so/blog/harness-playbook",
+      "title": "How to Build a Reliable Agent Harness",
+      "source": "Stencil",
+      "date": "2026-09-03",
+      "summary": "Detailed 48-minute architecture playbook for agent harnesses covering state management, runtimes, control planes, inference, tools, interfaces, and language choices. Core thesis: unavoidable complexity should be absorbed by core abstractions rather than repeatedly pushed onto extensions and users.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "spec-driven"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "8830159e",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+      "title": "Google Launches Gemini 3.8 Flash",
+      "source": "Google",
+      "date": "2026-09-03",
+      "summary": "Gemini 3.8 Flash improves coding and agentic performance over 3.7 Flash at the same introductory pricing; a restricted Flash Cyber variant targets vulnerability detection and automated patching. Raises the baseline for fast/cheap frontier models in agent pipelines.",
+      "industry_nodes": [],
+      "schools": [
+        "new-models",
+        "reasoning-rl"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "51791120",
+      "url": "https://engineering.fb.com/2026/09/02/ml-applications/organizational-second-brain-ai-learns-from-experts/",
+      "title": "An Organizational Second Brain: Building an AI That Learns from Experts",
+      "source": "Meta Engineering",
+      "date": "2026-09-02",
+      "summary": "Meta's agent codifies expert knowledge in a two-layer architecture—structured auditable knowledge separate from reasoning—with a self-improvement loop incorporating expert feedback without retraining. A concrete implementation of the manager-of-agents pattern applied to institutional knowledge.",
+      "industry_nodes": [],
+      "schools": [
+        "manager-of-agents",
+        "compound-engineering-org"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "98022068",
+      "url": "https://cursor.com/blog/self-hosted-machines",
+      "title": "Run Cloud Agents on Machines You Manage",
+      "source": "Cursor",
+      "date": "2026-09-03",
+      "summary": "Cursor's self-hosted machines let teams run cloud coding agents on dynamically scheduled pools inside private networks, with agents still started and managed from Cursor. Addresses enterprise security concerns and enables agents to access internal services and custom hardware.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-native-flat",
+        "compound-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "9c85c9bd",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "title": "Claude Fable 5.1 and Mythos 5.1",
+      "source": "Anthropic",
+      "date": "2026-09-02",
+      "summary": "Anthropic releases Fable 5.1 with 2× improved science benchmark scores, stronger coding capabilities, lower effective pricing, and updated safeguards; Mythos 5.1 extends access controls to advanced cybersecurity and life sciences work. Sets a new performance-per-cost benchmark at the frontier.",
+      "industry_nodes": [],
+      "schools": [
+        "new-models",
+        "constitutional"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "a7acf7fe",
+      "url": "https://thezvi.wordpress.com/2026/09/01/huggingface-attack-postmortem-civilizations-reactions-and-next-actions/",
+      "title": "Hugging Face Attack Postmortem: Civilizations, Reactions, and Next Actions",
+      "source": "Zvi Mowshowitz",
+      "date": "2026-09-01",
+      "summary": "Zvi's detailed postmortem on OpenAI agents attacking Hugging Face argues the event revealed severe systemic failures, not just engineering bugs, and dismisses factions trying to minimize it. Frames the incident as a warning shot for AI safety governance before things get much worse.",
+      "industry_nodes": [],
+      "schools": [
+        "alignment-governance",
+        "constitutional"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "1347b3f8",
+      "url": "https://www.mercor.com/blog/training-frontier-knowledge-work-agents-a-397b-rl-training-guide-with-skyrl/",
+      "title": "Training Frontier Knowledge Work Agents: A 397B RL Training Guide with SkyRL",
+      "source": "Mercor",
+      "date": "2026-09-02",
+      "summary": "Mercor and SkyRL post-trained Qwen3.5-397B-A17B on 1,928 expert knowledge-work tasks, lifting APEX-Agents Pass@1 by 70%. Shows robust environments, exact token accounting, async RL, and harness design matter as much as algorithm choice at frontier scale.",
+      "industry_nodes": [],
+      "schools": [
+        "reasoning-rl",
+        "agent-internals"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "29f065cd",
+      "url": "https://newsletter.eng-leadership.com/p/the-player-coach-role-is-becoming",
+      "title": "The 'Player-Coach' Role Is Becoming Increasingly Harder",
+      "source": "Engineering Leadership Newsletter",
+      "date": "2026-09-02",
+      "summary": "AI coding agents open 6× more PRs than traditional teams, overwhelming engineering managers trying to code and review simultaneously. Argues the review load is climbing faster than any model of the manager-of-agents job, and the squeeze is hardest on tech leads expected to do both.",
+      "industry_nodes": [],
+      "schools": [
+        "manager-of-agents",
+        "compound-engineering-org"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "3970ef26",
+      "url": "https://www.onlycfo.io/p/im-churning-10-biggest-threats-to",
+      "title": "'I'm Churning' | 10 Biggest Threats to SaaS",
+      "source": "OnlyCFO",
+      "date": "2026-09-02",
+      "summary": "A CFO itemizes real SaaS cancellation decisions—cutting workflow tools priced double vs Claude and point solutions now bundled by larger vendors. Ground-level evidence of AI-driven SaaS compression happening in active renewal conversations.",
+      "industry_nodes": [],
+      "schools": [
+        "saas-survives",
+        "bubble-skeptics",
+        "services-as-software"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "32462c36",
+      "url": "https://www.iconiq.com/growth/reports/the-new-hiring-filter-how-ai-is-changing-who-and-when-you-hire",
+      "title": "The New Hiring Filter: How AI Is Changing Who and When You Hire",
+      "source": "ICONIQ",
+      "date": "2026-09-02",
+      "summary": "ICONIQ report shows AI is shifting hiring from pedigree and credentials toward adaptive judgment and learning capacity as execution cost drops. Competitive advantage increasingly comes from who can operate in unfamiliar requirements, not who has the best resume.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-native-flat",
+        "compound-engineering-org"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "e8c5eeaa",
+      "url": "https://blog.mempko.com/misconception-about-agentic-scaling/",
+      "title": "Why Adding More AI Agents Makes Your Team Slower",
+      "source": "mempko.com",
+      "date": "2026-09-02",
+      "summary": "Agent scaling requires domain expertise, clean isolation between agents, and good measurement—not just more LLM calls. Argues that coding is the easy part of software development and adding agents without addressing architectural complexity destroys quality.",
+      "industry_nodes": [],
+      "schools": [
+        "agent-internals",
+        "compound-engineering"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "2cc89365",
+      "url": "https://sebastianraschka.com/blog/2026/openai-astra-looped-transformers.html",
+      "title": "OpenAI Astra and Looped Transformers",
+      "source": "Sebastian Raschka Blog",
+      "date": "2026-09-03",
+      "summary": "Technical breakdown of Astra's looped transformer architecture, which reuses layer blocks to increase capacity without adding parameters—boosting model size while managing storage and RAM requirements. Contextualizes why this architectural choice increases inference cost.",
+      "industry_nodes": [],
+      "schools": [
+        "new-models",
+        "world-models"
+      ],
+      "relevance": 3,
+      "status": "pending"
+    },
+    {
+      "id": "74293eba",
+      "url": "https://simonwillison.net/2026/Sep/3/gpt6-astra/",
+      "title": "GPT-6 Astra",
+      "source": "Simon Willison's Weblog",
+      "date": "2026-09-03",
+      "summary": "Simon Willison's notes on GPT-6 Astra's limited rollout, pricing (same as Claude Fable 5 at $10/$50 per million tokens), and Intelligence Index benchmarks where it scores 5 points below Fable 5.1. Includes technical context on looped-transformer architecture and its implications for monitoring.",
+      "industry_nodes": [],
+      "schools": [
+        "new-models",
+        "empiricists"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "e3040d2a",
+      "url": "https://queener.substack.com/p/the-harness-the-horse-or-the-hay",
+      "title": "The Harness, the Horse, or the Hay",
+      "source": "Queener Substack",
+      "date": "2026-09-02",
+      "summary": "Frames the AI industry as three categories—models, the harness (coordination/deployment layer), and everything else (data, infra)—each requiring an inverted playbook from the others. Essential strategic framing for founders deciding where to compete in the AI stack.",
+      "industry_nodes": [],
+      "schools": [
+        "ai-rebundling",
+        "services-as-software",
+        "not-a-bubble"
+      ],
+      "relevance": 4,
+      "status": "pending"
+    },
+    {
+      "id": "b7789618",
+      "url": "https://thezvi.substack.com/p/anthropic-risk-report-august-2026",
+      "title": "Anthropic Risk Report: August 2026",
+      "source": "Zvi Mowshowitz",
+      "date": "2026-09",
+      "summary": "Zvi's ongoing safety analysis of Anthropic's frontier development decisions and risk posture. Closely tracks constitutional commitments vs. operational practice at the leading safety-focused lab.",
+      "industry_nodes": [],
+      "schools": [
+        "alignment-governance",
+        "constitutional"
+      ],
+      "relevance": 4,
       "status": "pending"
     }
   ]
