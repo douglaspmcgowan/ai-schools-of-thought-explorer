@@ -1,0 +1,17 @@
+{
+  "name": "ai-schools-of-thought-explorer",
+  "preset": "content-site",
+  "archetype": "reader",
+  "surfaces": [
+    "web"
+  ],
+  "posture": "transient",
+  "audience": "public",
+  "expertise": "novice",
+  "access": "anonymous",
+  "data": "server",
+  "sensitivity": "none",
+  "stakes": "daily-tool",
+  "ai": "none",
+  "notes": "Static HTML content site (index, topic and school pages, news queue) on Vercel; matches the content-site preset except data. data=server because news.html is public and api/submit.js accepts any POST with no authentication and Access-Control-Allow-Origin *, and commits data/news-queue.json to main through the GitHub API with GH_TOKEN, so visitor-triggered state persists server-side. The content pages are read-only for visitors; the news curation write path is not. ai=none: the site is about AI but has no AI feature. stakes=daily-tool is the default. Deployed production URL https://ai-schools-of-thought-explorer.vercel.app (HTTP 200, verified); site checks run against it, walkthroughs against a local static server."
+}
