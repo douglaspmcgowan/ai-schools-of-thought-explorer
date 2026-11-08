@@ -1,0 +1,17 @@
+{
+  "name": "ai-schools-of-thought-explorer",
+  "preset": "content-site",
+  "archetype": "reader",
+  "surfaces": [
+    "web"
+  ],
+  "posture": "transient",
+  "audience": "public",
+  "expertise": "novice",
+  "access": "anonymous",
+  "data": "none",
+  "sensitivity": "none",
+  "stakes": "daily-tool",
+  "ai": "none",
+  "notes": "Static HTML content site (index, topic and school pages, news queue) deployed on Vercel. Facets match the content-site preset; no overrides. data=none and stakes=daily-tool are the defaults: pages are static and read-only for visitors. The news.html curation page posts decisions through api/submit.js to a repo file, a single-curator action, not visitor data. ai=none: the site is about AI but has no AI feature."
+}
