@@ -8,7 +8,7 @@ Target: production
 
 ## Next gaps
 
-- B1.1 (could-not-tell): Every core flow named in SPEC.md runs end to end.
+- B1.1 (failing): Every core flow named in SPEC.md runs end to end.
 - B1.3 (no-check): PRODUCT.md names who the app is for and why it exists.
 - B11.1 (no-check): No secrets in the client bundle or the repository.
 
@@ -16,8 +16,8 @@ Target: production
 
 | item | statement | verify | state | last run |
 | --- | --- | --- | --- | --- |
-| B1.1 | Every core flow named in SPEC.md runs end to end. | agent | could-not-tell | 2026-11-08 |
-| B1.2 | A fresh judge finds the app does what PRODUCT.md, SPEC.md and Douglas's asks say. | judge | could-not-tell | 2026-11-08 |
+| B1.1 | Every core flow named in SPEC.md runs end to end. | agent | failing | 2026-11-08 |
+| B1.2 | A fresh judge finds the app does what PRODUCT.md, SPEC.md and Douglas's asks say. | judge | failing | 2026-11-08 |
 | B1.3 | PRODUCT.md names who the app is for and why it exists. | auto | no-check | never |
 
 ## B2 Feedback and response time
@@ -33,7 +33,7 @@ Target: production
 | item | statement | verify | state | last run |
 | --- | --- | --- | --- | --- |
 | B3.1 | Every data region has loading, empty and error states. | auto | could-not-tell | 2026-11-08 |
-| B3.3 | An empty state says what belongs there and offers one action. | judge | could-not-tell | 2026-11-08 |
+| B3.3 | An empty state says what belongs there and offers one action. | judge | failing | 2026-11-08 |
 | B3.4 | Data that can go stale shows its age. | agent | met | 2026-11-08 |
 
 ## B4 Errors and recovery
@@ -50,7 +50,7 @@ Target: production
 | --- | --- | --- | --- | --- |
 | B5.1 | Nothing typed is lost on reload, back or crash. | agent | failing | 2026-11-08 |
 | B5.2 | Reversible actions can be undone; only irreversible ones ask to confirm. | agent | met | 2026-11-08 |
-| B5.3 | Stored data has a restore that has been tested. | agent | could-not-tell | 2026-11-08 |
+| B5.3 | Stored data has a restore that has been tested. | agent | failing | 2026-11-08 |
 
 ## B6 Navigation
 
@@ -121,7 +121,7 @@ Target: production
 
 | item | statement | verify | state | last run |
 | --- | --- | --- | --- | --- |
-| B14.1 | Visual design follows .agents/DESIGN.md and the project design language. | judge | could-not-tell | 2026-11-08 |
+| B14.1 | Visual design follows .agents/DESIGN.md and the project design language. | judge | failing | 2026-11-08 |
 | B14.2 | Every style comes from tokens, and dark mode reuses them. | auto | no-check | never |
 
 ## B15 Operability
@@ -135,10 +135,10 @@ Target: production
 
 | item | statement | verify | state | last run |
 | --- | --- | --- | --- | --- |
-| RD1.1 | A search result or in-site link opens at the heading it matched, not at the top of the page. | agent | could-not-tell | 2026-11-08 |
+| RD1.1 | A search result or in-site link opens at the heading it matched, not at the top of the page. | agent | failing | 2026-11-08 |
 | RD1.2 | At any scroll position the reader can see which section they are in, from a visible heading or a sticky section label. | agent | failing | 2026-11-08 |
 | RD1.3 | No link has generic text alone, such as 'click here' or 'read more', and no link has an empty accessible name. | auto | no-check | never |
-| RD1.4 | Each search result shows the title, a one-line summary and the section path, so the reader can choose without opening it. | judge | could-not-tell | 2026-11-08 |
+| RD1.4 | Each search result shows the title, a one-line summary and the section path, so the reader can choose without opening it. | judge | failing | 2026-11-08 |
 
 ## RD2 Reading
 
@@ -146,7 +146,7 @@ Target: production
 | --- | --- | --- | --- | --- |
 | RD2.3 | Articles longer than one screen show reading progress that moves with the text the reader has reached. | agent | failing | 2026-11-08 |
 | RD2.4 | On a long article, a control that returns to the top or to the contents is visible at the end without scrolling back. | agent | failing | 2026-11-08 |
-| RD2.5 | Text size and theme choices persist across pages on the same site for the same reader. | judge | could-not-tell | 2026-11-08 |
+| RD2.5 | Text size and theme choices persist across pages on the same site for the same reader. | judge | failing | 2026-11-08 |
 
 ## RD3 Contents and search
 
@@ -160,7 +160,7 @@ Target: production
 
 | item | statement | verify | state | last run |
 | --- | --- | --- | --- | --- |
-| RD4.1 | A link to a section opens in a new tab at that heading. | agent | could-not-tell | 2026-11-08 |
+| RD4.1 | A link to a section opens in a new tab at that heading. | agent | failing | 2026-11-08 |
 | RD4.3 | Printed articles keep the article text, the last-updated date and each external link's address, and drop navigation, sticky headers, ads and banners. | judge | failing | 2026-11-08 |
 | RD4.4 | Each article shows its last-updated date in its header. | auto | no-check | never |
 
@@ -170,8 +170,8 @@ Target: production
 | --- | --- | --- | --- | --- |
 | S-WEB.1 | A window error listener is registered before app code runs, and each uncaught error it receives reaches the error sink. | agent | failing | 2026-11-08 |
 | S-WEB.2 | An unhandled promise rejection has its own listener and reaches the error sink. | agent | failing | 2026-11-08 |
-| S-WEB.3 | Each route sits inside an error boundary that shows that route's fallback and reports the caught error, and the other routes stay usable. | agent | could-not-tell | 2026-11-08 |
-| S-WEB.4 | A chunk that fails to load after a deploy shows a reload prompt, not a blank page. | agent | could-not-tell | 2026-11-08 |
+| S-WEB.3 | Each route sits inside an error boundary that shows that route's fallback and reports the caught error, and the other routes stay usable. | agent | failing | 2026-11-08 |
+| S-WEB.4 | A chunk that fails to load after a deploy shows a reload prompt, not a blank page. | agent | failing | 2026-11-08 |
 
 ## release Release symbols
 
@@ -192,7 +192,7 @@ Generated from `.agents/work/readiness.json` by `Test-ProductReadiness.ps1 -Writ
 
 `met` means the app's own command reported success. It does not mean the app is correct or good.
 
-Kind: ai-schools-of-thought-explorer | Generated: 2026-11-08T02:50:01.0437421Z | Input hash: 85e11d0ceed3
+Kind: ai-schools-of-thought-explorer | Generated: 2026-11-08T02:58:19.7439526Z | Input hash: 14d37b38d9a3
 
 ## Next (checks, detail)
 
@@ -227,7 +227,7 @@ Stage: usable
 
 | check | state | last run | exit | note |
 | --- | --- | --- | --- | --- |
-| console-clean | met | 2026-11-08T02:49:24.5252109Z | 0 |  |
+| console-clean | met | 2026-11-08T02:57:28.0669001Z | 0 |  |
 
 - build: package.json declares no build script; the app is build-free
 - typecheck: package.json declares no typecheck script and the app has no tsconfig.json
@@ -237,15 +237,15 @@ Stage: usable
 
 | check | state | last run | exit | note |
 | --- | --- | --- | --- | --- |
-| loading-state | could-not-tell | 2026-11-08T02:49:25.6864596Z | 2 | \{"check":"loading-state","outcome":"could-not-tell","reason":"no .agents/app-selectors.json selector map","findings":\[\]\} |
-| empty-state | could-not-tell | 2026-11-08T02:49:26.6352335Z | 2 | \{"check":"empty-state","outcome":"could-not-tell","reason":"no .agents/app-selectors.json selector map","findings":\[\]\} |
-| error-state | could-not-tell | 2026-11-08T02:49:27.5292182Z | 2 | \{"check":"error-state","outcome":"could-not-tell","reason":"no .agents/app-selectors.json selector map","findings":\[\]\} |
-| not-found-state | could-not-tell | 2026-11-08T02:49:28.6321178Z | 2 | \{"check":"not-found-state","outcome":"could-not-tell","reason":"no .agents/app-selectors.json selector map","findings":\[\]\} |
-| keyboard-focus | met | 2026-11-08T02:49:30.9167075Z | 0 |  |
-| error-capture | failing | 2026-11-08T02:49:32.4911567Z | 1 | child exited 1 |
-| structured-logs | failing | 2026-11-08T02:49:33.2171523Z | 1 | child exited 1 |
-| viewport-320-1280 | met | 2026-11-08T02:49:35.9213923Z | 0 |  |
-| not-found-page | met | 2026-11-08T02:49:36.76179Z | 0 |  |
+| loading-state | could-not-tell | 2026-11-08T02:57:31.075899Z | 2 | \{"check":"loading-state","outcome":"could-not-tell","reason":"no .agents/app-selectors.json selector map","findings":\[\]\} |
+| empty-state | could-not-tell | 2026-11-08T02:57:33.7243418Z | 2 | \{"check":"empty-state","outcome":"could-not-tell","reason":"no .agents/app-selectors.json selector map","findings":\[\]\} |
+| error-state | could-not-tell | 2026-11-08T02:57:35.6656293Z | 2 | \{"check":"error-state","outcome":"could-not-tell","reason":"no .agents/app-selectors.json selector map","findings":\[\]\} |
+| not-found-state | could-not-tell | 2026-11-08T02:57:38.4897598Z | 2 | \{"check":"not-found-state","outcome":"could-not-tell","reason":"no .agents/app-selectors.json selector map","findings":\[\]\} |
+| keyboard-focus | met | 2026-11-08T02:57:42.9432183Z | 0 |  |
+| error-capture | failing | 2026-11-08T02:57:44.7904462Z | 1 | child exited 1 |
+| structured-logs | failing | 2026-11-08T02:57:46.0710305Z | 1 | child exited 1 |
+| viewport-320-1280 | met | 2026-11-08T02:57:50.4137285Z | 0 |  |
+| not-found-page | met | 2026-11-08T02:57:52.1355312Z | 0 |  |
 
 Not applicable: cli-conformance, game-playable
 
@@ -253,25 +253,25 @@ Not applicable: cli-conformance, game-playable
 
 | check | state | last run | exit | note |
 | --- | --- | --- | --- | --- |
-| design-banned-patterns | failing | 2026-11-08T02:49:37.6055915Z | 1 | child exited 1 |
+| design-banned-patterns | failing | 2026-11-08T02:57:53.5082354Z | 1 | child exited 1 |
 | design-review-dated | never-run |  |  | no design-review receipt; run Write-DesignReviewReceipt.ps1 |
 
 ### production
 
 | check | state | last run | exit | note |
 | --- | --- | --- | --- | --- |
-| privacy-terms | failing | 2026-11-08T02:49:38.5685022Z | 1 | child exited 1 |
-| seo-tags | failing | 2026-11-08T02:49:39.3965472Z | 1 | child exited 1 |
-| security-headers | failing | 2026-11-08T02:49:40.589771Z | 1 | child exited 1 |
-| axe | could-not-tell | 2026-11-08T02:49:41.7067023Z | 2 | `{"check":"axe","target":"http://127.0.0.1:4203","verdict":"could-not-tell","findings":[],"note":"axe cannot run; unresolvable module(s): axe-core"}` |
-| core-web-vitals | met | 2026-11-08T02:49:55.9874615Z | 0 |  |
-| log-personal-data | met | 2026-11-08T02:49:57.585241Z | 0 |  |
+| privacy-terms | failing | 2026-11-08T02:57:55.1859387Z | 1 | child exited 1 |
+| seo-tags | failing | 2026-11-08T02:57:56.9358681Z | 1 | child exited 1 |
+| security-headers | failing | 2026-11-08T02:57:58.5310375Z | 1 | child exited 1 |
+| axe | could-not-tell | 2026-11-08T02:57:59.5824856Z | 2 | `{"check":"axe","target":"https://ai-schools-of-thought-explorer.vercel.app","verdict":"could-not-tell","findings":[],"note":"axe cannot run; unresolvable module(s): axe-core"}` |
+| core-web-vitals | met | 2026-11-08T02:58:15.0597559Z | 0 |  |
+| log-personal-data | met | 2026-11-08T02:58:16.5452351Z | 0 |  |
 
 ### operated
 
 | check | state | last run | exit | note |
 | --- | --- | --- | --- | --- |
-| deployed-url | met | 2026-11-08T02:49:58.79751Z | 0 |  |
-| env-documented | could-not-tell | 2026-11-08T02:49:58.9036929Z |  | setup gap: scripts/check-env-docs.js absent |
-| monitoring | could-not-tell | 2026-11-08T02:49:59.0396446Z |  | setup gap: scripts/check-monitoring.js absent |
-| restore-path | could-not-tell | 2026-11-08T02:49:59.2021383Z |  | setup gap: scripts/check-restore.js absent |
+| deployed-url | met | 2026-11-08T02:58:18.0516638Z | 0 |  |
+| env-documented | could-not-tell | 2026-11-08T02:58:18.1549119Z |  | setup gap: scripts/check-env-docs.js absent |
+| monitoring | could-not-tell | 2026-11-08T02:58:18.2811115Z |  | setup gap: scripts/check-monitoring.js absent |
+| restore-path | could-not-tell | 2026-11-08T02:58:18.364487Z |  | setup gap: scripts/check-restore.js absent |

@@ -2,10 +2,10 @@
   "schema": "app-readiness/v1",
   "app": "ai-schools-of-thought-explorer",
   "kind": "ai-schools-of-thought-explorer",
-  "generated_at": "2026-11-08T02:50:01.0437421Z",
+  "generated_at": "2026-11-08T02:58:19.7439526Z",
   "generated_by": "Test-ProductReadiness.ps1",
   "catalog": "app-readiness.json",
-  "input_hash": "85e11d0ceed33fd9eb4e748fc83cf2b86019b0f492f4a2e33d89f607c1e80e15",
+  "input_hash": "14d37b38d9a3c15ce9af730afe8aedb62199b0c099e7630645e39db839928ba6",
   "stages": {
     "works": {
       "state": "met"
@@ -32,9 +32,9 @@
       "command": "npm run build",
       "state": "not-applicable",
       "exit_code": null,
-      "ran_at": "2026-11-08T02:49:21.3265059Z",
-      "input_hash": "dd94dfccb17186dc94180729325798523fdf813b9ca412b22d938506675c970a",
-      "receipt_id": "b0d37fc8-689d-4d9c-bb21-6be0cd587585",
+      "ran_at": "2026-11-08T02:57:20.6784154Z",
+      "input_hash": "be52ef8c585c24ff1ee84fdd7ddbb9588a1dd05b2980868e6418767caa917007",
+      "receipt_id": "e532546a-c8c0-4e67-b6b8-2e9e1ecb3160",
       "waiver": null,
       "waiver_expired": null,
       "note": "package.json declares no build script; the app is build-free"
@@ -47,9 +47,9 @@
       "command": "npm run typecheck",
       "state": "not-applicable",
       "exit_code": null,
-      "ran_at": "2026-11-08T02:49:21.658455Z",
-      "input_hash": "395f8b50c3c2c8e66dcf15e51ba1604620e7e9b44c85fc615078c845fc45c4b7",
-      "receipt_id": "a7d07e14-81bd-4874-beba-e45fdf2c5250",
+      "ran_at": "2026-11-08T02:57:21.1912731Z",
+      "input_hash": "a80425769e74ee4e64e433de397f76ec994d3c3feaadde2de50dc76a7ba75899",
+      "receipt_id": "9d8f17f6-d2db-430f-b0b2-4b92ba8cbf13",
       "waiver": null,
       "waiver_expired": null,
       "note": "package.json declares no typecheck script and the app has no tsconfig.json"
@@ -62,9 +62,9 @@
       "command": "npm test",
       "state": "not-applicable",
       "exit_code": null,
-      "ran_at": "2026-11-08T02:49:21.8570537Z",
-      "input_hash": "02c3d4164fe923aa824d1dbd217391ac37bd6a01237d0b7859bf19ed2aa5acdf",
-      "receipt_id": "70397543-ae40-44c0-b1f5-3f9b214a415d",
+      "ran_at": "2026-11-08T02:57:21.5864485Z",
+      "input_hash": "5f70109217a90b4aa0821abd4a518668468061c56385341bd13458f6ee5b7cd2",
+      "receipt_id": "87dba1e9-b058-4450-a871-cdced6e9f040",
       "waiver": null,
       "waiver_expired": null,
       "note": "package.json declares no test script"
@@ -74,12 +74,12 @@
       "stage": "works",
       "applies": true,
       "manual": false,
-      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/app-checks/Test-ConsoleClean.ps1 -Path . -Url 'http://127.0.0.1:4203'",
+      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/app-checks/Test-ConsoleClean.ps1 -Path . -Url 'https://ai-schools-of-thought-explorer.vercel.app'",
       "state": "met",
       "exit_code": 0,
-      "ran_at": "2026-11-08T02:49:24.5252109Z",
-      "input_hash": "a4ef151c5d0b05d3a0f84e4dac29ce5d91ddad91a8c405dbb080e908a9d8ff0a",
-      "receipt_id": "92fcf966-0fad-4833-8311-b0b651eefefd",
+      "ran_at": "2026-11-08T02:57:28.0669001Z",
+      "input_hash": "41984f40dff13033366c4182b56068a5b5e8c9d57a760843a03b1710e85c11f8",
+      "receipt_id": "33ea8225-e972-4d51-85d5-c6ac436c5360",
       "waiver": null,
       "waiver_expired": null,
       "note": null
@@ -89,12 +89,12 @@
       "stage": "usable",
       "applies": true,
       "manual": false,
-      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/app-checks/Test-StateProbe.ps1 -Path . -State loading -Url 'http://127.0.0.1:4203'",
+      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/app-checks/Test-StateProbe.ps1 -Path . -State loading -Url 'https://ai-schools-of-thought-explorer.vercel.app'",
       "state": "could-not-tell",
       "exit_code": 2,
-      "ran_at": "2026-11-08T02:49:25.6864596Z",
-      "input_hash": "bc92f1efbd0fa75096a1f2da9d7c606027214d9fa3a19e04734f7b55f16307be",
-      "receipt_id": "628e62c3-851a-48d8-8a0f-0417a35c6238",
+      "ran_at": "2026-11-08T02:57:31.075899Z",
+      "input_hash": "371872dc19e5160cad38035fbaaf4cf72c86c5e9ac5743023489de66301a698b",
+      "receipt_id": "e41d6d98-4de2-487d-9426-db21b41c556f",
       "waiver": null,
       "waiver_expired": null,
       "note": "{\"check\":\"loading-state\",\"outcome\":\"could-not-tell\",\"reason\":\"no .agents/app-selectors.json selector map\",\"findings\":[]}"
@@ -104,12 +104,12 @@
       "stage": "usable",
       "applies": true,
       "manual": false,
-      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/app-checks/Test-StateProbe.ps1 -Path . -State empty -Url 'http://127.0.0.1:4203'",
+      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/app-checks/Test-StateProbe.ps1 -Path . -State empty -Url 'https://ai-schools-of-thought-explorer.vercel.app'",
       "state": "could-not-tell",
       "exit_code": 2,
-      "ran_at": "2026-11-08T02:49:26.6352335Z",
-      "input_hash": "f6a31b9b86b57219daaf8a60eaeae540d6a5ca2c957a55f7457a3fe59f7cda9f",
-      "receipt_id": "d6b637f2-9944-4ad6-aa42-f06c0c8494c0",
+      "ran_at": "2026-11-08T02:57:33.7243418Z",
+      "input_hash": "1584d9ac74e2176e7d0eb5009d843a126cea85646d85657534680eb69dac1ef0",
+      "receipt_id": "f29d0b9c-e858-46fe-bea1-64e9b68a2dc6",
       "waiver": null,
       "waiver_expired": null,
       "note": "{\"check\":\"empty-state\",\"outcome\":\"could-not-tell\",\"reason\":\"no .agents/app-selectors.json selector map\",\"findings\":[]}"
@@ -119,12 +119,12 @@
       "stage": "usable",
       "applies": true,
       "manual": false,
-      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/app-checks/Test-StateProbe.ps1 -Path . -State error -Url 'http://127.0.0.1:4203'",
+      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/app-checks/Test-StateProbe.ps1 -Path . -State error -Url 'https://ai-schools-of-thought-explorer.vercel.app'",
       "state": "could-not-tell",
       "exit_code": 2,
-      "ran_at": "2026-11-08T02:49:27.5292182Z",
-      "input_hash": "54958ffb20408dfb4a74b6ee501d144fd54f82c3cbb95a916eefc709934a8fb0",
-      "receipt_id": "5c8d690c-3b5b-4ef5-9302-7090500369eb",
+      "ran_at": "2026-11-08T02:57:35.6656293Z",
+      "input_hash": "d12db87049d88c758a32a0d40a00252196f03aa398d77c743a5dfe2988e0ac09",
+      "receipt_id": "8d547c20-d427-4ff3-81c4-56f2f9c50bbe",
       "waiver": null,
       "waiver_expired": null,
       "note": "{\"check\":\"error-state\",\"outcome\":\"could-not-tell\",\"reason\":\"no .agents/app-selectors.json selector map\",\"findings\":[]}"
@@ -134,12 +134,12 @@
       "stage": "usable",
       "applies": true,
       "manual": false,
-      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/app-checks/Test-StateProbe.ps1 -Path . -State not-found -Url 'http://127.0.0.1:4203'",
+      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/app-checks/Test-StateProbe.ps1 -Path . -State not-found -Url 'https://ai-schools-of-thought-explorer.vercel.app'",
       "state": "could-not-tell",
       "exit_code": 2,
-      "ran_at": "2026-11-08T02:49:28.6321178Z",
-      "input_hash": "feb2a95ce5fa7312ab433da557ceaa1139c389b30c04073862356875a2d0df53",
-      "receipt_id": "1fab53cf-6b5b-4a46-89be-e226e9774fd9",
+      "ran_at": "2026-11-08T02:57:38.4897598Z",
+      "input_hash": "4935768b6292c82e3464909ca7464f6cd41593172012d45f44a7a6a091a3ed7a",
+      "receipt_id": "126ab032-e4f5-4d20-9e3b-f0097f02bb9d",
       "waiver": null,
       "waiver_expired": null,
       "note": "{\"check\":\"not-found-state\",\"outcome\":\"could-not-tell\",\"reason\":\"no .agents/app-selectors.json selector map\",\"findings\":[]}"
@@ -149,12 +149,12 @@
       "stage": "usable",
       "applies": true,
       "manual": false,
-      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/app-checks/Test-KeyboardFocus.ps1 -Path . -Url 'http://127.0.0.1:4203'",
+      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/app-checks/Test-KeyboardFocus.ps1 -Path . -Url 'https://ai-schools-of-thought-explorer.vercel.app'",
       "state": "met",
       "exit_code": 0,
-      "ran_at": "2026-11-08T02:49:30.9167075Z",
-      "input_hash": "2004f287686098f8c3bf48d7fcab7fa6bada2be90b18937a03b3e42804cb36cc",
-      "receipt_id": "69a2635d-af39-4bcb-9964-ed3eaad315ff",
+      "ran_at": "2026-11-08T02:57:42.9432183Z",
+      "input_hash": "e9588dd4004ab133b52f6c108f3825fbe6dc7dd9dd277ed9486ccb9479bfe261",
+      "receipt_id": "9832228a-805f-4953-a193-66c54d62e852",
       "waiver": null,
       "waiver_expired": null,
       "note": null
@@ -167,9 +167,9 @@
       "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/app-checks/Test-ErrorCapture.ps1 -Path .",
       "state": "failing",
       "exit_code": 1,
-      "ran_at": "2026-11-08T02:49:32.4911567Z",
-      "input_hash": "d62895c1122cb0d9e66323bd3bc8fe13697056f08927ce864c10adf56948683d",
-      "receipt_id": "46ffb2b4-bbd8-43f8-b957-b2b1b8031fdb",
+      "ran_at": "2026-11-08T02:57:44.7904462Z",
+      "input_hash": "e2ddfc4f5622247f21338df3aa6788c669962a97284336d5965775bf18ad4b16",
+      "receipt_id": "ec8eb2aa-0f16-4c49-8f96-8240b76069a1",
       "waiver": null,
       "waiver_expired": null,
       "note": "child exited 1"
@@ -182,9 +182,9 @@
       "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/app-checks/Test-StructuredLogs.ps1 -Path .",
       "state": "failing",
       "exit_code": 1,
-      "ran_at": "2026-11-08T02:49:33.2171523Z",
-      "input_hash": "3c4e3d60cb759ef5b15aaaf4ec0128b4fd2f38ff30f6611a0ab395b42a6d2e2a",
-      "receipt_id": "6437355e-8663-4d4b-9209-dcdf37832ecb",
+      "ran_at": "2026-11-08T02:57:46.0710305Z",
+      "input_hash": "f2226eb3567e95be1e13dc78a8e2c13560acf9e1c75e11e6f10ec1a922c11cd1",
+      "receipt_id": "928c9821-c5f0-4343-bdf6-7c60363ed068",
       "waiver": null,
       "waiver_expired": null,
       "note": "child exited 1"
@@ -209,12 +209,12 @@
       "stage": "usable",
       "applies": true,
       "manual": false,
-      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/app-checks/Test-NoHorizontalScroll.ps1 -Path . -Url 'http://127.0.0.1:4203' -Width 320,768,1440",
+      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/app-checks/Test-NoHorizontalScroll.ps1 -Path . -Url 'https://ai-schools-of-thought-explorer.vercel.app' -Width 320,768,1440",
       "state": "met",
       "exit_code": 0,
-      "ran_at": "2026-11-08T02:49:35.9213923Z",
-      "input_hash": "37a73ed6434cf5788dc3c4b967369c971629e1be46bda78b90bed797f7f476bb",
-      "receipt_id": "3c79c7f7-85bd-4c98-969c-3a69f4200fea",
+      "ran_at": "2026-11-08T02:57:50.4137285Z",
+      "input_hash": "ac3d7c1d3594afa30de9f33d6d6e0066a0ce20c28128d6fbbefedc4de3940be6",
+      "receipt_id": "d7adf980-ace0-4b33-b0eb-26cbd32ead97",
       "waiver": null,
       "waiver_expired": null,
       "note": null
@@ -224,12 +224,12 @@
       "stage": "usable",
       "applies": true,
       "manual": false,
-      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/Test-SiteReadiness.ps1 -Check not-found-page -Url 'http://127.0.0.1:4203'",
+      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/Test-SiteReadiness.ps1 -Check not-found-page -Url 'https://ai-schools-of-thought-explorer.vercel.app'",
       "state": "met",
       "exit_code": 0,
-      "ran_at": "2026-11-08T02:49:36.76179Z",
-      "input_hash": "ac5bb9c625e04061b1bd358c8461d98ad6bbe0295f4a45c1d8f1d7aed2c800b3",
-      "receipt_id": "3fd325ff-8360-411c-8fbb-9abe1dec6cfc",
+      "ran_at": "2026-11-08T02:57:52.1355312Z",
+      "input_hash": "01e14cbaf1eb7cc632e428d7586c7811c1339757cb16bb3e8f924d8351b132b6",
+      "receipt_id": "976bb022-5756-420c-9cbd-8a1439ae6d76",
       "waiver": null,
       "waiver_expired": null,
       "note": null
@@ -257,9 +257,9 @@
       "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/Test-DesignBannedPatterns.ps1 -Path .",
       "state": "failing",
       "exit_code": 1,
-      "ran_at": "2026-11-08T02:49:37.6055915Z",
-      "input_hash": "69bd60ba5b7920d6c13023de669aad284014df8735c2aafe27691666280659d1",
-      "receipt_id": "9876ba71-588f-453b-b9a9-fb5e662e32d1",
+      "ran_at": "2026-11-08T02:57:53.5082354Z",
+      "input_hash": "9bf83646bddf8a82d28114bce015bb18097539213998e025f729e0f0f8c4d63e",
+      "receipt_id": "656eeb3e-7ea6-4948-ae1d-0cf0f14305ff",
       "waiver": null,
       "waiver_expired": null,
       "note": "child exited 1"
@@ -284,12 +284,12 @@
       "stage": "production",
       "applies": true,
       "manual": false,
-      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/Test-SiteReadiness.ps1 -Check privacy-terms -Url 'http://127.0.0.1:4203'",
+      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/Test-SiteReadiness.ps1 -Check privacy-terms -Url 'https://ai-schools-of-thought-explorer.vercel.app'",
       "state": "failing",
       "exit_code": 1,
-      "ran_at": "2026-11-08T02:49:38.5685022Z",
-      "input_hash": "e5970df33252a8afc02b64305d672ef9f782c966fd76a734c0a3327d8cf537f1",
-      "receipt_id": "13f099cd-cd1a-42c6-ac32-aa0897a6e094",
+      "ran_at": "2026-11-08T02:57:55.1859387Z",
+      "input_hash": "fbe25e5a5497573a4af4a6d7505aac76d921bed8d9af5ac00cc56178b00b1345",
+      "receipt_id": "4ae76ad3-b96e-4479-b3e1-53f6bed5a4c6",
       "waiver": null,
       "waiver_expired": null,
       "note": "child exited 1"
@@ -299,12 +299,12 @@
       "stage": "production",
       "applies": true,
       "manual": false,
-      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/Test-SiteReadiness.ps1 -Check seo-tags -Url 'http://127.0.0.1:4203'",
+      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/Test-SiteReadiness.ps1 -Check seo-tags -Url 'https://ai-schools-of-thought-explorer.vercel.app'",
       "state": "failing",
       "exit_code": 1,
-      "ran_at": "2026-11-08T02:49:39.3965472Z",
-      "input_hash": "dae28b1a7011d54ddc0ece8e9568dc91075ce010564acdb925b7406a8afdde1d",
-      "receipt_id": "b89419b0-e92a-4a39-9437-037996a1383a",
+      "ran_at": "2026-11-08T02:57:56.9358681Z",
+      "input_hash": "8f0f2876d86d8086f213b4ddc0ae06cf0f0cae0ebf9a90e788cfa7ce99f2c291",
+      "receipt_id": "28569dd8-a486-4c1e-8ffc-30bd9a7dd226",
       "waiver": null,
       "waiver_expired": null,
       "note": "child exited 1"
@@ -314,12 +314,12 @@
       "stage": "production",
       "applies": true,
       "manual": false,
-      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/Test-SiteReadiness.ps1 -Check security-headers -Url 'http://127.0.0.1:4203'",
+      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/Test-SiteReadiness.ps1 -Check security-headers -Url 'https://ai-schools-of-thought-explorer.vercel.app'",
       "state": "failing",
       "exit_code": 1,
-      "ran_at": "2026-11-08T02:49:40.589771Z",
-      "input_hash": "a9da59fd28a9f1d9a8c9587c5dc9ba59448a586f571765445f4c58cec658857d",
-      "receipt_id": "806c5b23-2c12-4322-ba1c-97437586abf3",
+      "ran_at": "2026-11-08T02:57:58.5310375Z",
+      "input_hash": "9fe2418004fade679ed27111ab593ca4e6752761e51afd56c6d56813abd68922",
+      "receipt_id": "22437187-cbf2-4150-b253-39fbbaaf1e9f",
       "waiver": null,
       "waiver_expired": null,
       "note": "child exited 1"
@@ -329,27 +329,27 @@
       "stage": "production",
       "applies": true,
       "manual": false,
-      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/Test-SiteReadiness.ps1 -Check axe -Url 'http://127.0.0.1:4203'",
+      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/Test-SiteReadiness.ps1 -Check axe -Url 'https://ai-schools-of-thought-explorer.vercel.app'",
       "state": "could-not-tell",
       "exit_code": 2,
-      "ran_at": "2026-11-08T02:49:41.7067023Z",
-      "input_hash": "a8c26dd210f429f648b882b4d788845b5e1e6b2de0e51c89713b1aac03ee2bb5",
-      "receipt_id": "2213367e-3ec2-478b-852b-b795f06c2fc1",
+      "ran_at": "2026-11-08T02:57:59.5824856Z",
+      "input_hash": "7fcbb0a4c3846ae04b016797a6031d9ae12f67a1f5a0fa89adfe5099000cccb3",
+      "receipt_id": "b973880b-3251-43db-87f7-69de62df9cb9",
       "waiver": null,
       "waiver_expired": null,
-      "note": "{\"check\":\"axe\",\"target\":\"http://127.0.0.1:4203\",\"verdict\":\"could-not-tell\",\"findings\":[],\"note\":\"axe cannot run; unresolvable module(s): axe-core\"}"
+      "note": "{\"check\":\"axe\",\"target\":\"https://ai-schools-of-thought-explorer.vercel.app\",\"verdict\":\"could-not-tell\",\"findings\":[],\"note\":\"axe cannot run; unresolvable module(s): axe-core\"}"
     },
     {
       "id": "core-web-vitals",
       "stage": "production",
       "applies": true,
       "manual": false,
-      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/Test-SiteReadiness.ps1 -Check core-web-vitals -Url 'http://127.0.0.1:4203'",
+      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/Test-SiteReadiness.ps1 -Check core-web-vitals -Url 'https://ai-schools-of-thought-explorer.vercel.app'",
       "state": "met",
       "exit_code": 0,
-      "ran_at": "2026-11-08T02:49:55.9874615Z",
-      "input_hash": "45838258e6cfee8fd191364b2d01b0cfa2a58275e265daf4fbef74b025c90b39",
-      "receipt_id": "ae77391b-801f-4e94-ad0d-54fd89b9fd2c",
+      "ran_at": "2026-11-08T02:58:15.0597559Z",
+      "input_hash": "5d995f8340bb129d677338826094f55ebcbb7dc0e61ec6c6eb74fb88c5274273",
+      "receipt_id": "d527717a-e796-4dfd-9414-a95598d53899",
       "waiver": null,
       "waiver_expired": null,
       "note": null
@@ -362,9 +362,9 @@
       "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/app-checks/Test-LogPersonalData.ps1 -Path .",
       "state": "met",
       "exit_code": 0,
-      "ran_at": "2026-11-08T02:49:57.585241Z",
-      "input_hash": "56b9559145310123dcd5f9c3f50c4b6732753f3bbe635dcb536fdf8c158e3599",
-      "receipt_id": "2046bac8-066c-463e-8c42-05ef716fe78c",
+      "ran_at": "2026-11-08T02:58:16.5452351Z",
+      "input_hash": "2763376766f91028ac1c8189c23420d39b35367af50da9090d783c6a400c4487",
+      "receipt_id": "705e5f1d-c3df-4baa-961b-cf178ff3e402",
       "waiver": null,
       "waiver_expired": null,
       "note": null
@@ -374,12 +374,12 @@
       "stage": "operated",
       "applies": true,
       "manual": false,
-      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/Test-SiteReadiness.ps1 -Check deployed-url -Url 'http://127.0.0.1:4203'",
+      "command": "pwsh -NoProfile -NonInteractive -File ~/.agents/tools/Test-SiteReadiness.ps1 -Check deployed-url -Url 'https://ai-schools-of-thought-explorer.vercel.app'",
       "state": "met",
       "exit_code": 0,
-      "ran_at": "2026-11-08T02:49:58.79751Z",
-      "input_hash": "a7e3e533b3dd0a3f6f9a780eda924e475c7e37d87b1f245ae8321d878c72f6d3",
-      "receipt_id": "5867a28d-6c15-4bb3-b38b-e77898d97327",
+      "ran_at": "2026-11-08T02:58:18.0516638Z",
+      "input_hash": "887a9b8b7677493206338fbbd94013a10a585aa14831424919a95e3edc7b2ea3",
+      "receipt_id": "bdcc93f5-9132-4df9-8ac3-828ade4a8ad3",
       "waiver": null,
       "waiver_expired": null,
       "note": null
@@ -392,9 +392,9 @@
       "command": "node scripts/check-env-docs.js",
       "state": "could-not-tell",
       "exit_code": null,
-      "ran_at": "2026-11-08T02:49:58.9036929Z",
-      "input_hash": "4da86c3177cd9f0d760004c8ddafcbac3ce4a9f55aa963ab5155eafbd3fbfec6",
-      "receipt_id": "e712f2e0-9227-4b79-88f4-8f9ac9cd39b6",
+      "ran_at": "2026-11-08T02:58:18.1549119Z",
+      "input_hash": "b3d54f3a9b95ef34b757d51308d8b02a4c846621f613b9cf066eb851a5dfda31",
+      "receipt_id": "41453ae0-90f2-4b3d-b841-781c32b70365",
       "waiver": null,
       "waiver_expired": null,
       "note": "setup gap: scripts/check-env-docs.js absent"
@@ -407,9 +407,9 @@
       "command": "node scripts/check-monitoring.js",
       "state": "could-not-tell",
       "exit_code": null,
-      "ran_at": "2026-11-08T02:49:59.0396446Z",
-      "input_hash": "5e3c379972537a100b2ed4e263ce73ff3c7ebc8e89a1a2cf6b87eb9221e2429b",
-      "receipt_id": "17747a4e-a3a4-4881-b1ad-ec68045cba27",
+      "ran_at": "2026-11-08T02:58:18.2811115Z",
+      "input_hash": "59c34ae4c188eb85fc1887ec9310172527619d8d28d39e0e313d1681ad71672e",
+      "receipt_id": "e209a27b-6dc4-49a6-8a5f-06381bfa2ed4",
       "waiver": null,
       "waiver_expired": null,
       "note": "setup gap: scripts/check-monitoring.js absent"
@@ -422,9 +422,9 @@
       "command": "node scripts/check-restore.js",
       "state": "could-not-tell",
       "exit_code": null,
-      "ran_at": "2026-11-08T02:49:59.2021383Z",
-      "input_hash": "d911e254697fc01999e22bbb861f87a0f71e0312b04435063564847289854834",
-      "receipt_id": "3eedfca3-7346-4d19-862c-c3521b5b9464",
+      "ran_at": "2026-11-08T02:58:18.364487Z",
+      "input_hash": "5d3ac6c65a47200a82f7a810e0e16d87db8b16600cba83c0ff02f0de8a56ffbf",
+      "receipt_id": "6ef025ac-e802-44dc-8fb7-b2fb424ada54",
       "waiver": null,
       "waiver_expired": null,
       "note": "setup gap: scripts/check-restore.js absent"
@@ -441,19 +441,19 @@
   ],
   "refresh": "& 'C:\\Program Files\\PowerShell\\7\\pwsh.exe' -NoProfile -NonInteractive -File ~/.agents/tools/Test-ProductReadiness.ps1 -ProductPath . -Profile .agents/app-profile.json -Check all -Write",
   "profile": {
-    "ai": "none",
     "access": "anonymous",
+    "data": "server",
+    "stakes": "daily-tool",
     "surfaces": [
       "web"
     ],
     "name": "ai-schools-of-thought-explorer",
-    "archetype": "reader",
-    "posture": "transient",
-    "stakes": "daily-tool",
+    "ai": "none",
     "audience": "public",
+    "archetype": "reader",
     "expertise": "novice",
-    "data": "server",
-    "sensitivity": "none"
+    "sensitivity": "none",
+    "posture": "transient"
   },
   "preset": "content-site",
   "target_stage": "production",
@@ -466,11 +466,11 @@
       "statement": "Every core flow named in SPEC.md runs end to end.",
       "stage": "works",
       "verify": "agent",
-      "state": "could-not-tell",
-      "last_run": "2026-11-08T02:47:39.1438084Z",
+      "state": "failing",
+      "last_run": "2026-11-08T02:54:56.0897194Z",
       "checks": [],
-      "receipt_id": "fa109088-50eb-40b8-b5cc-3fe627a171d7",
-      "note": "No SPEC.md exists and PRODUCT.md is an empty template, so no core flows are named. Walked home -> topic -> school -> external voice link; all load."
+      "receipt_id": "3fd6f958-a420-467b-b1bd-4b44c6d3cf81",
+      "note": "Feature absent: no SPEC.md names core flows and PRODUCT.md is an empty template. Open decision: write SPEC.md. Walked home -> topic -> school -> external link locally; all load."
     },
     {
       "id": "B1.2",
@@ -479,11 +479,11 @@
       "statement": "A fresh judge finds the app does what PRODUCT.md, SPEC.md and Douglas's asks say.",
       "stage": "polished",
       "verify": "judge",
-      "state": "could-not-tell",
-      "last_run": "2026-11-08T02:47:42.8613911Z",
+      "state": "failing",
+      "last_run": "2026-11-08T02:54:58.7696307Z",
       "checks": [],
-      "receipt_id": "91e315ec-d7b0-4b48-a02a-a7250a13e697",
-      "note": "PRODUCT.md and SPEC.md hold no stated purpose or asks to judge against; only the home lead text exists."
+      "receipt_id": "f514cee1-4198-4d80-92bd-0590a72eba7b",
+      "note": "Feature absent: PRODUCT.md is an empty template and there is no SPEC.md, so the app's purpose is not recorded to judge against."
     },
     {
       "id": "B1.3",
@@ -506,9 +506,9 @@
       "stage": "usable",
       "verify": "agent",
       "state": "met",
-      "last_run": "2026-11-08T02:47:44.9992968Z",
+      "last_run": "2026-11-08T02:55:01.1395118Z",
       "checks": [],
-      "receipt_id": "2c29d56c-3210-4e96-abce-1349c2d6e806",
+      "receipt_id": "ed18ac86-c5ef-4ace-b2c2-802bf17ca5dc",
       "note": null
     },
     {
@@ -519,9 +519,9 @@
       "stage": "usable",
       "verify": "agent",
       "state": "met",
-      "last_run": "2026-11-08T02:47:46.8897728Z",
+      "last_run": "2026-11-08T02:55:03.4102757Z",
       "checks": [],
-      "receipt_id": "a2729dd9-9ec0-45e0-9499-1cd43d9d1c84",
+      "receipt_id": "b1271793-89df-4b84-a991-4d0027e6aa62",
       "note": null
     },
     {
@@ -532,9 +532,9 @@
       "stage": "usable",
       "verify": "agent",
       "state": "met",
-      "last_run": "2026-11-08T02:47:48.8491082Z",
+      "last_run": "2026-11-08T02:55:06.0258164Z",
       "checks": [],
-      "receipt_id": "7ad85dda-8c99-4e22-848a-3bda0c7f7b07",
+      "receipt_id": "8907cfe0-4bed-40cc-a3c7-e22d5165c0e2",
       "note": null
     },
     {
@@ -545,14 +545,14 @@
       "stage": "usable",
       "verify": "auto",
       "state": "could-not-tell",
-      "last_run": "2026-11-08T02:49:28.6321178Z",
+      "last_run": "2026-11-08T02:57:38.4897598Z",
       "checks": [
         "loading-state",
         "empty-state",
         "error-state",
         "not-found-state"
       ],
-      "receipt_id": "628e62c3-851a-48d8-8a0f-0417a35c6238",
+      "receipt_id": "e41d6d98-4de2-487d-9426-db21b41c556f",
       "note": "{\"check\":\"loading-state\",\"outcome\":\"could-not-tell\",\"reason\":\"no .agents/app-selectors.json selector map\",\"findings\":[]}"
     },
     {
@@ -562,11 +562,11 @@
       "statement": "An empty state says what belongs there and offers one action.",
       "stage": "polished",
       "verify": "judge",
-      "state": "could-not-tell",
-      "last_run": "2026-11-08T02:47:50.9036864Z",
+      "state": "failing",
+      "last_run": "2026-11-08T02:55:08.7385399Z",
       "checks": [],
-      "receipt_id": "358b7c9f-4f64-4807-b9bf-15cc562ef6dd",
-      "note": "news.html has an empty-state message with no action, but the queue has 1172 pending items so it could not be triggered; read from code only."
+      "receipt_id": "033c470f-be25-4857-88a6-13297b9ccfdc",
+      "note": "news.html empty state says 'No pending articles — check back after the next collection run.' and offers no action; it was not reachable on the running app (1172 pending), so this is read from code."
     },
     {
       "id": "B3.4",
@@ -576,9 +576,9 @@
       "stage": "polished",
       "verify": "agent",
       "state": "met",
-      "last_run": "2026-11-08T02:47:52.9588672Z",
+      "last_run": "2026-11-08T02:55:11.3466854Z",
       "checks": [],
-      "receipt_id": "e3591733-467c-4b01-bb87-00999d42e597",
+      "receipt_id": "da216a1a-7099-4695-bd59-39d241bbc0f5",
       "note": null
     },
     {
@@ -589,11 +589,11 @@
       "stage": "works",
       "verify": "auto",
       "state": "met",
-      "last_run": "2026-11-08T02:49:24.5252109Z",
+      "last_run": "2026-11-08T02:57:28.0669001Z",
       "checks": [
         "console-clean"
       ],
-      "receipt_id": "92fcf966-0fad-4833-8311-b0b651eefefd",
+      "receipt_id": "33ea8225-e972-4d51-85d5-c6ac436c5360",
       "note": null
     },
     {
@@ -604,9 +604,9 @@
       "stage": "usable",
       "verify": "judge",
       "state": "failing",
-      "last_run": "2026-11-08T02:47:56.8253080Z",
+      "last_run": "2026-11-08T02:55:13.8252661Z",
       "checks": [],
-      "receipt_id": "162c8902-c225-4c70-b873-e5ac52dbf475",
+      "receipt_id": "a17838db-d9bd-4ed5-9ee9-cbfd378d4665",
       "note": "Failed submit shows raw 'Error: <!DOCTYPE HTML>...Error code: 501' and load failure shows 'Failed to load queue: Error: HTTP <n>'; neither says what to do next."
     },
     {
@@ -617,9 +617,9 @@
       "stage": "usable",
       "verify": "agent",
       "state": "met",
-      "last_run": "2026-11-08T02:47:59.4818488Z",
+      "last_run": "2026-11-08T02:55:16.0803370Z",
       "checks": [],
-      "receipt_id": "d9144acc-7290-46b1-9388-e21c269ea7af",
+      "receipt_id": "140b14c9-9b95-41d7-8690-ee714b2b0b58",
       "note": null
     },
     {
@@ -630,9 +630,9 @@
       "stage": "usable",
       "verify": "agent",
       "state": "failing",
-      "last_run": "2026-11-08T02:48:01.5982001Z",
+      "last_run": "2026-11-08T02:55:18.5690433Z",
       "checks": [],
-      "receipt_id": "dc662eb3-155e-4a15-9e85-cc3999416a27",
+      "receipt_id": "508691f0-04bc-4975-b8f2-945e6678a447",
       "note": "Keep/Skip decisions on news.html are lost on reload (kept cards 1 before, 0 after) until Submit succeeds."
     },
     {
@@ -643,9 +643,9 @@
       "stage": "polished",
       "verify": "agent",
       "state": "met",
-      "last_run": "2026-11-08T02:48:03.7231962Z",
+      "last_run": "2026-11-08T02:55:20.8300147Z",
       "checks": [],
-      "receipt_id": "dbe6be50-0674-4733-bd8f-2296bcbacb51",
+      "receipt_id": "a25b9e5e-7691-4243-b5ed-99eeafc9aa19",
       "note": null
     },
     {
@@ -655,13 +655,13 @@
       "statement": "Stored data has a restore that has been tested.",
       "stage": "production",
       "verify": "agent",
-      "state": "could-not-tell",
-      "last_run": "2026-11-08T02:48:05.8091004Z",
+      "state": "failing",
+      "last_run": "2026-11-08T02:55:23.2350612Z",
       "checks": [
         "restore-path"
       ],
-      "receipt_id": "9b36c368-47b8-43ae-bd6e-e04b77a7f1b5",
-      "note": "The queue lives in data/news-queue.json in the GitHub repo (git history is the only copy); no backup or tested restore is documented or observable on the running app."
+      "receipt_id": "49ef73ac-8a47-4327-8375-bac077cbe918",
+      "note": "Feature absent: the queue lives only in data/news-queue.json in the GitHub repo; no backup or tested restore exists (restore-path check also has no script)."
     },
     {
       "id": "B6.1",
@@ -671,9 +671,9 @@
       "stage": "usable",
       "verify": "judge",
       "state": "met",
-      "last_run": "2026-11-08T02:48:07.7635322Z",
+      "last_run": "2026-11-08T02:55:25.8523936Z",
       "checks": [],
-      "receipt_id": "cc4aaeb9-343f-45ee-af5d-6aaa037f627f",
+      "receipt_id": "268b367b-bedc-4e49-a447-f7c8d65c73dd",
       "note": null
     },
     {
@@ -697,11 +697,11 @@
       "stage": "usable",
       "verify": "auto",
       "state": "met",
-      "last_run": "2026-11-08T02:49:30.9167075Z",
+      "last_run": "2026-11-08T02:57:42.9432183Z",
       "checks": [
         "keyboard-focus"
       ],
-      "receipt_id": "69a2635d-af39-4bcb-9964-ed3eaad315ff",
+      "receipt_id": "9832228a-805f-4953-a193-66c54d62e852",
       "note": null
     },
     {
@@ -712,12 +712,12 @@
       "stage": "usable",
       "verify": "auto",
       "state": "could-not-tell",
-      "last_run": "2026-11-08T02:49:41.7067023Z",
+      "last_run": "2026-11-08T02:57:59.5824856Z",
       "checks": [
         "axe"
       ],
-      "receipt_id": "2213367e-3ec2-478b-852b-b795f06c2fc1",
-      "note": "{\"check\":\"axe\",\"target\":\"http://127.0.0.1:4203\",\"verdict\":\"could-not-tell\",\"findings\":[],\"note\":\"axe cannot run; unresolvable module(s): axe-core\"}"
+      "receipt_id": "b973880b-3251-43db-87f7-69de62df9cb9",
+      "note": "{\"check\":\"axe\",\"target\":\"https://ai-schools-of-thought-explorer.vercel.app\",\"verdict\":\"could-not-tell\",\"findings\":[],\"note\":\"axe cannot run; unresolvable module(s): axe-core\"}"
     },
     {
       "id": "B7.3",
@@ -740,12 +740,12 @@
       "stage": "polished",
       "verify": "auto",
       "state": "could-not-tell",
-      "last_run": "2026-11-08T02:49:41.7067023Z",
+      "last_run": "2026-11-08T02:57:59.5824856Z",
       "checks": [
         "axe"
       ],
-      "receipt_id": "2213367e-3ec2-478b-852b-b795f06c2fc1",
-      "note": "{\"check\":\"axe\",\"target\":\"http://127.0.0.1:4203\",\"verdict\":\"could-not-tell\",\"findings\":[],\"note\":\"axe cannot run; unresolvable module(s): axe-core\"}"
+      "receipt_id": "b973880b-3251-43db-87f7-69de62df9cb9",
+      "note": "{\"check\":\"axe\",\"target\":\"https://ai-schools-of-thought-explorer.vercel.app\",\"verdict\":\"could-not-tell\",\"findings\":[],\"note\":\"axe cannot run; unresolvable module(s): axe-core\"}"
     },
     {
       "id": "B7.5",
@@ -768,12 +768,12 @@
       "stage": "usable",
       "verify": "auto",
       "state": "could-not-tell",
-      "last_run": "2026-11-08T02:49:41.7067023Z",
+      "last_run": "2026-11-08T02:57:59.5824856Z",
       "checks": [
         "axe"
       ],
-      "receipt_id": "2213367e-3ec2-478b-852b-b795f06c2fc1",
-      "note": "{\"check\":\"axe\",\"target\":\"http://127.0.0.1:4203\",\"verdict\":\"could-not-tell\",\"findings\":[],\"note\":\"axe cannot run; unresolvable module(s): axe-core\"}"
+      "receipt_id": "b973880b-3251-43db-87f7-69de62df9cb9",
+      "note": "{\"check\":\"axe\",\"target\":\"https://ai-schools-of-thought-explorer.vercel.app\",\"verdict\":\"could-not-tell\",\"findings\":[],\"note\":\"axe cannot run; unresolvable module(s): axe-core\"}"
     },
     {
       "id": "B8.1",
@@ -783,11 +783,11 @@
       "stage": "usable",
       "verify": "auto",
       "state": "met",
-      "last_run": "2026-11-08T02:49:35.9213923Z",
+      "last_run": "2026-11-08T02:57:50.4137285Z",
       "checks": [
         "viewport-320-1280"
       ],
-      "receipt_id": "3c79c7f7-85bd-4c98-969c-3a69f4200fea",
+      "receipt_id": "d7adf980-ace0-4b33-b0eb-26cbd32ead97",
       "note": null
     },
     {
@@ -798,11 +798,11 @@
       "stage": "usable",
       "verify": "auto",
       "state": "met",
-      "last_run": "2026-11-08T02:49:35.9213923Z",
+      "last_run": "2026-11-08T02:57:50.4137285Z",
       "checks": [
         "viewport-320-1280"
       ],
-      "receipt_id": "3c79c7f7-85bd-4c98-969c-3a69f4200fea",
+      "receipt_id": "d7adf980-ace0-4b33-b0eb-26cbd32ead97",
       "note": null
     },
     {
@@ -826,9 +826,9 @@
       "stage": "polished",
       "verify": "agent",
       "state": "met",
-      "last_run": "2026-11-08T02:48:09.8200069Z",
+      "last_run": "2026-11-08T02:55:28.0138158Z",
       "checks": [],
-      "receipt_id": "fb7d0504-3174-492b-a08b-42cbb4691193",
+      "receipt_id": "f03bebe2-43ef-4406-a3cb-cbf4ba54162b",
       "note": null
     },
     {
@@ -839,11 +839,11 @@
       "stage": "production",
       "verify": "auto",
       "state": "met",
-      "last_run": "2026-11-08T02:49:55.9874615Z",
+      "last_run": "2026-11-08T02:58:15.0597559Z",
       "checks": [
         "core-web-vitals"
       ],
-      "receipt_id": "ae77391b-801f-4e94-ad0d-54fd89b9fd2c",
+      "receipt_id": "d527717a-e796-4dfd-9414-a95598d53899",
       "note": null
     },
     {
@@ -854,11 +854,11 @@
       "stage": "production",
       "verify": "auto",
       "state": "met",
-      "last_run": "2026-11-08T02:49:55.9874615Z",
+      "last_run": "2026-11-08T02:58:15.0597559Z",
       "checks": [
         "core-web-vitals"
       ],
-      "receipt_id": "ae77391b-801f-4e94-ad0d-54fd89b9fd2c",
+      "receipt_id": "d527717a-e796-4dfd-9414-a95598d53899",
       "note": null
     },
     {
@@ -869,11 +869,11 @@
       "stage": "production",
       "verify": "auto",
       "state": "met",
-      "last_run": "2026-11-08T02:49:55.9874615Z",
+      "last_run": "2026-11-08T02:58:15.0597559Z",
       "checks": [
         "core-web-vitals"
       ],
-      "receipt_id": "ae77391b-801f-4e94-ad0d-54fd89b9fd2c",
+      "receipt_id": "d527717a-e796-4dfd-9414-a95598d53899",
       "note": null
     },
     {
@@ -884,11 +884,11 @@
       "stage": "usable",
       "verify": "auto",
       "state": "failing",
-      "last_run": "2026-11-08T02:49:32.4911567Z",
+      "last_run": "2026-11-08T02:57:44.7904462Z",
       "checks": [
         "error-capture"
       ],
-      "receipt_id": "46ffb2b4-bbd8-43f8-b957-b2b1b8031fdb",
+      "receipt_id": "ec8eb2aa-0f16-4c49-8f96-8240b76069a1",
       "note": "child exited 1"
     },
     {
@@ -899,13 +899,13 @@
       "stage": "production",
       "verify": "agent",
       "state": "failing",
-      "last_run": "2026-11-08T02:48:12.0512427Z",
+      "last_run": "2026-11-08T02:55:30.1830179Z",
       "checks": [
         "log-personal-data",
         "monitoring"
       ],
-      "receipt_id": "0adfa301-7ee7-4370-8011-c9a2087696ce",
-      "note": "No error reporting code exists in any page; errors reach no sink the owner looks at."
+      "receipt_id": "d2f2e39a-7779-4a14-9a90-1bba28eff9bc",
+      "note": "Feature absent: no error reporting code in any page; errors reach no sink the owner looks at."
     },
     {
       "id": "B10.3",
@@ -915,11 +915,11 @@
       "stage": "usable",
       "verify": "auto",
       "state": "failing",
-      "last_run": "2026-11-08T02:49:33.2171523Z",
+      "last_run": "2026-11-08T02:57:46.0710305Z",
       "checks": [
         "structured-logs"
       ],
-      "receipt_id": "6437355e-8663-4d4b-9209-dcdf37832ecb",
+      "receipt_id": "928c9821-c5f0-4343-bdf6-7c60363ed068",
       "note": "child exited 1"
     },
     {
@@ -943,11 +943,11 @@
       "stage": "production",
       "verify": "auto",
       "state": "failing",
-      "last_run": "2026-11-08T02:49:40.5897710Z",
+      "last_run": "2026-11-08T02:57:58.5310375Z",
       "checks": [
         "security-headers"
       ],
-      "receipt_id": "806c5b23-2c12-4322-ba1c-97437586abf3",
+      "receipt_id": "22437187-cbf2-4150-b253-39fbbaaf1e9f",
       "note": "child exited 1"
     },
     {
@@ -958,11 +958,11 @@
       "stage": "production",
       "verify": "auto",
       "state": "failing",
-      "last_run": "2026-11-08T02:49:38.5685022Z",
+      "last_run": "2026-11-08T02:57:55.1859387Z",
       "checks": [
         "privacy-terms"
       ],
-      "receipt_id": "13f099cd-cd1a-42c6-ac32-aa0897a6e094",
+      "receipt_id": "4ae76ad3-b96e-4479-b3e1-53f6bed5a4c6",
       "note": "child exited 1"
     },
     {
@@ -973,9 +973,9 @@
       "stage": "usable",
       "verify": "agent",
       "state": "met",
-      "last_run": "2026-11-08T02:48:14.0931517Z",
+      "last_run": "2026-11-08T02:55:32.2957601Z",
       "checks": [],
-      "receipt_id": "2768d448-4c23-4fb6-87c8-96149a2b39c1",
+      "receipt_id": "512e2a61-592b-4bc3-911b-9886e0b012a2",
       "note": null
     },
     {
@@ -986,9 +986,9 @@
       "stage": "usable",
       "verify": "judge",
       "state": "met",
-      "last_run": "2026-11-08T02:48:16.3116662Z",
+      "last_run": "2026-11-08T02:55:34.8824561Z",
       "checks": [],
-      "receipt_id": "1cb4fea1-3b36-47d8-aa96-c29e3a745855",
+      "receipt_id": "24c5e993-1aac-4a46-b80c-ed2e3394ba68",
       "note": null
     },
     {
@@ -999,9 +999,9 @@
       "stage": "polished",
       "verify": "agent",
       "state": "met",
-      "last_run": "2026-11-08T02:48:18.5993209Z",
+      "last_run": "2026-11-08T02:55:37.8510184Z",
       "checks": [],
-      "receipt_id": "adf3ab47-1c5d-4004-aaa7-0af4981b082c",
+      "receipt_id": "2be60374-a4e3-430c-b9af-91a3d4f218ab",
       "note": null
     },
     {
@@ -1012,9 +1012,9 @@
       "stage": "polished",
       "verify": "judge",
       "state": "failing",
-      "last_run": "2026-11-08T02:48:20.8104984Z",
+      "last_run": "2026-11-08T02:55:41.1339370Z",
       "checks": [],
-      "receipt_id": "ba8ed325-04a8-4c64-a81f-5d57a06468db",
+      "receipt_id": "3b6031d6-9dcf-4d90-ad68-d37b0bc6ad1b",
       "note": "news.html shows machine vocabulary on failure ('Failed to load queue: Error: HTTP 404', raw response body); design-banned-patterns check also flags em-dash overuse."
     },
     {
@@ -1024,13 +1024,13 @@
       "statement": "Visual design follows .agents/DESIGN.md and the project design language.",
       "stage": "polished",
       "verify": "judge",
-      "state": "could-not-tell",
-      "last_run": "2026-11-08T02:48:23.5526459Z",
+      "state": "failing",
+      "last_run": "2026-11-08T02:55:44.1603019Z",
       "checks": [
         "design-review-dated"
       ],
-      "receipt_id": "ed6fd7fd-e069-40df-b553-65b036c2a20c",
-      "note": "DESIGN.md holds only the harness template, no project design language to compare to; pages look consistent dark with accent colour, and design-banned-patterns check is failing (em-dash overuse)."
+      "receipt_id": "63c1d680-1d77-4880-891a-9c8c994b31db",
+      "note": "design-banned-patterns check fails on em-dash overuse across schools/*.html; DESIGN.md holds only the harness template, no project design language. Pages are otherwise consistent dark with one accent."
     },
     {
       "id": "B14.2",
@@ -1053,11 +1053,11 @@
       "stage": "production",
       "verify": "auto",
       "state": "could-not-tell",
-      "last_run": "2026-11-08T02:49:58.9036929Z",
+      "last_run": "2026-11-08T02:58:18.1549119Z",
       "checks": [
         "env-documented"
       ],
-      "receipt_id": "e712f2e0-9227-4b79-88f4-8f9ac9cd39b6",
+      "receipt_id": "41453ae0-90f2-4b3d-b841-781c32b70365",
       "note": "setup gap: scripts/check-env-docs.js absent"
     },
     {
@@ -1068,11 +1068,11 @@
       "stage": "production",
       "verify": "auto",
       "state": "met",
-      "last_run": "2026-11-08T02:49:58.7975100Z",
+      "last_run": "2026-11-08T02:58:18.0516638Z",
       "checks": [
         "deployed-url"
       ],
-      "receipt_id": "5867a28d-6c15-4bb3-b38b-e77898d97327",
+      "receipt_id": "bdcc93f5-9132-4df9-8ac3-828ade4a8ad3",
       "note": null
     },
     {
@@ -1082,11 +1082,11 @@
       "statement": "A search result or in-site link opens at the heading it matched, not at the top of the page.",
       "stage": "usable",
       "verify": "agent",
-      "state": "could-not-tell",
-      "last_run": "2026-11-08T02:48:26.9591936Z",
+      "state": "failing",
+      "last_run": "2026-11-08T02:55:48.4397998Z",
       "checks": [],
-      "receipt_id": "658f8403-f2ac-4d38-8010-06ca706dc506",
-      "note": "The site has no search and no heading anchors (0 ids on content pages), so no result or section link can be tested; a gap for RD.F4."
+      "receipt_id": "c1ab3c34-5e43-4069-a695-b66c868fbbae",
+      "note": "Feature absent: no search and no heading anchors (0 ids on content pages); in-site links open page tops only. Open decision: whether to add search."
     },
     {
       "id": "RD1.2",
@@ -1096,9 +1096,9 @@
       "stage": "usable",
       "verify": "agent",
       "state": "failing",
-      "last_run": "2026-11-08T02:48:31.0843139Z",
+      "last_run": "2026-11-08T02:55:54.5037863Z",
       "checks": [],
-      "receipt_id": "45751774-f3e9-4b15-832a-8b79b60cedd6",
+      "receipt_id": "d24144e5-d75f-4dad-a4ee-7e03818ebd9f",
       "note": "Only the page title and one h2 are visible; the sticky header shows the brand only, no section label or contents; school pages run past one screen."
     },
     {
@@ -1121,11 +1121,11 @@
       "statement": "Each search result shows the title, a one-line summary and the section path, so the reader can choose without opening it.",
       "stage": "usable",
       "verify": "judge",
-      "state": "could-not-tell",
-      "last_run": "2026-11-08T02:48:34.4456854Z",
+      "state": "failing",
+      "last_run": "2026-11-08T02:55:58.3034457Z",
       "checks": [],
-      "receipt_id": "a5e32e4c-63bb-4041-b611-5f26f2bb574a",
-      "note": "No search results exist."
+      "receipt_id": "449210a8-11ca-4309-967e-42c921ec56b1",
+      "note": "Feature absent: the site has no search, so no results list."
     },
     {
       "id": "RD2.3",
@@ -1135,10 +1135,10 @@
       "stage": "polished",
       "verify": "agent",
       "state": "failing",
-      "last_run": "2026-11-08T02:48:38.6961405Z",
+      "last_run": "2026-11-08T02:56:03.5614820Z",
       "checks": [],
-      "receipt_id": "88345f4f-5972-429f-80a8-e70ba881137e",
-      "note": "No reading progress indicator on school pages (1371 px tall at 1440, about 1.5 screens)."
+      "receipt_id": "5a43d2ef-fe61-4086-8514-d54de141b4ac",
+      "note": "Feature absent: no reading progress indicator on school pages (1371 px tall at 1440)."
     },
     {
       "id": "RD2.4",
@@ -1148,10 +1148,10 @@
       "stage": "polished",
       "verify": "agent",
       "state": "failing",
-      "last_run": "2026-11-08T02:48:42.7218927Z",
+      "last_run": "2026-11-08T02:56:12.0195472Z",
       "checks": [],
-      "receipt_id": "644627b2-077b-4f37-81c6-42fc3adf0aae",
-      "note": "No back-to-top or contents control at the end of a school page."
+      "receipt_id": "2cbf4a21-0e80-44f1-a98d-e9685b1f96ea",
+      "note": "Feature absent: no back-to-top or contents control at the end of a school page."
     },
     {
       "id": "RD2.5",
@@ -1160,11 +1160,11 @@
       "statement": "Text size and theme choices persist across pages on the same site for the same reader.",
       "stage": "polished",
       "verify": "judge",
-      "state": "could-not-tell",
-      "last_run": "2026-11-08T02:48:47.5324650Z",
+      "state": "failing",
+      "last_run": "2026-11-08T02:56:18.1314929Z",
       "checks": [],
-      "receipt_id": "658c82ae-8ea5-4433-adb3-1ed19bd9a73f",
-      "note": "The site is dark-only with no text-size or theme controls, so nothing to persist."
+      "receipt_id": "fd9bc573-b879-4dab-948f-7c0ffd546f5a",
+      "note": "Feature absent: the site is dark-only with no text-size or theme controls to persist."
     },
     {
       "id": "RD3.1",
@@ -1212,11 +1212,11 @@
       "statement": "A link to a section opens in a new tab at that heading.",
       "stage": "usable",
       "verify": "agent",
-      "state": "could-not-tell",
-      "last_run": "2026-11-08T02:48:51.3054940Z",
+      "state": "failing",
+      "last_run": "2026-11-08T02:56:24.3702922Z",
       "checks": [],
-      "receipt_id": "7d1054c6-de1c-413a-96ee-9d4ed7a44ec1",
-      "note": "No section links or heading ids exist to open in a new tab."
+      "receipt_id": "17fb71ce-2c43-4a76-9a94-a42b6b026638",
+      "note": "Feature absent: no section links or heading ids exist to open in a new tab."
     },
     {
       "id": "RD4.3",
@@ -1226,10 +1226,10 @@
       "stage": "polished",
       "verify": "judge",
       "state": "failing",
-      "last_run": "2026-11-08T02:48:54.4642863Z",
+      "last_run": "2026-11-08T02:56:32.2564441Z",
       "checks": [],
-      "receipt_id": "dbaab104-525c-4e96-8c99-57394a5cdde1",
-      "note": "No print stylesheet; with print media the sticky header nav still computes display:flex, and no last-updated date or link addresses are printed."
+      "receipt_id": "2d02b97c-e36d-4d2d-bcf5-a673b3efd21f",
+      "note": "Feature absent: no print stylesheet; under print media the sticky header nav still computes display:flex, and no last-updated date or link addresses are printed."
     },
     {
       "id": "RD4.4",
@@ -1252,10 +1252,10 @@
       "stage": "usable",
       "verify": "agent",
       "state": "failing",
-      "last_run": "2026-11-08T02:48:58.2359773Z",
+      "last_run": "2026-11-08T02:56:38.3278431Z",
       "checks": [],
-      "receipt_id": "80e4fd2c-f370-4382-9340-cdcee10b80b7",
-      "note": "No window error listener in any page."
+      "receipt_id": "f3daf5ff-2b1b-41b0-a457-04c215c0fd2c",
+      "note": "Feature absent: no window error listener in any page."
     },
     {
       "id": "S-WEB.2",
@@ -1265,10 +1265,10 @@
       "stage": "usable",
       "verify": "agent",
       "state": "failing",
-      "last_run": "2026-11-08T02:49:01.6434810Z",
+      "last_run": "2026-11-08T02:56:45.1608557Z",
       "checks": [],
-      "receipt_id": "e59a2f82-0208-4978-8455-ff69dd7b3136",
-      "note": "No unhandledrejection listener in any page; news.html fetch has only a local catch."
+      "receipt_id": "917f54af-e49c-4e3a-b405-dbc101bd4b8d",
+      "note": "Feature absent: no unhandledrejection listener in any page; news.html fetch has only a local catch."
     },
     {
       "id": "S-WEB.3",
@@ -1277,11 +1277,11 @@
       "statement": "Each route sits inside an error boundary that shows that route's fallback and reports the caught error, and the other routes stay usable.",
       "stage": "usable",
       "verify": "agent",
-      "state": "could-not-tell",
-      "last_run": "2026-11-08T02:49:04.4457910Z",
+      "state": "failing",
+      "last_run": "2026-11-08T02:56:52.1008322Z",
       "checks": [],
-      "receipt_id": "101d32fb-d9ec-4cc5-b8be-5d1fa23eac29",
-      "note": "Static multi-page site with no client router or component routes; no boundary to test."
+      "receipt_id": "3bb81681-3c59-4c3b-988e-eed0cd9490d3",
+      "note": "Feature absent: no per-route error fallback or reporting; a static multi-page site, so a broken page does not affect the others (low risk)."
     },
     {
       "id": "S-WEB.4",
@@ -1290,11 +1290,11 @@
       "statement": "A chunk that fails to load after a deploy shows a reload prompt, not a blank page.",
       "stage": "usable",
       "verify": "agent",
-      "state": "could-not-tell",
-      "last_run": "2026-11-08T02:49:06.7394155Z",
+      "state": "failing",
+      "last_run": "2026-11-08T02:56:58.0417519Z",
       "checks": [],
-      "receipt_id": "78770758-ebdf-4894-b549-4b8bf6e98e74",
-      "note": "No bundled chunks; plain HTML and one inline script, so the post-deploy chunk failure cannot occur."
+      "receipt_id": "ac779d3c-839e-4397-a1fe-a184cbdb593a",
+      "note": "Feature absent: no reload prompt for failed loads; the site has no bundled chunks so the failure cannot occur today (low risk)."
     },
     {
       "id": "S-WEB.5",
@@ -1343,9 +1343,9 @@
       "stage": "usable",
       "verify": "agent",
       "state": "met",
-      "last_run": "2026-11-08T02:49:08.9744490Z",
+      "last_run": "2026-11-08T02:57:03.7354333Z",
       "checks": [],
-      "receipt_id": "f8f1d85d-4ba6-4939-b381-37ad9e238143",
+      "receipt_id": "4e455f06-3e7e-431e-b14c-e56aab7e266a",
       "note": null
     },
     {
@@ -1386,7 +1386,7 @@
       "statement": "The home page answers 200 (otherwise could-not-tell), and an unknown path returns 404 with a non-empty page.",
       "state": "met",
       "note": null,
-      "receipt_id": "3fd325ff-8360-411c-8fbb-9abe1dec6cfc"
+      "receipt_id": "976bb022-5756-420c-9cbd-8a1439ae6d76"
     },
     {
       "id": "design-banned-patterns",
@@ -1394,7 +1394,7 @@
       "statement": "Scans built interface files (.html .htm .css .scss .jsx .tsx .vue .svelte) for the two copy and layout patterns DESIGN.md bans outright (eyebrow labels and kicker titles; the middle dot or bullet as an inline divider), and warns on all-caps text. It does not check design rules in general. Cannot detect: an app with none of the scanned file types passes with 0 files scanned.",
       "state": "failing",
       "note": "child exited 1",
-      "receipt_id": "9876ba71-588f-453b-b9a9-fb5e662e32d1"
+      "receipt_id": "656eeb3e-7ea6-4948-ae1d-0cf0f14305ff"
     },
     {
       "id": "seo-tags",
@@ -1402,7 +1402,7 @@
       "statement": "Title, description, canonical and Open Graph tags present in the parsed document (not inside comments, scripts, styles or templates); robots.txt is text with a directive line and does not disallow everything for User-agent: *; sitemap.xml is XML with a urlset having a url/loc or a sitemapindex having a sitemap/loc. Not checked: noindex (meta robots or X-Robots-Tag) and a meta refresh or script redirect to another origin.",
       "state": "failing",
       "note": "child exited 1",
-      "receipt_id": "b89419b0-e92a-4a39-9437-037996a1383a"
+      "receipt_id": "28569dd8-a486-4c1e-8ffc-30bd9a7dd226"
     }
   ],
   "item_next_stage": "works",
@@ -1410,7 +1410,7 @@
     {
       "id": "B1.1",
       "statement": "Every core flow named in SPEC.md runs end to end.",
-      "state": "could-not-tell",
+      "state": "failing",
       "stage": "works"
     },
     {
