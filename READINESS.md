@@ -34,6 +34,7 @@ Target: production
 | --- | --- | --- | --- | --- |
 | B3.1 | Every data region has loading, empty and error states. | auto | could-not-tell | 2026-11-08 |
 | B3.3 | An empty state says what belongs there and offers one action. | judge | could-not-tell | 2026-11-08 |
+| B3.4 | Data that can go stale shows its age. | agent | met | 2026-11-08 |
 
 ## B4 Errors and recovery
 
@@ -49,6 +50,7 @@ Target: production
 | --- | --- | --- | --- | --- |
 | B5.1 | Nothing typed is lost on reload, back or crash. | agent | failing | 2026-11-08 |
 | B5.2 | Reversible actions can be undone; only irreversible ones ask to confirm. | agent | met | 2026-11-08 |
+| B5.3 | Stored data has a restore that has been tested. | agent | could-not-tell | 2026-11-08 |
 
 ## B6 Navigation
 
@@ -91,6 +93,7 @@ Target: production
 | --- | --- | --- | --- | --- |
 | B10.1 | Uncaught errors are captured with the release, the route and the last action. | auto | failing | 2026-11-08 |
 | B10.2 | Errors reach a place the owner looks, with personal data scrubbed. | agent | failing | 2026-11-08 |
+| B10.3 | Logs are structured, one JSON object per line. | auto | failing | 2026-11-08 |
 
 ## B11 Security and privacy
 
@@ -189,7 +192,7 @@ Generated from `.agents/work/readiness.json` by `Test-ProductReadiness.ps1 -Writ
 
 `met` means the app's own command reported success. It does not mean the app is correct or good.
 
-Kind: ai-schools-of-thought-explorer | Generated: 2026-11-08T02:41:56.4520897Z | Input hash: 21c3c4f90c0d
+Kind: ai-schools-of-thought-explorer | Generated: 2026-11-08T02:50:01.0437421Z | Input hash: 85e11d0ceed3
 
 ## Next (checks, detail)
 
@@ -200,6 +203,7 @@ Stage: usable
 - error-state (could-not-tell): \{"check":"error-state","outcome":"could-not-tell","reason":"no .agents/app-selectors.json selector map","findings":\[\]\}
 - not-found-state (could-not-tell): \{"check":"not-found-state","outcome":"could-not-tell","reason":"no .agents/app-selectors.json selector map","findings":\[\]\}
 - error-capture (failing): pwsh -NoProfile -NonInteractive -File \~/.agents/tools/app-checks/Test-ErrorCapture.ps1 -Path . - child exited 1
+- structured-logs (failing): pwsh -NoProfile -NonInteractive -File \~/.agents/tools/app-checks/Test-StructuredLogs.ps1 -Path . - child exited 1
 
 ## Refresh
 
@@ -223,7 +227,7 @@ Stage: usable
 
 | check | state | last run | exit | note |
 | --- | --- | --- | --- | --- |
-| console-clean | met | 2026-11-08T02:41:20.053269Z | 0 |  |
+| console-clean | met | 2026-11-08T02:49:24.5252109Z | 0 |  |
 
 - build: package.json declares no build script; the app is build-free
 - typecheck: package.json declares no typecheck script and the app has no tsconfig.json
@@ -233,41 +237,41 @@ Stage: usable
 
 | check | state | last run | exit | note |
 | --- | --- | --- | --- | --- |
-| loading-state | could-not-tell | 2026-11-08T02:41:21.2220875Z | 2 | \{"check":"loading-state","outcome":"could-not-tell","reason":"no .agents/app-selectors.json selector map","findings":\[\]\} |
-| empty-state | could-not-tell | 2026-11-08T02:41:22.215264Z | 2 | \{"check":"empty-state","outcome":"could-not-tell","reason":"no .agents/app-selectors.json selector map","findings":\[\]\} |
-| error-state | could-not-tell | 2026-11-08T02:41:23.0564953Z | 2 | \{"check":"error-state","outcome":"could-not-tell","reason":"no .agents/app-selectors.json selector map","findings":\[\]\} |
-| not-found-state | could-not-tell | 2026-11-08T02:41:24.5010508Z | 2 | \{"check":"not-found-state","outcome":"could-not-tell","reason":"no .agents/app-selectors.json selector map","findings":\[\]\} |
-| keyboard-focus | met | 2026-11-08T02:41:27.3953525Z | 0 |  |
-| error-capture | failing | 2026-11-08T02:41:29.9914823Z | 1 | child exited 1 |
-| viewport-320-1280 | met | 2026-11-08T02:41:33.5736779Z | 0 |  |
-| not-found-page | met | 2026-11-08T02:41:34.7160654Z | 0 |  |
+| loading-state | could-not-tell | 2026-11-08T02:49:25.6864596Z | 2 | \{"check":"loading-state","outcome":"could-not-tell","reason":"no .agents/app-selectors.json selector map","findings":\[\]\} |
+| empty-state | could-not-tell | 2026-11-08T02:49:26.6352335Z | 2 | \{"check":"empty-state","outcome":"could-not-tell","reason":"no .agents/app-selectors.json selector map","findings":\[\]\} |
+| error-state | could-not-tell | 2026-11-08T02:49:27.5292182Z | 2 | \{"check":"error-state","outcome":"could-not-tell","reason":"no .agents/app-selectors.json selector map","findings":\[\]\} |
+| not-found-state | could-not-tell | 2026-11-08T02:49:28.6321178Z | 2 | \{"check":"not-found-state","outcome":"could-not-tell","reason":"no .agents/app-selectors.json selector map","findings":\[\]\} |
+| keyboard-focus | met | 2026-11-08T02:49:30.9167075Z | 0 |  |
+| error-capture | failing | 2026-11-08T02:49:32.4911567Z | 1 | child exited 1 |
+| structured-logs | failing | 2026-11-08T02:49:33.2171523Z | 1 | child exited 1 |
+| viewport-320-1280 | met | 2026-11-08T02:49:35.9213923Z | 0 |  |
+| not-found-page | met | 2026-11-08T02:49:36.76179Z | 0 |  |
 
-Not applicable: structured-logs, cli-conformance, game-playable
+Not applicable: cli-conformance, game-playable
 
 ### polished
 
 | check | state | last run | exit | note |
 | --- | --- | --- | --- | --- |
-| design-banned-patterns | failing | 2026-11-08T02:41:36.0071494Z | 1 | child exited 1 |
+| design-banned-patterns | failing | 2026-11-08T02:49:37.6055915Z | 1 | child exited 1 |
 | design-review-dated | never-run |  |  | no design-review receipt; run Write-DesignReviewReceipt.ps1 |
 
 ### production
 
 | check | state | last run | exit | note |
 | --- | --- | --- | --- | --- |
-| privacy-terms | failing | 2026-11-08T02:41:37.0643138Z | 1 | child exited 1 |
-| seo-tags | failing | 2026-11-08T02:41:38.0188367Z | 1 | child exited 1 |
-| security-headers | failing | 2026-11-08T02:41:39.0848516Z | 1 | child exited 1 |
-| axe | could-not-tell | 2026-11-08T02:41:39.9793036Z | 2 | `{"check":"axe","target":"http://127.0.0.1:4203","verdict":"could-not-tell","findings":[],"note":"axe cannot run; unresolvable module(s): axe-core"}` |
-| core-web-vitals | met | 2026-11-08T02:41:53.8539611Z | 0 |  |
-| log-personal-data | met | 2026-11-08T02:41:54.6957343Z | 0 |  |
+| privacy-terms | failing | 2026-11-08T02:49:38.5685022Z | 1 | child exited 1 |
+| seo-tags | failing | 2026-11-08T02:49:39.3965472Z | 1 | child exited 1 |
+| security-headers | failing | 2026-11-08T02:49:40.589771Z | 1 | child exited 1 |
+| axe | could-not-tell | 2026-11-08T02:49:41.7067023Z | 2 | `{"check":"axe","target":"http://127.0.0.1:4203","verdict":"could-not-tell","findings":[],"note":"axe cannot run; unresolvable module(s): axe-core"}` |
+| core-web-vitals | met | 2026-11-08T02:49:55.9874615Z | 0 |  |
+| log-personal-data | met | 2026-11-08T02:49:57.585241Z | 0 |  |
 
 ### operated
 
 | check | state | last run | exit | note |
 | --- | --- | --- | --- | --- |
-| deployed-url | met | 2026-11-08T02:41:55.5509696Z | 0 |  |
-| env-documented | could-not-tell | 2026-11-08T02:41:55.6484294Z |  | setup gap: scripts/check-env-docs.js absent |
-| monitoring | could-not-tell | 2026-11-08T02:41:55.7127108Z |  | setup gap: scripts/check-monitoring.js absent |
-
-Not applicable: restore-path
+| deployed-url | met | 2026-11-08T02:49:58.79751Z | 0 |  |
+| env-documented | could-not-tell | 2026-11-08T02:49:58.9036929Z |  | setup gap: scripts/check-env-docs.js absent |
+| monitoring | could-not-tell | 2026-11-08T02:49:59.0396446Z |  | setup gap: scripts/check-monitoring.js absent |
+| restore-path | could-not-tell | 2026-11-08T02:49:59.2021383Z |  | setup gap: scripts/check-restore.js absent |
